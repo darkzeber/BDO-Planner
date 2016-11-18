@@ -9,7 +9,7 @@ Features:
   - Kunai (kunoichi) and Shuriken (Ninja) images added.
   - Huge item database update (basically every item available currently). Hopefully no issues here, there A LOT to add. :)
   - Crystal clean up in item database, corrected some, removed some that don't exist in game in any region that i know of yet.
-
+  - Fixed saving and loading of "all" crystals for items.
 
 ## 0.3.3.2 (2016-11-07)
 

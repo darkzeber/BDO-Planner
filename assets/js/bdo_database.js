@@ -581,6 +581,17 @@ var BDOdatabase = {
             },
             "combos": {}
         },
+        "Steel Taritas": {
+            "pieces": {
+                "2": {
+                    "mpwpsp": 100
+                },
+                "3": {
+                    "acc": 5
+                }
+            },
+            "combos": {}
+        },
         "Zereth": {
             "pieces": {
                 "2": {
@@ -667,7 +678,7 @@ var BDOdatabase = {
                         "secondary-weapon"
                     ],
                     "effects": {
-                        "ar": 10
+                        "iar": 10
                     }
                 }
             ]
@@ -1824,7 +1835,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 1,
                 "item_effects": {
-                    "ssfr": ""
+                    "ssfr": 1
                 },
                 "enhancement_text": "",
                 "enhancement": {
@@ -1896,7 +1907,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "ssfr": "",
+                    "ssfr": 1,
                     "lrdr": 2
                 },
                 "enhancement_text": "",
@@ -1969,7 +1980,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "ssfr": "",
+                    "ssfr": 1,
                     "mdr": 2
                 },
                 "enhancement_text": "",
@@ -2042,7 +2053,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "ssfr": "",
+                    "ssfr": 1,
                     "crdr": 2
                 },
                 "enhancement_text": "",
@@ -2115,7 +2126,7 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 1,
                 "item_effects": {
-                    "ssfr": "",
+                    "ssfr": 1,
                     "dr": 2
                 },
                 "enhancement_text": "",
@@ -3978,7 +3989,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 1,
                 "item_effects": {
-                    "gr": ""
+                    "gr": 1
                 },
                 "enhancement_text": "",
                 "enhancement": {
@@ -4050,7 +4061,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "gr": "",
+                    "gr": 1,
                     "lrdr": 2
                 },
                 "enhancement_text": "",
@@ -4123,7 +4134,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "gr": "",
+                    "gr": 1,
                     "mdr": 2
                 },
                 "enhancement_text": "",
@@ -4196,7 +4207,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "gr": "",
+                    "gr": 1,
                     "crdr": 2
                 },
                 "enhancement_text": "",
@@ -4269,7 +4280,7 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 1,
                 "item_effects": {
-                    "gr": "",
+                    "gr": 1,
                     "dr": 2
                 },
                 "enhancement_text": "",
@@ -4342,7 +4353,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 1,
                 "item_effects": {
-                    "kb": ""
+                    "kb": 1
                 },
                 "enhancement_text": "",
                 "enhancement": {
@@ -4414,7 +4425,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "kb": "",
+                    "kb": 1,
                     "lrdr": 2
                 },
                 "enhancement_text": "",
@@ -4487,7 +4498,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "kb": "",
+                    "kb": 1,
                     "mdr": 2
                 },
                 "enhancement_text": "",
@@ -4560,7 +4571,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "kb": "",
+                    "kb": 1,
                     "crdr": 2
                 },
                 "enhancement_text": "",
@@ -4633,7 +4644,371 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 1,
                 "item_effects": {
-                    "kb": "",
+                    "kb": 1,
+                    "dr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 13
+                    },
+                    "2": {
+                        "dp": 16
+                    },
+                    "3": {
+                        "dp": 18
+                    },
+                    "4": {
+                        "dp": 20
+                    },
+                    "5": {
+                        "dp": 22
+                    },
+                    "6": {
+                        "dp": 25
+                    },
+                    "7": {
+                        "dp": 28
+                    },
+                    "8": {
+                        "dp": 31
+                    },
+                    "9": {
+                        "dp": 34
+                    },
+                    "10": {
+                        "dp": 37
+                    },
+                    "11": {
+                        "dp": 40
+                    },
+                    "12": {
+                        "dp": 43
+                    },
+                    "13": {
+                        "dp": 46
+                    },
+                    "14": {
+                        "dp": 49
+                    },
+                    "15": {
+                        "dp": 52
+                    },
+                    "16": {
+                        "dp": 57
+                    },
+                    "17": {
+                        "dp": 62
+                    },
+                    "18": {
+                        "dp": 70
+                    },
+                    "19": {
+                        "dp": 75
+                    },
+                    "20": {
+                        "dp": 80
+                    }
+                }
+            },
+            "Steel Taritas Helmet": {
+                "set": "Steel Taritas",
+                "dp": 5,
+                "rarity": "uncommon",
+                "gems": 1,
+                "item_effects": {
+                    "kb": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 8
+                    },
+                    "2": {
+                        "dp": 11
+                    },
+                    "3": {
+                        "dp": 13
+                    },
+                    "4": {
+                        "dp": 15
+                    },
+                    "5": {
+                        "dp": 17
+                    },
+                    "6": {
+                        "dp": 20
+                    },
+                    "7": {
+                        "dp": 23
+                    },
+                    "8": {
+                        "dp": 26
+                    },
+                    "9": {
+                        "dp": 29
+                    },
+                    "10": {
+                        "dp": 32
+                    },
+                    "11": {
+                        "dp": 35
+                    },
+                    "12": {
+                        "dp": 38
+                    },
+                    "13": {
+                        "dp": 41
+                    },
+                    "14": {
+                        "dp": 44
+                    },
+                    "15": {
+                        "dp": 47
+                    },
+                    "16": {
+                        "dp": 52
+                    },
+                    "17": {
+                        "dp": 57
+                    },
+                    "18": {
+                        "dp": 65
+                    },
+                    "19": {
+                        "dp": 70
+                    },
+                    "20": {
+                        "dp": 75
+                    }
+                }
+            },
+            "Steel Taritas Helmet of Agility": {
+                "set": "Steel Taritas",
+                "dp": 5,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "kb": 1,
+                    "lrdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 8
+                    },
+                    "2": {
+                        "dp": 11
+                    },
+                    "3": {
+                        "dp": 13
+                    },
+                    "4": {
+                        "dp": 15
+                    },
+                    "5": {
+                        "dp": 17
+                    },
+                    "6": {
+                        "dp": 20
+                    },
+                    "7": {
+                        "dp": 23
+                    },
+                    "8": {
+                        "dp": 26
+                    },
+                    "9": {
+                        "dp": 29
+                    },
+                    "10": {
+                        "dp": 32
+                    },
+                    "11": {
+                        "dp": 35
+                    },
+                    "12": {
+                        "dp": 38
+                    },
+                    "13": {
+                        "dp": 41
+                    },
+                    "14": {
+                        "dp": 44
+                    },
+                    "15": {
+                        "dp": 47
+                    },
+                    "16": {
+                        "dp": 52
+                    },
+                    "17": {
+                        "dp": 57
+                    },
+                    "18": {
+                        "dp": 65
+                    },
+                    "19": {
+                        "dp": 70
+                    },
+                    "20": {
+                        "dp": 75
+                    }
+                }
+            },
+            "Steel Taritas Helmet of Intimidation": {
+                "set": "Steel Taritas",
+                "dp": 5,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "kb": 1,
+                    "mdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 8
+                    },
+                    "2": {
+                        "dp": 11
+                    },
+                    "3": {
+                        "dp": 13
+                    },
+                    "4": {
+                        "dp": 15
+                    },
+                    "5": {
+                        "dp": 17
+                    },
+                    "6": {
+                        "dp": 20
+                    },
+                    "7": {
+                        "dp": 23
+                    },
+                    "8": {
+                        "dp": 26
+                    },
+                    "9": {
+                        "dp": 29
+                    },
+                    "10": {
+                        "dp": 32
+                    },
+                    "11": {
+                        "dp": 35
+                    },
+                    "12": {
+                        "dp": 38
+                    },
+                    "13": {
+                        "dp": 41
+                    },
+                    "14": {
+                        "dp": 44
+                    },
+                    "15": {
+                        "dp": 47
+                    },
+                    "16": {
+                        "dp": 52
+                    },
+                    "17": {
+                        "dp": 57
+                    },
+                    "18": {
+                        "dp": 65
+                    },
+                    "19": {
+                        "dp": 70
+                    },
+                    "20": {
+                        "dp": 75
+                    }
+                }
+            },
+            "Steel Taritas Helmet of Iron Wall": {
+                "set": "Steel Taritas",
+                "dp": 5,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "kb": 1,
+                    "crdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 8
+                    },
+                    "2": {
+                        "dp": 11
+                    },
+                    "3": {
+                        "dp": 13
+                    },
+                    "4": {
+                        "dp": 15
+                    },
+                    "5": {
+                        "dp": 17
+                    },
+                    "6": {
+                        "dp": 20
+                    },
+                    "7": {
+                        "dp": 23
+                    },
+                    "8": {
+                        "dp": 26
+                    },
+                    "9": {
+                        "dp": 29
+                    },
+                    "10": {
+                        "dp": 32
+                    },
+                    "11": {
+                        "dp": 35
+                    },
+                    "12": {
+                        "dp": 38
+                    },
+                    "13": {
+                        "dp": 41
+                    },
+                    "14": {
+                        "dp": 44
+                    },
+                    "15": {
+                        "dp": 47
+                    },
+                    "16": {
+                        "dp": 52
+                    },
+                    "17": {
+                        "dp": 57
+                    },
+                    "18": {
+                        "dp": 65
+                    },
+                    "19": {
+                        "dp": 70
+                    },
+                    "20": {
+                        "dp": 75
+                    }
+                }
+            },
+            "Ultimate Steel Taritas Helmet": {
+                "set": "Steel Taritas",
+                "dp": 10,
+                "rarity": "epic",
+                "gems": 1,
+                "item_effects": {
+                    "kb": 1,
                     "dr": 2
                 },
                 "enhancement_text": "",
@@ -4706,7 +5081,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 1,
                 "item_effects": {
-                    "kd": "",
+                    "kd": 1,
                 },
                 "enhancement_text": "",
                 "enhancement": {
@@ -4778,7 +5153,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "kd": "",
+                    "kd": 1,
                     "lrdr": 2
                 },
                 "enhancement_text": "",
@@ -4851,7 +5226,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "kd": "",
+                    "kd": 1,
                     "mdr": 2
                 },
                 "enhancement_text": "",
@@ -4924,7 +5299,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "kd": "",
+                    "kd": 1,
                     "crdr": 2
                 },
                 "enhancement_text": "",
@@ -4997,7 +5372,7 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 1,
                 "item_effects": {
-                    "kd": "",
+                    "kd": 1,
                     "dr": 2
                 },
                 "enhancement_text": "",
@@ -7964,6 +8339,375 @@ var BDOdatabase = {
             },
             "Ultimate Taritas Armor": {
                 "set": "Taritas",
+                "dp": 13,
+                "rarity": "epic",
+                "gems": 1,
+                "item_effects": {
+                    "hp": 20,
+                    "mpwpsp": 20,
+                    "dr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 17
+                    },
+                    "2": {
+                        "dp": 20
+                    },
+                    "3": {
+                        "dp": 23
+                    },
+                    "4": {
+                        "dp": 25
+                    },
+                    "5": {
+                        "dp": 27
+                    },
+                    "6": {
+                        "dp": 30
+                    },
+                    "7": {
+                        "dp": 33
+                    },
+                    "8": {
+                        "dp": 36
+                    },
+                    "9": {
+                        "dp": 39
+                    },
+                    "10": {
+                        "dp": 42
+                    },
+                    "11": {
+                        "dp": 45
+                    },
+                    "12": {
+                        "dp": 48
+                    },
+                    "13": {
+                        "dp": 51
+                    },
+                    "14": {
+                        "dp": 54
+                    },
+                    "15": {
+                        "dp": 57
+                    },
+                    "16": {
+                        "dp": 62
+                    },
+                    "17": {
+                        "dp": 67
+                    },
+                    "18": {
+                        "dp": 75
+                    },
+                    "19": {
+                        "dp": 80
+                    },
+                    "20": {
+                        "dp": 85
+                    }
+                }
+            },
+            "Steel Taritas Armor": {
+                "set": "Steel Taritas",
+                "dp": 8,
+                "rarity": "uncommon",
+                "gems": 1,
+                "item_effects": {
+                    "hp": 20,
+                    "mpwpsp": 20
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 12
+                    },
+                    "2": {
+                        "dp": 15
+                    },
+                    "3": {
+                        "dp": 18
+                    },
+                    "4": {
+                        "dp": 20
+                    },
+                    "5": {
+                        "dp": 22
+                    },
+                    "6": {
+                        "dp": 25
+                    },
+                    "7": {
+                        "dp": 28
+                    },
+                    "8": {
+                        "dp": 31
+                    },
+                    "9": {
+                        "dp": 34
+                    },
+                    "10": {
+                        "dp": 37
+                    },
+                    "11": {
+                        "dp": 40
+                    },
+                    "12": {
+                        "dp": 43
+                    },
+                    "13": {
+                        "dp": 46
+                    },
+                    "14": {
+                        "dp": 49
+                    },
+                    "15": {
+                        "dp": 52
+                    },
+                    "16": {
+                        "dp": 57
+                    },
+                    "17": {
+                        "dp": 62
+                    },
+                    "18": {
+                        "dp": 70
+                    },
+                    "19": {
+                        "dp": 75
+                    },
+                    "20": {
+                        "dp": 80
+                    }
+                }
+            },
+            "Steel Taritas Armor of Agility": {
+                "set": "Steel Taritas",
+                "dp": 8,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "hp": 20,
+                    "mpwpsp": 20,
+                    "lrdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 12
+                    },
+                    "2": {
+                        "dp": 15
+                    },
+                    "3": {
+                        "dp": 18
+                    },
+                    "4": {
+                        "dp": 20
+                    },
+                    "5": {
+                        "dp": 22
+                    },
+                    "6": {
+                        "dp": 25
+                    },
+                    "7": {
+                        "dp": 28
+                    },
+                    "8": {
+                        "dp": 31
+                    },
+                    "9": {
+                        "dp": 34
+                    },
+                    "10": {
+                        "dp": 37
+                    },
+                    "11": {
+                        "dp": 40
+                    },
+                    "12": {
+                        "dp": 43
+                    },
+                    "13": {
+                        "dp": 46
+                    },
+                    "14": {
+                        "dp": 49
+                    },
+                    "15": {
+                        "dp": 52
+                    },
+                    "16": {
+                        "dp": 57
+                    },
+                    "17": {
+                        "dp": 62
+                    },
+                    "18": {
+                        "dp": 70
+                    },
+                    "19": {
+                        "dp": 75
+                    },
+                    "20": {
+                        "dp": 80
+                    }
+                }
+            },
+            "Steel Taritas Armor of Intimidation": {
+                "set": "Steel Taritas",
+                "dp": 8,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "hp": 20,
+                    "mpwpsp": 20,
+                    "mdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 12
+                    },
+                    "2": {
+                        "dp": 15
+                    },
+                    "3": {
+                        "dp": 18
+                    },
+                    "4": {
+                        "dp": 20
+                    },
+                    "5": {
+                        "dp": 22
+                    },
+                    "6": {
+                        "dp": 25
+                    },
+                    "7": {
+                        "dp": 28
+                    },
+                    "8": {
+                        "dp": 31
+                    },
+                    "9": {
+                        "dp": 34
+                    },
+                    "10": {
+                        "dp": 37
+                    },
+                    "11": {
+                        "dp": 40
+                    },
+                    "12": {
+                        "dp": 43
+                    },
+                    "13": {
+                        "dp": 46
+                    },
+                    "14": {
+                        "dp": 49
+                    },
+                    "15": {
+                        "dp": 52
+                    },
+                    "16": {
+                        "dp": 57
+                    },
+                    "17": {
+                        "dp": 62
+                    },
+                    "18": {
+                        "dp": 70
+                    },
+                    "19": {
+                        "dp": 75
+                    },
+                    "20": {
+                        "dp": 80
+                    }
+                }
+            },
+            "Steel Taritas Armor of Iron Wall": {
+                "set": "Steel Taritas",
+                "dp": 8,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "hp": 20,
+                    "mpwpsp": 20,
+                    "crdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 12
+                    },
+                    "2": {
+                        "dp": 15
+                    },
+                    "3": {
+                        "dp": 18
+                    },
+                    "4": {
+                        "dp": 20
+                    },
+                    "5": {
+                        "dp": 22
+                    },
+                    "6": {
+                        "dp": 25
+                    },
+                    "7": {
+                        "dp": 28
+                    },
+                    "8": {
+                        "dp": 31
+                    },
+                    "9": {
+                        "dp": 34
+                    },
+                    "10": {
+                        "dp": 37
+                    },
+                    "11": {
+                        "dp": 40
+                    },
+                    "12": {
+                        "dp": 43
+                    },
+                    "13": {
+                        "dp": 46
+                    },
+                    "14": {
+                        "dp": 49
+                    },
+                    "15": {
+                        "dp": 52
+                    },
+                    "16": {
+                        "dp": 57
+                    },
+                    "17": {
+                        "dp": 62
+                    },
+                    "18": {
+                        "dp": 70
+                    },
+                    "19": {
+                        "dp": 75
+                    },
+                    "20": {
+                        "dp": 80
+                    }
+                }
+            },
+            "Ultimate Steel Taritas Armor": {
+                "set": "Steel Taritas",
                 "dp": 13,
                 "rarity": "epic",
                 "gems": 1,
@@ -11074,7 +11818,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 1,
                 "item_effects": {
-                    "ev": ""
+                    "ev": 1
                 },
                 "enhancement_text": "",
                 "enhancement": {
@@ -11146,7 +11890,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "ev": "",
+                    "ev": 1,
                     "lrdr": 2
                 },
                 "enhancement_text": "",
@@ -11219,7 +11963,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "ev": "",
+                    "ev": 1,
                     "mdr": 2
                 },
                 "enhancement_text": "",
@@ -11292,7 +12036,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 1,
                 "item_effects": {
-                    "ev": "",
+                    "ev": 1,
                     "crdr": 2
                 },
                 "enhancement_text": "",
@@ -11365,7 +12109,371 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 1,
                 "item_effects": {
-                    "ev": "",
+                    "ev": 1,
+                    "dr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 11
+                    },
+                    "2": {
+                        "dp": 13
+                    },
+                    "3": {
+                        "dp": 15
+                    },
+                    "4": {
+                        "dp": 17
+                    },
+                    "5": {
+                        "dp": 19
+                    },
+                    "6": {
+                        "dp": 21
+                    },
+                    "7": {
+                        "dp": 23
+                    },
+                    "8": {
+                        "dp": 25
+                    },
+                    "9": {
+                        "dp": 27
+                    },
+                    "10": {
+                        "dp": 29
+                    },
+                    "11": {
+                        "dp": 31
+                    },
+                    "12": {
+                        "dp": 33
+                    },
+                    "13": {
+                        "dp": 35
+                    },
+                    "14": {
+                        "dp": 37
+                    },
+                    "15": {
+                        "dp": 39
+                    },
+                    "16": {
+                        "dp": 44
+                    },
+                    "17": {
+                        "dp": 49
+                    },
+                    "18": {
+                        "dp": 57
+                    },
+                    "19": {
+                        "dp": 62
+                    },
+                    "20": {
+                        "dp": 67
+                    }
+                }
+            },
+            "Steel Taritas Shoes": {
+                "set": "Steel Taritas",
+                "dp": 4,
+                "rarity": "uncommon",
+                "gems": 1,
+                "item_effects": {
+                    "ev": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 6
+                    },
+                    "2": {
+                        "dp": 8
+                    },
+                    "3": {
+                        "dp": 10
+                    },
+                    "4": {
+                        "dp": 12
+                    },
+                    "5": {
+                        "dp": 14
+                    },
+                    "6": {
+                        "dp": 16
+                    },
+                    "7": {
+                        "dp": 18
+                    },
+                    "8": {
+                        "dp": 20
+                    },
+                    "9": {
+                        "dp": 22
+                    },
+                    "10": {
+                        "dp": 24
+                    },
+                    "11": {
+                        "dp": 26
+                    },
+                    "12": {
+                        "dp": 28
+                    },
+                    "13": {
+                        "dp": 30
+                    },
+                    "14": {
+                        "dp": 32
+                    },
+                    "15": {
+                        "dp": 34
+                    },
+                    "16": {
+                        "dp": 39
+                    },
+                    "17": {
+                        "dp": 44
+                    },
+                    "18": {
+                        "dp": 52
+                    },
+                    "19": {
+                        "dp": 57
+                    },
+                    "20": {
+                        "dp": 62
+                    }
+                }
+            },
+            "Steel Taritas Shoes of Agility": {
+                "set": "Steel Taritas",
+                "dp": 4,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "ev": 1,
+                    "lrdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 6
+                    },
+                    "2": {
+                        "dp": 8
+                    },
+                    "3": {
+                        "dp": 10
+                    },
+                    "4": {
+                        "dp": 12
+                    },
+                    "5": {
+                        "dp": 14
+                    },
+                    "6": {
+                        "dp": 16
+                    },
+                    "7": {
+                        "dp": 18
+                    },
+                    "8": {
+                        "dp": 20
+                    },
+                    "9": {
+                        "dp": 22
+                    },
+                    "10": {
+                        "dp": 24
+                    },
+                    "11": {
+                        "dp": 26
+                    },
+                    "12": {
+                        "dp": 28
+                    },
+                    "13": {
+                        "dp": 30
+                    },
+                    "14": {
+                        "dp": 32
+                    },
+                    "15": {
+                        "dp": 34
+                    },
+                    "16": {
+                        "dp": 39
+                    },
+                    "17": {
+                        "dp": 44
+                    },
+                    "18": {
+                        "dp": 52
+                    },
+                    "19": {
+                        "dp": 57
+                    },
+                    "20": {
+                        "dp": 62
+                    }
+                }
+            },
+            "Steel Taritas Shoes of Intimidation": {
+                "set": "Steel Taritas",
+                "dp": 4,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "ev": 1,
+                    "mdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 6
+                    },
+                    "2": {
+                        "dp": 8
+                    },
+                    "3": {
+                        "dp": 10
+                    },
+                    "4": {
+                        "dp": 12
+                    },
+                    "5": {
+                        "dp": 14
+                    },
+                    "6": {
+                        "dp": 16
+                    },
+                    "7": {
+                        "dp": 18
+                    },
+                    "8": {
+                        "dp": 20
+                    },
+                    "9": {
+                        "dp": 22
+                    },
+                    "10": {
+                        "dp": 24
+                    },
+                    "11": {
+                        "dp": 26
+                    },
+                    "12": {
+                        "dp": 28
+                    },
+                    "13": {
+                        "dp": 30
+                    },
+                    "14": {
+                        "dp": 32
+                    },
+                    "15": {
+                        "dp": 34
+                    },
+                    "16": {
+                        "dp": 39
+                    },
+                    "17": {
+                        "dp": 44
+                    },
+                    "18": {
+                        "dp": 52
+                    },
+                    "19": {
+                        "dp": 57
+                    },
+                    "20": {
+                        "dp": 62
+                    }
+                }
+            },
+            "Steel Taritas Shoes of Iron Wall": {
+                "set": "Steel Taritas",
+                "dp": 4,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "ev": 1,
+                    "crdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 6
+                    },
+                    "2": {
+                        "dp": 8
+                    },
+                    "3": {
+                        "dp": 10
+                    },
+                    "4": {
+                        "dp": 12
+                    },
+                    "5": {
+                        "dp": 14
+                    },
+                    "6": {
+                        "dp": 16
+                    },
+                    "7": {
+                        "dp": 18
+                    },
+                    "8": {
+                        "dp": 20
+                    },
+                    "9": {
+                        "dp": 22
+                    },
+                    "10": {
+                        "dp": 24
+                    },
+                    "11": {
+                        "dp": 26
+                    },
+                    "12": {
+                        "dp": 28
+                    },
+                    "13": {
+                        "dp": 30
+                    },
+                    "14": {
+                        "dp": 32
+                    },
+                    "15": {
+                        "dp": 34
+                    },
+                    "16": {
+                        "dp": 39
+                    },
+                    "17": {
+                        "dp": 44
+                    },
+                    "18": {
+                        "dp": 52
+                    },
+                    "19": {
+                        "dp": 57
+                    },
+                    "20": {
+                        "dp": 62
+                    }
+                }
+            },
+            "Ultimate Steel Taritas Shoes": {
+                "set": "Steel Taritas",
+                "dp": 9,
+                "rarity": "epic",
+                "gems": 1,
+                "item_effects": {
+                    "ev": 1,
                     "dr": 2
                 },
                 "enhancement_text": "",
@@ -14684,6 +15792,370 @@ var BDOdatabase = {
             },
             "Ultimate Taritas Gloves": {
                 "set": "Taritas",
+                "dp": 8,
+                "rarity": "epic",
+                "gems": 1,
+                "item_effects": {
+                    "acc": 2,
+                    "dr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 10
+                    },
+                    "2": {
+                        "dp": 12
+                    },
+                    "3": {
+                        "dp": 14
+                    },
+                    "4": {
+                        "dp": 16
+                    },
+                    "5": {
+                        "dp": 18
+                    },
+                    "6": {
+                        "dp": 20
+                    },
+                    "7": {
+                        "dp": 22
+                    },
+                    "8": {
+                        "dp": 24
+                    },
+                    "9": {
+                        "dp": 26
+                    },
+                    "10": {
+                        "dp": 28
+                    },
+                    "11": {
+                        "dp": 30
+                    },
+                    "12": {
+                        "dp": 32
+                    },
+                    "13": {
+                        "dp": 34
+                    },
+                    "14": {
+                        "dp": 36
+                    },
+                    "15": {
+                        "dp": 38
+                    },
+                    "16": {
+                        "dp": 43
+                    },
+                    "17": {
+                        "dp": 48
+                    },
+                    "18": {
+                        "dp": 56
+                    },
+                    "19": {
+                        "dp": 61
+                    },
+                    "20": {
+                        "dp": 66
+                    }
+                }
+            },
+            "Steel Taritas Gloves": {
+                "set": "Steel Taritas",
+                "dp": 3,
+                "rarity": "uncommon",
+                "gems": 1,
+                "item_effects": {
+                    "acc": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 5
+                    },
+                    "2": {
+                        "dp": 7
+                    },
+                    "3": {
+                        "dp": 9
+                    },
+                    "4": {
+                        "dp": 11
+                    },
+                    "5": {
+                        "dp": 13
+                    },
+                    "6": {
+                        "dp": 15
+                    },
+                    "7": {
+                        "dp": 17
+                    },
+                    "8": {
+                        "dp": 19
+                    },
+                    "9": {
+                        "dp": 21
+                    },
+                    "10": {
+                        "dp": 23
+                    },
+                    "11": {
+                        "dp": 25
+                    },
+                    "12": {
+                        "dp": 27
+                    },
+                    "13": {
+                        "dp": 29
+                    },
+                    "14": {
+                        "dp": 31
+                    },
+                    "15": {
+                        "dp": 33
+                    },
+                    "16": {
+                        "dp": 38
+                    },
+                    "17": {
+                        "dp": 43
+                    },
+                    "18": {
+                        "dp": 51
+                    },
+                    "19": {
+                        "dp": 56
+                    },
+                    "20": {
+                        "dp": 61
+                    }
+                }
+            },
+            "Steel Taritas Gloves of Agility": {
+                "set": "Steel Taritas",
+                "dp": 3,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "acc": 2,
+                    "lrdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 5
+                    },
+                    "2": {
+                        "dp": 7
+                    },
+                    "3": {
+                        "dp": 9
+                    },
+                    "4": {
+                        "dp": 11
+                    },
+                    "5": {
+                        "dp": 13
+                    },
+                    "6": {
+                        "dp": 15
+                    },
+                    "7": {
+                        "dp": 17
+                    },
+                    "8": {
+                        "dp": 19
+                    },
+                    "9": {
+                        "dp": 21
+                    },
+                    "10": {
+                        "dp": 23
+                    },
+                    "11": {
+                        "dp": 25
+                    },
+                    "12": {
+                        "dp": 27
+                    },
+                    "13": {
+                        "dp": 29
+                    },
+                    "14": {
+                        "dp": 31
+                    },
+                    "15": {
+                        "dp": 33
+                    },
+                    "16": {
+                        "dp": 38
+                    },
+                    "17": {
+                        "dp": 43
+                    },
+                    "18": {
+                        "dp": 51
+                    },
+                    "19": {
+                        "dp": 56
+                    },
+                    "20": {
+                        "dp": 61
+                    }
+                }
+            },
+            "Steel Taritas Gloves of Intimidation": {
+                "set": "Steel Taritas",
+                "dp": 3,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "acc": 2,
+                    "mdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 5
+                    },
+                    "2": {
+                        "dp": 7
+                    },
+                    "3": {
+                        "dp": 9
+                    },
+                    "4": {
+                        "dp": 11
+                    },
+                    "5": {
+                        "dp": 13
+                    },
+                    "6": {
+                        "dp": 15
+                    },
+                    "7": {
+                        "dp": 17
+                    },
+                    "8": {
+                        "dp": 19
+                    },
+                    "9": {
+                        "dp": 21
+                    },
+                    "10": {
+                        "dp": 23
+                    },
+                    "11": {
+                        "dp": 25
+                    },
+                    "12": {
+                        "dp": 27
+                    },
+                    "13": {
+                        "dp": 29
+                    },
+                    "14": {
+                        "dp": 31
+                    },
+                    "15": {
+                        "dp": 33
+                    },
+                    "16": {
+                        "dp": 38
+                    },
+                    "17": {
+                        "dp": 43
+                    },
+                    "18": {
+                        "dp": 51
+                    },
+                    "19": {
+                        "dp": 56
+                    },
+                    "20": {
+                        "dp": 61
+                    }
+                }
+            },
+            "Steel Taritas Gloves of Iron Wall": {
+                "set": "Steel Taritas",
+                "dp": 3,
+                "rarity": "rare",
+                "gems": 1,
+                "item_effects": {
+                    "acc": 2,
+                    "crdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 5
+                    },
+                    "2": {
+                        "dp": 7
+                    },
+                    "3": {
+                        "dp": 9
+                    },
+                    "4": {
+                        "dp": 11
+                    },
+                    "5": {
+                        "dp": 13
+                    },
+                    "6": {
+                        "dp": 15
+                    },
+                    "7": {
+                        "dp": 17
+                    },
+                    "8": {
+                        "dp": 19
+                    },
+                    "9": {
+                        "dp": 21
+                    },
+                    "10": {
+                        "dp": 23
+                    },
+                    "11": {
+                        "dp": 25
+                    },
+                    "12": {
+                        "dp": 27
+                    },
+                    "13": {
+                        "dp": 29
+                    },
+                    "14": {
+                        "dp": 31
+                    },
+                    "15": {
+                        "dp": 33
+                    },
+                    "16": {
+                        "dp": 38
+                    },
+                    "17": {
+                        "dp": 43
+                    },
+                    "18": {
+                        "dp": 51
+                    },
+                    "19": {
+                        "dp": 56
+                    },
+                    "20": {
+                        "dp": 61
+                    }
+                }
+            },
+            "Ultimate Steel Taritas Gloves": {
+                "set": "Steel Taritas",
                 "dp": 8,
                 "rarity": "epic",
                 "gems": 1,

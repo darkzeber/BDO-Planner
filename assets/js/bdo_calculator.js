@@ -36,6 +36,11 @@ var BDOcalculator = {
                     }
                 }
             },
+            "awakening-weapon": {
+                "enhancement": 0,
+                "item_name": "",
+                "item": {},
+            },
             "secondary-weapon": {
                 "enhancement": 0,
                 "item_name": "",
@@ -228,6 +233,20 @@ var BDOcalculator = {
                 this.stats[stat_key].min += parseInt(value[0]);
                 this.stats[stat_key].max += parseInt(value[1]);
 
+            }
+            if (stat_key === "awkap") {
+                if (parseInt(value) === value) {
+                    value = [
+                        value,
+                        value
+                    ];
+                } else {
+                    value = value.split('-');
+                }
+
+                this.stats[stat_key].min += parseInt(value[0]);
+                this.stats[stat_key].max += parseInt(value[1]);
+
             } else {
                 this.stats[stat_key].total += value;
             }
@@ -375,6 +394,9 @@ var BDOcalculator = {
 
                         this.addStat(effect_key, this.getGearStat(accessory, effect_key, true));
                     }
+
+                    //adds ring / earring ap to awakening ap.
+                    this.addStat("awkap", this.getGearStat(accessory, "ap"));
                 }
             } else {
                 if (Object.keys(this.gear[gear_key].item).length > 0) {
@@ -422,8 +444,20 @@ var BDOcalculator = {
                     // Item-slot specific calculations
                     switch (gear_key) {
                         case "main-weapon":
+                            this.addStat("ap", this.getGearStat(this.gear[gear_key], "ap_min") + '-' + this.getGearStat(this.gear[gear_key], "ap_max"));
+                            break;
                         case "secondary-weapon":
                             this.addStat("ap", this.getGearStat(this.gear[gear_key], "ap_min") + '-' + this.getGearStat(this.gear[gear_key], "ap_max"));
+                            this.addStat("awkap", this.getGearStat(this.gear[gear_key], "ap_min") + '-' + this.getGearStat(this.gear[gear_key], "ap_max"));
+                            break;
+                        case "awakening-weapon":
+                            this.addStat("awkap", this.getGearStat(this.gear[gear_key], "ap_min") + '-' + this.getGearStat(this.gear[gear_key], "ap_max"));
+                            break;
+                        case "belt":
+                            this.addStat("awkap", this.getGearStat(this.gear[gear_key], "ap"));
+                            break;
+                        case "necklace":
+                            this.addStat("awkap", this.getGearStat(this.gear[gear_key], "ap"));
                             break;
                     }
                 }
@@ -448,6 +482,10 @@ var BDOcalculator = {
 
                 case "ap":
                     $('.stat-ap span').text(obj.min + ' ~ ' + obj.max);
+                    break;
+
+                case "awkap":
+                    $('.stat-awk-ap span').text(obj.min + ' ~ ' + obj.max);
                     break;
 
                 case "dp":

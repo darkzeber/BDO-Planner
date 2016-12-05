@@ -1,30 +1,38 @@
 #calculator-section,
 #player-class-section {
-  display: none; }
+  display: none;
+}
 
 #player-class {
-  min-width: 220px; }
+  min-width: 220px;
+}
 
 .stats {
   list-style: none;
   margin: 0px;
   padding: 0px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+}
 
 legend.stats-title {
-  margin: 0 0 5px 0; }
+  margin: 0 0 5px 0;
+}
 
 .select2-container {
-  width: 100%; }
+  width: 100%;
+}
 
 div.enhancement {
-  width: 100%; }
+  width: 100%;
+}
 
 #calculator-section .clearfix {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+}
 
 .inline-text {
-  line-height: 28px; }
+  line-height: 28px;
+}
 
 /* New UI */
 #equipment {
@@ -32,15 +40,18 @@ div.enhancement {
   margin: 0 auto;
   width: 100%;
   max-width: 480px;
-  min-height: 415px; }
+  min-height: 455px;
+}
 
 #equipment .gear-slot {
   position: absolute;
   width: 64px;
   height: 64px;
   border: 2px solid gray;
+  border-radius: 5px;
   bottom: 0px;
-  right: 0px; }
+  right: 0px;
+}
 
 #equipment .gem-slot {
   display: none;
@@ -48,166 +59,213 @@ div.enhancement {
   width: 30px;
   height: 30px;
   border: 2px solid gray;
+  border-radius: 5px;
   bottom: 0px;
   right: 0px;
   background-image: url("../images/48/gem.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 80%; }
+  background-size: 80%;
+}
 
 #equipment .helmet {
   top: 0px;
   left: 50%;
-  margin-left: -88px;
-  background: url("../images/48/helmet.png") no-repeat center center; }
+  margin-left: -110px;
+  background: url("../images/48/helmet.png") no-repeat center center;
+}
 
 #equipment .gem-slot.helmet1 {
   top: 0px;
   left: 50%;
-  margin-left: -122px; }
+  margin-left: -144px;
+}
 
 #equipment .gem-slot.helmet2 {
   top: 34px;
   left: 50%;
-  margin-left: -122px; }
+  margin-left: -144px;
+}
 
 #equipment .armor {
   top: 0px;
   left: 50%;
-  margin-left: 24px;
-  background: url("../images/48/armor.png") no-repeat center center; }
+  margin-left: 46px;
+  background: url("../images/48/armor.png") no-repeat center center;
+}
 
 #equipment .gem-slot.armor1 {
   top: 0px;
   left: 50%;
-  margin-left: 92px; }
+  margin-left: 114px;
+}
 
 #equipment .gem-slot.armor2 {
   top: 34px;
   left: 50%;
-  margin-left: 92px; }
+  margin-left: 114px;
+}
 
 #equipment .earring1 {
   top: 70px;
   left: 50%;
-  margin-left: -164px;
-  background: url("../images/48/earring.png") no-repeat center center; }
+  margin-left: -176px;
+  background: url("../images/48/earring.png") no-repeat center center;
+}
 
 #equipment .ring1 {
   top: 70px;
   left: 50%;
-  margin-left: 100px;
-  background: url("../images/48/ring.png") no-repeat center center; }
+  margin-left: 112px;
+  background: url("../images/48/ring.png") no-repeat center center;
+}
 
 #equipment .ring2 {
   top: 142px;
   left: 50%;
-  margin-left: 134px;
-  background: url("../images/48/ring.png") no-repeat center center; }
+  margin-left: 146px;
+  background: url("../images/48/ring.png") no-repeat center center;
+}
 
 #equipment .earring2 {
   top: 142px;
   left: 50%;
-  margin-left: -198px;
-  background: url("../images/48/earring.png") no-repeat center center; }
+  margin-left: -210px;
+  background: url("../images/48/earring.png") no-repeat center center;
+}
 
 #equipment .shoes {
   top: 213px;
   left: 50%;
-  margin-left: -198px;
-  background: url("../images/48/shoes.png") no-repeat center center; }
+  margin-left: -210px;
+  background: url("../images/48/shoes.png") no-repeat center center;
+}
 
 #equipment .gem-slot.shoes1 {
   top: 213px;
   left: 50%;
-  margin-left: -232px; }
+  margin-left: -244px;
+}
 
 #equipment .gem-slot.shoes2 {
   top: 247px;
   left: 50%;
-  margin-left: -232px; }
+  margin-left: -244px;
+}
 
 #equipment .gloves {
   top: 213px;
   left: 50%;
-  margin-left: 134px;
-  background: url("../images/48/gloves.png") no-repeat center center; }
+  margin-left: 146px;
+  background: url("../images/48/gloves.png") no-repeat center center;
+}
 
 #equipment .gem-slot.gloves1 {
   top: 213px;
   left: 50%;
-  margin-left: 202px; }
+  margin-left: 214px;
+}
 
 #equipment .gem-slot.gloves2 {
   top: 247px;
   left: 50%;
-  margin-left: 202px; }
+  margin-left: 214px;
+}
 
 #equipment .belt {
   top: 284px;
   left: 50%;
-  margin-left: -164px;
-  background: url("../images/48/belt.png") no-repeat center center; }
+  margin-left: -176px;
+  background: url("../images/48/belt.png") no-repeat center center;
+}
 
 #equipment .necklace {
   top: 284px;
   left: 50%;
-  margin-left: 100px;
-  background: url("../images/48/necklace.png") no-repeat center center; }
+  margin-left: 112px;
+  background: url("../images/48/necklace.png") no-repeat center center;
+}
 
 #equipment .main-weapon {
-  top: 349px;
+  top: 355px;
   left: 50%;
-  margin-left: -88px;
-  background: url("../images/48/longsword.png") no-repeat center center; }
+  margin-left: -112px;
+  background: url("../images/48/main-weapons.png") no-repeat center center;
+}
 
 #equipment .gem-slot.main-weapon1 {
-  top: 416px;
+  top: 424px;
   left: 50%;
-  margin-left: -88px; }
+  margin-left: -112px;
+}
 
 #equipment .gem-slot.main-weapon2 {
-  top: 416px;
+  top: 424px;
   left: 50%;
-  margin-left: -54px; }
+  margin-left: -78px;
+}
+
+#equipment .awakening-weapon {
+  top: 355px;
+  left: 50%;
+  margin-left: -32px;
+  background: url("../images/48/awakening-weapons.png") no-repeat center center;
+}
 
 #equipment .secondary-weapon {
-  top: 349px;
+  top: 355px;
   left: 50%;
-  margin-left: 24px;
-  background: url("../images/48/shield.png") no-repeat center center; }
+  margin-left: 48px;
+  background: url("../images/48/secondary-weapons.png") no-repeat center center;
+}
 
 #equipment .gem-slot.secondary-weapon1 {
-  top: 416px;
+  top: 424px;
   left: 50%;
-  margin-left: 24px; }
+  margin-left: 48px;
+}
 
 #equipment .gem-slot.secondary-weapon2 {
-  top: 416px;
+  top: 424px;
   left: 50%;
-  margin-left: 58px; }
+  margin-left: 82px;
+}
 
 #equipment .stat-ap {
-  top: 142px;
+  top: 122px;
   left: 50%;
   margin-left: -60px;
-  width: 120px; }
+  width: 120px;
+}
+
+#equipment .stat-awk-ap {
+  top: 193px;
+  left: 50%;
+  margin-left: -80px;
+  width: 160px;
+}
 
 #equipment .stat-dp {
-  top: 213px;
+  top: 264px;
   left: 50%;
-  margin-left: -32px; }
+  margin-left: -32px;
+}
 
 #equipment .stat-ap,
+#equipment .stat-awk-ap,
 #equipment .stat-dp {
-  text-align: center; }
+  text-align: center;
+}
 
 #equipment .stat-ap strong,
+#equipment .stat-awk-ap strong,
 #equipment .stat-dp strong,
 #equipment .stat-ap span,
+#equipment .stat-awk-ap span,
 #equipment .stat-dp span {
   display: block;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .item-details {
   position: relative;
@@ -215,62 +273,118 @@ div.enhancement {
   background: #272727;
   color: #fff;
   margin-bottom: 15px;
-  border-radius: 5px; }
+  border-radius: 5px;
+}
 
 .item-details.selected {
-  border: 4px double #00FF2B; }
+  border: 4px double #00FF2B;
+}
 
 .item-details .item-name strong {
   font-size: 18px;
   margin-right: 65px;
-  display: block; }
+  display: block;
+}
 
 .item-details .item-icon {
   display: inline-block;
-  vertical-align: top; }
+  vertical-align: top;
+}
 
 .item-details .item-icon img {
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 .item-details .item-stats {
   vertical-align: top;
   display: inline-block;
   font-size: 16px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .item-details .item-choose {
   position: absolute;
   right: 8px;
-  top: 5px; }
+  top: 5px;
+}
 
 .item-details .item-gems,
 .item-details .item-effects,
 .item-details .item-set-effects,
 .item-details .item-enhancement-effects,
 .item-details .item-enhancement-level {
-  margin-top: 8px; }
+  margin-top: 8px;
+}
 
 .item-details .item-gems > div,
 .item-details .item-effects > div,
 .item-details .item-set-effects > div,
 .item-details .item-enhancement-effects > div {
-  color: #e9bd23; }
+  color: #e9bd23;
+}
 
 .item-details .item-gems > div::before,
 .item-details .item-effects > div::before,
 .item-details .item-set-effects > div::before,
 .item-details .item-enhancement-effects > div::before {
   content: "- ";
-  color: #fff; }
+  color: #fff;
+}
 
 .item-details .item-effects strong {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .item-details .item-set-effects strong {
-  display: block; }
+  display: block;
+}
 
 .item-details .item-set-effects span {
-  color: #fff; }
+  color: #fff;
+}
 
 .item-details .item-enhancement-level strong {
-  display: block; }
+  display: block;
+}
+
+.faded {
+  opacity: 0.2;
+}
+
+.class_icon.faded:hover + .class_title.faded {
+  opacity:1.0;
+}
+
+.class_icon.selected {
+  opacity:1.0;
+  border-radius: 10px;
+  background: rgba(51,119,255,0.2);
+  border: 2px solid rgba(77,0,153,0.6);
+  padding: 10px;
+}
+
+.class_icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
+  background-color: rgba(0,0,0,0.2);
+  border: 2px solid rgba(77,0,153,0.8);
+  padding: 10px
+}
+
+.class_img { 
+  position: relative;
+  display: inline-block;
+}
+
+.class_title {
+  border-radius: 0px 0px 10px 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: .7em;
+  color: #fff;
+  background-color: rgba(0,0,0, 0.7);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}

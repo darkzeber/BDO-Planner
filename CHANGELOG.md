@@ -1,3 +1,16 @@
+## 0.3.3.4 (2016-12-06)
+
+Features:
+
+  - Added Awakening weapons.
+  - Fully implemented awakening ap calculation.
+
+Changes:
+
+  - Changed class selection on main page to image button style layout.
+  - Share link now spans the full width due to removal of the class select dropdown list.
+  - Changed equipment slots layout slightly to better accommodate the added awakening weapon slot.
+
 ## 0.3.3.3 (2016-11-17)
 
 Features:

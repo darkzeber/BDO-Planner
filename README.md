@@ -1,19 +1,18 @@
 BDO Gear Calculator
 ========
 
-A gear/equipment calculator for Black Desert Online ([Demo Here](https://www.sirmre.com/bdo-gear-calculator)).
+A gear/equipment calculator for Black Desert Online ([Demo Here](http://shadowtrance.noip.me/bdo/wip)).
 
 
-## Current Version: 0.3.3.3
+## Current Version: 0.3.3.4
 
-See [the changelog](https://github.com/MrEliasen/BDO-Gear-Calculator/blob/master/CHANGELOG.md) for details.
+See [the changelog](https://github.com/Shadowtrance/BDO-Gear-Calculator/blob/update/CHANGELOG.md) for details.
 
 
 ## Status
 
 The following data/features are still outstanding/being developed.
 
-  - Ability to choose rarity for items.
   - Add non-conbat related gems and gear (like fishing and crafting items).
   - Missing enhancement information for items (purely visually).
   - Due to copyright reasons, I cannot include any materials like item icons (as it would be considered distribution of copyrigted material). However I will investigate what options I have.
@@ -26,7 +25,7 @@ Hidden stats (like accuracy increase on Yuria) will not be included in the calcu
 
 ## Support / Feedback / Issues
 
-Please open a new issue "ticket" [here](https://github.com/MrEliasen/bdo-calculator/issues).
+Please open a new issue "ticket" [here](https://github.com/Shadowtrance/BDO-Gear-Calculator/issues).
 
 
 ## Data / Resources

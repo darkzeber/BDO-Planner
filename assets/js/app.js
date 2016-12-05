@@ -2,7 +2,7 @@
 * @Author: SirMrE
 * @http: http://www.sirmre.com/bdo-calculator
 * @Copyright: (c) 2016 Mark Eliasen
-* @license: May be freely distributed under the CC BY-NC 3.0 License 
+* @license: May be freely distributed under the CC BY-NC 3.0 License
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
 * @Last Modified by:   SirMrE
@@ -120,6 +120,10 @@
                 ]
             ],
             [
+                Object.keys(BDOdatabase.items["awakening-weapons"][player_class]).indexOf(BDOcalculator.gear["awakening-weapon"].item_name),
+                parseInt(BDOcalculator.gear["awakening-weapon"].enhancement)
+            ],
+            [
                 Object.keys(BDOdatabase.items["secondary-weapons"][player_class]).indexOf(BDOcalculator.gear["secondary-weapon"].item_name),
                 parseInt(BDOcalculator.gear["secondary-weapon"].enhancement),
                 [
@@ -147,6 +151,7 @@
                 "belt",
                 "necklace",
                 "main-weapon",
+                "awakening-weapon",
                 "secondary-weapon"
             ];
 
@@ -192,7 +197,7 @@
                     addItem(item_name, item_type.slice(0, -1), item_type, i + 1, gear[n][i][1], false);
                 }
             } else {
-                if (item_type === "main-weapon" || item_type === "secondary-weapon") {
+                if (item_type === "main-weapon" || item_type === "secondary-weapon" || item_type === "awakening-weapon") {
                     item_name = Object.keys(item[player_class])[gear[n][0]];
                 } else {
                     item_name = item_list[gear[n][0]];
@@ -206,7 +211,7 @@
                 addItem(item_name, item_type, item_itemset, item_no, gear[n][1], false);
 
                 // set gems
-                if ($.inArray(item_type, ["belt", "necklace"]) === -1) {
+                if ($.inArray(item_type, ["belt", "necklace", "awakening-weapon"]) === -1) {
                     if (gear[n][2].length) {
                         var gem_list = Object.keys(BDOdatabase.gems[item_type]),
                             allgem_list = Object.keys(BDOdatabase.gems.all);
@@ -267,7 +272,7 @@
         if (item_itemset !== "gems") {
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).css({
                 'border-color': BDOdatabase.rarities[item.rarity],
-                'background': 'url(assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png) no-repeat center center'
+                'background': 'url(assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png) no-repeat center center'
             });
         } else {
             $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']").css({
@@ -302,7 +307,7 @@
         calculate = (typeof calculate === "undefined" ? true : calculate);
 
         if (item_itemset !== "gems") {
-            if ($.inArray(item_type, ["main-weapon", "secondary-weapon"]) !== -1) {
+            if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) !== -1) {
                 item = item[player_class.toLowerCase()];
             }
         } else {
@@ -415,7 +420,7 @@
 
         // item icon
         item_element.append('<div class="item-icon">'+
-                                '<img src="assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png" alt="BDO Gear Calculator">'+
+                                '<img src="assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png" alt="BDO Gear Calculator">'+
                             '</div>');
 
         // item stats
@@ -533,14 +538,10 @@
     }
 
     $(document).ready(function() {
-        $('#player-class').select2({
-            width: '100%',
-            data: (typeof $('#player-class').attr('placeholder') === 'undefined' ? BDOdatabase.classes : [$('#player-class').attr('placeholder')].concat(BDOdatabase.classes))
-        });
-
         loadConfig(function(loaded) {
             if (loaded) {
-                $('#player-class').val(ucWords(player_class)).trigger('change.select2');
+                $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").removeClass("faded").addClass("selected");
+                $(".class_cell .class_title[id='" + ucWords(player_class) + "']").removeClass("faded").addClass("selected");
                 BDOcalculator.calculate();
                 saveConfig();
 
@@ -548,9 +549,15 @@
             }
         });
 
-        // when a user selects a class, we initiate the equipment dropdowns based on class, hides the classes menu and shows the equipment selection menu.
-        $("#player-class").on("change", function() {
-            player_class = $(this).val().toLowerCase();
+        // when a user selects a class, we initiate the equipment dropdowns based on class.
+        $("figure.class_img").on("click", function() {
+            player_class = $(this).children("img").attr("data-value").toLowerCase();
+            //Set all icons to faded and this one to selected
+            $(".class_cell .class_icon").removeClass("selected").addClass("faded");
+            $(".class_cell .class_title").removeClass("selected").addClass("faded");
+
+            $(this).children("img").removeClass("faded").addClass("selected");
+            $(this).children("figcaption").removeClass("faded").addClass("selected");
 
             BDOcalculator.init();
             BDOcalculator.calculate();
@@ -558,7 +565,7 @@
             $('.gear-slot').each(function(k, v) {
                 resetGearslotItem($(v).attr('data-type'), $(v).attr('data-item'));
             });
-            
+
             $("#calculator-section").slideDown("fast");
         });
 

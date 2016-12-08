@@ -522,12 +522,12 @@ var BDOdatabase = {
         "ninja": {
             "main-weapon": "Shortsword",
             "secondary-weapon": "Shuriken",
-            "awakening-weapon": "Surado"
+            "awakening-weapon": "Sura Katana"
         },
         "kunoichi": {
             "main-weapon": "Shortsword",
             "secondary-weapon": "Kunai",
-            "awakening-weapon": "Saharyun"
+            "awakening-weapon": "Sah Chakram"
         }
     },
     "set_effects": {
@@ -70873,7 +70873,7 @@ var BDOdatabase = {
                 }
             },
             "ninja" :{
-                "Tempest Surado": {
+                "Tempest Sura Katana": {
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -70965,7 +70965,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Yagakmu Surado": {
+                "Yagakmu Sura Katana": {
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -71057,7 +71057,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Ultimate Yagakmu Surado": {
+                "Ultimate Yagakmu Sura Katana": {
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -71149,7 +71149,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Dandelion Surado": {
+                "Dandelion Sura Katana": {
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -71241,7 +71241,7 @@ var BDOdatabase = {
                 }
             },
             "kunoichi" :{
-                "Sonan Saharyun": {
+                "Sonan Sah Chakram": {
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -71333,7 +71333,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Oeki’s Saharyun": {
+                "Oeki’s Sah Chakram": {
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -71425,7 +71425,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Ultimate Oeki’s Saharyun": {
+                "Ultimate Oeki’s Sah Chakram": {
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -71517,7 +71517,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Dandelion Saharyun": {
+                "Dandelion Sah Chakram": {
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",

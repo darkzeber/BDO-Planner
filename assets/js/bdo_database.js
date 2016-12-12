@@ -22,6 +22,12 @@ var BDOdatabase = {
             "max": 0,
             "symbol": ""
         },
+        "hap": { //Hidden AP like Grunil set bonus and crystals
+            "title": "AP",
+            "total": 0,
+            "symbol": "",
+            "target": ".offence-stats"
+        },
         "awkap": {
             "title": "AP",
             "min": 0,
@@ -652,7 +658,7 @@ var BDOdatabase = {
         "Grunil": {
             "pieces": {
                 "4": {
-                    "ap": 2
+                    "hap": 2
                 }
             },
             "combos": [
@@ -662,7 +668,7 @@ var BDOdatabase = {
                         "helmet"
                     ],
                     "effects": {
-                        "ap": 5
+                        "hap": 5
                     }
                 },
                 {
@@ -715,13 +721,13 @@ var BDOdatabase = {
                 }
             ]
         },
-        "Jarette": {
+        "Jarette": { //Still not working, no idea why!
             "pieces": {
                 "4": {
-                    "ap": 5
+                    "hap": 5
                 },
                 "6": {
-                    "ap": 10
+                    "hap": 10
                 }
             }
         },
@@ -863,7 +869,7 @@ var BDOdatabase = {
                 "incompatible": [],
                 "item_effects": {
                     "kb": 10,
-                    "kd": 10
+                    "kd": 5
                 }
             },
             "Black Magic Crystal - Ascension": {
@@ -1378,6 +1384,16 @@ var BDOdatabase = {
                     "cbexp": 10
                 }
             },
+            "Caphras's Crystal - Adventure": {
+                "rarity": "legendary",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects": {
+                    "hp": 50,
+                    "hprc": 5,
+                    "cbexp": 10
+                }
+            },
             "Magic Crystal of Infinity - Intimidation": {
                 "rarity": "rare",
                 "shatter_chance": "high",
@@ -1563,7 +1579,7 @@ var BDOdatabase = {
                 "incompatible": [],
                 "item_effects": {
                     "hp": 150,
-                    "ap": 5
+                    "hap": 5
                 }
             },
             "Black Spirit Crystal": {
@@ -1572,7 +1588,7 @@ var BDOdatabase = {
                 "incompatible": [],
                 "item_effects": {
                     "hp": 100,
-                    "ap": 5
+                    "hap": 5
                 }
             },
             "Red Spirit Crystal": {
@@ -1600,7 +1616,7 @@ var BDOdatabase = {
                 "shatter_chance": "high",
                 "incompatible": [],
                 "item_effects": {
-                    "ap": 1
+                    "hap": 1
                 }
             },
             "Magic Crystal of Crimson Flame - Carnage (Demihumans)": {
@@ -1680,7 +1696,7 @@ var BDOdatabase = {
                 "shatter_chance": "high",
                 "incompatible": [],
                 "item_effects": {
-                    "ap": 2
+                    "hap": 2
                 }
             },
             "Magic Crystal of Infinity - Precision": {
@@ -1696,7 +1712,7 @@ var BDOdatabase = {
                 "shatter_chance": "low",
                 "incompatible": [],
                 "item_effects": {
-                    "ap": 5
+                    "hap": 5
                 }
             },
             "Black Magic Crystal - Precision": {
@@ -1819,7 +1835,7 @@ var BDOdatabase = {
                 "item_effects": {
                     "chr": 1,
                     "as": 1,
-                    "ap": 2
+                    "hap": 2
                 }
             },
             "Red Battlefield Crystal: Carmae": {
@@ -46951,87 +46967,87 @@ var BDOdatabase = {
                     "item_effects": {
                         "as": 3
                     },
-                    "enhancement_text": "Increased AP, Accuracy",
+                    "enhancement_text": "",
                     "enhancement": {
                         "1": {
-                            "ap-min": 22,
-                            "ap-max": 26
+                            "ap_min": 22,
+                            "ap_max": 26
                         },
                         "2": {
-                            "ap-min": 25,
-                            "ap-max": 29
+                            "ap_min": 25,
+                            "ap_max": 29
                         },
                         "3": {
-                            "ap-min": 28,
-                            "ap-max": 32
+                            "ap_min": 28,
+                            "ap_max": 32
                         },
                         "4": {
-                            "ap-min": 30,
-                            "ap-max": 34
+                            "ap_min": 30,
+                            "ap_max": 34
                         },
                         "5": {
-                            "ap-min": 32,
-                            "ap-max": 36
+                            "ap_min": 32,
+                            "ap_max": 36
                         },
                         "6": {
-                            "ap-min": 35,
-                            "ap-max": 39
+                            "ap_min": 35,
+                            "ap_max": 39
                         },
                         "7": {
-                            "ap-min": 38,
-                            "ap-max": 42
+                            "ap_min": 38,
+                            "ap_max": 42
                         },
                         "8": {
-                            "ap-min": 43,
-                            "ap-max": 47
+                            "ap_min": 43,
+                            "ap_max": 47
                         },
                         "9": {
-                            "ap-min": 48,
-                            "ap-max": 52
+                            "ap_min": 48,
+                            "ap_max": 52
                         },
                         "10": {
-                            "ap-min": 53,
-                            "ap-max": 57
+                            "ap_min": 53,
+                            "ap_max": 57
                         },
                         "11": {
-                            "ap-min": 58,
-                            "ap-max": 62
+                            "ap_min": 58,
+                            "ap_max": 62
                         },
                         "12": {
-                            "ap-min": 63,
-                            "ap-max": 67
+                            "ap_min": 63,
+                            "ap_max": 67
                         },
                         "13": {
-                            "ap-min": 68,
-                            "ap-max": 72
+                            "ap_min": 68,
+                            "ap_max": 72
                         },
                         "14": {
-                            "ap-min": 73,
-                            "ap-max": 77
+                            "ap_min": 73,
+                            "ap_max": 77
                         },
                         "15": {
-                            "ap-min": 78,
-                            "ap-max": 82
+                            "ap_min": 78,
+                            "ap_max": 82
                         },
                         "16": {
-                            "ap-min": 86,
-                            "ap-max": 90
+                            "ap_min": 86,
+                            "ap_max": 90
                         },
                         "17": {
-                            "ap-min": 94,
-                            "ap-max": 98
+                            "ap_min": 94,
+                            "ap_max": 98
                         },
                         "18": {
-                            "ap-min": 106,
-                            "ap-max": 110
+                            "ap_min": 106,
+                            "ap_max": 110
                         },
                         "19": {
-                            "ap-min": 114,
-                            "ap-max": 118
+                            "ap_min": 114,
+                            "ap_max": 118
                         },
                         "20": {
-                            "ap-min": 122,
-                            "ap-max": 126
+                            "ap_min": 122,
+                            "ap_max": 126
                         }
                     }
                 }

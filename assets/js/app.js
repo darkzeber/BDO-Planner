@@ -5,8 +5,8 @@
 * @license: May be freely distributed under the CC BY-NC 3.0 License
 *           (https://creativecommons.org/licenses/by-nc/3.0/)
 * @Date:   2016-04-07 20:53:22
-* @Last Modified by:   SirMrE
-* @Last Modified time: 2016-11-17 12:50:29
+* @Last Modified by:   IHellMasker
+* @Last Modified time: 2016-12-13 10:32:00
 */
 
 /* global BDOdatabase, BDOcalculator */
@@ -15,7 +15,11 @@
 (function ($) {
     "use strict";
 
-    var player_class = "";
+    var player_class = "",	
+		current_item_type = null,
+		current_item_itemset = null,
+		current_item_no = null,
+		current_modal = null;
 
     // Original from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
     function getParameterByName(name) {
@@ -582,24 +586,52 @@
 
             addItem(item_name, item_type, item_itemset, item_no, level);
         });
+		
+		$('#gearlist').on('show.bs.modal', function () {
+			$('#gearlist-search').val("");
+		})
+		$('#gearlist').on('shown.bs.modal', function () {
+			$('#gearlist-search').focus();
+		})
+		
+		$("#gearlist-search").on('input', function (e) {
+			if (current_modal == "gear") {
+				buildGearModal(current_item_type, current_item_itemset, current_item_no, $("#gearlist-search").val());
+			} else if (current_modal == "gem") {
+				buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
+			}
+		});
 
-        $("#equipment .gear-slot").click(function() {
-            var list = $('<div/>'),
-                item_type = $(this).attr('data-type'),
-                item_itemset = $(this).attr('data-itemset'),
-                item_no = $(this).attr('data-item'),
-                items_db = BDOdatabase.items[item_itemset],
+        $("#equipment .gear-slot").click(function() {			
+			current_item_type = $(this).attr('data-type');
+			current_item_itemset = $(this).attr('data-itemset');
+			current_item_no = $(this).attr('data-item');
+			current_modal = "gear";
+			
+			buildGearModal($(this).attr('data-type'), $(this).attr('data-itemset'), $(this).attr('data-item'));
+
+            $('#gearlist').modal();
+        });
+		
+		function buildGearModal(item_type, item_itemset, item_no, search) {
+			search = search ? $.trim(search.toLowerCase()) : "";
+            var items_db = BDOdatabase.items[item_itemset],
                 items_list = (typeof items_db[player_class] === "undefined" ? items_db : items_db[player_class]),
                 c = 1;
-
-            // reset the modal body
-            $('#gearlist .modal-body .row').html('');
-
-            for (var key in items_list) {
+				
+			// reset the modal body
+            $('#gearlist .modal-body .row.items').html('');
+			
+			for (var key in items_list) {
                 if (!items_list.hasOwnProperty(key)) {
-                     continue;
+                    continue;
                 }
-
+				
+				// If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
+				if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
+					continue;
+				}
+				
                 var item = items_list[key],
                     selected = false;
 
@@ -613,16 +645,16 @@
                     }
                 }
 
-                generateItemPlate(item, item_type, item_itemset, item_no, key, c, selected).appendTo('#gearlist .modal-body .row');
+                generateItemPlate(item, item_type, item_itemset, item_no, key, c, selected).appendTo('#gearlist .modal-body .row.items');
 
                 if (c % 2 === 0) {
-                    $('<div class="clearfix"></div>').appendTo('#gearlist .modal-body .row');
+                    $('<div class="clearfix"></div>').appendTo('#gearlist .modal-body .row.items');
                 }
 
                 c++;
             }
-
-            $(".item-enhancement-slider").each(function(k, v) {
+			
+			$(".item-enhancement-slider").each(function(k, v) {
                 if ($(v).attr('data-slider-max') === "0") {
                     $(v).replaceWith('<div>None</div>');
                 } else {
@@ -688,43 +720,54 @@
                     });
                 }
             });
+		}
+
+        $("#equipment .gem-slot").click(function() {
+			current_item_type = $(this).attr('data-type');
+			current_item_no = $(this).attr('data-item');
+			current_modal = "gem";
+
+            buildGemModal($(this).attr('data-type'), $(this).attr('data-item'));
 
             $('#gearlist').modal();
         });
-
-        $("#equipment .gem-slot").click(function() {
-            var list = $('<div/>'),
-                item_type = $(this).attr('data-type'),
-                item_no = $(this).attr('data-item'),
-                items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]),
+		
+		function buildGemModal(item_type, item_no, search) {
+			search = search ? $.trim(search.toLowerCase()) : "";
+            var items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]),
                 c = 1;
 
             // reset the modal body
-            $('#gearlist .modal-body .row').html('');
+            $('#gearlist .modal-body .row.items').html('');
 
             for (var key in items_list) {
                 if (!items_list.hasOwnProperty(key)) {
                      continue;
                 }
+				
+				// If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
+				if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
+					continue;
+				}
 
                 var item = items_list[key],
                     selected = false;
+					
+					
 
                 if (BDOcalculator.gear[item_type].gems[item_no].gem_name === key) {
                     selected = true;
                 }
 
-                generateGemItemPlate(item, item_type, item_no, key, c, selected).appendTo('#gearlist .modal-body .row');
+                generateGemItemPlate(item, item_type, item_no, key, c, selected).appendTo('#gearlist .modal-body .row.items');
 
                 if (c % 2 === 0) {
-                    $('<div class="clearfix"></div>').appendTo('#gearlist .modal-body .row');
+                    $('<div class="clearfix"></div>').appendTo('#gearlist .modal-body .row.items');
                 }
 
                 c++;
             }
-
-            $('#gearlist').modal();
-        });
+		}
 
         //Copy share link to clipboard / tooltip setup
         var cb = new Clipboard('#copy-button');

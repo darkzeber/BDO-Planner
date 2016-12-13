@@ -36,8 +36,8 @@ The data/information used to make this calculator comes from:
 
 ## Contributors
 
-[MrEliasen](https://github.com/MrEliasen)
-[Shadowtrance](https://github.com/Shadowtrance)
+[MrEliasen](https://github.com/MrEliasen)    
+[Shadowtrance](https://github.com/Shadowtrance)    
 [IHellmasker](https://github.com/Ihellmasker)
 
 ## Copyright & License

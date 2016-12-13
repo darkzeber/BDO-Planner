@@ -279,7 +279,6 @@
     }
 
     function setGearslotItem (item, item_type, item_no, item_name, item_itemset) {
-		console.log(item_name);
         item_no = (typeof item_no === "undefined" ? "undefined" : item_no);
 
         if (item_itemset !== "gems") {

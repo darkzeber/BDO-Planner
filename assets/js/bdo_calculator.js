@@ -397,8 +397,8 @@ var BDOcalculator = {
 
                     //adds ring / earring ap to awakening ap.
                     this.addStat("awkap", this.getGearStat(accessory, "ap"));
-					
-					this.addToSets(this.gear[gear_key][acc_key].item.set, gear_key + acc_key);
+                    
+                    this.addToSets(this.gear[gear_key][acc_key].item.set, gear_key + acc_key);
                 }
             } else {
                 if (Object.keys(this.gear[gear_key].item).length > 0) {
@@ -440,7 +440,7 @@ var BDOcalculator = {
                             this.addStat(eff_key, gem.item_effects[eff_key]);
                         }
                     }
-				
+
                     this.addToSets(this.gear[gear_key].item.set, gear_key);
 
                     // Item-slot specific calculations

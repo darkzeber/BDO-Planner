@@ -15,13 +15,13 @@
 (function ($) {
     "use strict";
 
-    var player_class = "",	
-		current_item_type = null,
-		current_item_itemset = null,
-		current_item_no = null,
-		current_modal = null;
-		
-	$('[data-toggle="tooltip"]').tooltip(); // Enable tooltips
+    var player_class = "",
+        current_item_type = null,
+        current_item_itemset = null,
+        current_item_no = null,
+        current_modal = null;
+        
+    $('[data-toggle="tooltip"]').tooltip(); // Enable tooltips
 
     // Original from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
     function getParameterByName(name) {
@@ -269,13 +269,13 @@
 
     function resetGearslotItem (item_type, item_no) {
         $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
-			'style': '',
-			'title': "Empty"
-		}).tooltip('fixTitle');
+            'style': '',
+            'title': "Empty"
+        }).tooltip('fixTitle');
         $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '2').attr({
-			'style': '',
-			'title': "Empty"
-		}).tooltip('fixTitle').hide();
+            'style': '',
+            'title': "Empty"
+        }).tooltip('fixTitle').hide();
     }
 
     function setGearslotItem (item, item_type, item_no, item_name, item_itemset) {
@@ -286,14 +286,14 @@
                 'border-color': BDOdatabase.rarities[item.rarity],
                 'background': 'url(assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png) no-repeat center center'
             }).attr({
-				"title": item_name
-			}).tooltip('fixTitle');
+                "title": item_name
+            }).tooltip('fixTitle');
         } else {
             $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']").css({
                 'border-color': BDOdatabase.rarities[item.rarity]
             }).attr({
-				"title": item_name
-			}).tooltip('fixTitle');
+                "title": item_name
+            }).tooltip('fixTitle');
         }
 
         if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "armor", "shoes", "gloves", "helmet"]) !== -1 && item_itemset !== "gems") {
@@ -598,52 +598,52 @@
 
             addItem(item_name, item_type, item_itemset, item_no, level);
         });
-		
-		$('#gearlist').on('show.bs.modal', function () {
-			$('#gearlist-search').val("");
-		})
-		$('#gearlist').on('shown.bs.modal', function () {
-			$('#gearlist-search').focus();
-		})
-		
-		$("#gearlist-search").on('input', function (e) {
-			if (current_modal == "gear") {
-				buildGearModal(current_item_type, current_item_itemset, current_item_no, $("#gearlist-search").val());
-			} else if (current_modal == "gem") {
-				buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
-			}
-		});
+        
+        $('#gearlist').on('show.bs.modal', function () {
+            $('#gearlist-search').val("");
+        })
+        $('#gearlist').on('shown.bs.modal', function () {
+            $('#gearlist-search').focus();
+        })
+        
+        $("#gearlist-search").on('input', function (e) {
+            if (current_modal == "gear") {
+                buildGearModal(current_item_type, current_item_itemset, current_item_no, $("#gearlist-search").val());
+            } else if (current_modal == "gem") {
+                buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
+            }
+        });
 
-        $("#equipment .gear-slot").click(function() {			
-			current_item_type = $(this).attr('data-type');
-			current_item_itemset = $(this).attr('data-itemset');
-			current_item_no = $(this).attr('data-item');
-			current_modal = "gear";
-			
-			buildGearModal($(this).attr('data-type'), $(this).attr('data-itemset'), $(this).attr('data-item'));
+        $("#equipment .gear-slot").click(function() {
+            current_item_type = $(this).attr('data-type');
+            current_item_itemset = $(this).attr('data-itemset');
+            current_item_no = $(this).attr('data-item');
+            current_modal = "gear";
+            
+            buildGearModal($(this).attr('data-type'), $(this).attr('data-itemset'), $(this).attr('data-item'));
 
             $('#gearlist').modal();
         });
-		
-		function buildGearModal(item_type, item_itemset, item_no, search) {
-			search = search ? $.trim(search.toLowerCase()) : "";
+        
+        function buildGearModal(item_type, item_itemset, item_no, search) {
+            search = search ? $.trim(search.toLowerCase()) : "";
             var items_db = BDOdatabase.items[item_itemset],
                 items_list = (typeof items_db[player_class] === "undefined" ? items_db : items_db[player_class]),
                 c = 1;
-				
-			// reset the modal body
+                
+            // reset the modal body
             $('#gearlist .modal-body .row.items').html('');
-			
-			for (var key in items_list) {
+            
+            for (var key in items_list) {
                 if (!items_list.hasOwnProperty(key)) {
                     continue;
                 }
-				
-				// If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
-				if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
-					continue;
-				}
-				
+                
+                // If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
+                if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
+                    continue;
+                }
+                
                 var item = items_list[key],
                     selected = false;
 
@@ -665,8 +665,8 @@
 
                 c++;
             }
-			
-			$(".item-enhancement-slider").each(function(k, v) {
+            
+            $(".item-enhancement-slider").each(function(k, v) {
                 if ($(v).attr('data-slider-max') === "0") {
                     $(v).replaceWith('<div>None</div>');
                 } else {
@@ -732,20 +732,20 @@
                     });
                 }
             });
-		}
+        }
 
         $("#equipment .gem-slot").click(function() {
-			current_item_type = $(this).attr('data-type');
-			current_item_no = $(this).attr('data-item');
-			current_modal = "gem";
+            current_item_type = $(this).attr('data-type');
+            current_item_no = $(this).attr('data-item');
+            current_modal = "gem";
 
             buildGemModal($(this).attr('data-type'), $(this).attr('data-item'));
 
             $('#gearlist').modal();
         });
-		
-		function buildGemModal(item_type, item_no, search) {
-			search = search ? $.trim(search.toLowerCase()) : "";
+        
+        function buildGemModal(item_type, item_no, search) {
+            search = search ? $.trim(search.toLowerCase()) : "";
             var items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]),
                 c = 1;
 
@@ -756,16 +756,16 @@
                 if (!items_list.hasOwnProperty(key)) {
                      continue;
                 }
-				
-				// If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
-				if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
-					continue;
-				}
+                
+                // If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
+                if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
+                    continue;
+                }
 
                 var item = items_list[key],
                     selected = false;
-					
-					
+                    
+                    
 
                 if (BDOcalculator.gear[item_type].gems[item_no].gem_name === key) {
                     selected = true;
@@ -779,7 +779,7 @@
 
                 c++;
             }
-		}
+        }
 
         //Copy share link to clipboard / tooltip setup
         var cb = new Clipboard('#copy-button');

@@ -20,6 +20,8 @@
 		current_item_itemset = null,
 		current_item_no = null,
 		current_modal = null;
+		
+	$('[data-toggle="tooltip"]').tooltip(); // Enable tooltips
 
     // Original from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
     function getParameterByName(name) {
@@ -266,22 +268,33 @@
     }
 
     function resetGearslotItem (item_type, item_no) {
-        $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr('style', '');
-        $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '2').attr('style', '').hide();
+        $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
+			'style': '',
+			'title': "Empty"
+		}).tooltip('fixTitle');
+        $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '2').attr({
+			'style': '',
+			'title': "Empty"
+		}).tooltip('fixTitle').hide();
     }
 
-    function setGearslotItem (item, item_type, item_no, item_itemset) {
+    function setGearslotItem (item, item_type, item_no, item_name, item_itemset) {
+		console.log(item_name);
         item_no = (typeof item_no === "undefined" ? "undefined" : item_no);
 
         if (item_itemset !== "gems") {
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).css({
                 'border-color': BDOdatabase.rarities[item.rarity],
                 'background': 'url(assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png) no-repeat center center'
-            });
+            }).attr({
+				"title": item_name
+			}).tooltip('fixTitle');
         } else {
             $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']").css({
                 'border-color': BDOdatabase.rarities[item.rarity]
-            });
+            }).attr({
+				"title": item_name
+			}).tooltip('fixTitle');
         }
 
         if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "armor", "shoes", "gloves", "helmet"]) !== -1 && item_itemset !== "gems") {
@@ -326,7 +339,7 @@
         item = item[item_name];
 
         BDOcalculator.setGear(item, item_type, item_no, item_name, item_itemset, function() {
-            setGearslotItem(item, item_type, item_no, item_itemset);
+            setGearslotItem(item, item_type, item_no, item_name, item_itemset);
 
             if (item_itemset !== "gems") {
                 BDOcalculator.setEnchantmentLevel(item_type, item_no, level, function() {

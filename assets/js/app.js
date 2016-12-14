@@ -305,7 +305,7 @@
                 .css({
                     'border-color': BDOdatabase.rarities[item.rarity]
                 }).attr({
-                    "title": BDOdatabase.enhancements[$.inArray(item_type, ["belt", "necklace", "ring", "earring"]) !== -1 ? (level === 0 ? 0 : level + 15) : level].prefix + item_name
+                    "title": BDOdatabase.enhancements[$.inArray(item_type, ["belt", "necklace", "ring", "earring"]) !== -1 ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].prefix + item_name
                 }).tooltip('fixTitle');
         } else {
             $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']")

@@ -538,11 +538,11 @@ var BDOdatabase = {
             "display": "III"
         },
         "19": {
-            "prefix": "IV PEN: ",
+            "prefix": "IV TET: ",
             "display": "IV"
         },
         "20": {
-            "prefix": "V TET: ",
+            "prefix": "V PEN: ",
             "display": "V"
         },
     },

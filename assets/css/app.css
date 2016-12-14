@@ -390,3 +390,16 @@ div.enhancement {
   background-color: rgba(0,0,0, 0.7);
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+#gear-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+#gear-list li:before {
+    content: "\e074";
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0px 10px 0px 5px;
+}

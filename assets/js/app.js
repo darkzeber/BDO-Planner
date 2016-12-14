@@ -148,7 +148,7 @@
 
         var url = window.location.href.replace(window.location.search, "");
 
-        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + JSON.stringify(save));
+        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + encodeURIComponent(JSON.stringify(save)));
     }
 
     function loadConfig(callback) {

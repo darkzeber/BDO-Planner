@@ -1872,6 +1872,7 @@ var BDOdatabase = {
     "items": {
         "helmets": {
             "Agerian Helmet": {
+                "id": 10809,
                 "set": "Agerian",
                 "dp": 4,
                 "rarity": "uncommon",
@@ -5556,6 +5557,7 @@ var BDOdatabase = {
         },
         "armor": {
             "Agerian Armor": {
+                "id": 10810,
                 "set": "Agerian",
                 "dp": 7,
                 "rarity": "uncommon",
@@ -9339,6 +9341,7 @@ var BDOdatabase = {
         },
         "shoes": {
             "Agerian Shoes": {
+                "id": 10812,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "uncommon",
@@ -13019,6 +13022,7 @@ var BDOdatabase = {
         },
         "gloves": {
             "Agerian Gloves": {
+                "id": 10811,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "uncommon",

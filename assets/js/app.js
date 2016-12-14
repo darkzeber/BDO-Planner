@@ -39,6 +39,13 @@
 
         return decodeURIComponent(results[2].replace(/\+/g, " "));
     }
+    
+    // http://stackoverflow.com/questions/10073699/pad-a-number-with-leading-zeros-in-javascript
+    function pad(n, width, z) {
+        z = z || '0';
+        n = n + '';
+        return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+    }
 
     // little hacky, I know.
     function getGemType (item, slot) {
@@ -141,7 +148,7 @@
 
         var url = window.location.href.replace(window.location.search, "");
 
-        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + JSON.stringify(save));
+        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + encodeURIComponent(JSON.stringify(save)));
     }
 
     function loadConfig(callback) {
@@ -278,22 +285,40 @@
         }).tooltip('fixTitle').hide();
     }
 
-    function setGearslotItem (item, item_type, item_no, item_name, item_itemset) {
+    function setGearslotItem (item, item_type, item_no, item_name, item_itemset, level) {
         item_no = (typeof item_no === "undefined" ? "undefined" : item_no);
 
         if (item_itemset !== "gems") {
-            $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).css({
-                'border-color': BDOdatabase.rarities[item.rarity],
-                'background': 'url(assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png) no-repeat center center'
-            }).attr({
-                "title": item_name
-            }).tooltip('fixTitle');
+            if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? typeof BDOdatabase.items[item_itemset][item_name].id == "undefined" : typeof BDOdatabase.items[item_itemset][player_class][item_name].id == "undefined") {
+                $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
+                    .css({
+                        'background': 'url(assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png) no-repeat center center'
+                    });
+            } else {
+                $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
+                    .css({
+                        'background': 'url(assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][item_name].id, 8) : player_class + "/" + pad(BDOdatabase.items[item_itemset][player_class][item_name].id, 8)) + '.png) no-repeat center center'
+                    });
+            }
+
+            $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
+                .css({
+                    'border-color': BDOdatabase.rarities[item.rarity]
+                }).attr({
+                    "title": BDOdatabase.enhancements[$.inArray(item_type, ["belt", "necklace", "ring", "earring"]) !== -1 ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].prefix + item_name
+                }).empty().tooltip('fixTitle');
+                
+            $("<div>")
+                .addClass("enhancement-level")
+                .html(BDOdatabase.enhancements[$.inArray(item_type, ["belt", "necklace", "ring", "earring"]) !== -1 ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].display)
+                .appendTo("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"));
         } else {
-            $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']").css({
-                'border-color': BDOdatabase.rarities[item.rarity]
-            }).attr({
-                "title": item_name
-            }).tooltip('fixTitle');
+            $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']")
+                .css({
+                    'border-color': BDOdatabase.rarities[item.rarity]
+                }).attr({
+                    "title": item_name
+                }).tooltip('fixTitle');
         }
 
         if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "armor", "shoes", "gloves", "helmet"]) !== -1 && item_itemset !== "gems") {
@@ -338,7 +363,7 @@
         item = item[item_name];
 
         BDOcalculator.setGear(item, item_type, item_no, item_name, item_itemset, function() {
-            setGearslotItem(item, item_type, item_no, item_name, item_itemset);
+            setGearslotItem(item, item_type, item_no, item_name, item_itemset, level);
 
             if (item_itemset !== "gems") {
                 BDOcalculator.setEnchantmentLevel(item_type, item_no, level, function() {
@@ -435,9 +460,25 @@
                             '</div>');
 
         // item icon
-        item_element.append('<div class="item-icon">'+
-                                '<img src="assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png" alt="BDO Gear Calculator">'+
-                            '</div>');
+        var w_item_icon = $("<div>")
+            .addClass("item-icon")
+            .appendTo(item_element);
+            
+        var item_icon = $("<img>")
+            .attr({
+                "alt": "BDO Gear Calculator"
+            })
+            .appendTo(w_item_icon);
+            
+        if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? typeof BDOdatabase.items[item_itemset][key].id == "undefined" : typeof BDOdatabase.items[item_itemset][player_class][key].id == "undefined") {
+            item_icon.attr({
+                "src": 'assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png', 
+            });
+        } else {
+            item_icon.attr({
+                "src": 'assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][key].id, 8) : player_class + pad(BDOdatabase.items[item_itemset][player_class][key].id, 8)) + '.png', 
+            });
+        }
 
         // item stats
         stat_element = $('<div class="item-stats"/>');

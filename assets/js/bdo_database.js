@@ -460,6 +460,92 @@ var BDOdatabase = {
         "epic": "#f6c232",       //yellow
         "legendary": "#d36300"   //orange
     },
+    "enhancements": {
+        "0": {
+            "prefix": "",
+            "display": ""
+        },
+        "1": {
+            "prefix": "+1 ",
+            "display": "+1"
+        },
+        "2": {
+            "prefix": "+2 ",
+            "display": "+2"
+        },
+        "3": {
+            "prefix": "+3 ",
+            "display": "+3"
+        },
+        "4": {
+            "prefix": "+4 ",
+            "display": "+4"
+        },
+        "5": {
+            "prefix": "+5 ",
+            "display": "+5"
+        },
+        "6": {
+            "prefix": "+6 ",
+            "display": "+6"
+        },
+        "7": {
+            "prefix": "+7 ",
+            "display": "+7"
+        },
+        "8": {
+            "prefix": "+8 ",
+            "display": "+8"
+        },
+        "9": {
+            "prefix": "+9 ",
+            "display": "+9"
+        },
+        "10": {
+            "prefix": "+10 ",
+            "display": "+10"
+        },
+        "11": {
+            "prefix": "+11 ",
+            "display": "+11"
+        },
+        "12": {
+            "prefix": "+12 ",
+            "display": "+12"
+        },
+        "13": {
+            "prefix": "+13 ",
+            "display": "+13"
+        },
+        "14": {
+            "prefix": "+14 ",
+            "display": "+14"
+        },
+        "15": {
+            "prefix": "+15 ",
+            "display": "+15"
+        },
+        "16": {
+            "prefix": "I PRI: ",
+            "display": "I"
+        },
+        "17": {
+            "prefix": "II DUO: ",
+            "display": "II"
+        },
+        "18": {
+            "prefix": "III TRI: ",
+            "display": "III"
+        },
+        "19": {
+            "prefix": "IV TET: ",
+            "display": "IV"
+        },
+        "20": {
+            "prefix": "V PEN: ",
+            "display": "V"
+        },
+    },
     "classes": [
         "Berserker",
         "Ranger",
@@ -1872,6 +1958,7 @@ var BDOdatabase = {
     "items": {
         "helmets": {
             "Agerian Helmet": {
+                "id": 10809,
                 "set": "Agerian",
                 "dp": 4,
                 "rarity": "uncommon",
@@ -2522,6 +2609,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Grunil Helmet": {
+                "id": 10961,
                 "set": "Grunil",
                 "dp": 8,
                 "rarity": "epic",
@@ -5556,6 +5644,7 @@ var BDOdatabase = {
         },
         "armor": {
             "Agerian Armor": {
+                "id": 10810,
                 "set": "Agerian",
                 "dp": 7,
                 "rarity": "uncommon",
@@ -6207,6 +6296,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Grunil Armor": {
+                "id": 10962,
                 "set": "Grunil",
                 "dp": 11,
                 "rarity": "epic",
@@ -9339,6 +9429,7 @@ var BDOdatabase = {
         },
         "shoes": {
             "Agerian Shoes": {
+                "id": 10812,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "uncommon",
@@ -9989,6 +10080,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Grunil Shoes": {
+                "id": 10964,
                 "set": "Grunil",
                 "dp": 6,
                 "rarity": "epic",
@@ -13019,6 +13111,7 @@ var BDOdatabase = {
         },
         "gloves": {
             "Agerian Gloves": {
+                "id": 10811,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "uncommon",
@@ -13674,6 +13767,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Grunil Gloves": {
+                "id": 10963,
                 "set": "Grunil",
                 "dp": 6,
                 "rarity": "epic",
@@ -17022,6 +17116,7 @@ var BDOdatabase = {
                 }
             },
             "Red Coral Earring": {
+                "id": 11817,
                 "dp": 0,
                 "ap": 2,
                 "rarity": "rare",
@@ -17972,6 +18067,7 @@ var BDOdatabase = {
                 }
             },
             "Barhan's Ring of Conquest": {
+                "id": 12028,
                 "dp": 0,
                 "ap": 7,
                 "rarity": "rare",
@@ -18928,6 +19024,7 @@ var BDOdatabase = {
                 }
             },
             "Necklace of Shultz the Gladiator": {
+                "id": 11631,
                 "dp": 0,
                 "ap": 7,
                 "rarity": "rare",
@@ -19191,6 +19288,7 @@ var BDOdatabase = {
                 }
             },
             "Belt of Shultz the Gladiator": {
+                "id": 12211,
                 "dp": 0,
                 "ap": 3,
                 "rarity": "rare",
@@ -34973,6 +35071,7 @@ var BDOdatabase = {
                     }
                 },
                 "Liverto Shortsword": {
+                    "id": 13209,
                     "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -65700,6 +65799,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Estique Kunai": {
+                    "id": 14513,
                     "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -71534,6 +71634,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Sah Chakram": {
+                    "id": 14792,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",

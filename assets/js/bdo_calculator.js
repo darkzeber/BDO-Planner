@@ -356,6 +356,7 @@ var BDOcalculator = {
 
     calculate: function () {
         $('.stats').html('');
+        $('#gear-list').html('');
         this.reset();
 
         for (var gear_key in this.gear) {
@@ -399,6 +400,10 @@ var BDOcalculator = {
                     this.addStat("awkap", this.getGearStat(accessory, "ap"));
                     
                     this.addToSets(this.gear[gear_key][acc_key].item.set, gear_key + acc_key);
+                    
+                    $("<li>")
+                        .html(BDOdatabase.enhancements[parseInt(this.gear[gear_key][acc_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15].prefix + this.gear[gear_key][acc_key].item_name)
+                        .appendTo("#gear-list");
                 }
             } else {
                 if (Object.keys(this.gear[gear_key].item).length > 0) {
@@ -418,6 +423,12 @@ var BDOcalculator = {
 
                         this.addStat(effect_key, this.getGearStat(this.gear[gear_key], effect_key, true));
                     }
+                    
+                    var new_li = $("<li>")
+                        .html(BDOdatabase.enhancements[$.inArray(gear_key, ["belt", "necklace"]) !== -1 ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item_name)
+                        .appendTo("#gear-list");
+                        
+                    var gem_ul = null;
 
                     for (var gem_key in this.gear[gear_key].gems) {
                         if (!this.gear[gear_key].gems.hasOwnProperty(gem_key)) {
@@ -438,6 +449,16 @@ var BDOcalculator = {
                             }
 
                             this.addStat(eff_key, gem.item_effects[eff_key]);
+                        }
+                        
+                        if (this.gear[gear_key].gems[gem_key].gem_name !== "") {
+                            if (gem_ul === null) {
+                                gem_ul = $("<ul>")
+                                    .appendTo(new_li);
+                            }
+                            $("<li>")
+                                .html(this.gear[gear_key].gems[gem_key].gem_name)
+                                .appendTo(gem_ul);
                         }
                     }
 

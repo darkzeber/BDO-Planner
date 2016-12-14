@@ -289,6 +289,8 @@ div.enhancement {
 .item-details .item-icon {
   display: inline-block;
   vertical-align: top;
+  width: 48px;
+  height: 48px;
 }
 
 .item-details .item-icon img {

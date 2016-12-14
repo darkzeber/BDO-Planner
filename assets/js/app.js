@@ -289,7 +289,7 @@
         item_no = (typeof item_no === "undefined" ? "undefined" : item_no);
 
         if (item_itemset !== "gems") {
-            if (typeof BDOdatabase.items[item_itemset][item_name].id == "undefined") {
+            if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? typeof BDOdatabase.items[item_itemset][item_name].id == "undefined" : typeof BDOdatabase.items[item_itemset][player_class][item_name].id == "undefined") {
                 $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
                     .css({
                         'background': 'url(assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png) no-repeat center center'
@@ -297,7 +297,7 @@
             } else {
                 $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
                     .css({
-                        'background': 'url(assets/images/items/' + item_itemset + '/' + pad(BDOdatabase.items[item_itemset][item_name].id, 8) + '.png) no-repeat center center'
+                        'background': 'url(assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][item_name].id, 8) : player_class + pad(BDOdatabase.items[item_itemset][player_class][item_name].id, 8)) + '.png) no-repeat center center'
                     });
             }
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
@@ -464,13 +464,13 @@
             })
             .appendTo(w_item_icon);
             
-        if (typeof BDOdatabase.items[item_itemset][key].id == "undefined") {
+        if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? typeof BDOdatabase.items[item_itemset][key].id == "undefined" : typeof BDOdatabase.items[item_itemset][player_class][key].id == "undefined") {
             item_icon.attr({
                 "src": 'assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png', 
             });
         } else {
             item_icon.attr({
-                "src": 'assets/images/items/' + item_itemset + '/' + pad(BDOdatabase.items[item_itemset][key].id, 8) + '.png', 
+                "src": 'assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][key].id, 8) : player_class + pad(BDOdatabase.items[item_itemset][player_class][key].id, 8)) + '.png', 
             });
         }
 

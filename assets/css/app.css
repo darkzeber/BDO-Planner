@@ -43,7 +43,7 @@ div.enhancement {
   min-height: 455px;
 }
 
-#equipment .gear-slot {
+#equipment .gear-slot, #equipment .main-stats {
   position: absolute;
   width: 64px;
   height: 64px;
@@ -394,6 +394,10 @@ div.enhancement {
 #gear-list {
     list-style-type: none;
     padding-left: 0px;
+}
+#gear-list ul {
+    list-style-type: none;
+    padding-left: 20px;
 }
 #gear-list li:before {
     content: "\e074";

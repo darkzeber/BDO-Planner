@@ -4,7 +4,7 @@ BDO Gear Calculator
 A gear/equipment calculator for Black Desert Online ([Demo Here](https://shadowtrance.github.io)).
 
 
-## Current Version: 0.3.3.5
+## Current Version: 0.3.4
 
 See [the changelog](https://github.com/Shadowtrance/BDO-Gear-Calculator/blob/update/CHANGELOG.md) for details.
 
@@ -14,8 +14,7 @@ See [the changelog](https://github.com/Shadowtrance/BDO-Gear-Calculator/blob/upd
 The following data/features are still outstanding/being developed.
 
   - Add non-conbat related gems and gear (like fishing and crafting items).
-  - Missing enhancement information for items (purely visually).
-  - Due to copyright reasons, I cannot include any materials like item icons (as it would be considered distribution of copyrigted material). However I will investigate what options I have.
+  - We're currently looking into getting icons added to items
 
 
 ## Hidden Stats
@@ -38,7 +37,7 @@ The data/information used to make this calculator comes from:
 
 [MrEliasen](https://github.com/MrEliasen)    
 [Shadowtrance](https://github.com/Shadowtrance)    
-[IHellmasker](https://github.com/Ihellmasker)
+[IHellmasker/Ihm](https://github.com/Ihellmasker)
 
 ## Copyright & License
 

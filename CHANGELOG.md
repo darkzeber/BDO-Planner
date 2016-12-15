@@ -1,3 +1,10 @@
+## 0.3.4 (2016-12-15)
+
+Features:
+
+  - Added displaying Enhancement levels ontop of equipment icons and on tooltips (IHellMasker)
+  - Added gear listing to show your current gear and gems (IHellMasker)
+
 ## 0.3.3.5 (2016-12-14)
 
 Features:

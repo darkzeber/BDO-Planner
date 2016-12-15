@@ -278,7 +278,7 @@
         $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
             'style': '',
             'title': "Empty"
-        }).tooltip('fixTitle');
+        }).empty().tooltip('fixTitle');
         $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '2').attr({
             'style': '',
             'title': "Empty"

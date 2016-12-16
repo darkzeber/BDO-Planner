@@ -645,6 +645,13 @@
         })
         $('#gearlist').on('shown.bs.modal', function () {
             $('#gearlist-search').focus();
+            if ($(".item-details.selected").length > 0) {
+                var offset = $(".item-details.selected").offset();
+                $('#gearlist').animate({
+                    scrollTop: offset.top
+                }, 500);
+            }
+            //.item-details .selected
         })
         
         $("#gearlist-search").on('input', function (e) {
@@ -821,6 +828,12 @@
                 c++;
             }
         }
+        
+        $("#show-update-notes").on("click", function (e) {
+            e.preventDefault();
+            
+            $('#updatenotes').modal();
+        });
 
         //Copy share link to clipboard / tooltip setup
         var cb = new Clipboard('#copy-button');
@@ -839,6 +852,57 @@
             .tooltip('show')
             .attr('title', "Copy Link")
             .tooltip('fixTitle');
+        });
+        
+        /*
+        Stat Breakdown Tooltip Handling
+        */
+        $("[data-breakdown!=''][data-breakdown]").hover(function (e) {
+            var offset = $(this).offset();
+            var screenWidth = $(document).width();
+            var width = $(this).outerWidth();
+            if (offset.left + width < screenWidth / 2) {
+                $('#stat-breakdown').css({
+                    top: offset.top,
+                    left: (offset.left + width) + 10,
+                    right: "auto"
+                }).show();
+            } else {
+                $('#stat-breakdown').css({
+                    top: offset.top,
+                    left: "auto",
+                    right: (screenWidth - offset.left) + 10
+                }).show();
+            }
+            var stat_type = $(this).attr("data-breakdown");
+            $("#stat-breakdown .opener").text("Total " + BDOdatabase.stats[stat_type].title + ": ");
+            var stats = BDOcalculator.calculateSingleStat(stat_type);
+            $("#stat-breakdown .list").html("");
+            $("#stat-breakdown .opener")
+            $("<span>")
+                .addClass("info")
+                .html(stats.total + BDOdatabase.stats[stat_type].symbol)
+                .appendTo("#stat-breakdown .opener");
+            if (BDOdatabase.stats[stat_type].desc != "") {
+                $("<li>")
+                    .html(BDOdatabase.stats[stat_type].desc)
+                    .appendTo("#stat-breakdown .list");
+            }
+            $("<li>")
+                .html("Increased by:")
+                .appendTo("#stat-breakdown .list");
+            for (var item in stats.item_list) {
+                var li_base = $("<li>")
+                    .addClass("no")
+                    .html(stats.item_list[item].item + ": ")
+                    .appendTo("#stat-breakdown .list");
+                $("<span>")
+                    .addClass("info")
+                    .html(stats.item_list[item].value + BDOdatabase.stats[stat_type].symbol)
+                    .appendTo(li_base);
+            }
+        }, function (e) {
+            $("#stat-breakdown").hide();
         });
     });
 })(jQuery);

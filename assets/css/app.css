@@ -1,5 +1,8 @@
-#calculator-section,
-#player-class-section {
+body {
+    margin-bottom: 50px;
+}
+
+#calculator-section, #player-class-section {
     display: none;
 }
 
@@ -40,7 +43,7 @@ div.enhancement {
     margin: 0 auto;
     width: 100%;
     max-width: 480px;
-    min-height: 455px;
+    min-height: 550px;
 }
 
 #equipment .gear-slot, #equipment .main-stats {
@@ -55,6 +58,7 @@ div.enhancement {
 
 #equipment .gear-slot {
     cursor: pointer;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 #equipment .gear-slot .enhancement-level {
@@ -80,6 +84,7 @@ div.enhancement {
     background-repeat: no-repeat;
     background-size: 80%;
     cursor: pointer;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 #equipment .helmet {
@@ -245,24 +250,38 @@ div.enhancement {
     margin-left: 82px;
 }
 
-#equipment .stat-ap {
-    top: 122px;
-    left: 50%;
-    margin-left: -60px;
-    width: 120px;
+#equipment .stat-ap,
+#equipment .stat-awk-ap,
+#equipment .stat-dp {
+    border: 0px;
+    height: 60px;
 }
 
-#equipment .stat-awk-ap {
-    top: 193px;
+#equipment .stat-ap {
+    top: 460px;
     left: 50%;
-    margin-left: -80px;
+    margin-left: -238px;
     width: 160px;
 }
 
-#equipment .stat-dp {
-    top: 264px;
+#equipment .stat-awk-ap {
+    top: 460px;
     left: 50%;
-    margin-left: -32px;
+    margin-left: -80px;
+    width: 160px;
+    border-radius: 0px;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+#equipment .stat-dp {
+    top: 460px;
+    left: 50%;
+    margin-left: 78px;
+    width: 160px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-left: 0px;
 }
 
 #equipment .stat-ap,
@@ -273,12 +292,17 @@ div.enhancement {
 
 #equipment .stat-ap strong,
 #equipment .stat-awk-ap strong,
-#equipment .stat-dp strong,
+#equipment .stat-dp strong {
+    display: block;
+    font-size: 14px;
+}
+
 #equipment .stat-ap span,
 #equipment .stat-awk-ap span,
 #equipment .stat-dp span {
     display: block;
-    font-size: 20px;
+    font-size: 32px;
+    color: #e7d583;
 }
 
 .item-details {
@@ -363,39 +387,34 @@ div.enhancement {
     display: block;
 }
 
-.faded {
-    opacity: 0.2;
-}
-
 .class_img:hover .class_icon, .class_img:hover .class_title {
-    opacity:1.0;
-}
-
-.class_icon.selected {
-    opacity:1.0;
-    border-radius: 10px;
-    background: rgba(51,119,255,0.2);
-    border: 2px solid rgba(77,0,153,0.6);
-    padding: 10px;
-}
-
-.class_icon {
-    height: 70px;
-    width: 70px;
-    border-radius: 10px;
-    background-color: rgba(0,0,0,0.2);
-    border: 2px solid rgba(77,0,153,0.8);
-    padding: 10px;
+    opacity: 1.0;
 }
 
 .class_img { 
     position: relative;
     display: inline-block;
     cursor: pointer;
+    border: 2px solid #9f8772;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.class_icon {
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+}
+.class_icon.faded {
+    opacity: 0.4;
+}
+.class_icon.selected {
+    opacity: 1.0;
+    background: rgba(159, 135, 114, 0.3);
+    padding: 10px;
 }
 
 .class_title {
-    border-radius: 0px 0px 10px 10px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -404,6 +423,9 @@ div.enhancement {
     color: #fff;
     background-color: rgba(0,0,0, 0.7);
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.class_title.selected {
+    color: #e7d583;
 }
 
 #gear-list {
@@ -421,4 +443,110 @@ div.enhancement {
     font-weight: 400;
     font-size: 10px;
     margin: 0px 10px 0px 5px;
+}
+
+.intro-text a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.stats li {
+    color: #e7d583;
+}
+.stats li strong {
+    color: #e5e5e5;
+}
+
+#sticky-footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: rgb(14, 18, 29);
+    height: 50px;
+    padding-top: 10px;
+    z-index: 1025;
+}
+
+#updatenotes h1 {
+    overflow: hidden;
+    font-size: 2rem;
+    font-weight: 300;
+}
+#updatenotes h1:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid #eee;
+}
+
+#updatenotes ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+#updatenotes ul li:before {
+    content: "\e074";
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0px 10px 0px 5px;
+}
+
+#stat-breakdown {
+    position: absolute;
+    background: #9f8772;
+    padding: 3px;
+    border-radius: 3px;
+    z-index: 2000;
+    display: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5),
+        inset 1px 1px 0px rgba(255, 255, 255, 0.5),
+        inset -1px -1px 0px rgba(0, 0, 0, 0.5);
+}
+#stat-breakdown .outer {
+    background: #292f41;
+    border-radius: 3px;
+}
+#stat-breakdown .outer .inner {
+    font-size: 12px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5),
+        inset -1px -1px 3px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+#stat-breakdown .outer .inner .info {
+    color: #e7d583;
+}
+#stat-breakdown .outer .inner ul.list {
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+#stat-breakdown .outer .inner ul.list li:before {
+    content: "\002a";
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 6px;
+    margin: 0px 5px 0px 2px;
+    color: #e7d583;
+}
+#stat-breakdown .outer .inner ul.list li.no:before {
+    color: transparent;
+}
+
+.background-ring {
+    border: 2px solid rgba(126, 126, 126, 1);
+    margin-top: 20px;
+    width: 380px;
+    height: 380px;
+    border-radius: 500px;
+    position: absolute;
+    margin-left: 45px;
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.7),
+        1px 1px 3px rgba(0, 0, 0, 0.7);
 }

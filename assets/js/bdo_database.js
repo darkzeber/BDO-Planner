@@ -18,437 +18,510 @@ var BDOdatabase = {
     "stats": {
         "ap": {
             "title": "AP",
+            "desc": "Increase damage against all targets",
             "min": 0,
             "max": 0,
             "symbol": ""
         },
         "hap": { //Hidden AP like Grunil set bonus and crystals
-            "title": "AP",
+            "title": "Hidden AP",
+            "desc": "Increase damage against all targets",
             "total": 0,
             "symbol": "",
             "target": ".offence-stats"
         },
         "awkap": {
             "title": "AP",
+            "desc": "Increase damage against all targets",
             "min": 0,
             "max": 0,
             "symbol": ""
         },
         "dp": {
             "title": "DP",
+            "desc": "Decreases damage received from all targets",
             "total": 0,
             "symbol": ""
         },
         "atk": {
             "title": "Attack",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".offence-stats"
         },
         "map": {
             "title": "Magic AP",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".offence-stats"
         },
         "mlap": {
             "title": "Melee AP",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".offence-stats"
         },
         "rap": {
             "title": "Ranged AP",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".offence-stats"
         },
         "aaad": {
             "title": "Additional Air Attack Damage",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "abad": {
             "title": "Additional Back Attack Damage",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "acad": {
             "title": "Additional Counter Attack Damage",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "achd": {
             "title": "Additional Critical Hit Damage",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "adad": {
             "title": "Additional Down Attack Damage",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "assad": {
             "title": "Additional Special Attack Damage",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "hp": {
             "title": "Health",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "mpwpsp": {
             "title": "MP/WP/SP",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "hprc": {
             "title": "HP recovery",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "wprc": {
             "title": "WP recovery",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "sprc": {
             "title": "SP recovery",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "mprc": {
             "title": "MP recovery",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "mpar": {
             "title": "MP Auto Recovery",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "wpar": {
             "title": "WP Auto Recovery",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "spar": {
             "title": "SP Auto Recovery",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "hprcoa": {
             "title": "HP Recovery On Attack",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "mpwpsprcoa": {
             "title": "MP/WP/SP Recovery On Attack",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "hpar": {
             "title": "HP Auto Recovery",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".survive-stats"
         },
         "dr": {
             "title": "Damage Reduction",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "lrdr": {
             "title": "Long Range Damage Reduction",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "crdr": {
             "title": "Close Range Damage Reduction",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "mdr": {
             "title": "Magic Damage Reduction",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "sr": {
             "title": "Stun Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
         },
         "gr": {
             "title": "Grapple Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
         },
         "kb": {
             "title": "Knockback/Floating Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
         },
         "kd": {
             "title": "Knockdown/Bound Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
         },
         "ssfr": {
             "title": "Stun/Stiffness/Freezing Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
         },
         "frfr": {
             "title": "Faint/Rigidity/Freezing Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
         },
         "ar": {
             "title": "All Resistances",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
         },
         "rta": {
             "title": "Resistance to All Status Abnormalities",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".resist-stats"
         },
         "as": {
             "title": "Attack Speed",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".ench-stats"
         },
         "cs": {
             "title": "Casting Speed",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".ench-stats"
         },
         "ms": {
             "title": "Movement Speed",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".ench-stats"
         },
         "chr": {
             "title": "Critical Hit Rate",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".ench-stats"
         },
         "lk": {
             "title": "Luck",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".ench-stats"
         },
         "acc": {
             "title": "Accuracy",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".offence-stats"
         },
         "ev": {
             "title": "Evasion",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "stam": {
             "title": "Stamina",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".general-stats"
         },
         "energy": {
             "title": "Energy",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".general-stats"
         },
         "bg": {
             "title": "Breath Gauge",
+            "desc": "",
             "total": 0,
             "symbol": "sec",
             "target": ".general-stats"
         },
         "wgt": {
             "title": "Weight Limit",
+            "desc": "",
             "total": 0,
             "symbol": "LT",
             "target": ".general-stats"
         },
         "jh": {
             "title": "Jump Height",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".general-stats"
         },
         "bsr": {
             "title": "Black Spirit's Rage",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": "general-stats"
         },
         "drr": {
             "title": "Durability Reduction Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".general-stats"
         },
         "dmgtdh": {
             "title": "Damage To Demihumans",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "dmgth": {
             "title": "Damage To Humans",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "dmgtb": {
             "title": "Damage To Beasts",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "dmgaes": {
             "title": "Damage Against Every Species",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "adafm": {
             "title": "Additional Damage Against \"Ferocious\" Monsters",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".extra-stats"
         },
         "iar": {
             "title": "Ignore All Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".offence-stats"
         },
         "igr": {
             "title": "Ignore Grapple Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".offence-stats"
         },
         "ikbr": {
             "title": "Ignore Knockback Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".offence-stats"
         },
         "ikdr": {
             "title": "Ignore Knockdown Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".offence-stats"
         },
         "isr": {
             "title": "Ignore Stun Resistance",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".offence-stats"
         },
         "asad": {
             "title": "Additional Speed Attack Damage",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".offence-stats"
         },
         "cbexp": {
             "title": "Combat EXP",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".general-stats"
         },
         "vr": {
             "title": "Vision Range",
+            "desc": "",
             "total": 0,
             "symbol": "m",
             "target": ".general-stats"
         },
         "spcev": {
             "title": "Special Attack Evasion",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".defense-stats"
         },
         "mgdr": {
             "title": "Magic Damage Reduction",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "mldr": {
             "title": "Melee Damage Reduction",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "rdr": {
             "title": "Ranged Damage Reduction",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "swev": {
             "title": "Siege Weapon Evasion",
+            "desc": "",
             "total": 0,
             "symbol": "",
             "target": ".defense-stats"
         },
         "fdmg": {
             "title": "Fall Damage Reduction",
+            "desc": "",
             "total": 0,
             "symbol": "%",
             "target": ".general-stats"
         },
         "fdr": {
             "title": "Fall Damage Reduction (unknown additional amount)",
+            "desc": "",
             "active": false,
             "symbol": "",
             "target": ".general-stats"
         },
         "special": { // this one must be the last one of the list. Short version: I am lazy. Longer version: Effects like fdr is added to it, so if it runs before eg. fdr, then it wont show as an active effect.
             "title": "Gear Specials",
+            "desc": "",
             "specials": [],
             "target": ".special-stats"
         }

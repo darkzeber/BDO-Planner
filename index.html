@@ -26,37 +26,26 @@
         <!--[if lt IE 9]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        
+        <!--
+                    <p>Mix and match gear and see the results.</p>
+
+                    <p>This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/tree/update" target="_blank">https://github.com/Shadowtrance/BDO-Gear-Calculator</a>.<br>Please see the <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/blob/update/README.md" target="_blank">README for details about outstanding features and data.</a> Click the <b>copy</b> button to copy your link to the clipboard.</p>
+                    
+                     <small>v. 0.3.4</small>
+        -->
 
         <div class="container">
             <div class="row">
                 <div class="col-md-24">
-                    <h1>BDO Calculator <small>v. 0.3.4</small></h1>
-                    <p>Mix and match gear and see the results.</p>
-
-                    <h4><a data-toggle="collapse" href="#todocollapse1">TODO</a></h4>
-                    <div id="todocollapse1" class="panel-collapse collapse">
-                        <p><b>To be added:
-                            <ul style="list-style-type:disc">
-                                <li>Add equipment tailoring coupon costumes</li>
-                            </ul>
-                        </b></p>
-                    </div>
+                    <h1 class="text-center">Black Desert Online Gear Calculator</h1>
+                    <div class="intro-text small text-center">By <a href="https://github.com/Shadowtrance">Shadowtrance</a>, <a href="https://github.com/Ihellmasker">Ihm</a> and previously MrEliasen &middot; <a href="#" id="show-update-notes">Show update notes</a></div>
+                    <hr>
                 </div>
             </div>
             <div id="player-class-section" class="row">
                 <div class="col-xs-24">
-                    <p>This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/tree/update" target="_blank">https://github.com/Shadowtrance/BDO-Gear-Calculator</a>.<br>Please see the <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/blob/update/README.md" target="_blank">README for details about outstanding features and data.</a> Click the <b>copy</b> button to copy your link to the clipboard.</p>
-                    <hr>
-                    <p><b>Note: Resistances shown here are ONLY resistances gained from gear and crystals, it does not take into account the base resistance we have.</b></p>
-                </div>
-                <div class="col-xs-24" align="center">
-                    <div class="input-group input-group-sm">
-                        <span class="input-group-addon" id="save-link-label">Share Link:</span>
-                        <input id="share-link" type="text" class="form-control" aria-describedby="save-link-label">
-                        <span class="input-group-btn">
-                            <button type="button" class="btn btn-default" id="copy-button" data-toggle="tooltip" data-placement="right" data-clipboard-target="#share-link" title="Copy Link">Copy</button>
-                        </span>
-                    </div>
+                    <div class="small text-center">Note: Resistances shown here are ONLY resistances gained from gear and crystals, it does not take into account the base resistance we have.</div>
                 </div>
                 <div class="col-md-24" align="center">
                     <div class="classes_panel">
@@ -118,6 +107,7 @@
             <div id="calculator-section" class="row">
                 <dir class="col-md-10">
                     <div id="equipment">
+                        <div class="background-ring"></div>
                         <div class="gear-slot helmet" data-itemset="helmets" data-type="helmet" data-toggle="tooltip" data-placement="bottom" title="Empty"></div>
                         <div class="gem-slot helmet1" data-type="helmet" data-item="1" data-toggle="tooltip" data-placement="bottom" title="Empty"></div>
                         <div class="gem-slot helmet2" data-type="helmet" data-item="2" data-toggle="tooltip" data-placement="bottom" title="Empty"></div>
@@ -151,15 +141,15 @@
                         <div class="gem-slot secondary-weapon1" data-type="secondary-weapon" data-item="1" data-toggle="tooltip" data-placement="bottom" title="Empty"></div>
                         <div class="gem-slot secondary-weapon2" data-type="secondary-weapon" data-item="2" data-toggle="tooltip" data-placement="bottom" title="Empty"></div>
 
-                        <div class="main-stats stat-ap">
+                        <div class="main-stats stat-ap" data-breakdown="ap">
                             <strong>AP</strong>
                             <span>0</span>
                         </div>
-                        <div class="main-stats stat-awk-ap">
+                        <div class="main-stats stat-awk-ap" data-breakdown="awkap">
                             <strong>Awakening AP</strong>
                             <span>0</span>
                         </div>
-                        <div class="main-stats stat-dp">
+                        <div class="main-stats stat-dp" data-breakdown="dp">
                             <strong>DP</strong>
                             <span>0</span>
                         </div>
@@ -197,6 +187,22 @@
                 </div>
             </div>
         </div>
+        
+        <div id="sticky-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-20 col-xs-offset-2" align="center">
+                        <div class="input-group input-group-sm">
+                            <span class="input-group-addon" id="save-link-label">Share Link:</span>
+                            <input id="share-link" type="text" class="form-control" aria-describedby="save-link-label">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default" id="copy-button" data-toggle="tooltip" data-placement="right" data-clipboard-target="#share-link" title="Copy Link">Copy</button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div id="gearlist" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static">
             <div class="modal-dialog modal-lg">
@@ -222,6 +228,45 @@
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
+        
+        <div id="updatenotes" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Update Notes</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-24">
+                                <div class="lead">
+                                </div>
+                                <h1>New features</h1>
+                                <ul>
+                                    <li>New Layout, stats on here will be a closer representation to what you see in-game</li>
+                                </ul>
+                                <h1>Upcoming features</h1>
+                                <ul>
+                                    <li>Add equipment tailoring coupon costumes</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        <div id="stat-breakdown">
+            <div class="outer">
+                <div class="inner">
+                    <div class="opener"></div>
+                    <ul class="list"></ul>
+                </div>
+            </div>
+        </div>
 
         <!-- Include the required libraries -->
         <!-- Generate the integrity hashes using https://www.srihash.org/ -->

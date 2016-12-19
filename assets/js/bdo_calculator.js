@@ -1,17 +1,7 @@
 /*
-* @Author: SirMrE
-* @http: http://www.sirmre.com/bdo-calculator
-* @Copyright: (c) 2016 Mark Eliasen
-* @license: May be freely distributed under the CC BY-NC 3.0 License 
-*           (https://creativecommons.org/licenses/by-nc/3.0/)
-* @Date:   2016-04-08 23:52:45
-* @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-15 02:01:42
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://shadowtrance.github.io/
 */
-
-
-/* jslint unused: false, shadow: true */
-/* global BDOdatabase */
 
 var BDOcalculator = {
     "gear": {}, // holds the selected gear

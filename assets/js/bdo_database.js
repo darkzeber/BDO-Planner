@@ -1,16 +1,7 @@
 /*
-* @Author: SirMrE
-* @http: http://www.sirmre.com/bdo-calculator
-* @Copyright: (c) 2016 Mark Eliasen
-* @license: May be freely distributed under the CC BY-NC 3.0 License 
-*           (https://creativecommons.org/licenses/by-nc/3.0/)
-* @Date:   2016-04-07 21:40:17
-* @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-14 23:32:22
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://shadowtrance.github.io/
 */
-
-/* Data from http://bddatabase.net */
-/* jslint unused: false */
 
 var BDOdatabase = {
     "max_gear_enhancement": 20,
@@ -617,7 +608,7 @@ var BDOdatabase = {
         "20": {
             "prefix": "V PEN: ",
             "display": "V"
-        },
+        }
     },
     "classes": [
         "Berserker",
@@ -5284,7 +5275,7 @@ var BDOdatabase = {
                 "rarity": "uncommon",
                 "gems": 1,
                 "item_effects": {
-                    "kd": 15,
+                    "kd": 15
                 },
                 "enhancement_text": "",
                 "enhancement": {
@@ -19471,7 +19462,7 @@ var BDOdatabase = {
                 "rarity": "rare",
                 "gems": 0,
                 "item_effects": {
-                    "wgt": 60,
+                    "wgt": 60
                 },
                 "enhancement_text": "Set effect enabled when equipped with “Ancient Guardian's  Seal”",
                 "enhancement": {
@@ -50426,7 +50417,7 @@ var BDOdatabase = {
                         "20": {
                             "ap_min": 40,
                             "ap_max": 40
-                        },
+                        }
                     }
                 },
                 "Rosar Dagger": {
@@ -54174,23 +54165,23 @@ var BDOdatabase = {
                         "17": {
                             "ap_min": 26,
                             "ap_max": 28,
-                            "dp": 2,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 31,
                             "ap_max": 33,
-                            "dp": 3,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 33,
                             "ap_max": 35,
-                            "dp": 4,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 35,
                             "ap_max": 37,
-                            "dp": 5,
-                        },
+                            "dp": 5
+                        }
                     }
                 },
                 "Jubre Talisman of Destruction": {
@@ -54272,23 +54263,23 @@ var BDOdatabase = {
                         "17": {
                             "ap_min": 26,
                             "ap_max": 28,
-                            "dp": 2,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 31,
                             "ap_max": 33,
-                            "dp": 3,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 33,
                             "ap_max": 35,
-                            "dp": 4,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 35,
                             "ap_max": 37,
-                            "dp": 5,
-                        },
+                            "dp": 5
+                        }
                     }
                 },
                 "Jubre Talisman of Temptation": {
@@ -54370,23 +54361,23 @@ var BDOdatabase = {
                         "17": {
                             "ap_min": 26,
                             "ap_max": 28,
-                            "dp": 2,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 31,
                             "ap_max": 33,
-                            "dp": 3,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 33,
                             "ap_max": 35,
-                            "dp": 4,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 35,
                             "ap_max": 37,
-                            "dp": 5,
-                        },
+                            "dp": 5
+                        }
                     }
                 },
                 "Ultimate Jubre Talisman": {
@@ -54468,23 +54459,23 @@ var BDOdatabase = {
                         "17": {
                             "ap_min": 26,
                             "ap_max": 28,
-                            "dp": 2,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 31,
                             "ap_max": 33,
-                            "dp": 3,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 33,
                             "ap_max": 35,
-                            "dp": 4,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 35,
                             "ap_max": 37,
-                            "dp": 5,
-                        },
+                            "dp": 5
+                        }
                     }
                 },
                 "Helrick Talisman": {
@@ -62102,7 +62093,7 @@ var BDOdatabase = {
                         "20": {
                             "ap_min": 40,
                             "ap_max": 40
-                        },
+                        }
                     }
                 },
                 "White Horn Warrior Bow": {
@@ -68130,63 +68121,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -68222,55 +68213,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -68314,55 +68305,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -68404,55 +68395,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -68498,63 +68489,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -68590,55 +68581,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -68682,55 +68673,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -68772,55 +68763,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -68866,63 +68857,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -68958,55 +68949,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -69050,55 +69041,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -69140,55 +69131,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -69234,63 +69225,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -69326,55 +69317,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -69418,55 +69409,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -69508,55 +69499,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -69602,63 +69593,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -69694,55 +69685,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -69786,55 +69777,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -69876,55 +69867,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -69970,63 +69961,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -70062,55 +70053,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -70154,55 +70145,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -70244,55 +70235,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -70338,63 +70329,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -70430,55 +70421,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -70522,55 +70513,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -70612,55 +70603,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -70706,63 +70697,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -70798,55 +70789,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -70890,55 +70881,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -70980,55 +70971,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -71074,63 +71065,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -71166,55 +71157,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -71258,55 +71249,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -71348,55 +71339,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -71442,63 +71433,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -71534,55 +71525,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -71626,55 +71617,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -71717,55 +71708,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -71811,63 +71802,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -71903,55 +71894,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -71995,55 +71986,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -72085,55 +72076,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,
@@ -72179,63 +72170,63 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 15,
-                            "ap_max": 24,
+                            "ap_max": 24
                         },
                         "2": {
                             "ap_min": 18,
-                            "ap_max": 27,
+                            "ap_max": 27
                         },
                         "3": {
                             "ap_min": 21,
-                            "ap_max": 30,
+                            "ap_max": 30
                         },
                         "4": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "5": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "6": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "7": {
                             "ap_min": 31,
-                            "ap_max": 40,
+                            "ap_max": 40
                         },
                         "8": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "9": {
                             "ap_min": 39,
-                            "ap_max": 48,
+                            "ap_max": 48
                         },
                         "10": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "11": {
                             "ap_min": 47,
-                            "ap_max": 56,
+                            "ap_max": 56
                         },
                         "12": {
                             "ap_min": 51,
-                            "ap_max": 60,
+                            "ap_max": 60
                         },
                         "13": {
                             "ap_min": 55,
-                            "ap_max": 64,
+                            "ap_max": 64
                         },
                         "14": {
                             "ap_min": 59,
-                            "ap_max": 68,
+                            "ap_max": 68
                         },
                         "15": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "16": {
                             "ap_min": 71,
@@ -72271,55 +72262,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 20,
-                            "ap_max": 29,
+                            "ap_max": 29
                         },
                         "2": {
                             "ap_min": 23,
-                            "ap_max": 32,
+                            "ap_max": 32
                         },
                         "3": {
                             "ap_min": 26,
-                            "ap_max": 35,
+                            "ap_max": 35
                         },
                         "4": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "5": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "6": {
                             "ap_min": 33,
-                            "ap_max": 42,
+                            "ap_max": 42
                         },
                         "7": {
                             "ap_min": 36,
-                            "ap_max": 45,
+                            "ap_max": 45
                         },
                         "8": {
                             "ap_min": 40,
-                            "ap_max": 49,
+                            "ap_max": 49
                         },
                         "9": {
                             "ap_min": 44,
-                            "ap_max": 53,
+                            "ap_max": 53
                         },
                         "10": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "11": {
                             "ap_min": 52,
-                            "ap_max": 61,
+                            "ap_max": 61
                         },
                         "12": {
                             "ap_min": 56,
-                            "ap_max": 65,
+                            "ap_max": 65
                         },
                         "13": {
                             "ap_min": 60,
-                            "ap_max": 69,
+                            "ap_max": 69
                         },
                         "14": {
                             "ap_min": 64,
@@ -72363,55 +72354,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 42,
-                            "ap_max": 51,
+                            "ap_max": 51
                         },
                         "9": {
                             "ap_min": 46,
-                            "ap_max": 55,
+                            "ap_max": 55
                         },
                         "10": {
                             "ap_min": 50,
-                            "ap_max": 59,
+                            "ap_max": 59
                         },
                         "11": {
                             "ap_min": 54,
-                            "ap_max": 63,
+                            "ap_max": 63
                         },
                         "12": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "13": {
                             "ap_min": 62,
-                            "ap_max": 71,
+                            "ap_max": 71
                         },
                         "14": {
                             "ap_min": 66,
@@ -72453,55 +72444,55 @@ var BDOdatabase = {
                     "enhancement": {
                         "1": {
                             "ap_min": 22,
-                            "ap_max": 31,
+                            "ap_max": 31
                         },
                         "2": {
                             "ap_min": 25,
-                            "ap_max": 34,
+                            "ap_max": 34
                         },
                         "3": {
                             "ap_min": 28,
-                            "ap_max": 37,
+                            "ap_max": 37
                         },
                         "4": {
                             "ap_min": 30,
-                            "ap_max": 39,
+                            "ap_max": 39
                         },
                         "5": {
                             "ap_min": 32,
-                            "ap_max": 41,
+                            "ap_max": 41
                         },
                         "6": {
                             "ap_min": 35,
-                            "ap_max": 44,
+                            "ap_max": 44
                         },
                         "7": {
                             "ap_min": 38,
-                            "ap_max": 47,
+                            "ap_max": 47
                         },
                         "8": {
                             "ap_min": 43,
-                            "ap_max": 52,
+                            "ap_max": 52
                         },
                         "9": {
                             "ap_min": 48,
-                            "ap_max": 57,
+                            "ap_max": 57
                         },
                         "10": {
                             "ap_min": 53,
-                            "ap_max": 62,
+                            "ap_max": 62
                         },
                         "11": {
                             "ap_min": 58,
-                            "ap_max": 67,
+                            "ap_max": 67
                         },
                         "12": {
                             "ap_min": 63,
-                            "ap_max": 72,
+                            "ap_max": 72
                         },
                         "13": {
                             "ap_min": 68,
-                            "ap_max": 77,
+                            "ap_max": 77
                         },
                         "14": {
                             "ap_min": 73,

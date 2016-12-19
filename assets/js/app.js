@@ -1,16 +1,7 @@
 /*
-* @Author: SirMrE
-* @http: http://www.sirmre.com/bdo-calculator
-* @Copyright: (c) 2016 Mark Eliasen
-* @license: May be freely distributed under the CC BY-NC 3.0 License
-*           (https://creativecommons.org/licenses/by-nc/3.0/)
-* @Date:   2016-04-07 20:53:22
-* @Last Modified by:   IHellMasker
-* @Last Modified time: 2016-12-13 10:32:00
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://shadowtrance.github.io/
 */
-
-/* global BDOdatabase, BDOcalculator */
-/* jshint -W038, unused: false, shadow: true */
 
 (function ($) {
     "use strict";
@@ -148,7 +139,7 @@
 
         var url = window.location.href.replace(window.location.search, "");
 
-        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + encodeURIComponent(JSON.stringify(save)));
+        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + /*encodeURIComponent(*/JSON.stringify(save)/*)*/);
     }
 
     function loadConfig(callback) {
@@ -834,6 +825,12 @@
             
             $('#updatenotes').modal();
         });
+        
+        $("#show-settings").on("click", function (e) {
+            e.preventDefault();
+            
+            $('#settingsscreen').modal();
+        });
 
         //Copy share link to clipboard / tooltip setup
         var cb = new Clipboard('#copy-button');
@@ -857,7 +854,7 @@
         /*
         Stat Breakdown Tooltip Handling
         */
-        $("[data-breakdown!=''][data-breakdown]").hover(function (e) {
+        $("body").on("mouseenter", "[data-breakdown!=''][data-breakdown]", function (e) {
             var offset = $(this).offset();
             var screenWidth = $(document).width();
             var width = $(this).outerWidth();
@@ -901,7 +898,7 @@
                     .html(stats.item_list[item].value + BDOdatabase.stats[stat_type].symbol)
                     .appendTo(li_base);
             }
-        }, function (e) {
+        }).on("mouseleave", "[data-breakdown!=''][data-breakdown]", function (e) {
             $("#stat-breakdown").hide();
         });
     });

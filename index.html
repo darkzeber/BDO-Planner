@@ -14,32 +14,22 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" integrity="sha384-Ht93LqjcTGHUlOarg7/xId0W82So5GT7HWRqFLNJsLvBf+4foNA0oe/lziqrR6Xd" crossorigin="anonymous">
 
         <!-- slider -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/css/bootstrap-slider.min.css" integrity="sha384-RsLk+rnzjDnOXKKpSx1pB7nQby1FD8+pzLynQols6S28LiwGrnpDcv716SMM03tH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/css/bootstrap-slider.min.css" integrity="sha256-ED+X7ZpkRd9HICSuh+Z4gDrQEr2O1WP3yU6uYsvcP2s=" crossorigin="anonymous" />
 
         <!-- bootstrap -->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-
+        
         <!-- The actual "app" css -->
         <link rel="stylesheet" type="text/css" href="assets/css/app.css">
     </head>
     <body>
-        <!--[if lt IE 9]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <!--
-                    <p>Mix and match gear and see the results.</p>
-
-                    <p>This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/tree/update" target="_blank">https://github.com/Shadowtrance/BDO-Gear-Calculator</a>.<br>Please see the <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/blob/update/README.md" target="_blank">README for details about outstanding features and data.</a> Click the <b>copy</b> button to copy your link to the clipboard.</p>
-                    
-                     <small>v. 0.3.4</small>
-        -->
-
         <div class="container">
             <div class="row">
                 <div class="col-md-24">
                     <h1 class="text-center">Black Desert Online Gear Calculator</h1>
-                    <div class="intro-text small text-center">By <a href="https://github.com/Shadowtrance">Shadowtrance</a>, <a href="https://github.com/Ihellmasker">Ihm</a> and previously MrEliasen &middot; <a href="#" id="show-update-notes">Show update notes</a></div>
+                    <div class="intro-text small text-center">
+                        By <a href="https://github.com/Shadowtrance">Shadowtrance</a>, <a href="https://github.com/Ihellmasker">Ihm</a> and previously MrEliasen &middot; <a href="#" id="show-update-notes">Show update notes</a> &middot; <a href="#" id="show-settings">Settings</a>
+                    </div>
                     <hr>
                 </div>
             </div>
@@ -240,15 +230,39 @@
                         <div class="row">
                             <div class="col-md-24">
                                 <div class="lead">
+                                    This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/tree/update" target="_blank">github.com/Shadowtrance/BDO-Gear-Calculator</a>.
                                 </div>
-                                <h1>New features</h1>
+                                <h1>New features <small>v. 0.3.4</small></h1>
                                 <ul>
-                                    <li>New Layout, stats on here will be a closer representation to what you see in-game</li>
+                                    <li><strong>New Layout</strong>, the layout resembles the in-game display a bit more, and now uses a dark theme.</li>
+                                    <li><strong>Stat breakdown tooltips</strong>, when hovering on a stat you will see which of your items are providing that stat.</li>
                                 </ul>
                                 <h1>Upcoming features</h1>
                                 <ul>
                                     <li>Add equipment tailoring coupon costumes</li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        <div id="settingsscreen" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Settings</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-xs-24">
+                                <p><input type="checkbox" /> Compact mode for armor popups</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -277,10 +291,10 @@
         <script src="assets/js/bootstrap.min.js"></script>
 
         <!-- slider -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/7.0.0/bootstrap-slider.min.js" integrity="sha384-cJO8+Tf29/+2gG4gFG4aEZTw8yqEOn0JpSPgYtU0Culv2r8k3H9B0y0nqH7AG4yi" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/bootstrap-slider.js" integrity="sha256-zYweu1PnpU4Mxf4kh7g0fcXqgl4dCoTGVl97XBO2YhA=" crossorigin="anonymous"></script>
 
         <!-- clipboard -->
-        <script src="assets/js/clipboard.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.16/clipboard.min.js" integrity="sha384-RVvxof79LCL9tC4gVje4DE8jfuW3HJ1gdU60KYrw2wB4WfRUEWj7TErsKSSP/hei" crossorigin="anonymous"></script>
 
         <!-- The actual "app" js -->
         <script type="text/javascript" src="assets/js/bdo_database.js"></script>

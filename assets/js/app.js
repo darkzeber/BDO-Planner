@@ -12,7 +12,7 @@
         current_item_no = null,
         current_modal = null;
         
-    $('[data-toggle="tooltip"]').tooltip(); // Enable tooltips
+    $(':not(.disabled)[data-toggle="tooltip"]').tooltip(); // Enable tooltips
 
     // Original from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
     function getParameterByName(name) {
@@ -135,6 +135,7 @@
                     getGemType("secondary-weapon","2")
                 ]
             ]
+            // Ihm todo: Need to add saving for Outfits and stuff
         ];
 
         var url = window.location.href.replace(window.location.search, "");
@@ -247,7 +248,7 @@
         callback(true);
     }
 
-    function getEnhancementMax (itemObj) {
+    function getEnhancementMax(itemObj) {
         var enhancement_levels = Object.keys(itemObj.enhancement).length;
 
         if (enhancement_levels > 0) {
@@ -265,7 +266,7 @@
         });
     }
 
-    function resetGearslotItem (item_type, item_no) {
+    function resetGearslotItem(item_type, item_no) {
         $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
             'style': '',
             'title': "Empty"
@@ -276,7 +277,7 @@
         }).tooltip('fixTitle').hide();
     }
 
-    function setGearslotItem (item, item_type, item_no, item_name, item_itemset, level) {
+    function setGearslotItem(item, item_type, item_no, item_name, item_itemset, level) {
         item_no = (typeof item_no === "undefined" ? "undefined" : item_no);
 
         if (item_itemset !== "gems") {
@@ -611,8 +612,7 @@
     $(document).ready(function() {
         loadConfig(function(loaded) {
             if (loaded) {
-                $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").removeClass("faded").addClass("selected");
-                $(".class_cell .class_title[id='" + ucWords(player_class) + "']").removeClass("faded").addClass("selected");
+                $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").closest(".class_img").removeClass("faded").addClass("selected");
                 BDOcalculator.calculate();
                 saveConfig();
 
@@ -622,13 +622,12 @@
 
         // when a user selects a class, we initiate the equipment dropdowns based on class.
         $("figure.class_img").on("click", function() {
+            if ($(this).hasClass("disabled")) return;
             player_class = $(this).children("img").attr("data-value").toLowerCase();
             //Set all icons to faded and this one to selected
-            $(".class_cell .class_icon").removeClass("selected").addClass("faded");
-            $(".class_cell .class_title").removeClass("selected").addClass("faded");
+            $(".class_cell .class_img").removeClass("selected").addClass("faded");
 
-            $(this).children("img").removeClass("faded").addClass("selected");
-            $(this).children("figcaption").removeClass("faded").addClass("selected");
+            $(this).removeClass("faded").addClass("selected");
 
             BDOcalculator.init();
             BDOcalculator.calculate();
@@ -690,6 +689,7 @@
         });
 
         $("#equipment .gear-slot").click(function() {
+            if ($(this).hasClass("disabled")) return;
             current_item_type = $(this).attr('data-type');
             current_item_itemset = $(this).attr('data-itemset');
             current_item_no = $(this).attr('data-item');

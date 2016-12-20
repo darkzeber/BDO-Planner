@@ -139,6 +139,37 @@ var BDOcalculator = {
                 "enhancement": 0,
                 "item_name": "",
                 "item": {}
+            },
+            // Ihm todo: Need to work out how these will work properly before adding any items...
+            "outfit": {
+                "item_name": "",
+                "item": {},
+                "gems": {
+                    "1": {
+                        "gem_name": "",
+                        "gem": {}
+                    }
+                }
+            },
+            "main-weapon-outfit": {
+                "item_name": "",
+                "item": {}
+            },
+            "awakening-weapon-outfit": {
+                "item_name": "",
+                "item": {}
+            },
+            "secondary-weapon-outfit": {
+                "item_name": "",
+                "item": {}
+            },
+            "underwear": {
+                "item_name": "",
+                "item": {}
+            },
+            "alchemy-stone": {
+                "item_name": "",
+                "item": {}
             }
         };
 

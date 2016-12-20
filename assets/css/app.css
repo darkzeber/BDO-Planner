@@ -255,6 +255,59 @@ div.enhancement {
     margin-left: 82px;
 }
 
+#equipment .outfit {
+    top: 70px;
+    left: 50%;
+    margin-left: -49px;
+    background: url("../images/48/none.png") no-repeat center center;
+}
+
+#equipment .gem-slot.outfit1 {
+    top: 70px;
+    left: 50%;
+    margin-left: 19px;
+}
+
+#equipment .main-weapon-outfit {
+    top: 213px;
+    left: 50%;
+    margin-left: -112px;
+    background: url("../images/48/none.png") no-repeat center center;
+}
+
+#equipment .awakening-weapon-outfit {
+    top: 284px;
+    left: 50%;
+    margin-left: -66px;
+    background: url("../images/48/none.png") no-repeat center center;
+}
+
+#equipment .secondary-weapon-outfit {
+    top: 213px;
+    left: 50%;
+    margin-left: 48px;
+    background: url("../images/48/none.png") no-repeat center center;
+}
+
+#equipment .underwear {
+    top: 284px;
+    left: 50%;
+    margin-left: 4px;
+    background: url("../images/48/none.png") no-repeat center center;
+}
+
+#equipment .alchemy-stone {
+    top: 176px;
+    left: 50%;
+    margin-left: -32px;
+    background: url("../images/48/none.png") no-repeat center center;
+}
+
+#equipment .gear-slot.disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
 #equipment .stat-ap,
 #equipment .stat-awk-ap,
 #equipment .stat-dp {
@@ -392,10 +445,6 @@ div.enhancement {
     display: block;
 }
 
-.class_img:hover .class_icon, .class_img:hover .class_title {
-    opacity: 1.0;
-}
-
 .class_img { 
     position: relative;
     display: inline-block;
@@ -405,15 +454,22 @@ div.enhancement {
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+.class_img.disabled, .class_img.disabled:hover {
+    cursor: not-allowed;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
 .class_icon {
     height: 70px;
     width: 70px;
     padding: 10px;
+    transition: opacity 0.2s;
 }
-.class_icon.faded {
+.class_img.faded .class_icon {
     opacity: 0.4;
 }
-.class_icon.selected {
+.class_img.selected .class_icon {
     opacity: 1.0;
     background: rgba(159, 135, 114, 0.3);
     padding: 10px;
@@ -429,8 +485,12 @@ div.enhancement {
     background-color: rgba(0,0,0, 0.7);
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-.class_title.selected {
+.class_img.selected .class_title {
     color: #e7d583;
+}
+
+.class_img:hover .class_icon, .class_img:hover .class_title {
+    opacity: 1.0 !important;
 }
 
 #gear-list {

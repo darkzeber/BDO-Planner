@@ -622,7 +622,8 @@ var BDOdatabase = {
         "Musa",
         "Maehwa",
         "Ninja",
-        "Kunoichi"
+        "Kunoichi",
+        "DarkKnight"
     ],
     "class_weapons": {
         "berserker": {
@@ -684,6 +685,11 @@ var BDOdatabase = {
             "main-weapon": "Shortsword",
             "secondary-weapon": "Kunai",
             "awakening-weapon": "Sah Chakram"
+        },
+        "darkknight": {
+            "main-weapon": "Spellblade",
+            "secondary-weapon": "Sword Knot",
+            "awakening-weapon": "none"
         }
     },
     "set_effects": {
@@ -47570,10 +47576,104 @@ var BDOdatabase = {
                         }
                     }
                 }
+            },
+            "darkknight" : {
+                "Spellsword Test": {
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "as": 3
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "9": {
+                            "ap_min": 48,
+                            "ap_max": 52
+                        },
+                        "10": {
+                            "ap_min": 53,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "12": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 68,
+                            "ap_max": 72
+                        },
+                        "14": {
+                            "ap_min": 73,
+                            "ap_max": 77
+                        },
+                        "15": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "16": {
+                            "ap_min": 86,
+                            "ap_max": 90
+                        },
+                        "17": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "18": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        },
+                        "19": {
+                            "ap_min": 114,
+                            "ap_max": 118
+                        },
+                        "20": {
+                            "ap_min": 122,
+                            "ap_max": 126
+                        }
+                    }
+                }
             }
         },
         "secondary-weapons": {
-            "berserker" :{
+            "berserker": {
                 "Theos Ornamental Knot": {
                     "id": 10705,
                     "set": "Theos",
@@ -73156,6 +73256,7 @@ var BDOdatabase = {
         this.items["secondary-weapons"].witch = this.items["secondary-weapons"].ranger;
         this.items["secondary-weapons"].wizard = this.items["secondary-weapons"].ranger;
         this.items["secondary-weapons"].maehwa = this.items["secondary-weapons"].musa;
+        this.items["secondary-weapons"].darkknight = this.items["secondary-weapons"].berserker;
     }
 };
 

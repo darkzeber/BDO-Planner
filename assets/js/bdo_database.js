@@ -892,6 +892,7 @@ var BDOdatabase = {
     "gems": {
         "all": {
             "Magic Crystal of Abundance - Armor": {
+                "id": 15006,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -900,6 +901,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Armor": {
+                "id": 15106,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -908,6 +910,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Perfection": {
+                "id": 15021,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -918,6 +921,7 @@ var BDOdatabase = {
         },
         "shoes" : {
             "Magic Crystal of Nature - Adamantine": {
+                "id": 15012,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -926,6 +930,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Nature - Ascension": {
+                "id": 15013,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -934,6 +939,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Nature - Energy": {
+                "id": 15028,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -942,6 +948,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Nature - Falling": {
+                "id": 15027,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -950,6 +957,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Nature - Swiftness": {
+                "id": 15011,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -958,6 +966,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Adamantine": {
+                "id": 15112,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -966,6 +975,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Ascension": {
+                "id": 15113,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -974,6 +984,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Energy (Stamina)": {
+                "id": 15115,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -982,6 +993,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Energy": {
+                "id": 15146,
                 "rarity": "rare",
                 "shatter_chance": "very high",
                 "incompatible": [],
@@ -990,6 +1002,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Falling": {
+                "id": 15114,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -998,6 +1011,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Submergence": {
+                "id": 15147,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1006,6 +1020,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Swiftness": {
+                "id": 15111,
                 "rarity": "rare",
                 "shatter_chance": "very high",
                 "incompatible": [],
@@ -1014,6 +1029,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Adamantine": {
+                "id": 15212,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1023,6 +1039,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Ascension": {
+                "id": 15213,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1032,6 +1049,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Energy": {
+                "id": 15215,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1040,6 +1058,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Falling": {
+                "id": 15214,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1049,6 +1068,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Swiftness": {
+                "id": 15211,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1058,6 +1078,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal of Nature - Adamantine": {
+                "id": 15616,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1066,6 +1087,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Hystria": {
+                "id": 15604,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1075,6 +1097,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Hystria": {
+                "id": 15631,
                 "rarity": "legendary",
                 "shatter_chance": "",
                 "incompatible": [],
@@ -1085,6 +1108,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Adamantine": {
+                "id": 15640,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1094,6 +1118,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Hystria": {
+                "id": 15637,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1106,6 +1131,7 @@ var BDOdatabase = {
         },
         "gloves": {
             "Magic Crystal of the Sun - Assault": {
+                "id": 15014,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1114,6 +1140,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of the Sun - Boulder": {
+                "id": 15030,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1122,6 +1149,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of the Sun - Precision": {
+                "id": 15029,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1130,6 +1158,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of the Sun - Sturdiness": {
+                "id": 15015,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1138,6 +1167,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of the Sun - Valor": {
+                "id": 15016,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1146,6 +1176,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Assault": {
+                "id": 15116,
                 "rarity": "rare",
                 "shatter_chance": "very high",
                 "incompatible": [],
@@ -1154,6 +1185,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Magic Attack": {
+                "id": 15150,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1162,6 +1194,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Melee Attack": {
+                "id": 15148,
                 "rarity": "rare",
                 "shatter_chance": "very high",
                 "incompatible": [],
@@ -1170,6 +1203,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Precision": {
+                "id": 15119,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1178,6 +1212,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Ranged Attack": {
+                "id": 15149,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1186,6 +1221,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Strength": {
+                "id": 15120,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1194,6 +1230,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Sturdiness": {
+                "id": 15117,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1202,6 +1239,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Valor": {
+                "id": 15118,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1210,6 +1248,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Assault": {
+                "id": 15216,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1219,6 +1258,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Precision": {
+                "id": 15012,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1228,6 +1268,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Sturdiness": {
+                "id": 15217,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1237,6 +1278,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Valor": {
+                "id": 15218,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1246,6 +1288,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Viper": {
+                "id": 15603,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1255,6 +1298,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Viper": {
+                "id": 15630,
                 "rarity": "legendary",
                 "shatter_chance": "",
                 "incompatible": [],
@@ -1265,6 +1309,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Viper": {
+                "id": 15636,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1277,6 +1322,7 @@ var BDOdatabase = {
         },
         "armor": {
             "Magic Crystal of Abundance - Healing": {
+                "id": 15009,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1285,6 +1331,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Abundance - Patience": {
+                "id": 15008,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1293,6 +1340,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Abundance - Resonance": {
+                "id": 15010,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1303,6 +1351,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Abundance - Vigor": {
+                "id": 15007,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1311,6 +1360,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Evasion": {
+                "id": 15136,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1319,6 +1369,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Heal": {
+                "id": 15109,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1327,6 +1378,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Magic Defense": {
+                "id": 15139,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1335,6 +1387,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Melee Defense": {
+                "id": 15137,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1343,6 +1396,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Patience": {
+                "id": 15108,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1351,6 +1405,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Ranged Defense": {
+                "id": 15138,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1359,6 +1414,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Resonance": {
+                "id": 15110,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1369,6 +1425,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Siege": {
+                "id": 15135,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1377,6 +1434,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Vigor": {
+                "id": 15107,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1385,6 +1443,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Healing": {
+                "id": 15613,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1394,6 +1453,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal of Abundance - Armor": {
+                "id": 15610,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1402,6 +1462,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal of Abundance - Patience": {
+                "id": 15612,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1410,6 +1471,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal of Abundance - Resonance": {
+                "id": 15614,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1422,6 +1484,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal of Abundance - Vigor": {
+                "id": 15611,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1430,6 +1493,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Armor": {
+                "id": 15206,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1439,6 +1503,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Cobelinus": {
+                "id": 15629,
                 "rarity": "legendary",
                 "shatter_chance": "",
                 "incompatible": [],
@@ -1449,6 +1514,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Vigor": {
+                "id": 15207,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1458,6 +1524,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Cobelinus": {
+                "id": 15602,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1467,6 +1534,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Comeliness": {
+                "id": 15635,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1479,6 +1547,7 @@ var BDOdatabase = {
         },
         "helmet": {
             "Magic Crystal of Enchantment - Agility": {
+                "id": 15020,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1487,6 +1556,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Enchantment - Experience": {
+                "id": 15031,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1495,6 +1565,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Enchantment - Intimidation": {
+                "id": 15018,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1503,6 +1574,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Enchantment - Memory": {
+                "id": 15017,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1511,6 +1583,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Enchantment - Vision": {
+                "id": 15019,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1519,6 +1592,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Agility": {
+                "id": 15124,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1527,6 +1601,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Experience": {
+                "id": 15125,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1535,6 +1610,7 @@ var BDOdatabase = {
                 }
             },
             "Caphras's Crystal - Adventure": {
+                "id": 15851,
                 "rarity": "legendary",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1545,6 +1621,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Intimidation": {
+                "id": 15122,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1553,6 +1630,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Memory": {
+                "id": 15121,
                 "rarity": "rare",
                 "shatter_chance": "very high",
                 "incompatible": [],
@@ -1561,6 +1639,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Vision": {
+                "id": 15123,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1569,6 +1648,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal of Enchantment - Agility": {
+                "id": 15624,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1577,6 +1657,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Agility": {
+                "id": 15224,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1586,6 +1667,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Intimidation": {
+                "id": 15222,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1595,6 +1677,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Memory": {
+                "id": 15221,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1604,6 +1687,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Vision": {
+                "id": 15223,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1613,6 +1697,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Harphia": {
+                "id": 15601,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1622,6 +1707,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Harphia": {
+                "id": 15628,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1632,6 +1718,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Harphia": {
+                "id": 15634,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1644,6 +1731,7 @@ var BDOdatabase = {
         },
         "secondary-weapon" : {
             "Magic Crystal of Infinity - Air Attack": {
+                "id": 15131,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1652,6 +1740,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Back Attack": {
+                "id": 15129,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1660,6 +1749,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Counter Attack": {
+                "id": 15134,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1668,6 +1758,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Critical": {
+                "id": 15132,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1676,6 +1767,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Down Attack": {
+                "id": 15130,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1684,6 +1776,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Ignore Grapple Resistance": {
+                "id": 15153,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1692,6 +1785,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Ignore Knockback Resistance": {
+                "id": 15151,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1700,6 +1794,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Ignore Knockdown Resistance": {
+                "id": 15152,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1708,6 +1803,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Ignore Stun Resistance": {
+                "id": 15154,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1716,6 +1812,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Speed Attack": {
+                "id": 15133,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1724,6 +1821,7 @@ var BDOdatabase = {
                 }
             },
             "Awakened Spirit's Crystal": {
+                "id": 15627,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1733,6 +1831,7 @@ var BDOdatabase = {
                 }
             },
             "Black Spirit Crystal": {
+                "id": 15626,
                 "rarity": "legendary",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1742,6 +1841,7 @@ var BDOdatabase = {
                 }
             },
             "Red Spirit Crystal": {
+                "id": 15633,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1754,6 +1854,7 @@ var BDOdatabase = {
         },
         "main-weapon": {
             "Magic Crystal of Crimson Flame - Precision": {
+                "id": 15001,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1762,6 +1863,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Crimson Flame - Power": {
+                "id": 15002,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1770,6 +1872,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Crimson Flame - Carnage (Demihumans)": {
+                "id": 15003,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1778,6 +1881,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Crimson Flame - Carnage (Humans)": {
+                "id": 15004,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1786,6 +1890,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Crimson Flame - Carnage (Beasts)": {
+                "id": 15005,
                 "rarity": "uncommon",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1794,6 +1899,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Absorption": {
+                "id": 15127,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1802,6 +1908,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Carnage (Demihumans)": {
+                "id": 15103,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1810,6 +1917,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Carnage (Humans)": {
+                "id": 15104,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1818,6 +1926,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Carnage (Beasts)": {
+                "id": 15105,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1826,6 +1935,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Durability": {
+                "id": 15126,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1834,6 +1944,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Extraction": {
+                "id": 15128,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1842,6 +1953,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Power": {
+                "id": 15102,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1850,6 +1962,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal of Infinity - Precision": {
+                "id": 15101,
                 "rarity": "rare",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1858,6 +1971,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal of Crimson Flame - Power": {
+                "id": 15606,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1866,6 +1980,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Precision": {
+                "id": 15201,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -1875,6 +1990,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal - Agony": {
+                "id": 15026,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1884,6 +2000,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal - Crimson Flame": {
+                "id": 15022,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [
@@ -1894,6 +2011,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal - Destruction": {
+                "id": 15024,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1902,6 +2020,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal - Enchantment": {
+                "id": 15023,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1910,6 +2029,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal - Meditation": {
+                "id": 15032,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1919,6 +2039,7 @@ var BDOdatabase = {
                 }
             },
             "Magic Crystal - Temptation": {
+                "id": 15025,
                 "rarity": "epic",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1928,6 +2049,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Addis": {
+                "id": 15649,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1937,6 +2059,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Carmae": {
+                "id": 15605,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1946,6 +2069,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Crimson Flame": {
+                "id": 15501,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1954,6 +2078,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Destruction": {
+                "id": 15503,
                 "rarity": "legendary",
                 "shatter_chance": "very low",
                 "incompatible": [],
@@ -1962,6 +2087,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Enchantment": {
+                "id": 15502,
                 "rarity": "legendary",
                 "shatter_chance": "very low",
                 "incompatible": [],
@@ -1970,6 +2096,7 @@ var BDOdatabase = {
                 }
             },
             "Ancient Magic Crystal - Temptation": {
+                "id": 15504,
                 "rarity": "legendary",
                 "shatter_chance": "very low",
                 "incompatible": [],
@@ -1979,6 +2106,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Carmae": {
+                "id": 15632,
                 "rarity": "legendary",
                 "shatter_chance": "low",
                 "incompatible": [],
@@ -1989,6 +2117,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Carmae": {
+                "id": 15638,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -1999,6 +2128,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Addis": {
+                "id": 15651,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -2009,6 +2139,7 @@ var BDOdatabase = {
                 }
             },
             "Red Battlefield Crystal: Power": {
+                "id": 15639,
                 "rarity": "legendary",
                 "shatter_chance": "might",
                 "incompatible": [],
@@ -2095,6 +2226,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Helmet of Agility": {
+                "id": 10829,
                 "set": "Agerian",
                 "dp": 4,
                 "rarity": "rare",
@@ -2168,6 +2300,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Helmet of Intimidation": {
+                "id": 10833,
                 "set": "Agerian",
                 "dp": 4,
                 "rarity": "rare",
@@ -2241,6 +2374,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Helmet of Iron Wall": {
+                "id": 10825,
                 "set": "Agerian",
                 "dp": 4,
                 "rarity": "rare",
@@ -2314,6 +2448,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Agerian Helmet": {
+                "id": 10837,
                 "set": "Agerian",
                 "dp": 9,
                 "rarity": "epic",
@@ -2387,6 +2522,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Helmet": {
+                "id": 10933,
                 "set": "Grunil",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -2457,6 +2593,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Helmet of Agility": {
+                "id": 10945,
                 "set": "Grunil",
                 "dp": 3,
                 "rarity": "rare",
@@ -2529,6 +2666,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Helmet of Intimidation": {
+                "id": 10949,
                 "set": "Grunil",
                 "dp": 3,
                 "rarity": "rare",
@@ -2601,6 +2739,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Helmet of Iron Wall": {
+                "id": 10941,
                 "set": "Grunil",
                 "dp": 3,
                 "rarity": "rare",
@@ -2746,6 +2885,7 @@ var BDOdatabase = {
                 }
             },
             "Helmet of Hercules\' Might": {
+                "id": 11001,
                 "set": "Hercules\' Might",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -2816,6 +2956,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Helmet of Hercules\' Might": {
+                "id": 11022,
                 "set": "Hercules\' Might",
                 "dp": 3,
                 "rarity": "rare",
@@ -2888,6 +3029,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Helmet of Hercules\' Might": {
+                "id": 11026,
                 "set": "Hercules\' Might",
                 "dp": 3,
                 "rarity": "rare",
@@ -2960,6 +3102,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Helmet of Hercules\' Might": {
+                "id": 11018,
                 "set": "Hercules\' Might",
                 "dp": 3,
                 "rarity": "rare",
@@ -3032,6 +3175,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Helmet of Hercules\' Might": {
+                "id": 11030,
                 "set": "Hercules\' Might",
                 "dp": 8,
                 "rarity": "epic",
@@ -3104,6 +3248,7 @@ var BDOdatabase = {
                 }
             },
             "Luck Helmet of Fortuna": {
+                "id": 11009,
                 "set": "Luck of Fortuna",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -3174,6 +3319,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Luck Helmet of Fortuna": {
+                "id": 11054,
                 "set": "Luck of Fortuna",
                 "dp": 3,
                 "rarity": "rare",
@@ -3246,6 +3392,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Luck Helmet of Fortuna": {
+                "id": 11058,
                 "set": "Luck of Fortuna",
                 "dp": 3,
                 "rarity": "rare",
@@ -3318,6 +3465,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Luck Helmet of Fortuna": {
+                "id": 11050,
                 "set": "Luck of Fortuna",
                 "dp": 3,
                 "rarity": "rare",
@@ -3390,6 +3538,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Luck Helmet of Fortuna": {
+                "id": 11062,
                 "set": "Luck of Fortuna",
                 "dp": 8,
                 "rarity": "epic",
@@ -3462,6 +3611,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Helmet": {
+                "id": 10937,
                 "set": "Rocaba",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -3532,6 +3682,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Helmet of Agility": {
+                "id": 10969,
                 "set": "Rocaba",
                 "dp": 3,
                 "rarity": "rare",
@@ -3604,6 +3755,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Helmet of Intimidation": {
+                "id": 10973,
                 "set": "Rocaba",
                 "dp": 3,
                 "rarity": "rare",
@@ -3676,6 +3828,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Helmet of Iron Wall": {
+                "id": 10965,
                 "set": "Rocaba",
                 "dp": 3,
                 "rarity": "rare",
@@ -3748,6 +3901,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Rocaba Helmet": {
+                "id": 10985,
                 "set": "Rocaba",
                 "dp": 8,
                 "rarity": "epic",
@@ -3820,6 +3974,7 @@ var BDOdatabase = {
                 }
             },
             "Strength Helmet of Heve": {
+                "id": 11005,
                 "set": "Strength of Heve",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -3890,6 +4045,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Strength Helmet of Heve": {
+                "id": 11038,
                 "set": "Strength of Heve",
                 "dp": 3,
                 "rarity": "rare",
@@ -3962,6 +4118,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Strength Helmet of Heve": {
+                "id": 11042,
                 "set": "Strength of Heve",
                 "dp": 3,
                 "rarity": "rare",
@@ -4034,6 +4191,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Strength Helmet of Heve": {
+                "id": 11034,
                 "set": "Strength of Heve",
                 "dp": 3,
                 "rarity": "rare",
@@ -4106,6 +4264,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Strength Helmet of Heve": {
+                "id": 11046,
                 "set": "Strength of Heve",
                 "dp": 8,
                 "rarity": "epic",
@@ -4178,6 +4337,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Helmet": {
+                "id": 10821,
                 "set": "Talis",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -4250,6 +4410,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Helmet of Agility": {
+                "id": 10877,
                 "set": "Talis",
                 "dp": 3,
                 "rarity": "rare",
@@ -4323,6 +4484,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Helmet of Intimidation": {
+                "id": 10881,
                 "set": "Talis",
                 "dp": 3,
                 "rarity": "rare",
@@ -4396,6 +4558,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Helmet of Iron Wall": {
+                "id": 10873,
                 "set": "Talis",
                 "dp": 3,
                 "rarity": "rare",
@@ -4469,6 +4632,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Talis Helmet": {
+                "id": 10885,
                 "set": "Talis",
                 "dp": 8,
                 "rarity": "epic",
@@ -4542,6 +4706,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Helmet": {
+                "id": 10813,
                 "set": "Taritas",
                 "dp": 5,
                 "rarity": "uncommon",
@@ -4614,6 +4779,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Helmet of Agility": {
+                "id": 10845,
                 "set": "Taritas",
                 "dp": 5,
                 "rarity": "rare",
@@ -4687,6 +4853,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Helmet of Intimidation": {
+                "id": 10849,
                 "set": "Taritas",
                 "dp": 5,
                 "rarity": "rare",
@@ -4760,6 +4927,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Helmet of Iron Wall": {
+                "id": 10841,
                 "set": "Taritas",
                 "dp": 5,
                 "rarity": "rare",
@@ -4833,6 +5001,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Taritas Helmet": {
+                "id": 10853,
                 "set": "Taritas",
                 "dp": 10,
                 "rarity": "epic",
@@ -4906,6 +5075,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Helmet": {
+                "id": 14101,
                 "set": "Steel Taritas",
                 "dp": 5,
                 "rarity": "uncommon",
@@ -4978,6 +5148,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Helmet of Agility": {
+                "id": 14109,
                 "set": "Steel Taritas",
                 "dp": 5,
                 "rarity": "rare",
@@ -5051,6 +5222,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Helmet of Intimidation": {
+                "id": 14113,
                 "set": "Steel Taritas",
                 "dp": 5,
                 "rarity": "rare",
@@ -5124,6 +5296,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Helmet of Iron Wall": {
+                "id": 14105,
                 "set": "Steel Taritas",
                 "dp": 5,
                 "rarity": "rare",
@@ -5197,6 +5370,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Steel Taritas Helmet": {
+                "id": 10833,
                 "set": "Steel Taritas",
                 "dp": 10,
                 "rarity": "epic",
@@ -5270,6 +5444,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Helmet": {
+                "id": 10817,
                 "set": "Zereth",
                 "dp": 5,
                 "rarity": "uncommon",
@@ -5342,6 +5517,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Helmet of Agility": {
+                "id": 10861,
                 "set": "Zereth",
                 "dp": 5,
                 "rarity": "rare",
@@ -5415,6 +5591,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Helmet of Intimidation": {
+                "id": 10865,
                 "set": "Zereth",
                 "dp": 5,
                 "rarity": "rare",
@@ -5488,6 +5665,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Helmet of Iron Wall": {
+                "id": 10857,
                 "set": "Zereth",
                 "dp": 5,
                 "rarity": "rare",
@@ -5561,6 +5739,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Zereth Helmet": {
+                "id": 10869,
                 "set": "Zereth",
                 "dp": 10,
                 "rarity": "epic",
@@ -5634,6 +5813,7 @@ var BDOdatabase = {
                 }
             },
             "Giath’s Helmet": {
+                "id": 11013,
                 "set": "Giath-Bheg-Muskan-RedNose",
                 "dp": 4,
                 "rarity": "epic",
@@ -5781,6 +5961,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Armor of Agility": {
+                "id": 10830,
                 "set": "Agerian",
                 "dp": 7,
                 "rarity": "rare",
@@ -5854,6 +6035,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Armor of Intimidation": {
+                "id": 10834,
                 "set": "Agerian",
                 "dp": 7,
                 "rarity": "rare",
@@ -5927,6 +6109,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Armor of Iron Wall": {
+                "id": 10826,
                 "set": "Agerian",
                 "dp": 7,
                 "rarity": "rare",
@@ -6000,6 +6183,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Agerian Armor": {
+                "id": 10838,
                 "set": "Agerian",
                 "dp": 12,
                 "rarity": "epic",
@@ -6073,6 +6257,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Armor": {
+                "id": 10934,
                 "set": "Grunil",
                 "dp": 6,
                 "rarity": "uncommon",
@@ -6144,6 +6329,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Armor of Agility": {
+                "id": 10946,
                 "set": "Grunil",
                 "dp": 6,
                 "rarity": "rare",
@@ -6216,6 +6402,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Armor of Intimidation": {
+                "id": 10950,
                 "set": "Grunil",
                 "dp": 6,
                 "rarity": "rare",
@@ -6288,6 +6475,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Armor of Iron Wall": {
+                "id": 10942,
                 "set": "Grunil",
                 "dp": 6,
                 "rarity": "rare",
@@ -6433,6 +6621,7 @@ var BDOdatabase = {
                 }
             },
             "Armor of Hercules\' Might": {
+                "id": 11002,
                 "set": "Hercules\' Might",
                 "dp": 6,
                 "rarity": "uncommon",
@@ -6503,6 +6692,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Armor of Hercules\' Might": {
+                "id": 11023,
                 "set": "Hercules\' Might",
                 "dp": 6,
                 "rarity": "rare",
@@ -6575,6 +6765,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Armor of Hercules\' Might": {
+                "id": 11027,
                 "set": "Hercules\' Might",
                 "dp": 6,
                 "rarity": "rare",
@@ -6647,6 +6838,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Armor of Hercules\' Might": {
+                "id": 11019,
                 "set": "Hercules\' Might",
                 "dp": 6,
                 "rarity": "rare",
@@ -6719,6 +6911,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Armor of Hercules\' Might": {
+                "id": 11031,
                 "set": "Hercules\' Might",
                 "dp": 11,
                 "rarity": "epic",
@@ -6791,6 +6984,7 @@ var BDOdatabase = {
                 }
             },
             "Luck Armor of Fortuna": {
+                "id": 11010,
                 "set": "Luck of Fortuna",
                 "dp": 6,
                 "rarity": "uncommon",
@@ -6861,6 +7055,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Luck Armor of Fortuna": {
+                "id": 11055,
                 "set": "Luck of Fortuna",
                 "dp": 6,
                 "rarity": "rare",
@@ -6933,6 +7128,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Luck Armor of Fortuna": {
+                "id": 11059,
                 "set": "Luck of Fortuna",
                 "dp": 6,
                 "rarity": "rare",
@@ -7005,6 +7201,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Luck Armor of Fortuna": {
+                "id": 11051,
                 "set": "Luck of Fortuna",
                 "dp": 6,
                 "rarity": "rare",
@@ -7077,6 +7274,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Luck Armor of Fortuna": {
+                "id": 11063,
                 "set": "Luck of Fortuna",
                 "dp": 11,
                 "rarity": "epic",
@@ -7149,6 +7347,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Armor": {
+                "id": 10938,
                 "set": "Rocaba",
                 "dp": 6,
                 "rarity": "uncommon",
@@ -7219,6 +7418,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Armor of Agility": {
+                "id": 10970,
                 "set": "Rocaba",
                 "dp": 6,
                 "rarity": "rare",
@@ -7291,6 +7491,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Armor of Intimidation": {
+                "id": 10974,
                 "set": "Rocaba",
                 "dp": 6,
                 "rarity": "rare",
@@ -7363,6 +7564,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Armor of Iron Wall": {
+                "id": 10966,
                 "set": "Rocaba",
                 "dp": 6,
                 "rarity": "rare",
@@ -7435,6 +7637,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Rocaba Armor": {
+                "id": 10986,
                 "set": "Rocaba",
                 "dp": 11,
                 "rarity": "epic",
@@ -7507,6 +7710,7 @@ var BDOdatabase = {
                 }
             },
             "Strength Armor of Heve": {
+                "id": 11006,
                 "set": "Strength of Heve",
                 "dp": 6,
                 "rarity": "uncommon",
@@ -7577,6 +7781,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Strength Armor of Heve": {
+                "id": 11039,
                 "set": "Strength of Heve",
                 "dp": 6,
                 "rarity": "rare",
@@ -7649,6 +7854,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Strength Armor of Heve": {
+                "id": 11043,
                 "set": "Strength of Heve",
                 "dp": 6,
                 "rarity": "rare",
@@ -7721,6 +7927,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Strength Armor of Heve": {
+                "id": 11035,
                 "set": "Strength of Heve",
                 "dp": 6,
                 "rarity": "rare",
@@ -7793,6 +8000,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Strength Armor of Heve": {
+                "id": 11047,
                 "set": "Strength of Heve",
                 "dp": 11,
                 "rarity": "epic",
@@ -7865,6 +8073,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Armor": {
+                "id": 10822,
                 "set": "Talis",
                 "dp": 6,
                 "rarity": "uncommon",
@@ -7939,6 +8148,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Armor of Agility": {
+                "id": 10878,
                 "set": "Talis",
                 "dp": 6,
                 "rarity": "rare",
@@ -8014,6 +8224,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Armor of Intimidation": {
+                "id": 10882,
                 "set": "Talis",
                 "dp": 6,
                 "rarity": "rare",
@@ -8089,6 +8300,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Armor of Iron Wall": {
+                "id": 10874,
                 "set": "Talis",
                 "dp": 6,
                 "rarity": "rare",
@@ -8164,6 +8376,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Talis Armor": {
+                "id": 10886,
                 "set": "Talis",
                 "dp": 11,
                 "rarity": "epic",
@@ -8239,6 +8452,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Armor": {
+                "id": 10814,
                 "set": "Taritas",
                 "dp": 8,
                 "rarity": "uncommon",
@@ -8312,6 +8526,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Armor of Agility": {
+                "id": 10846,
                 "set": "Taritas",
                 "dp": 8,
                 "rarity": "rare",
@@ -8386,6 +8601,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Armor of Intimidation": {
+                "id": 10850,
                 "set": "Taritas",
                 "dp": 8,
                 "rarity": "rare",
@@ -8460,6 +8676,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Armor of Iron Wall": {
+                "id": 10842,
                 "set": "Taritas",
                 "dp": 8,
                 "rarity": "rare",
@@ -8534,6 +8751,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Taritas Armor": {
+                "id": 10854,
                 "set": "Taritas",
                 "dp": 13,
                 "rarity": "epic",
@@ -8608,6 +8826,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Armor": {
+                "id": 14102,
                 "set": "Steel Taritas",
                 "dp": 8,
                 "rarity": "uncommon",
@@ -8681,6 +8900,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Armor of Agility": {
+                "id": 14110,
                 "set": "Steel Taritas",
                 "dp": 8,
                 "rarity": "rare",
@@ -8755,6 +8975,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Armor of Intimidation": {
+                "id": 14114,
                 "set": "Steel Taritas",
                 "dp": 8,
                 "rarity": "rare",
@@ -8829,6 +9050,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Armor of Iron Wall": {
+                "id": 14106,
                 "set": "Steel Taritas",
                 "dp": 8,
                 "rarity": "rare",
@@ -8903,6 +9125,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Steel Taritas Armor": {
+                "id": 14122,
                 "set": "Steel Taritas",
                 "dp": 13,
                 "rarity": "epic",
@@ -8977,6 +9200,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Armor": {
+                "id": 10818,
                 "set": "Zereth",
                 "dp": 8,
                 "rarity": "uncommon",
@@ -9050,6 +9274,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Armor of Agility": {
+                "id": 10862,
                 "set": "Zereth",
                 "dp": 8,
                 "rarity": "rare",
@@ -9124,6 +9349,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Armor of Intimidation": {
+                "id": 10866,
                 "set": "Zereth",
                 "dp": 8,
                 "rarity": "rare",
@@ -9198,6 +9424,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Armor of Iron Wall": {
+                "id": 10858,
                 "set": "Zereth",
                 "dp": 8,
                 "rarity": "rare",
@@ -9272,6 +9499,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Zereth Armor": {
+                "id": 10870,
                 "set": "Zereth",
                 "dp": 13,
                 "rarity": "epic",
@@ -9346,6 +9574,7 @@ var BDOdatabase = {
                 }
             },
             "Red Nose’s Armor": {
+                "id": 11014,
                 "set": "Giath-Bheg-Muskan-RedNose",
                 "dp": 6,
                 "rarity": "epic",
@@ -9419,6 +9648,7 @@ var BDOdatabase = {
                 }
             },
             "Hebetate Tree Spirit's Armor": {
+                "id": 11017,
                 "set": "Giath-Bheg-Muskan-RedNose",
                 "dp": 6,
                 "rarity": "epic",
@@ -9566,6 +9796,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Shoes of Agility": {
+                "id": 10832,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "rare",
@@ -9639,6 +9870,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Shoes of Intimidation": {
+                "id": 10836,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "rare",
@@ -9712,6 +9944,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Shoes of Iron Wall": {
+                "id": 10828,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "rare",
@@ -9785,6 +10018,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Agerian Shoes": {
+                "id": 10840,
                 "set": "Agerian",
                 "dp": 7,
                 "rarity": "epic",
@@ -9858,6 +10092,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Shoes": {
+                "id": 10936,
                 "set": "Grunil",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -9928,6 +10163,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Shoes of Agility": {
+                "id": 10948,
                 "set": "Grunil",
                 "dp": 1,
                 "rarity": "rare",
@@ -10000,6 +10236,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Shoes of Intimidation": {
+                "id": 10952,
                 "set": "Grunil",
                 "dp": 1,
                 "rarity": "rare",
@@ -10072,6 +10309,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Shoes of Iron Wall": {
+                "id": 10944,
                 "set": "Grunil",
                 "dp": 1,
                 "rarity": "rare",
@@ -10217,6 +10455,7 @@ var BDOdatabase = {
                 }
             },
             "Shoes of Hercules\' Might": {
+                "id": 11004,
                 "set": "Hercules\' Might",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -10287,6 +10526,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Shoes of Hercules\' Might": {
+                "id": 11025,
                 "set": "Hercules\' Might",
                 "dp": 1,
                 "rarity": "rare",
@@ -10359,6 +10599,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Shoes of Hercules\' Might": {
+                "id": 11029,
                 "set": "Hercules\' Might",
                 "dp": 1,
                 "rarity": "rare",
@@ -10431,6 +10672,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Shoes of Hercules\' Might": {
+                "id": 11021,
                 "set": "Hercules\' Might",
                 "dp": 1,
                 "rarity": "rare",
@@ -10503,6 +10745,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Shoes of Hercules\' Might": {
+                "id": 11033,
                 "set": "Hercules\' Might",
                 "dp": 6,
                 "rarity": "epic",
@@ -10575,6 +10818,7 @@ var BDOdatabase = {
                 }
             },
             "Luck Shoes of Fortuna": {
+                "id": 11012,
                 "set": "Luck of Fortuna",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -10645,6 +10889,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Luck Shoes of Fortuna": {
+                "id": 11057,
                 "set": "Luck of Fortuna",
                 "dp": 1,
                 "rarity": "rare",
@@ -10717,6 +10962,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Luck Shoes of Fortuna": {
+                "id": 11061,
                 "set": "Luck of Fortuna",
                 "dp": 1,
                 "rarity": "rare",
@@ -10789,6 +11035,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Luck Shoes of Fortuna": {
+                "id": 11053,
                 "set": "Luck of Fortuna",
                 "dp": 1,
                 "rarity": "rare",
@@ -10861,6 +11108,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Luck Shoes of Fortuna": {
+                "id": 11065,
                 "set": "Luck of Fortuna",
                 "dp": 6,
                 "rarity": "epic",
@@ -10931,6 +11179,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Shoes": {
+                "id": 10940,
                 "set": "Rocaba",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -11001,6 +11250,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Shoes of Agility": {
+                "id": 10972,
                 "set": "Rocaba",
                 "dp": 1,
                 "rarity": "rare",
@@ -11073,6 +11323,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Shoes of Intimidation": {
+                "id": 10976,
                 "set": "Rocaba",
                 "dp": 1,
                 "rarity": "rare",
@@ -11145,6 +11396,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Shoes of Iron Wall": {
+                "id": 10968,
                 "set": "Rocaba",
                 "dp": 1,
                 "rarity": "rare",
@@ -11217,6 +11469,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Rocaba Shoes": {
+                "id": 10988,
                 "set": "Rocaba",
                 "dp": 6,
                 "rarity": "epic",
@@ -11289,6 +11542,7 @@ var BDOdatabase = {
                 }
             },
             "Strength Shoes of Heve": {
+                "id": 11008,
                 "set": "Strength of Heve",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -11359,6 +11613,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Strength Shoes of Heve": {
+                "id": 11041,
                 "set": "Strength of Heve",
                 "dp": 1,
                 "rarity": "rare",
@@ -11431,6 +11686,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Strength Shoes of Heve": {
+                "id": 11045,
                 "set": "Strength of Heve",
                 "dp": 1,
                 "rarity": "rare",
@@ -11503,6 +11759,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Strength Shoes of Heve": {
+                "id": 11037,
                 "set": "Strength of Heve",
                 "dp": 1,
                 "rarity": "rare",
@@ -11575,6 +11832,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Strength Shoes of Heve": {
+                "id": 11049,
                 "set": "Strength of Heve",
                 "dp": 6,
                 "rarity": "epic",
@@ -11647,6 +11905,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Shoes": {
+                "id": 10824,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -11719,6 +11978,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Shoes of Agility": {
+                "id": 10880,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "rare",
@@ -11792,6 +12052,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Shoes of Intimidation": {
+                "id": 10884,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "rare",
@@ -11865,6 +12126,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Shoes of Iron Wall": {
+                "id": 10876,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "rare",
@@ -11938,6 +12200,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Talis Shoes": {
+                "id": 10888,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "epic",
@@ -12011,6 +12274,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Shoes": {
+                "id": 10816,
                 "set": "Taritas",
                 "dp": 4,
                 "rarity": "uncommon",
@@ -12083,6 +12347,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Shoes of Agility": {
+                "id": 10848,
                 "set": "Taritas",
                 "dp": 4,
                 "rarity": "rare",
@@ -12156,6 +12421,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Shoes of Intimidation": {
+                "id": 10852,
                 "set": "Taritas",
                 "dp": 4,
                 "rarity": "rare",
@@ -12229,6 +12495,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Shoes of Iron Wall": {
+                "id": 10844,
                 "set": "Taritas",
                 "dp": 4,
                 "rarity": "rare",
@@ -12302,6 +12569,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Taritas Shoes": {
+                "id": 10856,
                 "set": "Taritas",
                 "dp": 9,
                 "rarity": "epic",
@@ -12375,6 +12643,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Shoes": {
+                "id": 14104,
                 "set": "Steel Taritas",
                 "dp": 4,
                 "rarity": "uncommon",
@@ -12447,6 +12716,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Shoes of Agility": {
+                "id": 14112,
                 "set": "Steel Taritas",
                 "dp": 4,
                 "rarity": "rare",
@@ -12520,6 +12790,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Shoes of Intimidation": {
+                "id": 14116,
                 "set": "Steel Taritas",
                 "dp": 4,
                 "rarity": "rare",
@@ -12593,6 +12864,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Shoes of Iron Wall": {
+                "id": 14108,
                 "set": "Steel Taritas",
                 "dp": 4,
                 "rarity": "rare",
@@ -12666,6 +12938,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Steel Taritas Shoes": {
+                "id": 14124,
                 "set": "Steel Taritas",
                 "dp": 9,
                 "rarity": "epic",
@@ -12739,6 +13012,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Shoes": {
+                "id": 10820,
                 "set": "Zereth",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -12811,6 +13085,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Shoes of Agility": {
+                "id": 10864,
                 "set": "Zereth",
                 "dp": 3,
                 "rarity": "rare",
@@ -12884,6 +13159,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Shoes of Intimidation": {
+                "id": 10868,
                 "set": "Zereth",
                 "dp": 3,
                 "rarity": "rare",
@@ -12957,6 +13233,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Shoes of Iron Wall": {
+                "id": 10860,
                 "set": "Zereth",
                 "dp": 3,
                 "rarity": "rare",
@@ -13030,6 +13307,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Zereth Shoes": {
+                "id": 10872,
                 "set": "Zereth",
                 "dp": 8,
                 "rarity": "epic",
@@ -13103,6 +13381,7 @@ var BDOdatabase = {
                 }
             },
             "Muskan's Shoes": {
+                "id": 11016,
                 "set": "Giath-Bheg-Muskan-RedNose",
                 "dp": 4,
                 "rarity": "epic",
@@ -13249,6 +13528,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Gloves of Agility": {
+                "id": 10831,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "rare",
@@ -13323,6 +13603,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Gloves of Intimidation": {
+                "id": 10835,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "rare",
@@ -13397,6 +13678,7 @@ var BDOdatabase = {
                 }
             },
             "Agerian Gloves of Iron Wall": {
+                "id": 10827,
                 "set": "Agerian",
                 "dp": 2,
                 "rarity": "rare",
@@ -13471,6 +13753,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Agerian Gloves": {
+                "id": 10839,
                 "set": "Agerian",
                 "dp": 7,
                 "rarity": "epic",
@@ -13545,6 +13828,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Gloves": {
+                "id": 10935,
                 "set": "Grunil",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -13615,6 +13899,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Gloves of Agility": {
+                "id": 10947,
                 "set": "Grunil",
                 "dp": 1,
                 "rarity": "rare",
@@ -13687,6 +13972,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Gloves of Intimidation": {
+                "id": 10951,
                 "set": "Grunil",
                 "dp": 1,
                 "rarity": "rare",
@@ -13759,6 +14045,7 @@ var BDOdatabase = {
                 }
             },
             "Grunil Gloves of Iron Wall": {
+                "id": 10943,
                 "set": "Grunil",
                 "dp": 1,
                 "rarity": "rare",
@@ -13904,6 +14191,7 @@ var BDOdatabase = {
                 }
             },
             "Gloves of Hercules\' Might": {
+                "id": 11003,
                 "set": "Hercules\' Might",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -13974,6 +14262,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Gloves of Hercules\' Might": {
+                "id": 11024,
                 "set": "Hercules\' Might",
                 "dp": 1,
                 "rarity": "rare",
@@ -14046,6 +14335,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Gloves of Hercules\' Might": {
+                "id": 11028,
                 "set": "Hercules\' Might",
                 "dp": 1,
                 "rarity": "rare",
@@ -14118,6 +14408,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Gloves of Hercules\' Might": {
+                "id": 11020,
                 "set": "Hercules\' Might",
                 "dp": 1,
                 "rarity": "rare",
@@ -14190,6 +14481,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Gloves of Hercules\' Might": {
+                "id": 11032,
                 "set": "Hercules\' Might",
                 "dp": 6,
                 "rarity": "epic",
@@ -14262,6 +14554,7 @@ var BDOdatabase = {
                 }
             },
             "Luck Gloves of Fortuna": {
+                "id": 11011,
                 "set": "Luck of Fortuna",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -14332,6 +14625,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Luck Gloves of Fortuna": {
+                "id": 11056,
                 "set": "Luck of Fortuna",
                 "dp": 1,
                 "rarity": "rare",
@@ -14404,6 +14698,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Luck Gloves of Fortuna": {
+                "id": 11060,
                 "set": "Luck of Fortuna",
                 "dp": 1,
                 "rarity": "rare",
@@ -14476,6 +14771,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Luck Gloves of Fortuna": {
+                "id": 11052,
                 "set": "Luck of Fortuna",
                 "dp": 1,
                 "rarity": "rare",
@@ -14548,6 +14844,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Luck Gloves of Fortuna": {
+                "id": 11064,
                 "set": "Luck of Fortuna",
                 "dp": 6,
                 "rarity": "epic",
@@ -14620,6 +14917,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Gloves": {
+                "id": 10939,
                 "set": "Rocaba",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -14690,6 +14988,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Gloves of Agility": {
+                "id": 10971,
                 "set": "Rocaba",
                 "dp": 1,
                 "rarity": "rare",
@@ -14762,6 +15061,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Gloves of Intimidation": {
+                "id": 10975,
                 "set": "Rocaba",
                 "dp": 1,
                 "rarity": "rare",
@@ -14834,6 +15134,7 @@ var BDOdatabase = {
                 }
             },
             "Rocaba Gloves of Iron Wall": {
+                "id": 10967,
                 "set": "Rocaba",
                 "dp": 1,
                 "rarity": "rare",
@@ -14906,6 +15207,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Rocaba Gloves": {
+                "id": 10987,
                 "set": "Rocaba",
                 "dp": 6,
                 "rarity": "epic",
@@ -14978,6 +15280,7 @@ var BDOdatabase = {
                 }
             },
             "Strength Gloves of Heve": {
+                "id": 11007,
                 "set": "Strength of Heve",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -15048,6 +15351,7 @@ var BDOdatabase = {
                 }
             },
             "Agility Strength Gloves of Heve": {
+                "id": 11040,
                 "set": "Strength of Heve",
                 "dp": 1,
                 "rarity": "rare",
@@ -15120,6 +15424,7 @@ var BDOdatabase = {
                 }
             },
             "Intimidation Strength Gloves of Heve": {
+                "id": 11044,
                 "set": "Strength of Heve",
                 "dp": 1,
                 "rarity": "rare",
@@ -15192,6 +15497,7 @@ var BDOdatabase = {
                 }
             },
             "Iron Wall Strength Gloves of Heve": {
+                "id": 11036,
                 "set": "Strength of Heve",
                 "dp": 1,
                 "rarity": "rare",
@@ -15264,6 +15570,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Strength Gloves of Heve": {
+                "id": 11048,
                 "set": "Strength of Heve",
                 "dp": 6,
                 "rarity": "epic",
@@ -15336,6 +15643,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Gloves": {
+                "id": 10823,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "uncommon",
@@ -15408,6 +15716,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Gloves of Agility": {
+                "id": 10879,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "rare",
@@ -15481,6 +15790,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Gloves of Intimidation": {
+                "id": 10883,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "rare",
@@ -15554,6 +15864,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Gloves of Iron Wall": {
+                "id": 10875,
                 "set": "Talis",
                 "dp": 1,
                 "rarity": "rare",
@@ -15627,6 +15938,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Talis Gloves": {
+                "id": 10887,
                 "set": "Talis",
                 "dp": 6,
                 "rarity": "epic",
@@ -15700,6 +16012,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Gloves": {
+                "id": 10815,
                 "set": "Taritas",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -15772,6 +16085,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Gloves of Agility": {
+                "id": 10847,
                 "set": "Taritas",
                 "dp": 3,
                 "rarity": "rare",
@@ -15845,6 +16159,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Gloves of Intimidation": {
+                "id": 10851,
                 "set": "Taritas",
                 "dp": 3,
                 "rarity": "rare",
@@ -15918,6 +16233,7 @@ var BDOdatabase = {
                 }
             },
             "Taritas Gloves of Iron Wall": {
+                "id": 10843,
                 "set": "Taritas",
                 "dp": 3,
                 "rarity": "rare",
@@ -15991,6 +16307,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Taritas Gloves": {
+                "id": 10855,
                 "set": "Taritas",
                 "dp": 8,
                 "rarity": "epic",
@@ -16064,6 +16381,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Gloves": {
+                "id": 14103,
                 "set": "Steel Taritas",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -16136,6 +16454,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Gloves of Agility": {
+                "id": 14111,
                 "set": "Steel Taritas",
                 "dp": 3,
                 "rarity": "rare",
@@ -16209,6 +16528,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Gloves of Intimidation": {
+                "id": 14115,
                 "set": "Steel Taritas",
                 "dp": 3,
                 "rarity": "rare",
@@ -16282,6 +16602,7 @@ var BDOdatabase = {
                 }
             },
             "Steel Taritas Gloves of Iron Wall": {
+                "id": 14107,
                 "set": "Steel Taritas",
                 "dp": 3,
                 "rarity": "rare",
@@ -16355,6 +16676,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Steel Taritas Gloves": {
+                "id": 14123,
                 "set": "Steel Taritas",
                 "dp": 8,
                 "rarity": "epic",
@@ -16428,6 +16750,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Gloves": {
+                "id": 10819,
                 "set": "Zereth",
                 "dp": 3,
                 "rarity": "uncommon",
@@ -16500,6 +16823,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Gloves of Agility": {
+                "id": 10863,
                 "set": "Zereth",
                 "dp": 3,
                 "rarity": "rare",
@@ -16573,6 +16897,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Gloves of Intimidation": {
+                "id": 10867,
                 "set": "Zereth",
                 "dp": 3,
                 "rarity": "rare",
@@ -16646,6 +16971,7 @@ var BDOdatabase = {
                 }
             },
             "Zereth Gloves of Iron Wall": {
+                "id": 10859,
                 "set": "Zereth",
                 "dp": 3,
                 "rarity": "rare",
@@ -16719,6 +17045,7 @@ var BDOdatabase = {
                 }
             },
             "Ultimate Zereth Gloves": {
+                "id": 10811,
                 "set": "Zereth",
                 "dp": 8,
                 "rarity": "epic",
@@ -16792,6 +17119,7 @@ var BDOdatabase = {
                 }
             },
             "Bheg's Gloves": {
+                "id": 11015,
                 "set": "Giath-Bheg-Muskan-RedNose",
                 "dp": 2,
                 "rarity": "epic",
@@ -16864,6 +17192,7 @@ var BDOdatabase = {
         },
         "earrings": {
             "Yuria Earring": {
+                "id": 11801,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -16891,6 +17220,7 @@ var BDOdatabase = {
                 }
             },
             "Bares Earring": {
+                "id": 11802,
                 "dp": 0,
                 "ap": 2,
                 "rarity": "uncommon",
@@ -16916,6 +17246,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Earring": {
+                "id": 11806,
                 "dp": 2,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -16941,6 +17272,7 @@ var BDOdatabase = {
                 }
             },
             "Ocean Sapphire Earring": {
+                "id": 11908,
                 "dp": 3,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -16952,6 +17284,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Kalis Earring": {
+                "id": 11805,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -16979,6 +17312,7 @@ var BDOdatabase = {
                 }
             },
             "Hesus Earring": {
+                "id": 11803,
                 "dp": 1,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17004,6 +17338,7 @@ var BDOdatabase = {
                 }
             },
             "Gold Topaz Earring": {
+                "id": 11913,
                 "dp": 3,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17015,6 +17350,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Forest Emerald Earring": {
+                "id": 11918,
                 "dp": 3,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17029,6 +17365,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Elisha Earring": {
+                "id": 11804,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17040,6 +17377,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Earring of Dim Magical Power": {
+                "id": 11812,
                 "dp": 0,
                 "ap": 3,
                 "rarity": "uncommon",
@@ -17049,6 +17387,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Earring of Concentrated Magical Power": {
+                "id": 11813,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "uncommon",
@@ -17058,6 +17397,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Blood Ruby Earrings": {
+                "id": 11903,
                 "dp": 3,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17069,6 +17409,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Witch's Earring": {
+                "id": 11808,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -17094,6 +17435,7 @@ var BDOdatabase = {
                 }
             },
             "Translucent Ocean Sapphire Earring": {
+                "id": 11909,
                 "dp": 4,
                 "ap": 0,
                 "rarity": "rare",
@@ -17105,6 +17447,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Token of Friendship": {
+                "id": 11807,
                 "dp": 5,
                 "ap": 0,
                 "rarity": "rare",
@@ -17137,6 +17480,7 @@ var BDOdatabase = {
                 }
             },
             "Shining Gold Topaz Earrings": {
+                "id": 11914,
                 "dp": 4,
                 "ap": 0,
                 "rarity": "rare",
@@ -17148,6 +17492,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Ridell Earring": {
+                "id": 11811,
                 "dp": 4,
                 "ap": 0,
                 "rarity": "rare",
@@ -17219,6 +17564,7 @@ var BDOdatabase = {
                 }
             },
             "Placid Forest Emerald Earring": {
+                "id": 11919,
                 "dp": 4,
                 "ap": 0,
                 "rarity": "rare",
@@ -17233,6 +17579,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Mesto Earring": {
+                "id": 11810,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "rare",
@@ -17265,6 +17612,7 @@ var BDOdatabase = {
                 }
             },
             "Earring of Sealed Magical Power": {
+                "id": 11814,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -17295,6 +17643,7 @@ var BDOdatabase = {
                 }
             },
             "Dark Blood Ruby Earrings": {
+                "id": 11904,
                 "dp": 4,
                 "ap": 0,
                 "rarity": "rare",
@@ -17306,6 +17655,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Blue Whale Molar Earring": {
+                "id": 11815,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -17333,6 +17683,7 @@ var BDOdatabase = {
                 }
             },
             "Blue Coral Earring": {
+                "id": 11816,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "rare",
@@ -17360,6 +17711,7 @@ var BDOdatabase = {
                 }
             },
             "Topaz Earrings of Regeneration": {
+                "id": 11915,
                 "dp": 5,
                 "ap": 0,
                 "rarity": "epic",
@@ -17371,6 +17723,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Sapphire Earring of Storms": {
+                "id": 11910,
                 "dp": 5,
                 "ap": 0,
                 "rarity": "epic",
@@ -17382,6 +17735,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Emerald Earring of Tranquility": {
+                "id": 11920,
                 "dp": 5,
                 "ap": 0,
                 "rarity": "epic",
@@ -17396,6 +17750,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Corrupt Ruby Earrings": {
+                "id": 11905,
                 "dp": 5,
                 "ap": 0,
                 "rarity": "epic",
@@ -17407,6 +17762,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Jarette's Earring": {
+                "id": 11829,
                 "set": "Jarette",
                 "dp": 0,
                 "ap": 4,
@@ -17417,6 +17773,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Manos Ruby Earrings": {
+                "id": 11926,
                 "dp": 6,
                 "ap": 0,
                 "rarity": "epic",
@@ -17444,6 +17801,7 @@ var BDOdatabase = {
                 }
             },
             "Manos Sapphire Earrings": {
+                "id": 11927,
                 "dp": 6,
                 "ap": 0,
                 "rarity": "epic",
@@ -17471,6 +17829,7 @@ var BDOdatabase = {
                 }
             },
             "Manos Topaz Earrings": {
+                "id": 11928,
                 "dp": 6,
                 "ap": 0,
                 "rarity": "epic",
@@ -17497,37 +17856,8 @@ var BDOdatabase = {
                     }
                 }
             },
-            "Manos Emerald Earrings": {
-                "dp": 6,
-                "ap": 0,
-                "rarity": "epic",
-                "gems": 0,
-                "item_effects": {
-                    "hprc": 5,
-                    "mprc": 5,
-                    "wprc": 5,
-                    "sprc": 5
-                },
-                "enhancement_text": "",
-                "enhancement": {
-                    "1": {
-                        "dp": 9
-                    },
-                    "2": {
-                        "dp": 12
-                    },
-                    "3": {
-                        "dp": 15
-                    },
-                    "4": {
-                        "dp": 18
-                    },
-                    "5": {
-                        "dp": 21
-                    }
-                }
-            },
             "Tungrade Earring": {
+                "id": 11828,
                 "dp": 0,
                 "ap": 7,
                 "rarity": "epic",
@@ -17555,6 +17885,7 @@ var BDOdatabase = {
                 }
             },
             "Fugitive Khalk's Earring": {
+                "id": 11827,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -17585,6 +17916,7 @@ var BDOdatabase = {
         },
         "rings": {
             "Yuria Ring": {
+                "id": 12001,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17612,6 +17944,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Ring": {
+                "id": 12006,
                 "dp": 2,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17637,6 +17970,7 @@ var BDOdatabase = {
                 }
             },
             "Ring of Good Deeds": {
+                "id": 12010,
                 "dp": 0,
                 "ap": 2,
                 "rarity": "uncommon",
@@ -17669,6 +18003,7 @@ var BDOdatabase = {
                 }
             },
             "Ring of Dim Magical Power": {
+                "id": 12013,
                 "dp": 0,
                 "ap": 3,
                 "rarity": "uncommon",
@@ -17678,6 +18013,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Ring of Concentrated Magical Power": {
+                "id": 12014,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "uncommon",
@@ -17687,6 +18023,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Ocean Sapphire Ring": {
+                "id": 12108,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17699,6 +18036,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Kalis Ring": {
+                "id": 12005,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17726,6 +18064,7 @@ var BDOdatabase = {
                 }
             },
             "Hesus Ring": {
+                "id": 12003,
                 "dp": 1,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17751,6 +18090,7 @@ var BDOdatabase = {
                 }
             },
             "Gold Topaz Ring": {
+                "id": 12113,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17763,6 +18103,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Forest Emerald Ring": {
+                "id": 12118,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17775,6 +18116,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Elisha Ring": {
+                "id": 12004,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17802,6 +18144,7 @@ var BDOdatabase = {
                 }
             },
             "Blood Ruby Ring": {
+                "id": 12103,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -17814,6 +18157,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Bares Ring": {
+                "id": 12002,
                 "dp": 0,
                 "ap": 2,
                 "rarity": "uncommon",
@@ -17839,6 +18183,7 @@ var BDOdatabase = {
                 }
             },
             "Translucent Ocean Sapphire Ring": {
+                "id": 12109,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "rare",
@@ -17851,6 +18196,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Shrine Guardian Token": {
+                "id": 12008,
                 "dp": 5,
                 "ap": 0,
                 "rarity": "rare",
@@ -17883,6 +18229,7 @@ var BDOdatabase = {
                 }
             },
             "Shining Gold Topaz Ring": {
+                "id": 12114,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "rare",
@@ -17895,6 +18242,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Saya's Ring of Eternity": {
+                "id": 12030,
                 "dp": 7,
                 "ap": 0,
                 "rarity": "rare",
@@ -17906,6 +18254,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Sahazad's Ring of Monarch": {
+                "id": 12027,
                 "dp": 0,
                 "ap": 7,
                 "rarity": "rare",
@@ -17917,6 +18266,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Ring of Sealed Magical Power": {
+                "id": 12015,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -17942,6 +18292,7 @@ var BDOdatabase = {
                 }
             },
             "Red Coral Ring": {
+                "id": 12018,
                 "dp": 3,
                 "ap": 4,
                 "rarity": "rare",
@@ -17974,6 +18325,7 @@ var BDOdatabase = {
                 }
             },
             "Placid Forest Emerald Ring": {
+                "id": 12119,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "rare",
@@ -17986,6 +18338,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Outlaw's Ring": {
+                "id": 12012,
                 "dp": 4,
                 "ap": 3,
                 "rarity": "rare",
@@ -18018,6 +18371,7 @@ var BDOdatabase = {
                 }
             },
             "Nert Ring": {
+                "id": 12011,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "rare",
@@ -18051,6 +18405,7 @@ var BDOdatabase = {
                 }
             },
             "Mark of Shadow": {
+                "id": 12007,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -18076,6 +18431,7 @@ var BDOdatabase = {
                 }
             },
             "Manmehan's Ring of Gold": {
+                "id": 12029,
                 "dp": 7,
                 "ap": 0,
                 "rarity": "rare",
@@ -18087,6 +18443,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Dark Blood Ruby Ring": {
+                "id": 12104,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "rare",
@@ -18099,6 +18456,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Blue Coral Ring": {
+                "id": 12017,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -18143,6 +18501,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Corrupt Ruby Ring": {
+                "id": 12105,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "epic",
@@ -18155,6 +18514,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Emerald Ring of Tranquility": {
+                "id": 12120,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "epic",
@@ -18167,6 +18527,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Sapphire Ring of Storms": {
+                "id": 12110,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "epic",
@@ -18179,6 +18540,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Topaz Ring of Regeneration": {
+                "id": 12115,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "epic",
@@ -18191,6 +18553,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Ring of Crescent Guardian": {
+                "id": 12031,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "epic",
@@ -18216,6 +18579,7 @@ var BDOdatabase = {
                 }
             },
             "Ring of Cadry Guardian": {
+                "id": 12032,
                 "dp": 5,
                 "ap": 0,
                 "rarity": "epic",
@@ -18249,6 +18613,7 @@ var BDOdatabase = {
                 }
             },
             "Jarette's Ring": {
+                "id": 12035,
                 "set": "Jarette",
                 "dp": 0,
                 "ap": 4,
@@ -18258,63 +18623,8 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {}
             },
-            "Manos Emerald Ring": {
-                "dp": 0,
-                "ap": 0,
-                "rarity": "epic",
-                "gems": 0,
-                "item_effects": {
-                    "acc": 5,
-                    "hp": 50
-                },
-                "enhancement_text": "",
-                "enhancement": {
-                    "1": {
-                        "acc": 6
-                    },
-                    "2": {
-                        "acc": 9
-                    },
-                    "3": {
-                        "acc": 12
-                    },
-                    "4": {
-                        "acc": 15
-                    },
-                    "5": {
-                        "acc": 18
-                    }
-                }
-            },
-            "Manos Sapphire Ring": {
-                "dp": 0,
-                "ap": 0,
-                "rarity": "epic",
-                "gems": 0,
-                "item_effects": {
-                    "dmgtdh": 5,
-                    "hp": 50
-                },
-                "enhancement_text": "",
-                "enhancement": {
-                    "1": {
-                        "dmgtdh": 9
-                    },
-                    "2": {
-                        "dmgtdh": 12
-                    },
-                    "3": {
-                        "dmgtdh": 15
-                    },
-                    "4": {
-                        "dmgtdh": 18
-                    },
-                    "5": {
-                        "dmgtdh": 21
-                    }
-                }
-            },
             "Manos Topaz Ring": {
+                "id": 12128,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "epic",
@@ -18343,6 +18653,7 @@ var BDOdatabase = {
                 }
             },
             "Manos Ruby Ring": {
+                "id": 12126,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "epic",
@@ -18373,6 +18684,7 @@ var BDOdatabase = {
         },
         "necklaces": {
             "Yuria Necklace": {
+                "id": 11601,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -18400,6 +18712,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Necklace": {
+                "id": 11606,
                 "dp": 4,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -18425,6 +18738,7 @@ var BDOdatabase = {
                 }
             },
             "Kalis Necklace": {
+                "id": 11605,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -18452,6 +18766,7 @@ var BDOdatabase = {
                 }
             },
             "Necklace of Dim Magical Power": {
+                "id": 11622,
                 "dp": 0,
                 "ap": 3,
                 "rarity": "uncommon",
@@ -18461,6 +18776,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Necklace of Concentrated Magical Power": {
+                "id": 11623,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "uncommon",
@@ -18470,6 +18786,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Hesus Necklace": {
+                "id": 11603,
                 "dp": 2,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -18495,6 +18812,7 @@ var BDOdatabase = {
                 }
             },
             "Elisha Necklace": {
+                "id": 11604,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -18528,6 +18846,7 @@ var BDOdatabase = {
                 }
             },
             "Bares Necklace": {
+                "id": 11602,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "uncommon",
@@ -18553,6 +18872,7 @@ var BDOdatabase = {
                 }
             },
             "Scarla Necklace": {
+                "id": 11610,
                 "dp": 5,
                 "ap": 5,
                 "rarity": "rare",
@@ -18583,6 +18903,7 @@ var BDOdatabase = {
                 }
             },
             "Necklace of Sealed Magical Power": {
+                "id": 11624,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -18608,6 +18929,7 @@ var BDOdatabase = {
                 }
             },
             "Necklace of Good Deeds": {
+                "id": 11609,
                 "dp": 0,
                 "ap": 6,
                 "rarity": "rare",
@@ -18640,6 +18962,7 @@ var BDOdatabase = {
                 }
             },
             "Translucent Ocean Sapphire Necklace": {
+                "id": 11709,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "rare",
@@ -18651,6 +18974,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Shining Gold Topaz Necklace": {
+                "id": 11714,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "rare",
@@ -18662,6 +18986,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Dark Blood Ruby Necklace": {
+                "id": 11704,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "rare",
@@ -18673,6 +18998,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Placid Forest Emerald Necklace": {
+                "id": 11719,
                 "dp": 0,
                 "ap": 4,
                 "rarity": "rare",
@@ -18684,6 +19010,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Ogre Ring": {
+                "id": 11607,
                 "dp": 0,
                 "ap": 10,
                 "rarity": "epic",
@@ -18709,6 +19036,7 @@ var BDOdatabase = {
                 }
             },
             "Corrupt Ruby Necklace": {
+                "id": 11705,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "epic",
@@ -18720,6 +19048,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Emerald Necklace of Tranquility": {
+                "id": 11720,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "epic",
@@ -18731,6 +19060,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Sapphire Necklace of Storms": {
+                "id": 11710,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "epic",
@@ -18742,6 +19072,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Topaz Necklace of Regeneration": {
+                "id": 11715,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "epic",
@@ -18753,6 +19084,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Manos Topaz Necklace": {
+                "id": 11728,
                 "dp": 0,
                 "ap": 6,
                 "rarity": "epic",
@@ -18785,6 +19117,7 @@ var BDOdatabase = {
                 }
             },
             "Manos Ruby Necklace": {
+                "id": 11726,
                 "dp": 0,
                 "ap": 6,
                 "rarity": "epic",
@@ -18817,6 +19150,7 @@ var BDOdatabase = {
                 }
             },
             "Manos Sapphire Necklace": {
+                "id": 11727,
                 "dp": 0,
                 "ap": 6,
                 "rarity": "epic",
@@ -18849,6 +19183,7 @@ var BDOdatabase = {
                 }
             },
             "Manos Emerald Necklace": {
+                "id": 11729,
                 "dp": 0,
                 "ap": 6,
                 "rarity": "epic",
@@ -18881,6 +19216,7 @@ var BDOdatabase = {
                 }
             },
             "Manos Diamond Necklace": {
+                "id": 11730,
                 "dp": 0,
                 "ap": 6,
                 "rarity": "epic",
@@ -18913,6 +19249,7 @@ var BDOdatabase = {
                 }
             },
             "Jarette's Necklace": {
+                "id": 11626,
                 "set": "Jarette",
                 "dp": 0,
                 "ap": 7,
@@ -18923,6 +19260,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Ancient Guardian's Seal": {
+                "id": 11613,
                 "set": "Core",
                 "dp": 3,
                 "ap": 6,
@@ -18954,6 +19292,7 @@ var BDOdatabase = {
                 }
             },
             "Bensho's Necklace": {
+                "id": 11611,
                 "dp": 10,
                 "ap": 0,
                 "rarity": "rare",
@@ -18979,6 +19318,7 @@ var BDOdatabase = {
                 }
             },
             "Laytenn’s Power Stone": {
+                "id": 11630,
                 "dp": 0,
                 "ap": 10,
                 "rarity": "epic",
@@ -19004,6 +19344,7 @@ var BDOdatabase = {
                 }
             },
             "Serap's Necklace": {
+                "id": 11628,
                 "dp": 0,
                 "ap": 8,
                 "rarity": "epic",
@@ -19031,6 +19372,7 @@ var BDOdatabase = {
                 }
             },
             "Sicil's Necklace": {
+                "id": 11625,
                 "dp": 3,
                 "ap": 7,
                 "rarity": "epic",
@@ -19061,6 +19403,7 @@ var BDOdatabase = {
                 }
             },
             "Tungrad Necklace": {
+                "id": 11629,
                 "dp": 0,
                 "ap": 10,
                 "rarity": "epic",
@@ -19116,6 +19459,7 @@ var BDOdatabase = {
         },
         "belts": {
             "Yuria Belt": {
+                "id": 12201,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -19144,6 +19488,7 @@ var BDOdatabase = {
                 }
             },
             "Talis Belt": {
+                "id": 12206,
                 "dp": 2,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -19171,6 +19516,7 @@ var BDOdatabase = {
                 }
             },
             "Kalis Belt": {
+                "id": 12205,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -19199,6 +19545,7 @@ var BDOdatabase = {
                 }
             },
             "Hesus Belt": {
+                "id": 12203,
                 "dp": 2,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -19226,6 +19573,7 @@ var BDOdatabase = {
                 }
             },
             "Elisha Belt": {
+                "id": 12204,
                 "dp": 0,
                 "ap": 0,
                 "rarity": "uncommon",
@@ -19254,6 +19602,7 @@ var BDOdatabase = {
                 }
             },
             "Bares Belt": {
+                "id": 12202,
                 "dp": 0,
                 "ap": 2,
                 "rarity": "uncommon",
@@ -19281,6 +19630,7 @@ var BDOdatabase = {
                 }
             },
             "Tree Spirit Belt": {
+                "id": 12210,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "rare",
@@ -19314,6 +19664,7 @@ var BDOdatabase = {
                 }
             },
             "Sturdy Rhutum Elite Fighter Belt": {
+                "id": 12216,
                 "dp": 3,
                 "ap": 0,
                 "rarity": "rare",
@@ -19325,6 +19676,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Rhutum Elite Belt": {
+                "id": 12208,
                 "dp": 4,
                 "ap": 0,
                 "rarity": "rare",
@@ -19386,6 +19738,7 @@ var BDOdatabase = {
                 }
             },
             "Basilisk's Belt": {
+                "id": 12230,
                 "dp": 0,
                 "ap": 5,
                 "rarity": "epic",
@@ -19413,6 +19766,7 @@ var BDOdatabase = {
                 }
             },
             "Centaur's Belt": {
+                "id": 12229,
                 "dp": 5,
                 "ap": 0,
                 "rarity": "epic",
@@ -19446,6 +19800,7 @@ var BDOdatabase = {
                 }
             },
             "Jarette's Belt": {
+                "id": 12231,
                 "set": "Jarette",
                 "dp": 0,
                 "ap": 4,
@@ -19456,6 +19811,7 @@ var BDOdatabase = {
                 "enhancement": {}
             },
             "Ancient Weapon Core": {
+                "id": 12220,
                 "set": "Core",
                 "dp": 4,
                 "ap": 4,
@@ -47219,6 +47575,7 @@ var BDOdatabase = {
         "secondary-weapons": {
             "berserker" :{
                 "Theos Ornamental Knot": {
+                    "id": 10705,
                     "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -47305,6 +47662,7 @@ var BDOdatabase = {
                     }
                 },
                 "Theos Ornamental Knot of Crimson Flame": {
+                    "id": 10714,
                     "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -47408,6 +47766,7 @@ var BDOdatabase = {
                     }
                 },
                 "Theos Ornamental Knot of Destruction": {
+                    "id": 10715,
                     "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -47511,6 +47870,7 @@ var BDOdatabase = {
                     }
                 },
                 "Theos Ornamental Knot of Temptation": {
+                    "id": 10716,
                     "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -47614,6 +47974,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Theos Ornamental Knot": {
+                    "id": 10717,
                     "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -47717,6 +48078,7 @@ var BDOdatabase = {
                     }
                 },
                 "Saiyer Ornamental Knot": {
+                    "id": 10703,
                     "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -47803,6 +48165,7 @@ var BDOdatabase = {
                     }
                 },
                 "Saiyer Ornamental Knot of Crimson Flame": {
+                    "id": 10706,
                     "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -47906,6 +48269,7 @@ var BDOdatabase = {
                     }
                 },
                 "Saiyer Ornamental Knot of Destruction": {
+                    "id": 10707,
                     "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -48009,6 +48373,7 @@ var BDOdatabase = {
                     }
                 },
                 "Saiyer Ornamental Knot of Temptation": {
+                    "id": 10708,
                     "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -48112,6 +48477,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Saiyer Ornamental Knot": {
+                    "id": 10709,
                     "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -48215,6 +48581,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Ornamental Knot": {
+                    "id": 10725,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -48327,6 +48694,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Ornamental Knot of Crimson Flame": {
+                    "id": 10732,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -48441,6 +48809,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Ornamental Knot of Destruction": {
+                    "id": 10733,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -48555,6 +48924,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Ornamental Knot of Temptation": {
+                    "id": 10734,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -48669,6 +49039,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Ornamental Knot": {
+                    "id": 10737,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -48783,6 +49154,7 @@ var BDOdatabase = {
                     }
                 },
                 "Oros Ornamental Knot": {
+                    "id": 10704,
                     "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -48878,6 +49250,7 @@ var BDOdatabase = {
                     }
                 },
                 "Oros Ornamental Knot of Crimson Flame": {
+                    "id": 10710,
                     "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -48974,6 +49347,7 @@ var BDOdatabase = {
                     }
                 },
                 "Oros Ornamental Knot of Destruction": {
+                    "id": 10711,
                     "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49070,6 +49444,7 @@ var BDOdatabase = {
                     }
                 },
                 "Oros Ornamental Knot of Temptation": {
+                    "id": 10712,
                     "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49166,6 +49541,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Oros Ornamental Knot": {
+                    "id": 10713,
                     "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49262,6 +49638,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Ornamental Knot": {
+                    "id": 10724,
                     "set": "Krea",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49359,6 +49736,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Ornamental Knot of Crimson Flame": {
+                    "id": 10726,
                     "set": "Krea",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49458,6 +49836,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Ornamental Knot of Destruction": {
+                    "id": 10727,
                     "set": "Krea",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49557,6 +49936,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Ornamental Knot of Temptation": {
+                    "id": 10728,
                     "set": "Krea",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49656,6 +50036,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Ornamental Knot": {
+                    "id": 10731,
                     "set": "Krea",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49755,6 +50136,7 @@ var BDOdatabase = {
                     }
                 },
                 "Nouver Ornamental Knot": {
+                    "id": 10738,
                     "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -49848,6 +50230,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kutum Ornamental Knot": {
+                    "id": 10740,
                     "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -49958,6 +50341,7 @@ var BDOdatabase = {
             },
             "ranger" :{
                 "Steel Dagger": {
+                    "id": 10304,
                     "set": "Steel",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -50049,6 +50433,7 @@ var BDOdatabase = {
                     }
                 },
                 "Steel Dagger of Crimson Flame": {
+                    "id": 10310,
                     "set": "Steel",
                     "ap_min": 7,
                     "ap_max": 7,
@@ -50142,6 +50527,7 @@ var BDOdatabase = {
                     }
                 },
                 "Steel Dagger of Destruction": {
+                    "id": 10311,
                     "set": "Steel",
                     "ap_min": 7,
                     "ap_max": 7,
@@ -50235,6 +50621,7 @@ var BDOdatabase = {
                     }
                 },
                 "Steel Dagger of Temptation": {
+                    "id": 10312,
                     "set": "Steel",
                     "ap_min": 7,
                     "ap_max": 7,
@@ -50328,6 +50715,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Steel Dagger": {
+                    "id": 10313,
                     "set": "Steel",
                     "ap_min": 7,
                     "ap_max": 7,
@@ -50421,6 +50809,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Dagger": {
+                    "id": 10325,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -50503,6 +50892,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Dagger of Crimson Flame": {
+                    "id": 10332,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -50603,6 +50993,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Dagger of Destruction": {
+                    "id": 10333,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -50703,6 +51094,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Dagger of Temptation": {
+                    "id": 10334,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -50803,6 +51195,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Dagger": {
+                    "id": 10337,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -50903,6 +51296,7 @@ var BDOdatabase = {
                     }
                 },
                 "Parrying Dagger": {
+                    "id": 10305,
                     "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -51018,6 +51412,7 @@ var BDOdatabase = {
                     }
                 },
                 "Parrying Dagger of Crimson Flame": {
+                    "id": 10314,
                     "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -51135,6 +51530,7 @@ var BDOdatabase = {
                     }
                 },
                 "Parrying Dagger of Destruction": {
+                    "id": 10315,
                     "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -51252,6 +51648,7 @@ var BDOdatabase = {
                     }
                 },
                 "Parrying Dagger of Temptation": {
+                    "id": 10316,
                     "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -51369,6 +51766,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Parrying Dagger": {
+                    "id": 10317,
                     "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -51486,6 +51884,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Dagger": {
+                    "id": 10324,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -51568,6 +51967,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Dagger of Crimson Flame": {
+                    "id": 10326,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -51668,6 +52068,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Dagger of Destruction": {
+                    "id": 10327,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -51768,6 +52169,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Dagger of Temptation": {
+                    "id": 10328,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -51868,6 +52270,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Dagger": {
+                    "id": 10331,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -51968,6 +52371,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bronze Dagger": {
+                    "id": 10303,
                     "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -52040,6 +52444,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bronze Dagger of Crimson Flame": {
+                    "id": 10306,
                     "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -52113,6 +52518,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bronze Dagger of Destruction": {
+                    "id": 10307,
                     "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -52186,6 +52592,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bronze Dagger of Temptation": {
+                    "id": 10308,
                     "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -52259,6 +52666,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Bronze Dagger": {
+                    "id": 10309,
                     "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -52332,6 +52740,7 @@ var BDOdatabase = {
                     }
                 },
                 "Nouver Dagger": {
+                    "id": 10338,
                     "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -52425,6 +52834,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kutum Dagger": {
+                    "id": 10340,
                     "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -52535,6 +52945,7 @@ var BDOdatabase = {
             },
             "sorceress" :{
                 "Rosar Talisman": {
+                    "id": 10525,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -52617,6 +53028,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Talisman of Crimson Flame": {
+                    "id": 10532,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -52717,6 +53129,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Talisman of Destruction": {
+                    "id": 10533,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -52817,6 +53230,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Talisman of Temptation": {
+                    "id": 10534,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -52917,6 +53331,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Talisman": {
+                    "id": 10537,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -53017,6 +53432,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rhik Talisman": {
+                    "id": 10505,
                     "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -53102,6 +53518,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rhik Talisman of Crimson Flame": {
+                    "id": 10514,
                     "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -53205,6 +53622,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rhik Talisman of Destruction": {
+                    "id": 10515,
                     "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -53308,6 +53726,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rhik Talisman of Temptation": {
+                    "id": 10516,
                     "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -53411,6 +53830,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rhik Talisman": {
+                    "id": 10517,
                     "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -53514,6 +53934,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Talisman": {
+                    "id": 10524,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -53596,6 +54017,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Talisman of Crimson Flame": {
+                    "id": 10526,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -53696,6 +54118,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Talisman of Destruction": {
+                    "id": 10527,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -53796,6 +54219,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Talisman of Temptation": {
+                    "id": 10528,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -53896,6 +54320,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Talisman": {
+                    "id": 10531,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -53996,6 +54421,7 @@ var BDOdatabase = {
                     }
                 },
                 "Jubre Talisman": {
+                    "id": 10504,
                     "set": "Jubre",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -54087,6 +54513,7 @@ var BDOdatabase = {
                     }
                 },
                 "Jubre Talisman of Crimson Flame": {
+                    "id": 10510,
                     "set": "Jubre",
                     "ap_min": 7,
                     "ap_max": 9,
@@ -54185,6 +54612,7 @@ var BDOdatabase = {
                     }
                 },
                 "Jubre Talisman of Destruction": {
+                    "id": 10511,
                     "set": "Jubre",
                     "ap_min": 7,
                     "ap_max": 9,
@@ -54283,6 +54711,7 @@ var BDOdatabase = {
                     }
                 },
                 "Jubre Talisman of Temptation": {
+                    "id": 10512,
                     "set": "Jubre",
                     "ap_min": 7,
                     "ap_max": 9,
@@ -54381,6 +54810,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Jubre Talisman": {
+                    "id": 10513,
                     "set": "Jubre",
                     "ap_min": 7,
                     "ap_max": 9,
@@ -54479,6 +54909,7 @@ var BDOdatabase = {
                     }
                 },
                 "Helrick Talisman": {
+                    "id": 10503,
                     "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -54551,6 +54982,7 @@ var BDOdatabase = {
                     }
                 },
                 "Helrick Talisman of Crimson Flame": {
+                    "id": 10506,
                     "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -54629,6 +55061,7 @@ var BDOdatabase = {
                     }
                 },
                 "Helrick Talisman of Destruction": {
+                    "id": 10507,
                     "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -54707,6 +55140,7 @@ var BDOdatabase = {
                     }
                 },
                 "Helrick Talisman of Temptation": {
+                    "id": 10508,
                     "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -54785,6 +55219,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Helrick Talisman": {
+                    "id": 10509,
                     "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -54864,6 +55299,7 @@ var BDOdatabase = {
                     }
                 },
                 "Nouver Talisman": {
+                    "id": 10538,
                     "set": "Nouver",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -54957,6 +55393,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kutum Talisman": {
+                    "id": 10540,
                     "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -55067,6 +55504,7 @@ var BDOdatabase = {
             },
             "tamer" :{
                 "Rosar Trinket": {
+                    "id": 13025,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -55149,6 +55587,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Trinket of Crimson Flame": {
+                    "id": 13032,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -55249,6 +55688,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Trinket of Destruction": {
+                    "id": 13033,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -55349,6 +55789,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Trinket of Temptation": {
+                    "id": 13034,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -55449,6 +55890,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Trinket": {
+                    "id": 13037,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -55549,6 +55991,7 @@ var BDOdatabase = {
                     }
                 },
                 "Needle Trinket": {
+                    "id": 13004,
                     "set": "Needle",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -55640,6 +56083,7 @@ var BDOdatabase = {
                     }
                 },
                 "Needle Trinket of Crimson Flame": {
+                    "id": 13010,
                     "set": "Needle",
                     "ap_min": 7,
                     "ap_max": 9,
@@ -55733,6 +56177,7 @@ var BDOdatabase = {
                     }
                 },
                 "Needle Trinket of Destruction": {
+                    "id": 13011,
                     "set": "Needle",
                     "ap_min": 7,
                     "ap_max": 9,
@@ -55826,6 +56271,7 @@ var BDOdatabase = {
                     }
                 },
                 "Needle Trinket of Temptation": {
+                    "id": 13012,
                     "set": "Needle",
                     "ap_min": 7,
                     "ap_max": 9,
@@ -55919,6 +56365,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Needle Trinket": {
+                    "id": 13013,
                     "set": "Needle",
                     "ap_min": 7,
                     "ap_max": 9,
@@ -56012,6 +56459,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Trinket": {
+                    "id": 13024,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -56110,6 +56558,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Trinket of Crimson Flame": {
+                    "id": 13026,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -56210,6 +56659,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Trinket of Destruction": {
+                    "id": 13027,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -56310,6 +56760,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Trinket of Temptation": {
+                    "id": 13028,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -56410,6 +56861,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Trinket": {
+                    "id": 13031,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -56510,6 +56962,7 @@ var BDOdatabase = {
                     }
                 },
                 "Incense Trinket": {
+                    "id": 13003,
                     "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -56582,6 +57035,7 @@ var BDOdatabase = {
                     }
                 },
                 "Incense Trinket of Crimson Flame": {
+                    "id": 13006,
                     "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -56660,6 +57114,7 @@ var BDOdatabase = {
                     }
                 },
                 "Incense Trinket of Destruction": {
+                    "id": 13007,
                     "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -56738,6 +57193,7 @@ var BDOdatabase = {
                     }
                 },
                 "Incense Trinket of Temptation": {
+                    "id": 13008,
                     "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -56816,6 +57272,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Incense Trinket": {
+                    "id": 13009,
                     "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -56895,6 +57352,7 @@ var BDOdatabase = {
                     }
                 },
                 "Blade Trinket": {
+                    "id": 13005,
                     "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -56980,6 +57438,7 @@ var BDOdatabase = {
                     }
                 },
                 "Blade Trinket of Crimson Flame": {
+                    "id": 13014,
                     "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -57083,6 +57542,7 @@ var BDOdatabase = {
                     }
                 },
                 "Blade Trinket of Destruction": {
+                    "id": 13015,
                     "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -57186,6 +57646,7 @@ var BDOdatabase = {
                     }
                 },
                 "Blade Trinket of Temptation": {
+                    "id": 13016,
                     "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -57289,6 +57750,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Blade Trinket": {
+                    "id": 13017,
                     "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -57392,6 +57854,7 @@ var BDOdatabase = {
                     }
                 },
                 "Nouver Trinket": {
+                    "id": 13038,
                     "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -57485,6 +57948,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kutum Trinket": {
+                    "id": 13040,
                     "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -57595,6 +58059,7 @@ var BDOdatabase = {
             },
             "valkyrie" :{
                 "Vangertz Shield": {
+                    "id": 10102,
                     "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -57697,6 +58162,7 @@ var BDOdatabase = {
                     }
                 },
                 "Vangertz Shield of Crimson Flame": {
+                    "id": 10106,
                     "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -57800,6 +58266,7 @@ var BDOdatabase = {
                     }
                 },
                 "Vangertz Shield of Destruction": {
+                    "id": 10107,
                     "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -57903,6 +58370,7 @@ var BDOdatabase = {
                     }
                 },
                 "Vangertz Shield of Temptation": {
+                    "id": 10108,
                     "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -58006,6 +58474,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Vangertz Shield": {
+                    "id": 10109,
                     "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -58109,6 +58578,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shield": {
+                    "id": 10125,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -58191,6 +58661,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shield of Crimson Flame": {
+                    "id": 10132,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -58291,6 +58762,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shield of Destruction": {
+                    "id": 10133,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -58391,6 +58863,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shield of Temptation": {
+                    "id": 10134,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -58491,6 +58964,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Shield": {
+                    "id": 10137,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -58591,6 +59065,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shield": {
+                    "id": 10124,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -58689,6 +59164,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shield of Crimson Flame": {
+                    "id": 10126,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -58789,6 +59265,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shield of Destruction": {
+                    "id": 10127,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -58889,6 +59366,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shield of Temptation": {
+                    "id": 10128,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -58989,6 +59467,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Shield": {
+                    "id": 10131,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -59089,6 +59568,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kite Shield": {
+                    "id": 10105,
                     "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -59175,6 +59655,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kite Shield of Crimson Flame": {
+                    "id": 10114,
                     "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -59278,6 +59759,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kite Shield of Destruction": {
+                    "id": 10115,
                     "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -59381,6 +59863,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kite Shield of Temptation": {
+                    "id": 10116,
                     "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -59484,6 +59967,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Kite Shield": {
+                    "id": 10117,
                     "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
@@ -59587,6 +60071,7 @@ var BDOdatabase = {
                     }
                 },
                 "Axion Shield": {
+                    "id": 10103,
                     "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -59682,6 +60167,7 @@ var BDOdatabase = {
                     }
                 },
                 "Axion Shield of Crimson Flame": {
+                    "id": 10110,
                     "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -59778,6 +60264,7 @@ var BDOdatabase = {
                     }
                 },
                 "Axion Shield of Destruction": {
+                    "id": 10111,
                     "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -59874,6 +60361,7 @@ var BDOdatabase = {
                     }
                 },
                 "Axion Shield of Temptation": {
+                    "id": 10112,
                     "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -59970,6 +60458,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Axion Shield": {
+                    "id": 10113,
                     "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -60066,6 +60555,7 @@ var BDOdatabase = {
                     }
                 },
                 "Nouver Shield": {
+                    "id": 10138,
                     "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -60159,6 +60649,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kutum Shield": {
+                    "id": 10140,
                     "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -60269,6 +60760,7 @@ var BDOdatabase = {
             },
             "musa" :{
                 "Black Horn Warrior Bow": {
+                    "id": 13103,
                     "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -60341,6 +60833,7 @@ var BDOdatabase = {
                     }
                 },
                 "Black Horn Warrior Bow of Crimson Flame": {
+                    "id": 13106,
                     "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -60419,6 +60912,7 @@ var BDOdatabase = {
                     }
                 },
                 "Black Horn Warrior Bow of Destruction": {
+                    "id": 13107,
                     "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -60497,6 +60991,7 @@ var BDOdatabase = {
                     }
                 },
                 "Black Horn Warrior Bow of Temptation": {
+                    "id": 13108,
                     "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -60575,6 +61070,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Black Horn Warrior Bow": {
+                    "id": 13109,
                     "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -60654,6 +61150,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Horn Bow": {
+                    "id": 13124,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -60752,6 +61249,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Horn Bow of Crimson Flame": {
+                    "id": 13126,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -60852,6 +61350,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Horn Bow of Destruction": {
+                    "id": 13127,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -60952,6 +61451,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Horn Bow of Temptation": {
+                    "id": 13128,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -61052,6 +61552,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Horn Bow": {
+                    "id": 13131,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -61152,6 +61653,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Horn Bow": {
+                    "id": 13125,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -61234,6 +61736,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Horn Bow of Crimson Flame": {
+                    "id": 13132,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -61334,6 +61837,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Horn Bow of Destruction": {
+                    "id": 13133,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -61434,6 +61938,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Horn Bow of Temptation": {
+                    "id": 13134,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -61534,6 +62039,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Horn Bow": {
+                    "id": 13137,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -61634,6 +62140,7 @@ var BDOdatabase = {
                     }
                 },
                 "White Horn Bow": {
+                    "id": 13104,
                     "set": "White",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -61725,6 +62232,7 @@ var BDOdatabase = {
                     }
                 },
                 "White Horn Bow of Crimson Flame": {
+                    "id": 13110,
                     "set": "White",
                     "ap_min": 7,
                     "ap_max": 7,
@@ -61818,6 +62326,7 @@ var BDOdatabase = {
                     }
                 },
                 "White Horn Bow of Destruction": {
+                    "id": 13111,
                     "set": "White",
                     "ap_min": 7,
                     "ap_max": 7,
@@ -61911,6 +62420,7 @@ var BDOdatabase = {
                     }
                 },
                 "White Horn Bow of Temptation": {
+                    "id": 13112,
                     "set": "White",
                     "ap_min": 7,
                     "ap_max": 7,
@@ -62004,6 +62514,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate White Horn Bow": {
+                    "id": 13113,
                     "set": "White",
                     "ap_min": 7,
                     "ap_max": 7,
@@ -62097,6 +62608,7 @@ var BDOdatabase = {
                     }
                 },
                 "White Horn Warrior Bow": {
+                    "id": 13105,
                     "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -62212,6 +62724,7 @@ var BDOdatabase = {
                     }
                 },
                 "White Horn Warrior Bow of Crimson Flame": {
+                    "id": 13114,
                     "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -62328,6 +62841,7 @@ var BDOdatabase = {
                     }
                 },
                 "White Horn Warrior Bow of Destruction": {
+                    "id": 13115,
                     "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -62444,6 +62958,7 @@ var BDOdatabase = {
                     }
                 },
                 "White Horn Warrior Bow of Temptation": {
+                    "id": 13116,
                     "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -62560,6 +63075,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate White Horn Warrior Bow": {
+                    "id": 13117,
                     "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -62676,6 +63192,7 @@ var BDOdatabase = {
                     }
                 },
                 "Nouver Horn Bow": {
+                    "id": 13138,
                     "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -62769,6 +63286,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kutum Horn Bow": {
+                    "id": 13140,
                     "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -62879,6 +63397,7 @@ var BDOdatabase = {
             },
             "ninja" :{
                 "Estique Shuriken": {
+                    "id": 14604,
                     "set": "Estique",
                     "ap_min": 5,
                     "ap_max": 5,
@@ -62970,6 +63489,7 @@ var BDOdatabase = {
                     }
                 },
                 "Estique Shuriken of Crimson Flame": {
+                    "id": 14610,
                     "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -63063,6 +63583,7 @@ var BDOdatabase = {
                     }
                 },
                 "Estique Shuriken of Destruction": {
+                    "id": 14611,
                     "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -63156,6 +63677,7 @@ var BDOdatabase = {
                     }
                 },
                 "Estique Shuriken of Temptation": {
+                    "id": 14612,
                     "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -63249,6 +63771,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Estique Shuriken": {
+                    "id": 14613,
                     "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -63342,6 +63865,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shuriken": {
+                    "id": 14624,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -63440,6 +63964,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shuriken of Crimson Flame": {
+                    "id": 14626,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -63540,6 +64065,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shuriken of Destruction": {
+                    "id": 14627,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -63640,6 +64166,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shuriken of Temptation": {
+                    "id": 14628,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -63740,6 +64267,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Shuriken": {
+                    "id": 14631,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -63840,6 +64368,7 @@ var BDOdatabase = {
                     }
                 },
                 "Quitar Shuriken": {
+                    "id": 14603,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -63912,6 +64441,7 @@ var BDOdatabase = {
                     }
                 },
                 "Quitar Shuriken of Crimson Flame": {
+                    "id": 14606,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -63990,6 +64520,7 @@ var BDOdatabase = {
                     }
                 },
                 "Quitar Shuriken of Destruction": {
+                    "id": 14607,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -64068,6 +64599,7 @@ var BDOdatabase = {
                     }
                 },
                 "Quitar Shuriken of Temptation": {
+                    "id": 14608,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -64146,6 +64678,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Quitar Shuriken": {
+                    "id": 14609,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -64225,6 +64758,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shuriken": {
+                    "id": 14625,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -64307,6 +64841,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shuriken of Crimson Flame": {
+                    "id": 14632,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -64407,6 +64942,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shuriken of Destruction": {
+                    "id": 14633,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -64507,6 +65043,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shuriken of Temptation": {
+                    "id": 14634,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -64607,6 +65144,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Shuriken": {
+                    "id": 14637,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -64707,6 +65245,7 @@ var BDOdatabase = {
                     }
                 },
                 "Tadd Shuriken": {
+                    "id": 14605,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -64822,6 +65361,7 @@ var BDOdatabase = {
                     }
                 },
                 "Tadd Shuriken of Crimson Flame": {
+                    "id": 14614,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -64939,6 +65479,7 @@ var BDOdatabase = {
                     }
                 },
                 "Tadd Shuriken of Destruction": {
+                    "id": 14615,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -65056,6 +65597,7 @@ var BDOdatabase = {
                     }
                 },
                 "Tadd Shuriken of Temptation": {
+                    "id": 14616,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -65173,6 +65715,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Tadd Shuriken": {
+                    "id": 14617,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -65290,6 +65833,7 @@ var BDOdatabase = {
                     }
                 },
                 "Nouver Shuriken": {
+                    "id": 14638,
                     "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -65383,6 +65927,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kutum Shuriken": {
+                    "id": 14640,
                     "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -65493,6 +66038,7 @@ var BDOdatabase = {
             },
             "kunoichi" :{
                 "Estique Kunai": {
+                    "id": 14504,
                     "set": "Estique",
                     "ap_min": 5,
                     "ap_max": 5,
@@ -65584,6 +66130,7 @@ var BDOdatabase = {
                     }
                 },
                 "Estique Kunai of Crimson Flame": {
+                    "id": 14510,
                     "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -65677,6 +66224,7 @@ var BDOdatabase = {
                     }
                 },
                 "Estique Kunai of Destruction": {
+                    "id": 14511,
                     "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -65770,6 +66318,7 @@ var BDOdatabase = {
                     }
                 },
                 "Estique Kunai of Temptation": {
+                    "id": 14512,
                     "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
@@ -65957,6 +66506,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Kunai": {
+                    "id": 14524,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -66055,6 +66605,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Kunai of Crimson Flame": {
+                    "id": 14526,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -66155,6 +66706,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Kunai of Destruction": {
+                    "id": 14527,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -66255,6 +66807,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Kunai of Temptation": {
+                    "id": 14528,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -66355,6 +66908,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Kunai": {
+                    "id": 14531,
                     "set": "Krea",
                     "ap_min": 1,
                     "ap_max": 3,
@@ -66455,6 +67009,7 @@ var BDOdatabase = {
                     }
                 },
                 "Quitar Kunai": {
+                    "id": 14503,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -66527,6 +67082,7 @@ var BDOdatabase = {
                     }
                 },
                 "Quitar Kunai of Crimson Flame": {
+                    "id": 14506,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -66605,6 +67161,7 @@ var BDOdatabase = {
                     }
                 },
                 "Quitar Kunai of Destruction": {
+                    "id": 14507,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -66683,6 +67240,7 @@ var BDOdatabase = {
                     }
                 },
                 "Quitar Kunai of Temptation": {
+                    "id": 14508,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -66761,6 +67319,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Quitar Kunai": {
+                    "id": 14509,
                     "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -66840,6 +67399,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Kunai": {
+                    "id": 14525,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -66922,6 +67482,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Kunai of Crimson Flame": {
+                    "id": 14532,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -67022,6 +67583,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Kunai of Destruction": {
+                    "id": 14533,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -67122,6 +67684,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Kunai of Temptation": {
+                    "id": 14534,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -67222,6 +67785,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Kunai": {
+                    "id": 14537,
                     "set": "Rosar",
                     "ap_min": 1,
                     "ap_max": 4,
@@ -67322,6 +67886,7 @@ var BDOdatabase = {
                     }
                 },
                 "Tadd Kunai": {
+                    "id": 14505,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -67437,6 +68002,7 @@ var BDOdatabase = {
                     }
                 },
                 "Tadd Kunai of Crimson Flame": {
+                    "id": 14514,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -67554,6 +68120,7 @@ var BDOdatabase = {
                     }
                 },
                 "Tadd Kunai of Destruction": {
+                    "id": 14515,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -67671,6 +68238,7 @@ var BDOdatabase = {
                     }
                 },
                 "Tadd Kunai of Temptation": {
+                    "id": 14516,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -67788,6 +68356,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Tadd Kunai": {
+                    "id": 14517,
                     "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
@@ -67905,6 +68474,7 @@ var BDOdatabase = {
                     }
                 },
                 "Nouver Kunai": {
+                    "id": 14538,
                     "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
@@ -67998,6 +68568,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kutum Kunai": {
+                    "id": 14540,
                     "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
@@ -68110,6 +68681,7 @@ var BDOdatabase = {
         "awakening-weapons": {
             "warrior" :{
                 "Mercenary's Great Sword": {
+                    "id": 14703,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -68202,6 +68774,7 @@ var BDOdatabase = {
                     }
                 },
                 "Mercenary's Steel Great Sword": {
+                    "id": 14701,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -68294,6 +68867,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Mercenary's Steel Great Sword": {
+                    "id": 14705,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -68386,6 +68960,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Great Sword": {
+                    "id": 14702,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -68478,6 +69053,7 @@ var BDOdatabase = {
             },
             "sorceress" :{
                 "Scythe of Seduction": {
+                    "id": 14713,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -68570,6 +69146,7 @@ var BDOdatabase = {
                     }
                 },
                 "Spell Scythe of Seduction": {
+                    "id": 14711,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -68662,6 +69239,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Spell Scythe of Seduction": {
+                    "id": 14715,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -68754,6 +69332,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Scythe": {
+                    "id": 14712,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -68846,6 +69425,7 @@ var BDOdatabase = {
             },
             "berserker" :{
                 "Rough Iron Buster": {
+                    "id": 14723,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -68938,6 +69518,7 @@ var BDOdatabase = {
                     }
                 },
                 "Upgraded Iron Buster": {
+                    "id": 14721,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -69030,6 +69611,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Upgraded Iron Buster": {
+                    "id": 14725,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -69122,6 +69704,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Iron Buster": {
+                    "id": 14722,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -69214,6 +69797,7 @@ var BDOdatabase = {
             },
             "ranger" :{
                 "Young Tree Spirit’s Kamasylven Sword": {
+                    "id": 14733,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -69306,6 +69890,7 @@ var BDOdatabase = {
                     }
                 },
                 "Heiress’s Kamasylven Sword": {
+                    "id": 14731,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -69398,6 +69983,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Heiress’s Kamasylven Sword": {
+                    "id": 14735,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -69490,6 +70076,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Kamasylven Sword": {
+                    "id": 14732,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -69582,6 +70169,7 @@ var BDOdatabase = {
             },
             "tamer" :{
                 "Practice Celestial Bo Staff": {
+                    "id": 14743,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -69674,6 +70262,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azure Thunder Celestial Bo Staff": {
+                    "id": 14741,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -69766,6 +70355,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Azure Thunder Celestial Bo Staff": {
+                    "id": 14745,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -69858,6 +70448,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Celestial Bo Staff": {
+                    "id": 14742,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -69950,6 +70541,7 @@ var BDOdatabase = {
             },
             "valkyrie" :{
                 "Schzeriel Lancia": {
+                    "id": 14753,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -70042,6 +70634,7 @@ var BDOdatabase = {
                     }
                 },
                 "Piece of Purification Lancia": {
+                    "id": 14751,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -70134,6 +70727,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Piece of Purification Lancia": {
+                    "id": 14755,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -70226,6 +70820,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Lancia": {
+                    "id": 14752,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -70318,6 +70913,7 @@ var BDOdatabase = {
             },
             "musa" :{
                 "Iron Crescent Blade": {
+                    "id": 14763,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -70410,6 +71006,7 @@ var BDOdatabase = {
                     }
                 },
                 "Immaculate Crescent Blade": {
+                    "id": 14761,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -70502,6 +71099,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Immaculate Crescent Blade": {
+                    "id": 14765,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -70594,6 +71192,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Crescent Blade": {
+                    "id": 14762,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -70686,6 +71285,7 @@ var BDOdatabase = {
             },
             "maehwa" :{
                 "Sundo Kerispear": {
+                    "id": 14773,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -70778,6 +71378,7 @@ var BDOdatabase = {
                     }
                 },
                 "Frosty Cloud Kerispear": {
+                    "id": 14771,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -70870,6 +71471,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Frosty Cloud Kerispear": {
+                    "id": 14775,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -70962,6 +71564,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Kerispear": {
+                    "id": 14772,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -71054,6 +71657,7 @@ var BDOdatabase = {
             },
             "ninja" :{
                 "Tempest Sura Katana": {
+                    "id": 14783,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -71146,6 +71750,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yagakmu Sura Katana": {
+                    "id": 14781,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -71238,6 +71843,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Yagakmu Sura Katana": {
+                    "id": 14785,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -71330,6 +71936,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Sura Katana": {
+                    "id": 14782,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -71422,6 +72029,7 @@ var BDOdatabase = {
             },
             "kunoichi" :{
                 "Sonan Sah Chakram": {
+                    "id": 14793,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -71514,6 +72122,7 @@ var BDOdatabase = {
                     }
                 },
                 "Oeki’s Sah Chakram": {
+                    "id": 14791,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -71606,6 +72215,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Oeki’s Sah Chakram": {
+                    "id": 14795,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -71791,6 +72401,7 @@ var BDOdatabase = {
             },
             "witch" :{
                 "Pri Specter Aad": {
+                    "id": 14803,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -71883,6 +72494,7 @@ var BDOdatabase = {
                     }
                 },
                 "Alloria Specter Aad": {
+                    "id": 14801,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -71975,6 +72587,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Alloria Specter Aad": {
+                    "id": 14805,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -72067,6 +72680,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Specter Aad": {
+                    "id": 14802,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -72159,6 +72773,7 @@ var BDOdatabase = {
             },
             "wizard" :{
                 "Tati Specter Gode": {
+                    "id": 14813,
                     "ap_min": 11,
                     "ap_max": 20,
                     "rarity": "uncommon",
@@ -72251,6 +72866,7 @@ var BDOdatabase = {
                     }
                 },
                 "Lord Specter Gode": {
+                    "id": 14811,
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "rare",
@@ -72343,6 +72959,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Lord Specter Gode": {
+                    "id": 14815,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",
@@ -72435,6 +73052,7 @@ var BDOdatabase = {
                     }
                 },
                 "Dandelion Specter Gode": {
+                    "id": 14812,
                     "ap_min": 18,
                     "ap_max": 27,
                     "rarity": "epic",

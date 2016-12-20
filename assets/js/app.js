@@ -310,6 +310,13 @@
                 }).attr({
                     "title": item_name
                 }).tooltip('fixTitle');
+                
+            if (typeof item.id !== "undefined") {
+                $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']")
+                .css({
+                    'background-image': 'url(assets/images/gems/' + pad(item.id, 8) + '.png)'
+                });
+            }
         }
 
         if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "armor", "shoes", "gloves", "helmet"]) !== -1 && item_itemset !== "gems") {
@@ -384,9 +391,25 @@
                             '</div>');
 
         // item icon
-        item_element.append('<div class="item-icon">'+
-                                '<img src="assets/images/48/gem.png" alt="BDO Gear Calculator">'+
-                            '</div>');
+        var w_item_icon = $("<div>")
+            .addClass("item-icon")
+            .appendTo(item_element);
+            
+        var item_icon = $("<img>")
+            .attr({
+                "alt": "BDO Gear Calculator"
+            })
+            .appendTo(w_item_icon);
+            
+        if (typeof item.id == "undefined") {
+            item_icon.attr({
+                "src": 'assets/images/48/gem.png', 
+            });
+        } else {
+            item_icon.attr({
+                "src": 'assets/images/gems/' + pad(item.id, 8) + '.png', 
+            });
+        }
 
         // item choose button
         item_element.append('<button class="btn btn-sm btn-primary item-choose" data-item="' + key + '" data-itemset="gems" data-type="' + item_type + '" data-itemno="' + item_no + '">Choose</button>');
@@ -862,7 +885,7 @@
         $("#show-settings").on("click", function (e) {
             e.preventDefault();
             
-            $('#settingsscreen').modal();
+            //$('#settingsscreen').modal();
         });
 
         //Copy share link to clipboard / tooltip setup

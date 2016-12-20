@@ -450,6 +450,44 @@ div.enhancement {
     margin: 0px 10px 0px 5px;
 }
 
+#gear-rarity-filter {
+    list-style-type: none;
+    padding-left: 0px;
+}
+#gear-rarity-filter li {
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    padding: 3px;
+    margin-right: 6px;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.5),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+#gear-rarity-filter li div {
+    width: 26px;
+    height: 26px;
+    border-radius: 20px;
+    background: #1b2337;
+    border: 2px solid #1b2337;
+}
+#gear-rarity-filter li.common, #gear-rarity-filter li.common.active div {
+    background: #ffffff;
+}
+#gear-rarity-filter li.uncommon, #gear-rarity-filter li.uncommon.active div {
+    background: #5ff369;
+}
+#gear-rarity-filter li.rare, #gear-rarity-filter li.rare.active div {
+    background: #0391c4;
+}
+#gear-rarity-filter li.epic, #gear-rarity-filter li.epic.active div {
+    background: #f6c232;
+}
+#gear-rarity-filter li.legendary, #gear-rarity-filter li.legendary.active div {
+    background: #d36300;
+}
+
 .intro-text a {
     text-decoration: none;
 }
@@ -459,6 +497,36 @@ div.enhancement {
 }
 .stats li strong {
     color: #e5e5e5;
+}
+
+input[type=checkbox] {
+    display:none;
+}
+input[type=checkbox] + label:before {
+    font-family: 'Glyphicons Halflings';
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #dfce7f;
+    border-radius: 3px;
+    width: 24px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    box-shadow: inset -1px -1px 3px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin-right: 10px;
+}
+
+input[type=checkbox] + label:before {
+    content: "\00a0";
+}
+
+input[type=checkbox]:checked + label:before {
+    content: "\e013";
+    background: #dfce7f;
+    color: #1b2337;
+    border: 0px;
+    padding: 2px;
 }
 
 #sticky-footer {
@@ -556,4 +624,9 @@ div.enhancement {
     margin-left: 45px;
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.7),
         1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+#settingsscreen label {
+    font-weight: normal;
+    font-size: 16px;
 }

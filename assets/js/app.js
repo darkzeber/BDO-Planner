@@ -652,6 +652,19 @@
                 buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
             }
         });
+        $("#gear-rarity-filter").on("click", "li", function (e) {
+            if ($(this).hasClass("active")) {
+                $(this).removeClass("active");
+            } else {
+                $(this).addClass("active");
+            }
+            
+            if (current_modal == "gear") {
+                buildGearModal(current_item_type, current_item_itemset, current_item_no, $("#gearlist-search").val());
+            } else if (current_modal == "gem") {
+                buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
+            }
+        });
 
         $("#equipment .gear-slot").click(function() {
             current_item_type = $(this).attr('data-type');
@@ -664,7 +677,19 @@
             $('#gearlist').modal();
         });
         
+        function getRarityFilters() {
+            return {
+                common: $("#gear-rarity-filter li.common").hasClass("active"),
+                uncommon: $("#gear-rarity-filter li.uncommon").hasClass("active"),
+                rare: $("#gear-rarity-filter li.rare").hasClass("active"),
+                epic: $("#gear-rarity-filter li.epic").hasClass("active"),
+                legendary: $("#gear-rarity-filter li.legendary").hasClass("active")
+            };
+        }
+        
         function buildGearModal(item_type, item_itemset, item_no, search) {
+            var rarityFilters = getRarityFilters();
+            
             search = search ? $.trim(search.toLowerCase()) : "";
             var items_db = BDOdatabase.items[item_itemset],
                 items_list = (typeof items_db[player_class] === "undefined" ? items_db : items_db[player_class]),
@@ -680,6 +705,9 @@
                 
                 // If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
                 if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
+                    continue;
+                }
+                if (!rarityFilters[items_list[key].rarity]) {
                     continue;
                 }
                 
@@ -784,6 +812,8 @@
         });
         
         function buildGemModal(item_type, item_no, search) {
+            var rarityFilters = getRarityFilters();
+            
             search = search ? $.trim(search.toLowerCase()) : "";
             var items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]),
                 c = 1;
@@ -798,6 +828,9 @@
                 
                 // If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
                 if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
+                    continue;
+                }
+                if (!rarityFilters[items_list[key].rarity]) {
                     continue;
                 }
 

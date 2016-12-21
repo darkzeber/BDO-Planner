@@ -258,14 +258,14 @@ div.enhancement {
 #equipment .outfit {
     top: 70px;
     left: 50%;
-    margin-left: -49px;
+    margin-left: -32px;
     background: url("../images/48/none.png") no-repeat center center;
 }
 
 #equipment .gem-slot.outfit1 {
-    top: 70px;
+    top: 36px;
     left: 50%;
-    margin-left: 19px;
+    margin-left: -15px;
 }
 
 #equipment .main-weapon-outfit {

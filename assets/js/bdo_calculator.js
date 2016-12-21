@@ -534,10 +534,6 @@ var BDOcalculator = {
                     $('.stat-awk-ap span').text(Math.floor((obj.min + obj.max) / 2));
                     break;
 
-                case "awkap":
-                    $('.stat-awk-ap span').text(obj.min + ' ~ ' + obj.max);
-                    break;
-
                 case "dp":
                     $('.stat-dp span').text(obj.total);
                     break;

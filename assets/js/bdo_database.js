@@ -659,12 +659,12 @@ var BDOdatabase = {
         "witch": {
             "main-weapon": "Staff",
             "secondary-weapon": "Dagger",
-            "awakening-weapon": "Aad Orb"
+            "awakening-weapon": "Aad Sphera"
         },
         "wizard": {
             "main-weapon": "Staff",
             "secondary-weapon": "Dagger",
-            "awakening-weapon": "Gode Orb"
+            "awakening-weapon": "Godr Sphera"
         },
         "musa": {
             "main-weapon": "Blade",
@@ -72793,7 +72793,7 @@ var BDOdatabase = {
                 }
             },
             "witch" :{
-                "Pri Specter Aad": {
+                "Pri Aad Sphera": {
                     "id": 14803,
                     "ap_min": 11,
                     "ap_max": 20,
@@ -72886,7 +72886,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Alloria Specter Aad": {
+                "Alloria Aad Sphera": {
                     "id": 14801,
                     "ap_min": 16,
                     "ap_max": 25,
@@ -72979,7 +72979,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Ultimate Alloria Specter Aad": {
+                "Ultimate Alloria Aad Sphera": {
                     "id": 14805,
                     "ap_min": 18,
                     "ap_max": 27,
@@ -73072,7 +73072,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Dandelion Specter Aad": {
+                "Dandelion Aad Sphera": {
                     "id": 14802,
                     "ap_min": 18,
                     "ap_max": 27,
@@ -73165,7 +73165,7 @@ var BDOdatabase = {
                 }
             },
             "wizard" :{
-                "Tati Specter Gode": {
+                "Tati Godr Sphera": {
                     "id": 14813,
                     "ap_min": 11,
                     "ap_max": 20,
@@ -73258,7 +73258,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Lord Specter Gode": {
+                "Lord Godr Sphera": {
                     "id": 14811,
                     "ap_min": 16,
                     "ap_max": 25,
@@ -73351,7 +73351,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Ultimate Lord Specter Gode": {
+                "Ultimate Lord Godr Sphera": {
                     "id": 14815,
                     "ap_min": 18,
                     "ap_max": 27,
@@ -73444,7 +73444,7 @@ var BDOdatabase = {
                         }
                     }
                 },
-                "Dandelion Specter Gode": {
+                "Dandelion Godr Sphera": {
                     "id": 14812,
                     "ap_min": 18,
                     "ap_max": 27,

@@ -19859,6 +19859,7 @@ var BDOdatabase = {
         "main-weapons": {
             "berserker" :{
                 "Yuria Axe": {
+                    "id": 10614,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -19952,6 +19953,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Axe of Crimson Flame": {
+                    "id": 10640,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -20046,6 +20048,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Axe of Destruction": {
+                    "id": 10641,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -20140,6 +20143,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Axe of Temptation": {
+                    "id": 10642,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -20235,6 +20239,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Yuria Axe": {
+                    "id": 10643,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
@@ -20330,6 +20335,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Axe": {
+                    "id": 10607,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -20423,6 +20429,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Axe of Crimson Flame": {
+                    "id": 10628,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -20517,6 +20524,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Axe of Destruction": {
+                    "id": 10629,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -20611,6 +20619,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Axe of Temptation": {
+                    "id": 10630,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -20706,6 +20715,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Seleth Axe": {
+                    "id": 10631,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -20801,6 +20811,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Axe": {
+                    "id": 10657,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -20892,6 +20903,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Axe of Crimson Flame": {
+                    "id": 10664,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -20985,6 +20997,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Axe of Destruction": {
+                    "id": 10665,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -21078,6 +21091,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Axe of Temptation": {
+                    "id": 10666,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -21172,6 +21186,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Axe": {
+                    "id": 10669,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 26,
@@ -21266,6 +21281,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Axe": {
+                    "id": 10656,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -21357,6 +21373,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Axe of Crimson Flame": {
+                    "id": 10658,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -21450,6 +21467,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Axe of Destruction": {
+                    "id": 10659,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -21543,6 +21561,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Axe of Temptation": {
+                    "id": 10660,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -21637,6 +21656,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Axe": {
+                    "id": 10663,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 23,
@@ -21731,6 +21751,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Axe": {
+                    "id": 10663,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -21822,6 +21843,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Axe of Crimson Flame": {
+                    "id": 10632,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -21915,6 +21937,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Axe of Destruction": {
+                    "id": 10633,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -22008,6 +22031,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Axe of Temptation": {
+                    "id": 10634,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -22102,6 +22126,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Kalis Axe": {
+                    "id": 10635,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
@@ -22196,6 +22221,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Axe": {
+                    "id": 10603,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -22292,6 +22318,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Axe of Crimson Flame": {
+                    "id": 10674,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -22389,6 +22416,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Axe of Destruction": {
+                    "id": 10675,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -22486,6 +22514,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Axe of Temptation": {
+                    "id": 10676,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -22584,6 +22613,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Elsh Axe": {
+                    "id": 10677,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -22682,6 +22712,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Axe": {
+                    "id": 10613,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -22775,6 +22806,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Axe of Crimson Flame": {
+                    "id": 10636,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -22869,6 +22901,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Axe of Destruction": {
+                    "id": 10637,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -22963,6 +22996,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Axe of Temptation": {
+                    "id": 10638,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -23058,6 +23092,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Bares Axe": {
+                    "id": 10639,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
@@ -23153,6 +23188,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Axe": {
+                    "id": 10605,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -23247,6 +23283,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Axe of Crimson Flame": {
+                    "id": 10620,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -23342,6 +23379,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Axe of Destruction": {
+                    "id": 10621,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -23437,6 +23475,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Axe of Temptation": {
+                    "id": 10622,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -23533,6 +23572,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Azwell Axe": {
+                    "id": 10623,
                     "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
@@ -23629,6 +23669,7 @@ var BDOdatabase = {
                     }
                 },
                 "Liverto Axe": {
+                    "id": 10609,
                     "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -23722,6 +23763,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kzarka Axe": {
+                    "id": 10610,
                     "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -23817,6 +23859,7 @@ var BDOdatabase = {
             },
             "ranger" :{
                 "Yuria Longbow": {
+                    "id": 10214,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -23910,6 +23953,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Longbow of Crimson Flame": {
+                    "id": 10240,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -24004,6 +24048,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Longbow of Destruction": {
+                    "id": 10241,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -24098,6 +24143,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Longbow of Temptation": {
+                    "id": 10242,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -24193,6 +24239,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Yuria Longbow": {
+                    "id": 10243,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
@@ -24288,6 +24335,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Longbow": {
+                    "id": 10207,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -24381,6 +24429,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Longbow of Crimson Flame": {
+                    "id": 10228,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -24475,6 +24524,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Longbow of Destruction": {
+                    "id": 10229,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -24569,6 +24619,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Longbow of Temptation": {
+                    "id": 10230,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -24664,6 +24715,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Seleth Longbow": {
+                    "id": 10231,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -24759,6 +24811,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Longbow": {
+                    "id": 10257,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -24850,6 +24903,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Longbow of Crimson Flame": {
+                    "id": 10264,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -24943,6 +24997,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Longbow of Destruction": {
+                    "id": 10265,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -25036,6 +25091,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Longbow of Temptation": {
+                    "id": 10266,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -25130,6 +25186,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Longbow": {
+                    "id": 10269,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 26,
@@ -25224,6 +25281,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Longbow": {
+                    "id": 10256,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -25315,6 +25373,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Longbow of Crimson Flame": {
+                    "id": 10258,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -25408,6 +25467,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Longbow of Destruction": {
+                    "id": 10259,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -25501,6 +25561,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Longbow of Temptation": {
+                    "id": 10260,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -25595,6 +25656,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Longbow": {
+                    "id": 10263,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 23,
@@ -25689,6 +25751,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Longbow": {
+                    "id": 10212,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -25780,6 +25843,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Longbow of Crimson Flame": {
+                    "id": 10232,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -25873,6 +25937,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Longbow of Destruction": {
+                    "id": 10233,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -25966,6 +26031,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Longbow of Temptation": {
+                    "id": 10234,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -26060,6 +26126,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Kalis Longbow": {
+                    "id": 10235,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
@@ -26154,6 +26221,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Longbow": {
+                    "id": 10203,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -26250,6 +26318,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Longbow of Crimson Flame": {
+                    "id": 10274,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -26347,6 +26416,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Longbow of Destruction": {
+                    "id": 10275,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -26444,6 +26514,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Longbow of Temptation": {
+                    "id": 10276,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -26542,6 +26613,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Elsh Longbow": {
+                    "id": 10277,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -26640,6 +26712,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Longbow": {
+                    "id": 10213,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -26733,6 +26806,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Longbow of Crimson Flame": {
+                    "id": 10236,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -26827,6 +26901,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Longbow of Destruction": {
+                    "id": 10237,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -26921,6 +26996,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Longbow of Temptation": {
+                    "id": 10238,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -27016,6 +27092,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Bares Longbow": {
+                    "id": 10239,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
@@ -27111,6 +27188,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Longbow": {
+                    "id": 10205,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -27205,6 +27283,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Longbow of Crimson Flame": {
+                    "id": 10220,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -27300,6 +27379,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Longbow of Destruction": {
+                    "id": 10221,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -27395,6 +27475,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Longbow of Temptation": {
+                    "id": 10222,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -27491,6 +27572,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Azwell Longbow": {
+                    "id": 10223,
                     "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
@@ -27587,6 +27669,7 @@ var BDOdatabase = {
                     }
                 },
                 "Liverto Longbow": {
+                    "id": 10209,
                     "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -27680,6 +27763,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kzarka Longbow": {
+                    "id": 10210,
                     "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -27775,6 +27859,7 @@ var BDOdatabase = {
             },
             "sorceress" :{
                 "Yuria Amulet": {
+                    "id": 10414,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -27868,6 +27953,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Amulet of Crimson Flame": {
+                    "id": 10440,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -27962,6 +28048,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Amulet of Destruction": {
+                    "id": 10441,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -28056,6 +28143,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Amulet of Temptation": {
+                    "id": 10442,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -28150,6 +28238,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Yuria Amulet": {
+                    "id": 10443,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
@@ -28245,6 +28334,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Amulet": {
+                    "id": 10407,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -28338,6 +28428,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Amulet of Crimson Flame": {
+                    "id": 10428,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -28432,6 +28523,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Amulet of Destruction": {
+                    "id": 10429,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -28526,6 +28618,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Amulet of Temptation": {
+                    "id": 10430,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -28620,6 +28713,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Seleth Amulet": {
+                    "id": 10431,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -28715,6 +28809,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Amulet": {
+                    "id": 10457,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -28806,6 +28901,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Amulet of Crimson Flame": {
+                    "id": 10464,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -28899,6 +28995,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Amulet of Destruction": {
+                    "id": 10465,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -28992,6 +29089,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Amulet of Temptation": {
+                    "id": 10466,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -29086,6 +29184,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Amulet": {
+                    "id": 10469,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 26,
@@ -29180,6 +29279,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Amulet": {
+                    "id": 10456,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -29271,6 +29371,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Amulet of Crimson Flame": {
+                    "id": 10458,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -29364,6 +29465,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Amulet of Destruction": {
+                    "id": 10459,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -29457,6 +29559,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Amulet of Temptation": {
+                    "id": 10460,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -29550,6 +29653,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Amulet": {
+                    "id": 10463,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 23,
@@ -29644,6 +29748,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Amulet": {
+                    "id": 10412,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -29735,6 +29840,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Amulet of Crimson Flame": {
+                    "id": 10432,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -29828,6 +29934,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Amulet of Destruction": {
+                    "id": 10433,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -29921,6 +30028,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Amulet of Temptation": {
+                    "id": 10434,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -30014,6 +30122,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Kalis Amulet": {
+                    "id": 10435,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
@@ -30108,6 +30217,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Amulet": {
+                    "id": 10403,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -30204,6 +30314,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Amulet of Crimson Flame": {
+                    "id": 10474,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -30301,6 +30412,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Amulet of Destruction": {
+                    "id": 10475,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -30398,6 +30510,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Amulet of Temptation": {
+                    "id": 10476,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -30496,6 +30609,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Elsh Amulet": {
+                    "id": 10477,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -30594,6 +30708,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Amulet": {
+                    "id": 10413,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -30687,6 +30802,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Amulet of Crimson Flame": {
+                    "id": 10436,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -30781,6 +30897,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Amulet of Destruction": {
+                    "id": 10437,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -30875,6 +30992,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Amulet of Temptation": {
+                    "id": 10438,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -30969,6 +31087,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Bares Amulet": {
+                    "id": 10439,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
@@ -31064,6 +31183,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Amulet": {
+                    "id": 10405,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -31158,6 +31278,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Amulet of Crimson Flame": {
+                    "id": 10420,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -31253,6 +31374,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Amulet of Destruction": {
+                    "id": 10421,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -31348,6 +31470,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Amulet of Temptation": {
+                    "id": 10422,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -31443,6 +31566,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Azwell Amulet": {
+                    "id": 10423,
                     "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
@@ -31539,6 +31663,7 @@ var BDOdatabase = {
                     }
                 },
                 "Liverto Amulet": {
+                    "id": 10409,
                     "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -31632,6 +31757,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kzarka Amulet": {
+                    "id": 10410,
                     "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -31727,6 +31853,7 @@ var BDOdatabase = {
             },
             "tamer" :{
                 "Yuria Shortsword": {
+                    "id": 13214,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -31820,6 +31947,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Shortsword of Crimson Flame": {
+                    "id": 13240,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -31914,6 +32042,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Shortsword of Destruction": {
+                    "id": 13241,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -32008,6 +32137,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Shortsword of Temptation": {
+                    "id": 13242,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -32103,6 +32233,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Yuria Shortsword": {
+                    "id": 13243,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
@@ -32198,6 +32329,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Shortsword": {
+                    "id": 13207,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -32291,6 +32423,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Shortsword of Crimson Flame": {
+                    "id": 13228,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -32385,6 +32518,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Shortsword of Destruction": {
+                    "id": 13229,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -32479,6 +32613,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Shortsword of Temptation": {
+                    "id": 13230,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -32574,6 +32709,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Seleth Shortsword": {
+                    "id": 13231,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -32669,6 +32805,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shortsword": {
+                    "id": 13257,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -32760,6 +32897,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shortsword of Crimson Flame": {
+                    "id": 13264,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -32853,6 +32991,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shortsword of Destruction": {
+                    "id": 13265,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -32946,6 +33085,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Shortsword of Temptation": {
+                    "id": 13266,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -33040,6 +33180,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Shortsword": {
+                    "id": 13269,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 26,
@@ -33134,6 +33275,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shortsword": {
+                    "id": 13256,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -33225,6 +33367,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shortsword of Crimson Flame": {
+                    "id": 13258,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -33318,6 +33461,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shortsword of Destruction": {
+                    "id": 13259,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -33411,6 +33555,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Shortsword of Temptation": {
+                    "id": 13260,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -33505,6 +33650,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Shortsword": {
+                    "id": 13263,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 23,
@@ -33599,6 +33745,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Shortsword": {
+                    "id": 13212,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -33690,6 +33837,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Shortsword of Crimson Flame": {
+                    "id": 13232,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -33783,6 +33931,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Shortsword of Destruction": {
+                    "id": 13233,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -33876,6 +34025,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Shortsword of Temptation": {
+                    "id": 13234,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -33970,6 +34120,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Kalis Shortsword": {
+                    "id": 13235,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
@@ -34064,6 +34215,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Shortsword": {
+                    "id": 13203,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -34160,6 +34312,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Shortsword of Crimson Flame": {
+                    "id": 13274,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -34257,6 +34410,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Shortsword of Destruction": {
+                    "id": 13275,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -34354,6 +34508,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Shortsword of Temptation": {
+                    "id": 13276,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -34452,6 +34607,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Elsh Shortsword": {
+                    "id": 13277,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -34550,6 +34706,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Shortsword": {
+                    "id": 13213,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -34643,6 +34800,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Shortsword of Crimson Flame": {
+                    "id": 13236,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -34737,6 +34895,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Shortsword of Destruction": {
+                    "id": 13237,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -34831,6 +34990,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Shortsword of Temptation": {
+                    "id": 13238,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -34926,6 +35086,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Bares Shortsword": {
+                    "id": 13239,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
@@ -35021,6 +35182,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Shortsword": {
+                    "id": 13205,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -35115,6 +35277,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Shortsword of Crimson Flame": {
+                    "id": 13220,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -35210,6 +35373,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Shortsword of Destruction": {
+                    "id": 13221,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -35305,6 +35469,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Shortsword of Temptation": {
+                    "id": 13222,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -35401,6 +35566,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Azwell Shortsword": {
+                    "id": 13223,
                     "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
@@ -35591,6 +35757,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kzarka Shortsword": {
+                    "id": 13210,
                     "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -35686,6 +35853,7 @@ var BDOdatabase = {
             },
             "valkyrie" :{
                 "Yuria Longsword": {
+                    "id": 10014,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -35779,6 +35947,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Longsword of Crimson Flame": {
+                    "id": 10040,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -35873,6 +36042,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Longsword of Destruction": {
+                    "id": 10041,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -35968,6 +36138,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Longsword of Temptation": {
+                    "id": 10042,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -36064,6 +36235,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Yuria Longsword": {
+                    "id": 10043,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
@@ -36160,6 +36332,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Longsword": {
+                    "id": 10007,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -36253,6 +36426,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Longsword of Crimson Flame": {
+                    "id": 10028,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -36347,6 +36521,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Longsword of Destruction": {
+                    "id": 10029,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -36442,6 +36617,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Longsword of Temptation": {
+                    "id": 10030,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -36538,6 +36714,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Seleth Longsword": {
+                    "id": 10031,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -36634,6 +36811,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Longsword": {
+                    "id": 10057,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -36725,6 +36903,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Longsword of Crimson Flame": {
+                    "id": 10064,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -36818,6 +36997,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Longsword of Destruction": {
+                    "id": 10065,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -36912,6 +37092,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Longsword of Temptation": {
+                    "id": 10066,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -37007,6 +37188,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Longsword": {
+                    "id": 10069,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 26,
@@ -37102,6 +37284,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Longsword": {
+                    "id": 10056,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -37193,6 +37376,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Longsword of Crimson Flame": {
+                    "id": 10058,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -37286,6 +37470,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Longsword of Destruction": {
+                    "id": 10059,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -37380,6 +37565,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Longsword of Temptation": {
+                    "id": 10060,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -37475,6 +37661,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Longsword": {
+                    "id": 10063,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 23,
@@ -37570,6 +37757,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Longsword": {
+                    "id": 10012,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -37661,6 +37849,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Longsword of Crimson Flame": {
+                    "id": 10032,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -37754,6 +37943,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Longsword of Destruction": {
+                    "id": 10033,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -37848,6 +38038,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Longsword of Temptation": {
+                    "id": 10034,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -37943,6 +38134,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Kalis Longsword": {
+                    "id": 10035,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
@@ -38038,6 +38230,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Longsword": {
+                    "id": 10003,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -38134,6 +38327,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Longsword of Crimson Flame": {
+                    "id": 10074,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -38231,6 +38425,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Longsword of Destruction": {
+                    "id": 10075,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -38329,6 +38524,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Longsword of Temptation": {
+                    "id": 10076,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -38428,6 +38624,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Elsh Longsword": {
+                    "id": 10077,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -38527,6 +38724,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Longsword": {
+                    "id": 10013,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -38620,6 +38818,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Longsword of Crimson Flame": {
+                    "id": 10036,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -38714,6 +38913,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Longsword of Destruction": {
+                    "id": 10037,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -38809,6 +39009,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Longsword of Temptation": {
+                    "id": 10038,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -38905,6 +39106,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Bares Longsword": {
+                    "id": 10039,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
@@ -39001,6 +39203,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Longsword": {
+                    "id": 10005,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -39095,6 +39298,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Longsword of Crimson Flame": {
+                    "id": 10020,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -39190,6 +39394,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Longsword of Destruction": {
+                    "id": 10021,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -39286,6 +39491,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Longsword of Temptation": {
+                    "id": 10022,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -39383,6 +39589,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Azwell Longsword": {
+                    "id": 10023,
                     "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
@@ -39480,6 +39687,7 @@ var BDOdatabase = {
                     }
                 },
                 "Liverto Longsword": {
+                    "id": 10009,
                     "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -39573,6 +39781,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kzarka Longsword": {
+                    "id": 10010,
                     "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -39669,6 +39878,7 @@ var BDOdatabase = {
             },
             "witch" :{
                 "Yuria Staff": {
+                    "id": 14414,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -39762,6 +39972,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Staff of Crimson Flame": {
+                    "id": 14440,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -39856,6 +40067,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Staff of Destruction": {
+                    "id": 14441,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -39950,6 +40162,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Staff of Temptation": {
+                    "id": 14442,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -40045,6 +40258,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Yuria Staff": {
+                    "id": 14443,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
@@ -40140,6 +40354,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Staff": {
+                    "id": 14407,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -40233,6 +40448,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Staff of Crimson Flame": {
+                    "id": 14428,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -40327,6 +40543,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Staff of Destruction": {
+                    "id": 14429,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -40421,6 +40638,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Staff of Temptation": {
+                    "id": 14430,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -40515,6 +40733,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Seleth Staff": {
+                    "id": 14431,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -40610,6 +40829,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Staff": {
+                    "id": 14457,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -40701,6 +40921,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Staff of Crimson Flame": {
+                    "id": 14464,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -40794,6 +41015,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Staff of Destruction": {
+                    "id": 14465,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -40887,6 +41109,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Staff of Temptation": {
+                    "id": 14466,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -40980,6 +41203,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Staff": {
+                    "id": 14469,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 26,
@@ -41074,6 +41298,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Staff": {
+                    "id": 14456,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -41165,6 +41390,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Staff of Crimson Flame": {
+                    "id": 14458,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -41258,6 +41484,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Staff of Destruction": {
+                    "id": 14459,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -41351,6 +41578,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Staff of Temptation": {
+                    "id": 14460,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -41444,6 +41672,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Staff": {
+                    "id": 14463,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 23,
@@ -41538,6 +41767,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Staff": {
+                    "id": 14412,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -41629,6 +41859,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Staff of Crimson Flame": {
+                    "id": 14432,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -41722,6 +41953,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Staff of Destruction": {
+                    "id": 14433,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -41815,6 +42047,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Staff of Temptation": {
+                    "id": 14434,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -41908,6 +42141,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Kalis Staff": {
+                    "id": 14435,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
@@ -42002,6 +42236,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Staff": {
+                    "id": 14403,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -42098,6 +42333,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Staff of Crimson Flame": {
+                    "id": 14474,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -42195,6 +42431,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Staff of Destruction": {
+                    "id": 14475,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -42292,6 +42529,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Staff of Temptation": {
+                    "id": 14476,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -42390,6 +42628,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Elsh Staff": {
+                    "id": 14477,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -42488,6 +42727,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Staff": {
+                    "id": 14413,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -42581,6 +42821,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Staff of Crimson Flame": {
+                    "id": 14436,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -42675,6 +42916,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Staff of Destruction": {
+                    "id": 14437,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -42769,6 +43011,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Staff of Temptation": {
+                    "id": 14438,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -42863,6 +43106,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Bares Staff": {
+                    "id": 14439,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
@@ -42958,6 +43202,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Staff": {
+                    "id": 14405,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -43052,6 +43297,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Staff of Crimson Flame": {
+                    "id": 14420,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -43147,6 +43393,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Staff of Destruction": {
+                    "id": 14421,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -43242,6 +43489,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Staff of Temptation": {
+                    "id": 14422,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -43337,6 +43585,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Azwell Staff": {
+                    "id": 14423,
                     "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
@@ -43433,6 +43682,7 @@ var BDOdatabase = {
                     }
                 },
                 "Liverto Staff": {
+                    "id": 14409,
                     "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -43526,6 +43776,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kzarka Staff": {
+                    "id": 14410,
                     "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -43621,6 +43872,7 @@ var BDOdatabase = {
             },
             "musa" :{
                 "Yuria Blade": {
+                    "id": 13314,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -43714,6 +43966,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Blade of Crimson Flame": {
+                    "id": 13340,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -43808,6 +44061,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Blade of Destruction": {
+                    "id": 13341,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -43902,6 +44156,7 @@ var BDOdatabase = {
                     }
                 },
                 "Yuria Blade of Temptation": {
+                    "id": 13342,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
@@ -43997,6 +44252,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Yuria Blade": {
+                    "id": 13343,
                     "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
@@ -44092,6 +44348,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Blade": {
+                    "id": 13307,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -44185,6 +44442,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Blade of Crimson Flame": {
+                    "id": 13328,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -44279,6 +44537,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Blade of Destruction": {
+                    "id": 13329,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -44373,6 +44632,7 @@ var BDOdatabase = {
                     }
                 },
                 "Seleth Blade of Temptation": {
+                    "id": 13330,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -44468,6 +44728,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Seleth Blade": {
+                    "id": 13331,
                     "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -44563,6 +44824,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Blade": {
+                    "id": 13357,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -44654,6 +44916,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Blade of Crimson Flame": {
+                    "id": 13364,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -44747,6 +45010,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Blade of Destruction": {
+                    "id": 13365,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -44840,6 +45104,7 @@ var BDOdatabase = {
                     }
                 },
                 "Rosar Blade of Temptation": {
+                    "id": 13366,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 22,
@@ -44934,6 +45199,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Rosar Blade": {
+                    "id": 13369,
                     "set": "Rosar",
                     "ap_min": 17,
                     "ap_max": 26,
@@ -45028,6 +45294,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Blade": {
+                    "id": 13356,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -45119,6 +45386,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Blade of Crimson Flame": {
+                    "id": 13358,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -45212,6 +45480,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Blade of Destruction": {
+                    "id": 13359,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -45305,6 +45574,7 @@ var BDOdatabase = {
                     }
                 },
                 "Krea Blade of Temptation": {
+                    "id": 13360,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 19,
@@ -45399,6 +45669,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Krea Blade": {
+                    "id": 13363,
                     "set": "Krea",
                     "ap_min": 17,
                     "ap_max": 23,
@@ -45493,6 +45764,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Blade": {
+                    "id": 13312,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -45584,6 +45856,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Blade of Crimson Flame": {
+                    "id": 13332,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -45677,6 +45950,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Blade of Destruction": {
+                    "id": 13333,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -45770,6 +46044,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kalis Blade of Temptation": {
+                    "id": 13334,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
@@ -45864,6 +46139,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Kalis Blade": {
+                    "id": 13335,
                     "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
@@ -45958,6 +46234,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Blade": {
+                    "id": 13303,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -46054,6 +46331,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Blade of Crimson Flame": {
+                    "id": 13374,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -46151,6 +46429,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Blade of Destruction": {
+                    "id": 13375,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -46248,6 +46527,7 @@ var BDOdatabase = {
                     }
                 },
                 "Elsh Blade of Temptation": {
+                    "id": 13376,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
@@ -46346,6 +46626,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Elsh Blade": {
+                    "id": 13377,
                     "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
@@ -46444,6 +46725,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Blade": {
+                    "id": 13313,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -46537,6 +46819,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Blade of Crimson Flame": {
+                    "id": 13336,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -46631,6 +46914,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Blade of Destruction": {
+                    "id": 13337,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -46725,6 +47009,7 @@ var BDOdatabase = {
                     }
                 },
                 "Bares Blade of Temptation": {
+                    "id": 13338,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
@@ -46820,6 +47105,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Bares Blade": {
+                    "id": 13339,
                     "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
@@ -46915,6 +47201,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Blade": {
+                    "id": 13305,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -47009,6 +47296,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Blade of Crimson Flame": {
+                    "id": 13320,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -47104,6 +47392,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Blade of Destruction": {
+                    "id": 13321,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -47199,6 +47488,7 @@ var BDOdatabase = {
                     }
                 },
                 "Azwell Blade of Temptation": {
+                    "id": 13322,
                     "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
@@ -47295,6 +47585,7 @@ var BDOdatabase = {
                     }
                 },
                 "Ultimate Azwell Blade": {
+                    "id": 13323,
                     "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
@@ -47391,6 +47682,7 @@ var BDOdatabase = {
                     }
                 },
                 "Liverto Blade": {
+                    "id": 13309,
                     "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
@@ -47484,6 +47776,7 @@ var BDOdatabase = {
                     }
                 },
                 "Kzarka Blade": {
+                    "id": 13310,
                     "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,

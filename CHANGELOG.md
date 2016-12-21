@@ -1,3 +1,19 @@
+## 0.4.0 (2016-12-21)
+
+Features:
+
+  - Images for all items have been added! Everything looks nicer now!
+  - New Layout, the layout resembles the in-game display a bit more, and now uses a dark theme.
+  - Stat breakdown tooltips, when hovering on a stat you will see which of your items are providing that stat.
+  - Rarity filter will now let you search for items by their rarity.
+
+## 0.3.4 (2016-12-15)
+
+Features:
+
+  - Added displaying Enhancement levels ontop of equipment icons and on tooltips (IHellMasker)
+  - Added gear listing to show your current gear and gems (IHellMasker)
+
 ## 0.3.3.5 (2016-12-14)
 
 Features:

@@ -1,17 +1,7 @@
 /*
-* @Author: SirMrE
-* @http: http://www.sirmre.com/bdo-calculator
-* @Copyright: (c) 2016 Mark Eliasen
-* @license: May be freely distributed under the CC BY-NC 3.0 License 
-*           (https://creativecommons.org/licenses/by-nc/3.0/)
-* @Date:   2016-04-08 23:52:45
-* @Last Modified by:   SirMrE
-* @Last Modified time: 2016-04-15 02:01:42
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://shadowtrance.github.io/
 */
-
-
-/* jslint unused: false, shadow: true */
-/* global BDOdatabase */
 
 var BDOcalculator = {
     "gear": {}, // holds the selected gear
@@ -147,6 +137,37 @@ var BDOcalculator = {
             },
             "belt": {
                 "enhancement": 0,
+                "item_name": "",
+                "item": {}
+            },
+            // Ihm todo: Need to work out how these will work properly before adding any items...
+            "outfit": {
+                "item_name": "",
+                "item": {},
+                "gems": {
+                    "1": {
+                        "gem_name": "",
+                        "gem": {}
+                    }
+                }
+            },
+            "main-weapon-outfit": {
+                "item_name": "",
+                "item": {}
+            },
+            "awakening-weapon-outfit": {
+                "item_name": "",
+                "item": {}
+            },
+            "secondary-weapon-outfit": {
+                "item_name": "",
+                "item": {}
+            },
+            "underwear": {
+                "item_name": "",
+                "item": {}
+            },
+            "alchemy-stone": {
                 "item_name": "",
                 "item": {}
             }
@@ -504,7 +525,13 @@ var BDOcalculator = {
                     break;
 
                 case "ap":
-                    $('.stat-ap span').text(obj.min + ' ~ ' + obj.max);
+                    //$('.stat-ap span').text(obj.min + ' ~ ' + obj.max);
+                    $('.stat-ap span').text(Math.floor((obj.min + obj.max) / 2));
+                    break;
+
+                case "awkap":
+                    //$('.stat-awk-ap span').text(obj.min + ' ~ ' + obj.max);
+                    $('.stat-awk-ap span').text(Math.floor((obj.min + obj.max) / 2));
                     break;
 
                 case "awkap":
@@ -528,8 +555,282 @@ var BDOcalculator = {
                         continue;
                     }
 
-                    $(obj.target).append('<li><strong>' + obj.title + ':</strong> ' + obj.total + obj.symbol + '</li>');
+                    $(obj.target).append('<li data-breakdown="' + key + '"><strong>' + obj.title + ':</strong> ' + obj.total + obj.symbol + '</li>');
                     break;
+            }
+        }
+    },
+    
+    calculateSingleStat: function (stat_to_get) {
+        this.reset();
+
+        var stat_return = {
+            total: 0,
+            item_list: []
+        };
+
+        for (var gear_key in this.gear) {
+            if (!this.gear.hasOwnProperty(gear_key)) {
+                continue;
+            }
+
+            // Loop "static" stats like AP and DP
+            // since you can have 2 rings and earrings, we will have to run a loop on each of the
+            if ($.inArray(gear_key, ["rings", "earrings"]) !== -1) {
+                for (var acc_key in this.gear[gear_key]) {
+                    if (!this.gear[gear_key].hasOwnProperty(acc_key)) {
+                        continue;
+                    }
+
+                    var accessory = this.gear[gear_key][acc_key];
+
+                    if (Object.keys(accessory.item).length === 0) {
+                        continue;
+                    }
+
+                    // loop the static stats of each accessory.
+                    for (var assec_stat in accessory.item) {
+                        if (!accessory.item.hasOwnProperty(assec_stat)) {
+                            continue;
+                        }
+
+                        if (assec_stat == stat_to_get && this.getGearStat(accessory, assec_stat) != 0) {
+                            stat_return.item_list.push({
+                                "value": this.getGearStat(accessory, assec_stat),
+                                "item": accessory.item_name
+                            });
+                            stat_return.total += this.getGearStat(accessory, assec_stat);
+                        }
+                    }
+
+                    // Loop item effects
+                    for (var effect_key in accessory.item.item_effects) {
+                        if (!accessory.item.item_effects.hasOwnProperty(effect_key)) {
+                            continue;
+                        }
+
+                        if (effect_key == stat_to_get && this.getGearStat(accessory, effect_key, true) != 0) {
+                            stat_return.item_list.push({
+                                "value": this.getGearStat(accessory, effect_key, true),
+                                "item": accessory.item_name
+                            });
+                            stat_return.total += this.getGearStat(accessory, effect_key, true);
+                        }
+                    }
+                    
+                    this.addToSets(this.gear[gear_key][acc_key].item.set, gear_key + acc_key);
+
+                    if ("awkap" == stat_to_get && this.getGearStat(accessory, "ap") != 0) {
+                        stat_return.item_list.push({
+                            "value": this.getGearStat(accessory, "ap"),
+                            "item": accessory.item_name
+                        });
+                        stat_return.total += this.getGearStat(accessory, "ap");
+                    }
+                }
+            } else {
+                if (Object.keys(this.gear[gear_key].item).length > 0) {
+                    for (var stat_key in this.gear[gear_key].item) {
+                        if (!this.gear[gear_key].item.hasOwnProperty(stat_key)) {
+                            continue;
+                        }
+
+                        if (stat_key == stat_to_get && this.getGearStat(this.gear[gear_key], stat_key) != 0) {
+                            stat_return.item_list.push({
+                                "value": this.getGearStat(this.gear[gear_key], stat_key),
+                                "item": this.gear[gear_key].item_name
+                            });
+                            stat_return.total += this.getGearStat(this.gear[gear_key], stat_key);
+                        }
+                    }
+
+                    for (var effect_key in this.gear[gear_key].item.item_effects) {
+                        if (!this.gear[gear_key].item.item_effects.hasOwnProperty(effect_key)) {
+                            continue;
+                        }
+                        
+                        if (effect_key == stat_to_get && this.getGearStat(this.gear[gear_key], effect_key, true) != 0) {
+                            stat_return.item_list.push({
+                                "value": this.getGearStat(this.gear[gear_key], effect_key, true),
+                                "item": this.gear[gear_key].item_name
+                            });
+                            stat_return.total += this.getGearStat(this.gear[gear_key], effect_key, true);
+                        }
+                    }
+
+                    for (var gem_key in this.gear[gear_key].gems) {
+                        if (!this.gear[gear_key].gems.hasOwnProperty(gem_key)) {
+                            continue;
+                        }
+
+                        var gem = this.gear[gear_key].gems[gem_key].gem;
+
+                        for (var eff_key in gem.item_effects) {
+                            if (!gem.item_effects.hasOwnProperty(eff_key)) {
+                                continue;
+                            }
+
+                            if (gem.incompatible.length) {
+                                if ($.inArray(this.gear[gear_key].gems[(gem_key === "1" ? "2" : "1")].gem_name, gem.incompatible) !== -1) {
+                                    continue;
+                                }
+                            }
+
+                            if (eff_key == stat_to_get && gem.item_effects[eff_key] != 0) {
+                                stat_return.item_list.push({
+                                    "value": gem.item_effects[eff_key],
+                                    "item": this.gear[gear_key].gems[gem_key].gem_name
+                                });
+                                stat_return.total += gem.item_effects[eff_key];
+                            }
+                        }
+                    }
+
+                    this.addToSets(this.gear[gear_key].item.set, gear_key);
+
+                    // Item-slot specific calculations
+                    switch (gear_key) {
+                        case "main-weapon":
+                            var ap = Math.floor((this.getGearStat(this.gear[gear_key], "ap_min") + this.getGearStat(this.gear[gear_key], "ap_max")) / 2);
+                            if ("ap" == stat_to_get && ap != 0) {
+                                stat_return.item_list.push({
+                                    "value": ap,
+                                    "item": this.gear[gear_key].item_name
+                                });
+                                stat_return.total += ap;
+                            }
+                            break;
+                        case "secondary-weapon":
+                            var ap = Math.floor((this.getGearStat(this.gear[gear_key], "ap_min") + this.getGearStat(this.gear[gear_key], "ap_max")) / 2);
+                            if (("ap" == stat_to_get || "awkap" == stat_to_get) && ap != 0) {
+                                stat_return.item_list.push({
+                                    "value": ap,
+                                    "item": this.gear[gear_key].item_name
+                                });
+                                stat_return.total += ap;
+                            }
+                            break;
+                        case "awakening-weapon":
+                            var ap = Math.floor((this.getGearStat(this.gear[gear_key], "ap_min") + this.getGearStat(this.gear[gear_key], "ap_max")) / 2);
+                            if ("awkap" == stat_to_get && ap != 0) {
+                                stat_return.item_list.push({
+                                    "value": ap,
+                                    "item": this.gear[gear_key].item_name
+                                });
+                                stat_return.total += ap;
+                            }
+                            break;
+                        case "belt":
+                            if ("awkap" == stat_to_get && this.getGearStat(this.gear[gear_key], "ap") != 0) {
+                                stat_return.item_list.push({
+                                    "value": this.getGearStat(this.gear[gear_key], "ap"),
+                                    "item": this.gear[gear_key].item_name
+                                });
+                                stat_return.total += this.getGearStat(this.gear[gear_key], "ap");
+                            }
+                            break;
+                        case "necklace":
+                            if ("awkap" == stat_to_get && this.getGearStat(this.gear[gear_key], "ap") != 0) {
+                                stat_return.item_list.push({
+                                    "value": this.getGearStat(this.gear[gear_key], "ap"),
+                                    "item": this.gear[gear_key].item_name
+                                });
+                                stat_return.total += this.getGearStat(this.gear[gear_key], "ap");
+                            }
+                            break;
+                    }
+                }
+            }
+        }
+
+        this.calculateSetEffectsSingleStat(stat_to_get, stat_return);
+
+        /*for (var key in this.stats) {
+            if (!this.stats.hasOwnProperty(key)) {
+                continue;
+            }
+
+            var obj = this.stats[key];
+        }*/
+        
+        return stat_return;
+    },
+    
+    calculateSetEffectsSingleStat: function(stat_to_get, stat_return) {
+        if (Object.keys(this.sets).length === 0) {
+            return;
+        }
+
+        for (var set_name in this.sets) {
+            if (!this.sets.hasOwnProperty(set_name)) {
+                continue;
+            }
+
+            if (typeof BDOdatabase.set_effects[set_name] === 'undefined') {
+                continue;
+            }
+
+            var set_effects = BDOdatabase.set_effects[set_name],
+                set_pieces_count = this.sets[set_name].length;
+
+            // check for set pieces bonus
+            for (var item_count in set_effects.pieces) {
+                if (!set_effects.pieces.hasOwnProperty(item_count)) {
+                    continue;
+                }
+
+                var effects = set_effects.pieces[item_count];
+                    item_count = parseInt(item_count);
+
+                if (item_count <= set_pieces_count) {
+                    for (var effect_key in effects) {
+                        if (!effects.hasOwnProperty(effect_key)) {
+                            continue;
+                        }
+
+                        if (effect_key == stat_to_get && effects[effect_key] != 0) {
+                            stat_return.item_list.push({
+                                "value": effects[effect_key],
+                                "item": set_name + " set bonus"
+                            });
+                            stat_return.total += effects[effect_key];
+                        }
+                    }
+                }
+            }
+
+            // check for set item combo bonus
+            for (var combo_key in set_effects.combos) {
+                if (!set_effects.combos.hasOwnProperty(combo_key)) {
+                    continue;
+                }
+
+                var effects = set_effects.combos[combo_key].effects,
+                    combo_complete = true,
+                    combo_items = set_effects.combos[combo_key].pieces;
+
+                for (var i = combo_items.length - 1; i >= 0; i--) {
+                    if ($.inArray(combo_items[i], this.sets[set_name]) === -1) {
+                        combo_complete = false;
+                        break;
+                    }
+                }
+
+                if (combo_complete) {
+                    for (var effect_key in effects) {
+                        if (!effects.hasOwnProperty(effect_key)) {
+                            continue;
+                        }
+
+                        if (effect_key == stat_to_get && effects[effect_key] != 0) {
+                            stat_return.item_list.push({
+                                "value": effects[effect_key],
+                                "item": set_name + " set bonus"
+                            });
+                            stat_return.total += effects[effect_key];
+                        }
+                    }
+                }
             }
         }
     }

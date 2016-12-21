@@ -1,16 +1,7 @@
 /*
-* @Author: SirMrE
-* @http: http://www.sirmre.com/bdo-calculator
-* @Copyright: (c) 2016 Mark Eliasen
-* @license: May be freely distributed under the CC BY-NC 3.0 License
-*           (https://creativecommons.org/licenses/by-nc/3.0/)
-* @Date:   2016-04-07 20:53:22
-* @Last Modified by:   IHellMasker
-* @Last Modified time: 2016-12-13 10:32:00
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://shadowtrance.github.io/
 */
-
-/* global BDOdatabase, BDOcalculator */
-/* jshint -W038, unused: false, shadow: true */
 
 (function ($) {
     "use strict";
@@ -21,7 +12,7 @@
         current_item_no = null,
         current_modal = null;
         
-    $('[data-toggle="tooltip"]').tooltip(); // Enable tooltips
+    $(':not(.disabled)[data-toggle="tooltip"]').tooltip(); // Enable tooltips
 
     // Original from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
     function getParameterByName(name) {
@@ -144,11 +135,12 @@
                     getGemType("secondary-weapon","2")
                 ]
             ]
+            // Ihm todo: Need to add saving for Outfits and stuff
         ];
 
         var url = window.location.href.replace(window.location.search, "");
 
-        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + encodeURIComponent(JSON.stringify(save)));
+        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + /*encodeURIComponent(*/JSON.stringify(save)/*)*/);
     }
 
     function loadConfig(callback) {
@@ -256,7 +248,7 @@
         callback(true);
     }
 
-    function getEnhancementMax (itemObj) {
+    function getEnhancementMax(itemObj) {
         var enhancement_levels = Object.keys(itemObj.enhancement).length;
 
         if (enhancement_levels > 0) {
@@ -274,18 +266,18 @@
         });
     }
 
-    function resetGearslotItem (item_type, item_no) {
+    function resetGearslotItem(item_type, item_no) {
         $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
             'style': '',
             'title': "Empty"
-        }).tooltip('fixTitle');
+        }).empty().tooltip('fixTitle');
         $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '2').attr({
             'style': '',
             'title': "Empty"
         }).tooltip('fixTitle').hide();
     }
 
-    function setGearslotItem (item, item_type, item_no, item_name, item_itemset, level) {
+    function setGearslotItem(item, item_type, item_no, item_name, item_itemset, level) {
         item_no = (typeof item_no === "undefined" ? "undefined" : item_no);
 
         if (item_itemset !== "gems") {
@@ -319,6 +311,13 @@
                 }).attr({
                     "title": item_name
                 }).tooltip('fixTitle');
+                
+            if (typeof item.id !== "undefined") {
+                $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']")
+                .css({
+                    'background-image': 'url(assets/images/gems/' + pad(item.id, 8) + '.png)'
+                });
+            }
         }
 
         if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "armor", "shoes", "gloves", "helmet"]) !== -1 && item_itemset !== "gems") {
@@ -393,9 +392,25 @@
                             '</div>');
 
         // item icon
-        item_element.append('<div class="item-icon">'+
-                                '<img src="assets/images/48/gem.png" alt="BDO Gear Calculator">'+
-                            '</div>');
+        var w_item_icon = $("<div>")
+            .addClass("item-icon")
+            .appendTo(item_element);
+            
+        var item_icon = $("<img>")
+            .attr({
+                "alt": "BDO Gear Calculator"
+            })
+            .appendTo(w_item_icon);
+            
+        if (typeof item.id == "undefined") {
+            item_icon.attr({
+                "src": 'assets/images/48/gem.png', 
+            });
+        } else {
+            item_icon.attr({
+                "src": 'assets/images/gems/' + pad(item.id, 8) + '.png', 
+            });
+        }
 
         // item choose button
         item_element.append('<button class="btn btn-sm btn-primary item-choose" data-item="' + key + '" data-itemset="gems" data-type="' + item_type + '" data-itemno="' + item_no + '">Choose</button>');
@@ -476,7 +491,7 @@
             });
         } else {
             item_icon.attr({
-                "src": 'assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][key].id, 8) : player_class + pad(BDOdatabase.items[item_itemset][player_class][key].id, 8)) + '.png', 
+                "src": 'assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][key].id, 8) : player_class + "/" + pad(BDOdatabase.items[item_itemset][player_class][key].id, 8)) + '.png', 
             });
         }
 
@@ -597,8 +612,7 @@
     $(document).ready(function() {
         loadConfig(function(loaded) {
             if (loaded) {
-                $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").removeClass("faded").addClass("selected");
-                $(".class_cell .class_title[id='" + ucWords(player_class) + "']").removeClass("faded").addClass("selected");
+                $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").closest(".class_img").removeClass("faded").addClass("selected");
                 BDOcalculator.calculate();
                 saveConfig();
 
@@ -608,13 +622,12 @@
 
         // when a user selects a class, we initiate the equipment dropdowns based on class.
         $("figure.class_img").on("click", function() {
+            if ($(this).hasClass("disabled")) return;
             player_class = $(this).children("img").attr("data-value").toLowerCase();
             //Set all icons to faded and this one to selected
-            $(".class_cell .class_icon").removeClass("selected").addClass("faded");
-            $(".class_cell .class_title").removeClass("selected").addClass("faded");
+            $(".class_cell .class_img").removeClass("selected").addClass("faded");
 
-            $(this).children("img").removeClass("faded").addClass("selected");
-            $(this).children("figcaption").removeClass("faded").addClass("selected");
+            $(this).removeClass("faded").addClass("selected");
 
             BDOcalculator.init();
             BDOcalculator.calculate();
@@ -645,6 +658,13 @@
         })
         $('#gearlist').on('shown.bs.modal', function () {
             $('#gearlist-search').focus();
+            if ($(".item-details.selected").length > 0) {
+                var offset = $(".item-details.selected").offset();
+                $('#gearlist').animate({
+                    scrollTop: offset.top
+                }, 500);
+            }
+            //.item-details .selected
         })
         
         $("#gearlist-search").on('input', function (e) {
@@ -654,8 +674,22 @@
                 buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
             }
         });
+        $("#gear-rarity-filter").on("click", "li", function (e) {
+            if ($(this).hasClass("active")) {
+                $(this).removeClass("active");
+            } else {
+                $(this).addClass("active");
+            }
+            
+            if (current_modal == "gear") {
+                buildGearModal(current_item_type, current_item_itemset, current_item_no, $("#gearlist-search").val());
+            } else if (current_modal == "gem") {
+                buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
+            }
+        });
 
         $("#equipment .gear-slot").click(function() {
+            if ($(this).hasClass("disabled")) return;
             current_item_type = $(this).attr('data-type');
             current_item_itemset = $(this).attr('data-itemset');
             current_item_no = $(this).attr('data-item');
@@ -666,7 +700,19 @@
             $('#gearlist').modal();
         });
         
+        function getRarityFilters() {
+            return {
+                common: $("#gear-rarity-filter li.common").hasClass("active"),
+                uncommon: $("#gear-rarity-filter li.uncommon").hasClass("active"),
+                rare: $("#gear-rarity-filter li.rare").hasClass("active"),
+                epic: $("#gear-rarity-filter li.epic").hasClass("active"),
+                legendary: $("#gear-rarity-filter li.legendary").hasClass("active")
+            };
+        }
+        
         function buildGearModal(item_type, item_itemset, item_no, search) {
+            var rarityFilters = getRarityFilters();
+            
             search = search ? $.trim(search.toLowerCase()) : "";
             var items_db = BDOdatabase.items[item_itemset],
                 items_list = (typeof items_db[player_class] === "undefined" ? items_db : items_db[player_class]),
@@ -682,6 +728,9 @@
                 
                 // If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
                 if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
+                    continue;
+                }
+                if (!rarityFilters[items_list[key].rarity]) {
                     continue;
                 }
                 
@@ -786,6 +835,8 @@
         });
         
         function buildGemModal(item_type, item_no, search) {
+            var rarityFilters = getRarityFilters();
+            
             search = search ? $.trim(search.toLowerCase()) : "";
             var items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]),
                 c = 1;
@@ -800,6 +851,9 @@
                 
                 // If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
                 if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
+                    continue;
+                }
+                if (!rarityFilters[items_list[key].rarity]) {
                     continue;
                 }
 
@@ -821,6 +875,18 @@
                 c++;
             }
         }
+        
+        $("#show-update-notes").on("click", function (e) {
+            e.preventDefault();
+            
+            $('#updatenotes').modal();
+        });
+        
+        $("#show-settings").on("click", function (e) {
+            e.preventDefault();
+            
+            //$('#settingsscreen').modal();
+        });
 
         //Copy share link to clipboard / tooltip setup
         var cb = new Clipboard('#copy-button');
@@ -839,6 +905,57 @@
             .tooltip('show')
             .attr('title', "Copy Link")
             .tooltip('fixTitle');
+        });
+        
+        /*
+        Stat Breakdown Tooltip Handling
+        */
+        $("body").on("mouseenter", "[data-breakdown!=''][data-breakdown]", function (e) {
+            var offset = $(this).offset();
+            var screenWidth = $(document).width();
+            var width = $(this).outerWidth();
+            if (offset.left + width < screenWidth / 2) {
+                $('#stat-breakdown').css({
+                    top: offset.top,
+                    left: (offset.left + width) + 10,
+                    right: "auto"
+                }).show();
+            } else {
+                $('#stat-breakdown').css({
+                    top: offset.top,
+                    left: "auto",
+                    right: (screenWidth - offset.left) + 10
+                }).show();
+            }
+            var stat_type = $(this).attr("data-breakdown");
+            $("#stat-breakdown .opener").text("Total " + BDOdatabase.stats[stat_type].title + ": ");
+            var stats = BDOcalculator.calculateSingleStat(stat_type);
+            $("#stat-breakdown .list").html("");
+            $("#stat-breakdown .opener")
+            $("<span>")
+                .addClass("info")
+                .html(stats.total + BDOdatabase.stats[stat_type].symbol)
+                .appendTo("#stat-breakdown .opener");
+            if (BDOdatabase.stats[stat_type].desc != "") {
+                $("<li>")
+                    .html(BDOdatabase.stats[stat_type].desc)
+                    .appendTo("#stat-breakdown .list");
+            }
+            $("<li>")
+                .html("Increased by:")
+                .appendTo("#stat-breakdown .list");
+            for (var item in stats.item_list) {
+                var li_base = $("<li>")
+                    .addClass("no")
+                    .html(stats.item_list[item].item + ": ")
+                    .appendTo("#stat-breakdown .list");
+                $("<span>")
+                    .addClass("info")
+                    .html(stats.item_list[item].value + BDOdatabase.stats[stat_type].symbol)
+                    .appendTo(li_base);
+            }
+        }).on("mouseleave", "[data-breakdown!=''][data-breakdown]", function (e) {
+            $("#stat-breakdown").hide();
         });
     });
 })(jQuery);

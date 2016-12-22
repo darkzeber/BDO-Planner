@@ -381,22 +381,23 @@
             
         var item_icon = $("<img>")
             .attr({
-                "alt": "BDO Gear Calculator"
+                "alt": "BDO Gear Calculator",
+                "src": 'assets/images/gems/' + pad(item.id, 8) + '.png'
             })
             .appendTo(w_item_icon);
-            
-        if (typeof item.id == "undefined") {
-            item_icon.attr({
-                "src": 'assets/images/48/gem.png', 
-            });
-        } else {
-            item_icon.attr({
-                "src": 'assets/images/gems/' + pad(item.id, 8) + '.png', 
-            });
-        }
 
         // item choose button
-        item_element.append('<button class="btn btn-sm btn-primary item-choose" data-item="' + key + '" data-itemset="gems" data-type="' + item_type + '" data-itemno="' + item_no + '">Choose</button>');
+        var item_button = $("<button>")
+            .addClass("btn btn-sm btn-primary item-choose")
+            .attr({
+                "data-item": key,
+                "data-itemset": "gems",
+                "data-type": item_type,
+                "data-itemno": item_no,
+                "data-rarity": item.rarity
+            })
+            .html("Choose")
+            .appendTo(item_element);
 
         // item effects
         stat_element = $('<div class="item-effects"/>');
@@ -454,7 +455,7 @@
 
         // item name
         item_element.append('<div class="item-name">'+
-                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '">' + key + '</strong>'+
+                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '"><span class="item-name-enhancement-prefix">' + BDOdatabase.enhancements[enhancement_level].prefix + '</span>' + key + '</strong>'+
                             '</div>');
 
         // item icon
@@ -464,19 +465,10 @@
             
         var item_icon = $("<img>")
             .attr({
-                "alt": "BDO Gear Calculator"
+                "alt": "BDO Gear Calculator",
+                "src": 'assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][key].id, 8) : player_class + "/" + pad(BDOdatabase.items[item_itemset][player_class][key].id, 8)) + '.png'
             })
             .appendTo(w_item_icon);
-            
-        if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? typeof BDOdatabase.items[item_itemset][key].id == "undefined" : typeof BDOdatabase.items[item_itemset][player_class][key].id == "undefined") {
-            item_icon.attr({
-                "src": 'assets/images/48/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? item_type : BDOdatabase.class_weapons[player_class][item_type].replace(' ', '-').toLowerCase()) + '.png', 
-            });
-        } else {
-            item_icon.attr({
-                "src": 'assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][key].id, 8) : player_class + "/" + pad(BDOdatabase.items[item_itemset][player_class][key].id, 8)) + '.png', 
-            });
-        }
 
         // item stats
         stat_element = $('<div class="item-stats"/>');
@@ -493,7 +485,18 @@
         stat_element.appendTo(item_element);
 
         // item choose button
-        item_element.append('<button class="btn btn-sm btn-primary item-choose" data-enh="' + enhancement_level + '" data-item="' + key + '" data-itemset="' + item_itemset + '" data-type="' + item_type + '" data-itemno="' + item_no + '">Choose</button>');
+        var item_button = $("<button>")
+            .addClass("btn btn-sm btn-primary item-choose")
+            .attr({
+                "data-enh": enhancement_level,
+                "data-item": key,
+                "data-itemset": item_itemset,
+                "data-type": item_type,
+                "data-itemno": item_no,
+                "data-rarity": item.rarity
+            })
+            .html("Choose")
+            .appendTo(item_element);
 
         // item gems
         item_element.append('<div class="item-gems">'+
@@ -802,6 +805,8 @@
                         }
 
                         itemPlate.find('.item-stats').replaceWith(stat_element);
+                        
+                        itemPlate.find(".item-name .item-name-enhancement-prefix").html(BDOdatabase.enhancements[$.inArray(item_type, ["ring", "belt", "earring", "necklace"]) !== -1 ? (e.value.newValue == 0 ? e.value.newValue : parseInt(e.value.newValue) + 15) : e.value.newValue].prefix);
                     });
                 }
             });

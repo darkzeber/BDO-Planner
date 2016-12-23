@@ -560,6 +560,8 @@ var BDOcalculator = {
                     break;
             }
         }
+        
+        $("#gear-score .value").text(Math.floor((this.stats["ap"].min + this.stats["ap"].max) / 2) + this.stats["dp"].total)
     },
     
     calculateSingleStat: function (stat_to_get) {
@@ -756,14 +758,6 @@ var BDOcalculator = {
 
         this.calculateSetEffectsSingleStat(stat_to_get, stat_return);
 
-        /*for (var key in this.stats) {
-            if (!this.stats.hasOwnProperty(key)) {
-                continue;
-            }
-
-            var obj = this.stats[key];
-        }*/
-        
         return stat_return;
     },
     

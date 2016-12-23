@@ -7,6 +7,7 @@ body {
     margin-bottom: 50px;
     color:#e5e5e5;
     background-color:#1b2337;
+    font-size: 0.75rem;
 }
 
 a, a:active {
@@ -26,6 +27,10 @@ hr {
 legend {
     color: #c4a68a;
     border-bottom: 1px solid #36332d;
+}
+
+.nav-pills .nav-link {
+    font-size: 1rem;
 }
 
 .card-columns.items {
@@ -342,6 +347,22 @@ div.enhancement {
 #equipment .stat-dp {
     border: 0px;
     height: 60px;
+    text-align: center;
+}
+
+#equipment .stat-ap strong,
+#equipment .stat-awk-ap strong,
+#equipment .stat-dp strong {
+    display: block;
+    font-size: 14px;
+}
+
+#equipment .stat-ap span,
+#equipment .stat-awk-ap span,
+#equipment .stat-dp span {
+    display: block;
+    font-size: 32px;
+    color: #e7d583;
 }
 
 #equipment .stat-ap {
@@ -371,24 +392,20 @@ div.enhancement {
     border-left: 0px;
 }
 
-#equipment .stat-ap,
-#equipment .stat-awk-ap,
-#equipment .stat-dp {
+#gear-score  {
+    position: absolute;
     text-align: center;
-}
-
-#equipment .stat-ap strong,
-#equipment .stat-awk-ap strong,
-#equipment .stat-dp strong {
+    top: 535px;
+    left: 50%;
+    margin-left: -120px;
+    width: 240px;
     display: block;
-    font-size: 14px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #3e3e3e;
+    border-radius: 5px;
 }
-
-#equipment .stat-ap span,
-#equipment .stat-awk-ap span,
-#equipment .stat-dp span {
-    display: block;
-    font-size: 32px;
+#gear-score .value {
     color: #e7d583;
 }
 
@@ -514,7 +531,7 @@ div.enhancement {
     left: 0;
     bottom: 0;
     width: 100%;
-    font-size: .7em;
+    font-size: .8em;
     color: #fff;
     background-color: rgba(0,0,0, 0.7);
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -638,9 +655,6 @@ input[type=checkbox]:checked + label:before {
     border-radius: .2rem;
 }
 
-#updatenotes .lead {
-    font-size: 12px;
-}
 #updatenotes h1 {
     overflow: hidden;
     font-size: 2rem;

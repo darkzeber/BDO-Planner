@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="display-4 text-xs-center">Black Desert Online Gear Calculator</h1>
-                    <div class="intro-text small text-xs-center">
+                    <div class="intro-text text-xs-center">
                         By <a href="https://github.com/Shadowtrance">Shadowtrance</a>, <a href="https://github.com/Ihellmasker">Ihm</a> and previously MrEliasen &middot; <a href="#" id="show-update-notes">Show update notes</a> &middot; <a href="#" id="show-settings" style="text-decoration: line-through;">Settings</a>
                     </div>
                 </div>
@@ -162,6 +162,9 @@
                             <strong>DP</strong>
                             <span>0</span>
                         </div>
+                        <div id="gear-score">
+                            Current Gear Score: <span class="value"></span>
+                        </div>
                     </div>
                 </dir>
                 <div class="col-md-6">
@@ -278,20 +281,24 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Update Notes</h4>
+                        <h4 class="modal-title">Update Notes <small>v. 0.4.1</small></h4>
                     </div>
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="lead">
+                                <div>
                                     This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/tree/update" target="_blank">github.com/Shadowtrance/BDO-Gear-Calculator</a>.
                                 </div>
-                                <h1>New features <small>v. 0.4.0</small></h1>
+                                <h1>New features</h1>
                                 <ul>
-                                    <li><strong>Images</strong> for all items have been added! Everything looks nicer now!</li>
-                                    <li><strong>New Layout</strong>, the layout resembles the in-game display a bit more, and now uses a dark theme.</li>
-                                    <li><strong>Stat breakdown tooltips</strong>, when hovering on a stat you will see which of your items are providing that stat.</li>
-                                    <li><strong>Rarity filter</strong> will now let you search for items by their rarity.</li>
+                                    <li>Updated to Bootstrap v4 Alpha5, this means the style has changed slightly but allows us to do some more stuff that we couldn't before.</li>
+                                    <li>Added class base resistances to calculations</li>
+                                    <li>Removed tooltips from Enhancement Sliders and added dividers to help, also added enhancement level into item names</li>
+                                    <li>Added gear score, which is your AP + DP, for reference purposes</li>
+                                </ul>
+                                <h1>Backend stuff you probably don't care about</h1>
+                                <ul>
+                                    <li>Rewrote the search/filter system completely, should notice massive performance increases now</li>
                                 </ul>
                                 <h1>Upcoming features</h1>
                                 <ul>

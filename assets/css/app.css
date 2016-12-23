@@ -5,6 +5,30 @@
 
 body {
     margin-bottom: 50px;
+    color:#e5e5e5;
+    background-color:#1b2337;
+}
+
+a {
+    color: #dfce7f;
+    text-decoration: none;
+}
+
+hr {
+    border-top: 1px solid #eee;
+}
+
+legend {
+    color: #c4a68a;
+    border-bottom: 1px solid #36332d;
+}
+
+.card-columns.items {
+    column-count: 2;
+}
+
+.modal-dialog .modal-content {
+    background-color: #1b2337;
 }
 
 #calculator-section, #player-class-section {
@@ -452,6 +476,7 @@ div.enhancement {
     border: 2px solid #9f8772;
     border-radius: 5px;
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
 }
 
 .class_img.disabled, .class_img.disabled:hover {
@@ -502,8 +527,8 @@ div.enhancement {
     padding-left: 20px;
 }
 #gear-list li:before {
-    content: "\e074";
-    font-family: 'Glyphicons Halflings';
+    content: "\f0c8";
+    font-family: 'FontAwesome';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -624,8 +649,8 @@ input[type=checkbox]:checked + label:before {
     padding-left: 0px;
 }
 #updatenotes ul li:before {
-    content: "\e074";
-    font-family: 'Glyphicons Halflings';
+    content: "\f0da";
+    font-family: 'FontAwesome';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -662,8 +687,7 @@ input[type=checkbox]:checked + label:before {
     padding-left: 0px;
 }
 #stat-breakdown .outer .inner ul.list li:before {
-    content: "\002a";
-    font-family: 'Glyphicons Halflings';
+    content: "\2014";
     font-style: normal;
     font-weight: 200;
     font-size: 6px;

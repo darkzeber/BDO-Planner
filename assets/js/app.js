@@ -10,7 +10,11 @@
         current_item_type = null,
         current_item_itemset = null,
         current_item_no = null,
-        current_modal = null;
+        current_modal = null,
+        active_filters = {
+            search: '',
+            rarity: ["common", "uncommon", "rare", "epic", "legendary"]
+        };
         
     $(':not(.disabled)[data-toggle="tooltip"]').tooltip(); // Enable tooltips
 
@@ -269,12 +273,12 @@
     function resetGearslotItem(item_type, item_no) {
         $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
             'style': '',
-            'title': "Empty"
-        }).empty().tooltip('fixTitle');
+            'data-original-title': "Empty"
+        }).empty();
         $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '2').attr({
             'style': '',
-            'title': "Empty"
-        }).tooltip('fixTitle').hide();
+            'data-original-title': "Empty"
+        }).hide();
     }
 
     function setGearslotItem(item, item_type, item_no, item_name, item_itemset, level) {
@@ -286,8 +290,8 @@
                     'background': 'url(assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][item_name].id, 8) : player_class + "/" + pad(BDOdatabase.items[item_itemset][player_class][item_name].id, 8)) + '.png) no-repeat center center',
                     'border-color': BDOdatabase.rarities[item.rarity]
                 }).attr({
-                    "title": BDOdatabase.enhancements[$.inArray(item_type, ["belt", "necklace", "ring", "earring"]) !== -1 ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].prefix + item_name
-                }).empty().tooltip('fixTitle');
+                    "data-original-title": BDOdatabase.enhancements[$.inArray(item_type, ["belt", "necklace", "ring", "earring"]) !== -1 ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].prefix + item_name
+                }).empty();
                 
             $("<div>")
                 .addClass("enhancement-level")
@@ -299,8 +303,8 @@
                     'background-image': 'url(assets/images/gems/' + pad(item.id, 8) + '.png)',
                     'border-color': BDOdatabase.rarities[item.rarity]
                 }).attr({
-                    "title": item_name
-                }).tooltip('fixTitle');
+                    "data-original-title": item_name
+                });
         }
 
         if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "armor", "shoes", "gloves", "helmet"]) !== -1 && item_itemset !== "gems") {
@@ -366,7 +370,7 @@
     function generateGemItemPlate(item, item_type, item_no, key, c, selected) {
         c = (typeof c === 'undefined' ? 1 : c);
 
-        var item_element = $('<div class="item-details ' + (selected ? ' selected ' : '') + 'col-md-10 col-md-offset-' + (c % 2 === 0 ? '2' : '1') + '"/>'),
+        var item_element = $('<div class="item-details ' + (selected ? ' selected ' : '') + 'card"/>'),
             stat_element;
 
         // item name
@@ -439,7 +443,7 @@
     function generateItemPlate(item, item_type, item_itemset, item_no, key, c, selected) {
         c = (typeof c === 'undefined' ? 1 : c);
 
-        var item_element = $('<div class="item-details ' + (selected ? ' selected ' : '') + 'col-md-10 col-md-offset-' + (c % 2 === 0 ? '2' : '1') + '"/>'),
+        var item_element = $('<div class="item-details ' + (selected ? ' selected ' : '') + 'card"/>'),
             stat_element,
             enhancement_level = 0;
 
@@ -640,7 +644,12 @@
         });
         
         $('#gearlist').on('show.bs.modal', function () {
-            $('#gearlist-search').val("");
+            $("#gearlist-search").val("");
+            $("#gear-rarity-filter li").addClass("active");
+            active_filters = {
+                search: '',
+                rarity: ["common", "uncommon", "rare", "epic", "legendary"]
+            };
         })
         $('#gearlist').on('shown.bs.modal', function () {
             $('#gearlist-search').focus();
@@ -650,28 +659,30 @@
                     scrollTop: offset.top
                 }, 500);
             }
-            //.item-details .selected
         })
         
+        function filterModalItems() {
+            $(".item-details").show();
+            $(".item-choose").filter(function () {
+                return $(this).attr("data-item").toLowerCase().indexOf($("#gearlist-search").val()) == -1 || $.inArray($(this).attr("data-rarity"), active_filters.rarity) === -1;
+            }).closest(".item-details").hide();
+        }
+        
         $("#gearlist-search").on('input', function (e) {
-            if (current_modal == "gear") {
-                buildGearModal(current_item_type, current_item_itemset, current_item_no, $("#gearlist-search").val());
-            } else if (current_modal == "gem") {
-                buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
-            }
+            active_filters.search = $("#gearlist-search").val();
+            
+            filterModalItems();
         });
         $("#gear-rarity-filter").on("click", "li", function (e) {
             if ($(this).hasClass("active")) {
                 $(this).removeClass("active");
+                active_filters.rarity.splice($.inArray($(this).attr("data-rarity"), active_filters.rarity), 1);
             } else {
                 $(this).addClass("active");
+                active_filters.rarity.push($(this).attr("data-rarity"));
             }
             
-            if (current_modal == "gear") {
-                buildGearModal(current_item_type, current_item_itemset, current_item_no, $("#gearlist-search").val());
-            } else if (current_modal == "gem") {
-                buildGemModal(current_item_type, current_item_no, $("#gearlist-search").val());
-            }
+            filterModalItems();
         });
 
         $("#equipment .gear-slot").click(function() {
@@ -686,37 +697,16 @@
             $('#gearlist').modal();
         });
         
-        function getRarityFilters() {
-            return {
-                common: $("#gear-rarity-filter li.common").hasClass("active"),
-                uncommon: $("#gear-rarity-filter li.uncommon").hasClass("active"),
-                rare: $("#gear-rarity-filter li.rare").hasClass("active"),
-                epic: $("#gear-rarity-filter li.epic").hasClass("active"),
-                legendary: $("#gear-rarity-filter li.legendary").hasClass("active")
-            };
-        }
-        
-        function buildGearModal(item_type, item_itemset, item_no, search) {
-            var rarityFilters = getRarityFilters();
-            
-            search = search ? $.trim(search.toLowerCase()) : "";
+        function buildGearModal(item_type, item_itemset, item_no) {
             var items_db = BDOdatabase.items[item_itemset],
                 items_list = (typeof items_db[player_class] === "undefined" ? items_db : items_db[player_class]),
                 c = 1;
                 
             // reset the modal body
-            $('#gearlist .modal-body .row.items').html('');
+            $('#gearlist .modal-body .items').html('');
             
             for (var key in items_list) {
                 if (!items_list.hasOwnProperty(key)) {
-                    continue;
-                }
-                
-                // If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
-                if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
-                    continue;
-                }
-                if (!rarityFilters[items_list[key].rarity]) {
                     continue;
                 }
                 
@@ -733,11 +723,7 @@
                     }
                 }
 
-                generateItemPlate(item, item_type, item_itemset, item_no, key, c, selected).appendTo('#gearlist .modal-body .row.items');
-
-                if (c % 2 === 0) {
-                    $('<div class="clearfix"></div>').appendTo('#gearlist .modal-body .row.items');
-                }
+                generateItemPlate(item, item_type, item_itemset, item_no, key, c, selected).appendTo('#gearlist .modal-body .items');
 
                 c++;
             }
@@ -822,27 +808,16 @@
             $('#gearlist').modal();
         });
         
-        function buildGemModal(item_type, item_no, search) {
-            var rarityFilters = getRarityFilters();
-            
-            search = search ? $.trim(search.toLowerCase()) : "";
+        function buildGemModal(item_type, item_no) {
             var items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]),
                 c = 1;
 
             // reset the modal body
-            $('#gearlist .modal-body .row.items').html('');
+            $('#gearlist .modal-body .items').html('');
 
             for (var key in items_list) {
                 if (!items_list.hasOwnProperty(key)) {
                      continue;
-                }
-                
-                // If searching, input isn't blank and the search wasn't matched in the items name, then skip the item
-                if (search !== "" && key.toLowerCase().indexOf(search) == -1) {
-                    continue;
-                }
-                if (!rarityFilters[items_list[key].rarity]) {
-                    continue;
                 }
 
                 var item = items_list[key],
@@ -854,11 +829,7 @@
                     selected = true;
                 }
 
-                generateGemItemPlate(item, item_type, item_no, key, c, selected).appendTo('#gearlist .modal-body .row.items');
-
-                if (c % 2 === 0) {
-                    $('<div class="clearfix"></div>').appendTo('#gearlist .modal-body .row.items');
-                }
+                generateGemItemPlate(item, item_type, item_no, key, c, selected).appendTo('#gearlist .modal-body .items');
 
                 c++;
             }
@@ -888,11 +859,9 @@
 
         // Handler for updating the tooltip message.
         $('#copy-button').bind('copied', function(event, message) {
-            $(this).attr('title', message)
-            .tooltip('fixTitle')
+            $(this).attr('data-original-title', message)
             .tooltip('show')
-            .attr('title', "Copy Link")
-            .tooltip('fixTitle');
+            .attr('data-original-title', "Copy Link");
         });
         
         /*

@@ -35,13 +35,9 @@
                     <div class="intro-text small text-xs-center">
                         By <a href="https://github.com/Shadowtrance">Shadowtrance</a>, <a href="https://github.com/Ihellmasker">Ihm</a> and previously MrEliasen &middot; <a href="#" id="show-update-notes">Show update notes</a> &middot; <a href="#" id="show-settings" style="text-decoration: line-through;">Settings</a>
                     </div>
-                    <hr>
                 </div>
             </div>
             <div id="player-class-section" class="row">
-                <div class="col-xs-12">
-                    <div class="small text-xs-center">Note: Resistances shown here are ONLY resistances gained from gear and crystals, it does not take into account the base resistance we have.</div>
-                </div>
                 <div class="col-md-12" align="center">
                     <div class="classes_panel">
                         <hr>
@@ -104,7 +100,7 @@
                 </div>
             </div>
             <div id="calculator-section" class="row">
-                <dir class="col-md-5">
+                <dir class="col-md-6">
                     <div id="equipment">
                         <div class="background-ring"></div>
                         
@@ -168,35 +164,55 @@
                         </div>
                     </div>
                 </dir>
-                <div class="col-sm-6 col-md-3">
-                    <legend class="stats-title">Enhancement</legend>
-                    <ul class="stats ench-stats"></ul>
+                <div class="col-md-6">
+                    <ul class="nav nav-pills" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" href="#stats-tab" role="tab">Stats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#gear-list-tab" role="tab">Gear List</a>
+                        </li>
+                    </ul>
 
-                    <legend class="stats-title">Extra Damage</legend>
-                    <ul class="stats extra-stats"></ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="stats-tab" role="tabpanel">
+                            <div class="row mt-1">
+                                <div class="col-md-6">
+                                    <legend class="stats-title">Enhancement</legend>
+                                    <ul class="stats ench-stats"></ul>
 
-                    <legend class="stats-title">Offensive</legend>
-                    <ul class="stats offence-stats"></ul>
+                                    <legend class="stats-title">Extra Damage</legend>
+                                    <ul class="stats extra-stats"></ul>
 
-                    <legend class="stats-title">Defensive</legend>
-                    <ul class="stats defense-stats"></ul>
-                </div>
-                <div class="col-sm-6 col-md-3 offset-md-1">
-                    <legend class="stats-title">Resistance</legend>
-                    <ul class="stats resist-stats"></ul>
+                                    <legend class="stats-title">Offensive</legend>
+                                    <ul class="stats offence-stats"></ul>
 
-                    <legend class="stats-title">Survivability</legend>
-                    <ul class="stats survive-stats"></ul>
+                                    <legend class="stats-title">Defensive</legend>
+                                    <ul class="stats defense-stats"></ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <legend class="stats-title">Resistance</legend>
+                                    <ul class="stats resist-stats"></ul>
 
-                    <legend class="stats-title">General</legend>
-                    <ul class="stats general-stats"></ul>
+                                    <legend class="stats-title">Survivability</legend>
+                                    <ul class="stats survive-stats"></ul>
 
-                    <legend class="stats-title">Gear Specials</legend>
-                    <ul class="stats special-stats"></ul>
-                </div>
-                <div class="col-md-7 col-xs-6">
-                    <legend class="stats-title">Gear List</legend>
-                    <ul id="gear-list"></ul>
+                                    <legend class="stats-title">General</legend>
+                                    <ul class="stats general-stats"></ul>
+
+                                    <legend class="stats-title">Gear Specials</legend>
+                                    <ul class="stats special-stats"></ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="gear-list-tab" role="tabpanel">
+                            <div class="col-md-12 mt-1">
+                                <legend class="stats-title">Gear List</legend>
+                                <ul id="gear-list"></ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -229,7 +245,7 @@
                             <div class="col-md-9">
                                 <div class="form-group">
                                     <label for="gearlist-search">Search</label>
-                                    <input type="text" class="form-control" id="gearlist-search" placeholder="Search">
+                                    <input type="text" class="form-control form-control-sm" id="gearlist-search" placeholder="Search">
                                 </div>
                             </div>
                             <div class="col-md-3">

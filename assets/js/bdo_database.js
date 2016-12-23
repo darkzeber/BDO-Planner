@@ -625,6 +625,86 @@ var BDOdatabase = {
         "Kunoichi",
         "DarkKnight"
     ],
+    "resistances": {
+        "berserker": {
+            "kb": 30,
+            "kd": 20,
+            "ssfr": 30,
+            "gr": 20
+        },
+        "ranger": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "sorceress": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "tamer": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "valkyrie": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "warrior": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "witch": {
+            "kb": 20,
+            "kd": 30,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "wizard": {
+            "kb": 20,
+            "kd": 30,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "musa": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "maehwa": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "ninja": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "kunoichi": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        },
+        "darkknight": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    },
     "class_weapons": {
         "berserker": {
             "main-weapon": "Axe",

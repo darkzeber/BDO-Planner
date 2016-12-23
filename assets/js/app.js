@@ -180,6 +180,7 @@
 
         player_class = BDOdatabase.classes[gear[0]].toLowerCase();
         BDOcalculator.init();
+        BDOcalculator.player_class = player_class;
 
         var c = gear.length - 1;
         for (var n = 1; n <= c; n++) {
@@ -589,11 +590,17 @@
                                 '<strong>Enhancement Effects:</strong>'+
                                 '<div>' + (typeof item.enhancement_text === 'undefined' || item.enhancement_text === "" ? 'Info Missing..' : item.enhancement_text) + '</div>'+
                             '</div>');
+                            
+        var slider_steps = [];
+        for (var i = 0; i <= getEnhancementMax(item); i += 5) {
+            slider_steps.push(i);
+        }
+
 
         // item icon
         item_element.append('<div class="item-enhancement-level">'+
                                 '<strong>Enhancement Level:</strong>'+
-                                '<input data-slider-min="" data-slider-max="' + getEnhancementMax(item) + '" data-slider-value="' + enhancement_level + '" class="item-enhancement-slider">'+
+                                '<input data-slider-min="" data-slider-max="' + getEnhancementMax(item) + '" data-slider-value="' + enhancement_level + '" class="item-enhancement-slider" data-slider-ticks="[' + slider_steps.join(",") + ']">'+
                             '</div>');
 
         return item_element;
@@ -614,6 +621,7 @@
         $("figure.class_img").on("click", function() {
             if ($(this).hasClass("disabled")) return;
             player_class = $(this).children("img").attr("data-value").toLowerCase();
+            BDOcalculator.player_class = player_class;
             //Set all icons to faded and this one to selected
             $(".class_cell .class_img").removeClass("selected").addClass("faded");
 
@@ -733,10 +741,7 @@
                     $(v).replaceWith('<div>None</div>');
                 } else {
                     $(v).slider({
-                        tooltip_position: "bottom",
-                        formatter: function(value) {
-                            return '+' + value;
-                        }
+                        tooltip: 'hide'
                     }).on("change", function(e) {
                         var itemPlate = $(e.target).closest('.item-details'),
                             button = $(e.target).closest('.item-details').find('.item-choose'),

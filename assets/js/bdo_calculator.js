@@ -7,6 +7,7 @@ var BDOcalculator = {
     "gear": {}, // holds the selected gear
     "sets": {}, // used for calculating the set effects and number of set items.
     "stats": null, // a copy of the stats from the BDOdatabase file
+    "player_class": "",
 
     init: function() {
         // Reset the gear
@@ -379,6 +380,10 @@ var BDOcalculator = {
         $('.stats').html('');
         $('#gear-list').html('');
         this.reset();
+        
+        for (var resistance in BDOdatabase.resistances[this.player_class]) {
+            this.addStat(resistance, BDOdatabase.resistances[this.player_class][resistance]);
+        }
 
         for (var gear_key in this.gear) {
             if (!this.gear.hasOwnProperty(gear_key)) {
@@ -564,6 +569,16 @@ var BDOcalculator = {
             total: 0,
             item_list: []
         };
+        
+        for (var resistance in BDOdatabase.resistances[this.player_class]) {
+            if (resistance == stat_to_get && BDOdatabase.resistances[this.player_class][resistance] != 0) {
+                stat_return.item_list.push({
+                    "value": BDOdatabase.resistances[this.player_class][resistance],
+                    "item": "Class base"
+                });
+                stat_return.total += BDOdatabase.resistances[this.player_class][resistance];
+            }
+        }
 
         for (var gear_key in this.gear) {
             if (!this.gear.hasOwnProperty(gear_key)) {

@@ -22,11 +22,16 @@ a {
 
 hr {
     border-top: 1px solid #eee;
+    margin: 0px;
 }
 
 legend {
     color: #c4a68a;
     border-bottom: 1px solid #36332d;
+}
+
+.classes_restore .show, .classes_restore .hide {
+    display: block;
 }
 
 .nav-pills .nav-link {
@@ -66,6 +71,10 @@ legend.stats-title {
 
 div.enhancement {
     width: 100%;
+}
+
+.custom-control-description {
+    font-size: 1rem;
 }
 
 #calculator-section .clearfix {
@@ -293,7 +302,7 @@ div.enhancement {
     top: 70px;
     left: 50%;
     margin-left: -32px;
-    background: url("../images/48/none.png") no-repeat center center;
+    background: url("../images/48/outfit.png") no-repeat center center;
 }
 
 #equipment .gem-slot.outfit1 {
@@ -306,35 +315,35 @@ div.enhancement {
     top: 213px;
     left: 50%;
     margin-left: -112px;
-    background: url("../images/48/none.png") no-repeat center center;
+    background: url("../images/48/main-weapon-outfit.png") no-repeat center center;
 }
 
 #equipment .awakening-weapon-outfit {
     top: 284px;
     left: 50%;
     margin-left: -66px;
-    background: url("../images/48/none.png") no-repeat center center;
+    background: url("../images/48/awakening-weapon-outfit.png") no-repeat center center;
 }
 
 #equipment .secondary-weapon-outfit {
     top: 213px;
     left: 50%;
     margin-left: 48px;
-    background: url("../images/48/none.png") no-repeat center center;
+    background: url("../images/48/secondary-weapon-outfit.png") no-repeat center center;
 }
 
 #equipment .underwear {
     top: 284px;
     left: 50%;
     margin-left: 4px;
-    background: url("../images/48/none.png") no-repeat center center;
+    background: url("../images/48/underwear.png") no-repeat center center;
 }
 
 #equipment .alchemy-stone {
     top: 176px;
     left: 50%;
     margin-left: -32px;
-    background: url("../images/48/none.png") no-repeat center center;
+    background: url("../images/48/alchemy-stone.png") no-repeat center center;
 }
 
 #equipment .gear-slot.disabled {
@@ -409,7 +418,7 @@ div.enhancement {
     color: #e7d583;
 }
 
-.item-details {
+.item-details, .remove-item {
     position: relative;
     padding: 5px 8px;
     background: #272727;
@@ -417,12 +426,15 @@ div.enhancement {
     margin-bottom: 15px;
     border-radius: 5px;
 }
+.remove-item {
+    display: none;
+}
 
 .item-details.selected {
     border: 4px double #00FF2B;
 }
 
-.item-details .item-name strong {
+.item-details .item-name strong, .remove-item .item-name strong {
     font-size: 18px;
     margin-right: 65px;
     display: block;
@@ -741,3 +753,50 @@ input[type=checkbox]:checked + label:before {
     font-weight: normal;
     font-size: 16px;
 }
+
+.compact-item-modals .card-columns.items {
+    column-count: 1;
+}
+
+.compact-item-modals .card-columns.items .card {
+    height: 55px;
+}
+.compact-item-modals .card-columns.items .item-icon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.compact-item-modals .card-columns.items .item-name {
+    position: absolute;
+    top: 5px;
+    left: 55px;
+}
+.compact-item-modals .card-columns.items .item-stats {
+    position: absolute;
+    left: 55px;
+    top: 25px;
+}
+.compact-item-modals .card-columns.items .item-stats div {
+    float: left;
+    margin-left: 10px;
+}
+.compact-item-modals .card-columns.items .item-stats div:first-child {
+    margin-left: 0px;
+}
+.compact-item-modals .card-columns.items .item-enhancement-level {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 40%;
+}
+.compact-item-modals .card-columns.items .item-gems,
+.compact-item-modals .card-columns.items .item-effects,
+.compact-item-modals .card-columns.items .item-set-effects,
+.compact-item-modals .card-columns.items .item-enhancement-effects {
+    display: none;
+}
+/*
+.compact-item-modals .card-columns.items {
+    
+}
+*/

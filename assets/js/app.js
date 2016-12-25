@@ -276,7 +276,7 @@
             'style': '',
             'data-original-title': "Empty"
         }).empty();
-        $('#equipment .gem-slot.' + item_type + '1, .gem-slot.' + item_type + '2').attr({
+        $('#equipment .gem-slot.' + item_type + '1, equipment .gem-slot.' + item_type + '2').attr({
             'style': '',
             'data-original-title': "Empty"
         }).hide();
@@ -309,7 +309,9 @@
         }
 
         if ($.inArray(item_type, ["main-weapon", "secondary-weapon", "armor", "shoes", "gloves", "helmet"]) !== -1 && item_itemset !== "gems") {
-            $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').hide();
+            $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').attr({
+                "data-original-title": "Empty"
+            }).hide();
 
             if (item.gems > 0) {
                 var gem;
@@ -613,7 +615,13 @@
                 BDOcalculator.calculate();
                 saveConfig();
 
+                $(".class_cell").slideUp("fast");
+                $(".classes_restore .show").slideDown("fast");
+                $(".classes_restore .hide").slideUp("fast");
                 $("#calculator-section").slideDown("fast");
+            } else {
+                $(".classes_restore .show").slideUp("fast");
+                $(".classes_restore .hide").slideDown("fast");
             }
         });
 
@@ -634,6 +642,9 @@
                 resetGearslotItem($(v).attr('data-type'), $(v).attr('data-item'));
             });
 
+            $(".class_cell").slideUp("fast");
+            $(".classes_restore .show").slideDown("fast");
+            $(".classes_restore .hide").slideUp("fast");
             $("#calculator-section").slideDown("fast");
         });
 
@@ -651,7 +662,61 @@
             addItem(item_name, item_type, item_itemset, item_no, level);
         });
         
-        $('#gearlist').on('show.bs.modal', function () {
+        $(document).on('click', '.remove-item .btn', function() {
+            $('#gearlist').modal("hide");
+            
+            resetSlot($(this).attr('data-type'), $(this).attr('data-itemno'), $(this).attr('data-itemset'));
+        });
+        
+        function resetSlot(item_type, item_no, item_itemset) {
+            console.log(item_type);
+            console.log(item_no);
+            console.log(item_itemset);
+            if (item_itemset !== "gems") {
+                $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
+                    .attr({
+                        'data-original-title': "Empty"
+                    }).css({
+                        'background-image': '',
+                        'border-color': ''
+                    });
+                $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2')
+                .attr({
+                    'data-original-title': "Empty"
+                }).css({
+                    'background-image': '',
+                    'border-color': ''
+                }).hide();
+            } else {
+                $('#equipment .gem-slot.' + item_type + '' + item_no)
+                .attr({
+                    'data-original-title': "Empty"
+                }).css({
+                    'background-image': '',
+                    'border-color': ''
+                });
+            }
+            
+            BDOcalculator.setGear({}, item_type, item_no, "", item_itemset, function() {               
+                BDOcalculator.calculate();
+                saveConfig();
+            });
+        }
+        
+        $(".classes_restore").on('click', 'a.show', function(e) {
+            e.preventDefault();
+            $(".class_cell").slideDown("fast");
+            $(".classes_restore .show").slideUp("fast");
+            $(".classes_restore .hide").slideDown("fast");
+        });
+        $(".classes_restore").on('click', 'a.hide', function(e) {
+            e.preventDefault();
+            $(".class_cell").slideUp("fast");
+            $(".classes_restore .show").slideDown("fast");
+            $(".classes_restore .hide").slideUp("fast");
+        });
+        
+        $('#gearlist').on('show.bs.modal', function() {
             $("#gearlist-search").val("");
             $("#gear-rarity-filter li").addClass("active");
             active_filters = {
@@ -706,9 +771,19 @@
         });
         
         function buildGearModal(item_type, item_itemset, item_no) {
+            $(".card.remove-item").hide();
+            
             var items_db = BDOdatabase.items[item_itemset],
                 items_list = (typeof items_db[player_class] === "undefined" ? items_db : items_db[player_class]),
                 c = 1;
+                
+            $(".remove-item .btn")
+                .removeAttr("data-itemno")
+                .attr({
+                    "data-type": item_type,
+                    "data-itemno": item_no,
+                    "data-itemset": item_itemset
+                });
                 
             // reset the modal body
             $('#gearlist .modal-body .items').html('');
@@ -729,6 +804,10 @@
                     if (BDOcalculator.gear[item_type].item_name === key) {
                         selected = true;
                     }
+                }
+                
+                if (selected) {
+                    $(".card.remove-item").show();
                 }
 
                 generateItemPlate(item, item_type, item_itemset, item_no, key, c, selected).appendTo('#gearlist .modal-body .items');
@@ -814,8 +893,18 @@
         });
         
         function buildGemModal(item_type, item_no) {
+            $(".card.remove-item").hide();
+            
             var items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]),
                 c = 1;
+                
+            $(".remove-item .btn")
+                .removeAttr("data-itemno")
+                .attr({
+                    "data-type": item_type,
+                    "data-itemno": item_no,
+                    "data-itemset": "gems"
+                });
 
             // reset the modal body
             $('#gearlist .modal-body .items').html('');
@@ -832,6 +921,10 @@
 
                 if (BDOcalculator.gear[item_type].gems[item_no].gem_name === key) {
                     selected = true;
+                }
+                
+                if (selected) {
+                    $(".card.remove-item").show();
                 }
 
                 generateGemItemPlate(item, item_type, item_no, key, c, selected).appendTo('#gearlist .modal-body .items');

@@ -7,6 +7,8 @@ Features
   - Removed tooltips from Enhancement Sliders and added dividers to help, also added enhancement level into item names
   - Rewrote the search/filter system completely, should notice massive performance increases now
   - Added gear score, which is your AP + DP, for reference purposes
+  - Split stat displays into tabs
+  - Added remove button to unequip item
 
 ## 0.4.0 (2016-12-21)
 

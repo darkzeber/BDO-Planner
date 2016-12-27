@@ -276,7 +276,7 @@
             'style': '',
             'data-original-title': "Empty"
         }).empty();
-        $('#equipment .gem-slot.' + item_type + '1, equipment .gem-slot.' + item_type + '2').attr({
+        $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').attr({
             'style': '',
             'data-original-title': "Empty"
         }).hide();
@@ -669,9 +669,6 @@
         });
         
         function resetSlot(item_type, item_no, item_itemset) {
-            console.log(item_type);
-            console.log(item_no);
-            console.log(item_itemset);
             if (item_itemset !== "gems") {
                 $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
                     .attr({
@@ -679,7 +676,7 @@
                     }).css({
                         'background-image': '',
                         'border-color': ''
-                    });
+                    }).empty();
                 $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2')
                 .attr({
                     'data-original-title': "Empty"

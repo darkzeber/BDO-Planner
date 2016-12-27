@@ -13,16 +13,14 @@
         <link rel="icon" type="image/png" href="assets/favicon.png" />
 
         <!-- Include the required libraries' css where applicable -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/css/select2.min.css" integrity="sha384-Ht93LqjcTGHUlOarg7/xId0W82So5GT7HWRqFLNJsLvBf+4foNA0oe/lziqrR6Xd" crossorigin="anonymous">
-
         <!-- slider -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/css/bootstrap-slider.min.css" integrity="sha256-ED+X7ZpkRd9HICSuh+Z4gDrQEr2O1WP3yU6uYsvcP2s=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="libs/css/bootstrap-slider.min.css" />
 
         <!-- bootstrap -->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="libs/css/bootstrap.min.css">
         
         <!-- font awesome -->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="libs/css/font-awesome.min.css">
         
         <!-- The actual "app" css -->
         <link rel="stylesheet" type="text/css" href="assets/css/app.css">
@@ -225,9 +223,9 @@
                         <div class="tab-pane" id="settings-tab" role="tabpanel">
                             <div class="col-md-12 mt-1">
                                 <label class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input">
+                                    <input type="checkbox" class="custom-control-input" id="enable-compact-item-modals">
                                     <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">Check this custom checkbox</span>
+                                    <span class="custom-control-description">Use compact item modals</span>
                                 </label>
                             </div>
                         </div>
@@ -351,23 +349,26 @@
         </div>
 
         <!-- Include the required libraries -->
-        <!-- Generate the integrity hashes using https://www.srihash.org/ -->
-        <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha384-I6F5OKECLVtK/BL+8iSLDEHowSAfUo76ZL9+kGAgTRdiByINKJaqTPH/QVNS1VDb" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.2/js/select2.full.min.js" integrity="sha384-rJEcWVwrUb505DMqXEuRq+QacfKf8EzSI7X9rmNvwnwiKZJB7ptEQWFyzWdVhiWi" crossorigin="anonymous"></script>
+        <!-- jquery -->
+        <script src="libs/js/jquery.min.js"></script>
 
         <!-- bootstrap -->
-        <script src="assets/js/tether.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="libs/js/tether.min.js"></script>
+        <script src="libs/js/bootstrap.min.js"></script>
 
         <!-- slider -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/bootstrap-slider.js" integrity="sha256-zYweu1PnpU4Mxf4kh7g0fcXqgl4dCoTGVl97XBO2YhA=" crossorigin="anonymous"></script>
+        <script src="libs/js/bootstrap-slider.min.js"></script>
 
         <!-- clipboard -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.16/clipboard.min.js" integrity="sha384-RVvxof79LCL9tC4gVje4DE8jfuW3HJ1gdU60KYrw2wB4WfRUEWj7TErsKSSP/hei" crossorigin="anonymous"></script>
+        <script src="libs/js/clipboard.min.js"></script>
+        
+        <!-- JS Cookig -->
+        <script src="libs/js/js.cookie.min.js"></script>
 
         <!-- The actual "app" js -->
         <script type="text/javascript" src="assets/js/bdo_database.js"></script>
         <script type="text/javascript" src="assets/js/bdo_calculator.js"></script>
+        <script type="text/javascript" src="assets/js/calc_config.js"></script>
         <script type="text/javascript" src="assets/js/app.js"></script>
         
         <!-- Google Analytics -->

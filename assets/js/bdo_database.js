@@ -1344,7 +1344,7 @@ var BDOdatabase = {
                 }
             },
             "Black Magic Crystal - Precision": {
-                "id": 15012,
+                "id": 15219,
                 "rarity": "epic",
                 "shatter_chance": "high",
                 "incompatible": [],
@@ -9666,7 +9666,7 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 2,
                 "item_effects": {
-                    "hprc": 100,
+                    "hprc": 10,
                     "mpwpsp": 100
                 },
                 "enhancement_text": "",
@@ -9740,7 +9740,8 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 2,
                 "item_effects": {
-                    "hp": 200
+                    "hp": 200,
+                    "mpwpsp": 100
                 },
                 "enhancement_text": "",
                 "enhancement": {

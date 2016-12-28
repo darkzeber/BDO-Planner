@@ -397,13 +397,22 @@ div.enhancement {
     border-left: 0px;
 }
 
+#active-alch-stone-label {
+    position: absolute;
+    text-align: center;
+    top: 538px;
+    left: 50%;
+    margin-left: -200px;
+    width: 200px;
+    display: block;
+}
 #gear-score  {
     position: absolute;
     text-align: center;
     top: 535px;
     left: 50%;
-    margin-left: -120px;
-    width: 240px;
+    margin-left: 0px;
+    width: 200px;
     display: block;
     padding: 5px 10px;
     background: rgba(0, 0, 0, 0.4);
@@ -743,6 +752,15 @@ input[type=checkbox]:checked + label:before {
     margin-left: 45px;
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.7),
         1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+.background-ring .background-ring-inner {
+    opacity: 0.1;
+    background-size: cover;
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 
 #settingsscreen label {

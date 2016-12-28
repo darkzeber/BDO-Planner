@@ -25,7 +25,7 @@
         <!-- The actual "app" css -->
         <link rel="stylesheet" type="text/css" href="assets/css/app.css">
     </head>
-    <body class="compact-item-modals">
+    <body>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -104,7 +104,9 @@
             <div id="calculator-section" class="row mt-1">
                 <dir class="col-md-6">
                     <div id="equipment">
-                        <div class="background-ring"></div>
+                        <div class="background-ring">
+                            <div class="background-ring-inner"></div>
+                        </div>
                         
                         <div class="gear-slot helmet" data-itemset="helmets" data-type="helmet" data-toggle="tooltip" data-placement="bottom" title="Empty"></div>
                         <div class="gem-slot helmet1" data-type="helmet" data-item="1" data-toggle="tooltip" data-placement="bottom" title="Empty"></div>
@@ -163,6 +165,13 @@
                         <div class="main-stats stat-dp" data-breakdown="dp">
                             <strong>DP</strong>
                             <span>0</span>
+                        </div>
+                        <div id="active-alch-stone-label">
+                            <label class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="active-alch-stone">
+                                <span class="custom-control-indicator"></span>
+                                <span class="custom-control-description">Activate Alc. Stone</span>
+                            </label>
                         </div>
                         <div id="gear-score">
                             Current Gear Score: <span class="value"></span>

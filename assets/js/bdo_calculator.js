@@ -141,7 +141,6 @@ var BDOcalculator = {
                 "item_name": "",
                 "item": {}
             },
-            // Ihm todo: Need to work out how these will work properly before adding any items...
             "outfit": {
                 "item_name": "",
                 "item": {},
@@ -433,6 +432,10 @@ var BDOcalculator = {
                 }
             } else {
                 if (Object.keys(this.gear[gear_key].item).length > 0) {
+                    if (gear_key == "alchemy-stone" && !$("#active-alch-stone").prop("checked")) {
+                        continue;
+                    }
+                    
                     for (var stat_key in this.gear[gear_key].item) {
                         if (!this.gear[gear_key].item.hasOwnProperty(stat_key)) {
                             continue;
@@ -642,7 +645,7 @@ var BDOcalculator = {
                     }
                 }
             } else {
-                if (Object.keys(this.gear[gear_key].item).length > 0) {
+                if (Object.keys(this.gear[gear_key].item).length > 0) {                  
                     for (var stat_key in this.gear[gear_key].item) {
                         if (!this.gear[gear_key].item.hasOwnProperty(stat_key)) {
                             continue;

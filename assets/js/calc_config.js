@@ -4,15 +4,29 @@
 */
 
 var CalcConfig = {
-    "compact-item-modals": false,
-
-    init: function() {
-        
-    
-        this.reset(); 
+    configDefault: {
+        compact_item_modals: false
     },
     
-    readConfig: function () {
+    config: {},
+    
+    readConfig: function (callback) {
+        var configCookies = Cookies.getJSON('UserConfig') || {};
+        $.extend(this.config, this.configDefault, configCookies);
         
+        callback();
+    },
+    
+    saveConfig: function () {
+        Cookies.set(
+            "UserConfig",
+            this.config,
+            { expires: 365 }
+        );
+    },
+    
+    change: function (option, state) {
+        this.config[option] = state;
+        this.saveConfig();
     }
 };

@@ -510,6 +510,104 @@ var BDOdatabase = {
             "symbol": "",
             "target": ".general-stats"
         },
+        "alcatk": {
+            "title": "Attack - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "",
+            "target": ".special-stats"
+        },
+        "alcas": {
+            "title": "Attack Speed - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "%",
+            "target": ".special-stats"
+        },
+        "alccs": {
+            "title": "Casting Speed - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "%",
+            "target": ".special-stats"
+        },
+        "alcacc": {
+            "title": "Accuracy - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "",
+            "target": ".special-stats"
+        },
+        "alciar": {
+            "title": "Ignore All Resistance - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "%",
+            "target": ".special-stats"
+        },
+        "alcdr": {
+            "title": "Damage Reduction - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "",
+            "target": ".special-stats"
+        },
+        "alcev": {
+            "title": "Evasion - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "",
+            "target": ".special-stats"
+        },
+        "alchp": {
+            "title": "Health - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "",
+            "target": ".special-stats"
+        },
+        "alcar": {
+            "title": "All Resistance - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "",
+            "target": ".special-stats"
+        },
+        "alctime": {
+            "title": "Alchemy/Cooking time - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "s",
+            "target": ".special-stats"
+        },
+        "alcprsr": {
+            "title": "Processing Success Rate - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "%",
+            "target": ".special-stats"
+        },
+        "alcwgt": {
+            "title": "Weight Limit - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "LT",
+            "target": ".special-stats"
+        },
+        "alcgatfislv": {
+            "title": "Gathering/Fishing Level - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "",
+            "target": ".special-stats"
+        },
+        "alcgatidr": {
+            "title": "Gathering Item Drop Rate - Alchemy Stone",
+            "desc": "",
+            "total": 0,
+            "symbol": "%",
+            "target": ".special-stats"
+        },
         "special": { // this one must be the last one of the list. Short version: I am lazy. Longer version: Effects like fdr is added to it, so if it runs before eg. fdr, then it wont show as an active effect.
             "title": "Gear Specials",
             "desc": "",
@@ -73616,6 +73714,1151 @@ var BDOdatabase = {
                         }
                     }
                 }
+            }
+        },
+        "alchemy-stones": {
+            "Imperfect Alchemy Stone of Destruction (W)": {
+                "id": 45201,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Destruction (G)": {
+                "id": 45202,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 2,
+                    "alcacc": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Destruction (B)": {
+                "id": 45203,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 2,
+                    "alcacc": 1,
+                    "alciar": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Destruction (Y)": {
+                "id": 45204,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 2,
+                    "alcacc": 1,
+                    "alciar": 1,
+                    "alcas": 1,
+                    "alccs": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Destruction (W)": {
+                "id": 45205,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Destruction (G)": {
+                "id": 45206,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 3,
+                    "alcacc": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Destruction (B)": {
+                "id": 45207,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 3,
+                    "alcacc": 2,
+                    "alciar": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Destruction (Y)": {
+                "id": 45208,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 3,
+                    "alcacc": 2,
+                    "alciar": 2,
+                    "alcas": 2,
+                    "alccs": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Destruction (W)": {
+                "id": 45209,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Destruction (G)": {
+                "id": 45210,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 4,
+                    "alcacc": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Destruction (B)": {
+                "id": 45211,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 4,
+                    "alcacc": 3,
+                    "alciar": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Destruction (Y)": {
+                "id": 45212,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 4,
+                    "alcacc": 3,
+                    "alciar": 3,
+                    "alcas": 3,
+                    "alccs": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Destruction (W)": {
+                "id": 45213,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 6
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Destruction (G)": {
+                "id": 45214,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 6,
+                    "alcacc": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Destruction (B)": {
+                "id": 45215,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 6,
+                    "alcacc": 4,
+                    "alciar": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Destruction (Y)": {
+                "id": 45216,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 6,
+                    "alcacc": 4,
+                    "alciar": 4,
+                    "alcas": 4,
+                    "alccs": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Destruction (W)": {
+                "id": 45217,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 8
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Destruction (G)": {
+                "id": 45218,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 8,
+                    "alcacc": 6
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Destruction (B)": {
+                "id": 45219,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 8,
+                    "alcacc": 6,
+                    "alciar": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Destruction (Y)": {
+                "id": 45220,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 8,
+                    "alcacc": 6,
+                    "alciar": 5,
+                    "alcas": 5,
+                    "alccs": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Destruction (W)": {
+                "id": 45221,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Destruction (G)": {
+                "id": 45222,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 10,
+                    "alcacc": 8
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Destruction (B)": {
+                "id": 45223,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 10,
+                    "alcacc": 8,
+                    "alciar": 6
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Destruction (Y)": {
+                "id": 45224,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 10,
+                    "alcacc": 8,
+                    "alciar": 6,
+                    "alcas": 6,
+                    "alccs": 6
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Destruction (W)": {
+                "id": 45225,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 13
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Destruction (G)": {
+                "id": 45226,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 13,
+                    "alcacc": 11
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Destruction (B)": {
+                "id": 45227,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 13,
+                    "alcacc": 11,
+                    "alciar": 8
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Destruction (Y)": {
+                "id": 45228,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 13,
+                    "alcacc": 11,
+                    "alciar": 8,
+                    "alcas": 8,
+                    "alccs": 8
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Destruction (W)": {
+                "id": 45229,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 16
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Destruction (G)": {
+                "id": 45230,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 16,
+                    "alcacc": 14
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Destruction (B)": {
+                "id": 45231,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 16,
+                    "alcacc": 14,
+                    "alciar": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Destruction (Y)": {
+                "id": 45232,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcatk": 16,
+                    "alcacc": 14,
+                    "alciar": 10,
+                    "alcas": 10,
+                    "alccs": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Protection (W)": {
+                "id": 45233,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Protection (G)": {
+                "id": 45234,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 2,
+                    "alcev": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Protection (B)": {
+                "id": 45235,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 2,
+                    "alcev": 1,
+                    "alchp": 50
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Protection (Y)": {
+                "id": 45236,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 2,
+                    "alcev": 1,
+                    "alchp": 50,
+                    "alcar": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Protection (W)": {
+                "id": 45237,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Protection (G)": {
+                "id": 45238,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 3,
+                    "alcev": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Protection (B)": {
+                "id": 45239,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 3,
+                    "alcev": 2,
+                    "alchp": 70
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Protection (Y)": {
+                "id": 45240,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 3,
+                    "alcev": 2,
+                    "alchp": 70,
+                    "alcar": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Protection (W)": {
+                "id": 45241,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Protection (G)": {
+                "id": 45242,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 4,
+                    "alcev": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Protection (B)": {
+                "id": 45243,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 4,
+                    "alcev": 3,
+                    "alchp": 90
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Protection (Y)": {
+                "id": 45244,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 4,
+                    "alcev": 3,
+                    "alchp": 90,
+                    "alcar": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Protection (W)": {
+                "id": 45245,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 6
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Protection (G)": {
+                "id": 45246,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 6,
+                    "alcev": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Protection (B)": {
+                "id": 45247,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 6,
+                    "alcev": 4,
+                    "alchp": 110
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Protection (Y)": {
+                "id": 45248,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 6,
+                    "alcev": 4,
+                    "alchp": 110,
+                    "alcar": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Protection (W)": {
+                "id": 45249,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 8
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Protection (G)": {
+                "id": 45250,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 8,
+                    "alcev": 6
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Protection (B)": {
+                "id": 45251,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 8,
+                    "alcev": 6,
+                    "alchp": 140
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Protection (Y)": {
+                "id": 45252,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 8,
+                    "alcev": 6,
+                    "alchp": 140,
+                    "alcar": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Protection (W)": {
+                "id": 45253,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Protection (G)": {
+                "id": 45254,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 10,
+                    "alcev": 8
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Protection (B)": {
+                "id": 45255,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 10,
+                    "alcev": 8,
+                    "alchp": 170
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Protection (Y)": {
+                "id": 45256,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 10,
+                    "alcev": 8,
+                    "alchp": 170,
+                    "alcar": 6
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Protection (W)": {
+                "id": 45257,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 13
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Protection (G)": {
+                "id": 45258,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 13,
+                    "alcev": 11
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Protection (B)": {
+                "id": 45259,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 13,
+                    "alcev": 11,
+                    "alchp": 210
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Protection (Y)": {
+                "id": 45260,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 13,
+                    "alcev": 11,
+                    "alchp": 210,
+                    "alcar": 7
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Protection (W)": {
+                "id": 45261,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 16
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Protection (G)": {
+                "id": 45262,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 16,
+                    "alcev": 14
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Protection (B)": {
+                "id": 45263,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 16,
+                    "alcev": 14,
+                    "alchp": 250
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Protection (Y)": {
+                "id": 45264,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alcdr": 16,
+                    "alcev": 14,
+                    "alchp": 250,
+                    "alcar": 8
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Life (W)": {
+                "id": 45265,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -0.5,
+                    "alcprsr": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Life (G)": {
+                "id": 45266,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": 2,
+                    "alcprsr": 1,
+                    "alcwgt": 15
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Life (B)": {
+                "id": 45267,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": 2,
+                    "alcprsr": 1,
+                    "alcwgt": 15,
+                    "alcgatfislv": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Imperfect Alchemy Stone of Life (Y)": {
+                "id": 45268,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": 2,
+                    "alcprsr": 1,
+                    "alcwgt": 15,
+                    "alcgatfislv": 1,
+                    "alcgatidr": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Life (W)": {
+                "id": 45269,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -0.7,
+                    "alcprsr": 7
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Life (G)": {
+                "id": 45270,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -0.7,
+                    "alcprsr": 7,
+                    "alcwgt": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Life (B)": {
+                "id": 45271,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -0.7,
+                    "alcprsr": 7,
+                    "alcwgt": 30,
+                    "alcgatfislv": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Rough Alchemy Stone of Life (Y)": {
+                "id": 45272,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -0.7,
+                    "alcprsr": 7,
+                    "alcwgt": 30,
+                    "alcgatfislv": 1,
+                    "alcgatidr": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Life (W)": {
+                "id": 45273,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Life (G)": {
+                "id": 45274,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -0.9,
+                    "alcprsr": 9,
+                    "alcwgt": 45
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Life (B)": {
+                "id": 45275,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -0.9,
+                    "alcprsr": 9,
+                    "alcwgt": 45,
+                    "alcgatfislv": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Polished Alchemy Stone of Life (Y)": {
+                "id": 45276,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -0.9,
+                    "alcprsr": 9,
+                    "alcwgt": 45,
+                    "alcgatfislv": 1,
+                    "alcgatidr": 7,
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Life (W)": {
+                "id": 45277,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.1,
+                    "alcprsr": 11
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Life (G)": {
+                "id": 45278,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.1,
+                    "alcprsr": 11,
+                    "alcwgt": 60
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Life (B)": {
+                "id": 45279,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.1,
+                    "alcprsr": 11,
+                    "alcwgt": 60,
+                    "alcgatfislv": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sturdy Alchemy Stone of Life (Y)": {
+                "id": 45280,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.1,
+                    "alcprsr": 11,
+                    "alcwgt": 60,
+                    "alcgatfislv": 2,
+                    "alcgatidr": 10
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Life (W)": {
+                "id": 45281,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.4,
+                    "alcprsr": 14,
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Life (G)": {
+                "id": 45282,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.4,
+                    "alcprsr": 14,
+                    "alcwgt": 75
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Life (B)": {
+                "id": 45283,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.4,
+                    "alcprsr": 14,
+                    "alcwgt": 75,
+                    "alcgatfislv": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Sharp Alchemy Stone of Life (Y)": {
+                "id": 45284,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.4,
+                    "alcprsr": 14,
+                    "alcwgt": 75,
+                    "alcgatfislv": 2,
+                    "alcgatidr": 13
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Life (W)": {
+                "id": 45285,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.7,
+                    "alcprsr": 17
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Life (G)": {
+                "id": 45286,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.7,
+                    "alcprsr": 17,
+                    "alcwgt": 90
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Life (B)": {
+                "id": 45287,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.7,
+                    "alcprsr": 17,
+                    "alcwgt": 90,
+                    "alcgatfislv": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Resplendent Alchemy Stone of Life (Y)": {
+                "id": 45288,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -1.7,
+                    "alcprsr": 17,
+                    "alcwgt": 90,
+                    "alcgatfislv": 2,
+                    "alcgatidr": 16
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Life (W)": {
+                "id": 45289,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -2.0,
+                    "alcprsr": 20
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Life (G)": {
+                "id": 45290,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -2.0,
+                    "alcprsr": 20,
+                    "alcwgt": 105
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Life (B)": {
+                "id": 45291,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -2.0,
+                    "alcprsr": 20,
+                    "alcwgt": 105,
+                    "alcgatfislv": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Splendid Alchemy Stone of Life (Y)": {
+                "id": 45292,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -2.0,
+                    "alcprsr": 20,
+                    "alcwgt": 105,
+                    "alcgatfislv": 3,
+                    "alcgatidr": 20
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Life (W)": {
+                "id": 45293,
+                "rarity": "common",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -2.5,
+                    "alcprsr": 25
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Life (G)": {
+                "id": 45294,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -2.5,
+                    "alcprsr": 25,
+                    "alcwgt": 120
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Life (B)": {
+                "id": 45295,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -2.5,
+                    "alcprsr": 25,
+                    "alcwgt": 120,
+                    "alcgatfislv": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {}
+            },
+            "Shining Alchemy Stone of Life (Y)": {
+                "id": 45296,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "alctime": -2.5,
+                    "alcprsr": 25,
+                    "alcwgt": 120,
+                    "alcgatfislv": 3,
+                    "alcgatidr": 25
+                },
+                "enhancement_text": "",
+                "enhancement": {}
             }
         }
     },

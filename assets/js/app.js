@@ -138,6 +138,10 @@
                     getGemType("secondary-weapon","1"),
                     getGemType("secondary-weapon","2")
                 ]
+            ],
+            [
+                Object.keys(BDOdatabase.items["alchemy-stones"]).indexOf(BDOcalculator.gear["alchemy-stone"].item_name),
+                parseInt(BDOcalculator.gear["alchemy-stone"].enhancement)
             ]
             // Ihm todo: Need to add saving for Outfits and stuff
         ];
@@ -161,7 +165,8 @@
                 "necklace",
                 "main-weapon",
                 "awakening-weapon",
-                "secondary-weapon"
+                "secondary-weapon",
+                "alchemy-stone"
             ];
 
         callback = (typeof callback !== "undefined" ? callback : function(e) {});
@@ -221,7 +226,7 @@
                 addItem(item_name, item_type, item_itemset, item_no, gear[n][1], false);
 
                 // set gems
-                if ($.inArray(item_type, ["belt", "necklace", "awakening-weapon"]) === -1) {
+                if ($.inArray(item_type, ["belt", "necklace", "awakening-weapon", "alchemy-stone"]) === -1) {
                     if (gear[n][2].length) {
                         var gem_list = Object.keys(BDOdatabase.gems[item_type]),
                             allgem_list = Object.keys(BDOdatabase.gems.all);

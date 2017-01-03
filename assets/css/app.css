@@ -749,7 +749,7 @@ input[type=checkbox]:checked + label:before {
     height: 380px;
     border-radius: 500px;
     position: absolute;
-    margin-left: 45px;
+    margin-left: 50px;
     box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.7),
         1px 1px 3px rgba(0, 0, 0, 0.7);
 }

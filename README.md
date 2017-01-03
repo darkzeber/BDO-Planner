@@ -4,16 +4,16 @@ BDO Gear Calculator
 A gear/equipment calculator for Black Desert Online ([Demo Here](https://shadowtrance.github.io)).
 
 
-## Current Version: 0.4.0
+## Current Version: 0.5.0
 
-See [the changelog](https://github.com/Shadowtrance/BDO-Gear-Calculator/blob/update/CHANGELOG.md) for details.
+See [the changelog](https://github.com/Shadowtrance/BDO-Gear-Calculator/blob/master/CHANGELOG.md) for details.
 
 
 ## Status
 
 The following data/features are still outstanding/being developed.
 
-  - Add costumes pieces &amp; alchemy stones
+  - Add costumes pieces
   - Add non-conbat related gems and gear (like fishing and crafting items)
 
 

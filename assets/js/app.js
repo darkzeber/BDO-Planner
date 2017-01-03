@@ -1021,6 +1021,12 @@
             } else {
                 $("body").removeClass("compact-item-modals");
             }
+            
+            $("#updatenotes .version").html("v " + CalcConfig.configDefault.latestVersion.major + "." + CalcConfig.configDefault.latestVersion.minor + "." + CalcConfig.configDefault.latestVersion.revision);
+            
+            if (!CalcConfig.noCookies && CalcConfig.newVersion) {
+                $("#updatenotes").modal();
+            }
         });
                 
         //Copy share link to clipboard / tooltip setup

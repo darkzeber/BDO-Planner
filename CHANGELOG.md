@@ -1,14 +1,20 @@
-## 0.?.? (2016-??-??)
+## 0.5.0 (2016-??-??)
 
 Features
 
-  - Updated to Bootstrap v4 Alpha5, this means the style has changed slightly but allows us to do some more stuff that we couldn't before.
   - Added class base resistances to calculations
   - Removed tooltips from Enhancement Sliders and added dividers to help, also added enhancement level into item names
   - Rewrote the search/filter system completely, should notice massive performance increases now
   - Added gear score, which is your AP + DP, for reference purposes
   - Split stat displays into tabs
   - Added remove button to unequip item
+  - Added Alchemy stones that can be toggled
+  - Added Compact mode for popups, enable this under settings!
+  
+Other things
+
+  - Updated to Bootstrap v4 Alpha5, this means the style has changed slightly but allows us to do some more stuff that we couldn't before.
+  - Rewrote the search/filter system completely, should notice massive performance increases now
 
 ## 0.4.0 (2016-12-21)
 

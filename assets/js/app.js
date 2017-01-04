@@ -591,24 +591,29 @@
         }
 
         stat_element.appendTo(item_element);
+        
+        var enhance_max = getEnhancementMax(item);
+                 
+        if (enhance_max > 0) {
 
-        // item enhancement effects
-        item_element.append('<div class="item-enhancement-effects">'+
+            // item enhancement effects
+            item_element.append('<div class="item-enhancement-effects">'+
                                 '<strong>Enhancement Effects:</strong>'+
                                 '<div>' + (typeof item.enhancement_text === 'undefined' || item.enhancement_text === "" ? 'Info Missing..' : item.enhancement_text) + '</div>'+
                             '</div>');
                             
-        var slider_steps = [];
-        for (var i = 0; i <= getEnhancementMax(item); i += 5) {
-            slider_steps.push(i);
-        }
 
+            var slider_steps = [];
+            for (var i = 0; i <= getEnhancementMax(item); i += 5) {
+                slider_steps.push(i);
+            }
 
-        // item icon
-        item_element.append('<div class="item-enhancement-level">'+
+            // item enhance level
+            item_element.append('<div class="item-enhancement-level">'+
                                 '<strong>Enhancement Level:</strong>'+
                                 '<input data-slider-min="" data-slider-max="' + getEnhancementMax(item) + '" data-slider-value="' + enhancement_level + '" class="item-enhancement-slider" data-slider-ticks="[' + slider_steps.join(",") + ']">'+
                             '</div>');
+        }
 
         return item_element;
     }
@@ -696,6 +701,7 @@
 
             c++;
         }
+        
         
         $(".item-enhancement-slider").each(function(k, v) {
             if ($(v).attr('data-slider-max') === "0") {

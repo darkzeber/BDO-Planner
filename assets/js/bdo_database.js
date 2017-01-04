@@ -1401,7 +1401,7 @@ var BDOdatabase = {
                 "shatter_chance": "high",
                 "incompatible": [],
                 "item_effects": {
-                    "gr": 5,
+                    "gr": 10,
                     "kb": 5
                 }
             },

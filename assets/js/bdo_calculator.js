@@ -579,6 +579,7 @@ var BDOcalculator = {
             if (resistance == stat_to_get && BDOdatabase.resistances[this.player_class][resistance] != 0) {
                 stat_return.item_list.push({
                     "value": BDOdatabase.resistances[this.player_class][resistance],
+                    "slot": "class",
                     "item": "Class base"
                 });
                 stat_return.total += BDOdatabase.resistances[this.player_class][resistance];
@@ -613,6 +614,7 @@ var BDOcalculator = {
                         if (assec_stat == stat_to_get && this.getGearStat(accessory, assec_stat) != 0) {
                             stat_return.item_list.push({
                                 "value": this.getGearStat(accessory, assec_stat),
+                                "slot": ".gear-slot." + gear_key.slice(0, -1) + acc_key,
                                 "item": accessory.item_name
                             });
                             stat_return.total += this.getGearStat(accessory, assec_stat);
@@ -625,9 +627,10 @@ var BDOcalculator = {
                             continue;
                         }
 
-                        if (effect_key == stat_to_get && this.getGearStat(accessory, effect_key, true) != 0) {
+                        if (effect_key == stat_to_get && this.getGearStat(accessory, effect_key, true) != 0) {                            
                             stat_return.item_list.push({
                                 "value": this.getGearStat(accessory, effect_key, true),
+                                "slot": ".gear-slot." + gear_key.slice(0, -1) + acc_key,
                                 "item": accessory.item_name
                             });
                             stat_return.total += this.getGearStat(accessory, effect_key, true);
@@ -639,6 +642,7 @@ var BDOcalculator = {
                     if ("awkap" == stat_to_get && this.getGearStat(accessory, "ap") != 0) {
                         stat_return.item_list.push({
                             "value": this.getGearStat(accessory, "ap"),
+                            "slot": ".gear-slot." + gear_key.slice(0, -1) + acc_key,
                             "item": accessory.item_name
                         });
                         stat_return.total += this.getGearStat(accessory, "ap");
@@ -654,6 +658,7 @@ var BDOcalculator = {
                         if (stat_key == stat_to_get && this.getGearStat(this.gear[gear_key], stat_key) != 0) {
                             stat_return.item_list.push({
                                 "value": this.getGearStat(this.gear[gear_key], stat_key),
+                                "slot": ".gear-slot." + gear_key,
                                 "item": this.gear[gear_key].item_name
                             });
                             stat_return.total += this.getGearStat(this.gear[gear_key], stat_key);
@@ -668,6 +673,7 @@ var BDOcalculator = {
                         if (effect_key == stat_to_get && this.getGearStat(this.gear[gear_key], effect_key, true) != 0) {
                             stat_return.item_list.push({
                                 "value": this.getGearStat(this.gear[gear_key], effect_key, true),
+                                "slot": ".gear-slot." + gear_key,
                                 "item": this.gear[gear_key].item_name
                             });
                             stat_return.total += this.getGearStat(this.gear[gear_key], effect_key, true);
@@ -695,6 +701,7 @@ var BDOcalculator = {
                             if (eff_key == stat_to_get && gem.item_effects[eff_key] != 0) {
                                 stat_return.item_list.push({
                                     "value": gem.item_effects[eff_key],
+                                    "slot": ".gem-slot." + gear_key + gem_key,
                                     "item": this.gear[gear_key].gems[gem_key].gem_name
                                 });
                                 stat_return.total += gem.item_effects[eff_key];
@@ -711,6 +718,7 @@ var BDOcalculator = {
                             if ("ap" == stat_to_get && ap != 0) {
                                 stat_return.item_list.push({
                                     "value": ap,
+                                    "slot": ".gear-slot." + gear_key,
                                     "item": this.gear[gear_key].item_name
                                 });
                                 stat_return.total += ap;
@@ -721,6 +729,7 @@ var BDOcalculator = {
                             if (("ap" == stat_to_get || "awkap" == stat_to_get) && ap != 0) {
                                 stat_return.item_list.push({
                                     "value": ap,
+                                    "slot": ".gear-slot." + gear_key,
                                     "item": this.gear[gear_key].item_name
                                 });
                                 stat_return.total += ap;
@@ -731,6 +740,7 @@ var BDOcalculator = {
                             if ("awkap" == stat_to_get && ap != 0) {
                                 stat_return.item_list.push({
                                     "value": ap,
+                                    "slot": ".gear-slot." + gear_key,
                                     "item": this.gear[gear_key].item_name
                                 });
                                 stat_return.total += ap;
@@ -740,6 +750,7 @@ var BDOcalculator = {
                             if ("awkap" == stat_to_get && this.getGearStat(this.gear[gear_key], "ap") != 0) {
                                 stat_return.item_list.push({
                                     "value": this.getGearStat(this.gear[gear_key], "ap"),
+                                    "slot": ".gear-slot." + gear_key,
                                     "item": this.gear[gear_key].item_name
                                 });
                                 stat_return.total += this.getGearStat(this.gear[gear_key], "ap");
@@ -749,6 +760,7 @@ var BDOcalculator = {
                             if ("awkap" == stat_to_get && this.getGearStat(this.gear[gear_key], "ap") != 0) {
                                 stat_return.item_list.push({
                                     "value": this.getGearStat(this.gear[gear_key], "ap"),
+                                    "slot": ".gear-slot." + gear_key,
                                     "item": this.gear[gear_key].item_name
                                 });
                                 stat_return.total += this.getGearStat(this.gear[gear_key], "ap");

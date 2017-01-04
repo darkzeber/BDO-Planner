@@ -978,9 +978,12 @@
                 .addClass("info")
                 .html(stats.item_list[item].value + BDOdatabase.stats[stat_type].symbol)
                 .appendTo(li_base);
+                console.log(stats.item_list[item].slot);
+            $(stats.item_list[item].slot).addClass("active-stat");
         }
     }).on("mouseleave", "[data-breakdown!=''][data-breakdown]", function (e) {
         $("#stat-breakdown").hide();
+        $(".gear-slot, .gem-slot").removeClass("active-stat");
     });
     
     $("#active-alch-stone").on("click", function () {

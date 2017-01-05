@@ -14,3 +14,4 @@ _Things on here may never actually be done, and this isn't an ordered list of pl
 * Add food buffs
 * Add missing unconfirmed stats
 * Skill calculator
+* Current title count + corresponding buffs to luck and stamina

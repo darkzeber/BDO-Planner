@@ -2,7 +2,6 @@
 * @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
 * @http: https://shadowtrance.github.io/
 */
-
 (function ($) {
     "use strict";
 
@@ -287,16 +286,16 @@
         }).hide();
     }
 
-    function setGearslotItem(item, item_type, item_no, item_name, item_itemset, level) {
+    function setGearslotItem(item, item_type, item_no, item_id, item_itemset, level) {
         item_no = (typeof item_no === "undefined" ? "undefined" : item_no);
 
         if (item_itemset !== "gems") { // If item IS NOT a gem
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
                 .css({
-                    'background': 'url(assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][item_name].id, 8) : player_class + "/" + pad(BDOdatabase.items[item_itemset][player_class][item_name].id, 8)) + '.png) no-repeat center center',
+                    'background': 'url(assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(item_id, 8) : player_class + "/" + pad(item_id, 8)) + '.png) no-repeat center center',
                     'border-color': BDOdatabase.rarities[item.rarity]
                 }).attr({
-                    "data-original-title": BDOdatabase.enhancements[$.inArray(item_type, ["belt", "necklace", "ring", "earring"]) !== -1 ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].prefix + item_name
+                    "data-original-title": BDOdatabase.enhancements[$.inArray(item_type, ["belt", "necklace", "ring", "earring"]) !== -1 ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].prefix + item.name
                 }).empty();
                 
             $("<div>")
@@ -306,10 +305,10 @@
         } else { // Otherwise, it's a gem!
             $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']")
                 .css({
-                    'background-image': 'url(assets/images/gems/' + pad(item.id, 8) + '.png)',
+                    'background-image': 'url(assets/images/gems/' + pad(item_id, 8) + '.png)',
                     'border-color': BDOdatabase.rarities[item.rarity]
                 }).attr({
-                    "data-original-title": item_name
+                    "data-original-title": item.name
                 });
         }
 
@@ -337,7 +336,7 @@
         }
     }
 
-    function addItem(item_name, item_type, item_itemset, item_no, level, calculate) {
+    function addItem(item_id, item_type, item_itemset, item_no, level, calculate) {
         var item = (item_itemset === "gems" ? BDOdatabase.gems :  BDOdatabase.items[item_itemset]);
         calculate = (typeof calculate === "undefined" ? true : calculate);
 
@@ -346,7 +345,7 @@
                 item = item[player_class.toLowerCase()];
             }
         } else {
-            if (typeof item[item_type][item_name] === 'undefined') {
+            if (typeof item[item_type][item_id] === 'undefined') {
                 item = item.all;
             }
             else {
@@ -354,10 +353,10 @@
             }
         }
 
-        item = item[item_name];
+        item = item[item_id];
 
-        BDOcalculator.setGear(item, item_type, item_no, item_name, item_itemset, function() {
-            setGearslotItem(item, item_type, item_no, item_name, item_itemset, level);
+        BDOcalculator.setGear(item, item_type, item_no, item_id, item_itemset, function() {
+            setGearslotItem(item, item_type, item_no, item_id, item_itemset, level);
 
             if (item_itemset !== "gems") {
                 BDOcalculator.setEnchantmentLevel(item_type, item_no, level, function() {
@@ -383,7 +382,7 @@
 
         // item name
         item_element.append('<div class="item-name">'+
-                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '">' + key + '</strong>'+
+                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '">' + item.name + '</strong>'+
                             '</div>');
 
         // item icon
@@ -394,7 +393,7 @@
         var item_icon = $("<img>")
             .attr({
                 "alt": "BDO Gear Calculator",
-                "src": 'assets/images/gems/' + pad(item.id, 8) + '.png'
+                "src": 'assets/images/gems/' + pad(key, 8) + '.png'
             })
             .appendTo(w_item_icon);
 
@@ -467,7 +466,7 @@
 
         // item name
         item_element.append('<div class="item-name">'+
-                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '"><span class="item-name-enhancement-prefix">' + BDOdatabase.enhancements[enhancement_level].prefix + '</span>' + key + '</strong>'+
+                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '"><span class="item-name-enhancement-prefix">' + BDOdatabase.enhancements[enhancement_level].prefix + '</span>' + item.name + '</strong>'+
                             '</div>');
 
         // item icon
@@ -478,7 +477,7 @@
         var item_icon = $("<img>")
             .attr({
                 "alt": "BDO Gear Calculator",
-                "src": 'assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(BDOdatabase.items[item_itemset][key].id, 8) : player_class + "/" + pad(BDOdatabase.items[item_itemset][player_class][key].id, 8)) + '.png'
+                "src": 'assets/images/items/' + item_itemset + '/' + ($.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) === -1 ? pad(key, 8) : player_class + "/" + pad(key, 8)) + '.png'
             })
             .appendTo(w_item_icon);
 
@@ -978,7 +977,6 @@
                 .addClass("info")
                 .html(stats.item_list[item].value + BDOdatabase.stats[stat_type].symbol)
                 .appendTo(li_base);
-                console.log(stats.item_list[item].slot);
             $(stats.item_list[item].slot).addClass("active-stat");
         }
     }).on("mouseleave", "[data-breakdown!=''][data-breakdown]", function (e) {

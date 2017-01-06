@@ -14,7 +14,7 @@ var BDOcalculator = {
         this.gear = {
             "main-weapon": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {},
                 "gems": {
                     "1": {
@@ -29,12 +29,12 @@ var BDOcalculator = {
             },
             "awakening-weapon": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {},
             },
             "secondary-weapon": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {},
                 "gems": {
                     "1": {
@@ -49,7 +49,7 @@ var BDOcalculator = {
             },
             "helmet": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {},
                 "gems": {
                     "1": {
@@ -64,7 +64,7 @@ var BDOcalculator = {
             },
             "armor": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {},
                 "gems": {
                     "1": {
@@ -79,7 +79,7 @@ var BDOcalculator = {
             },
             "gloves": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {},
                 "gems": {
                     "1": {
@@ -94,7 +94,7 @@ var BDOcalculator = {
             },
             "shoes": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {},
                 "gems": {
                     "1": {
@@ -110,39 +110,39 @@ var BDOcalculator = {
             "rings": {
                 "1": {
                     "enhancement": 0,
-                    "item_name": "",
+                    "item_id": "",
                     "item": {}
                 },
                 "2": {
                     "enhancement": 0,
-                    "item_name": "",
+                    "item_id": "",
                     "item": {}
                 }
             },
             "earrings": {
                 "1": {
                     "enhancement": 0,
-                    "item_name": "",
+                    "item_id": "",
                     "item": {}
                 },
                 "2": {
                     "enhancement": 0,
-                    "item_name": "",
+                    "item_id": "",
                     "item": {}
                 }
             },
             "necklace": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {}
             },
             "belt": {
                 "enhancement": 0,
-                "item_name": "",
+                "item_id": "",
                 "item": {}
             },
             "outfit": {
-                "item_name": "",
+                "item_id": "",
                 "item": {},
                 "gems": {
                     "1": {
@@ -152,23 +152,23 @@ var BDOcalculator = {
                 }
             },
             "main-weapon-outfit": {
-                "item_name": "",
+                "item_id": "",
                 "item": {}
             },
             "awakening-weapon-outfit": {
-                "item_name": "",
+                "item_id": "",
                 "item": {}
             },
             "secondary-weapon-outfit": {
-                "item_name": "",
+                "item_id": "",
                 "item": {}
             },
             "underwear": {
-                "item_name": "",
+                "item_id": "",
                 "item": {}
             },
             "alchemy-stone": {
-                "item_name": "",
+                "item_id": "",
                 "item": {}
             }
         };
@@ -176,7 +176,7 @@ var BDOcalculator = {
         this.reset(); 
     },
 
-    setGear: function (itemObj, type, item_no, item_name, item_itemset, callback) {
+    setGear: function (itemObj, type, item_no, item_id, item_itemset, callback) {
         callback = (typeof callback === "function" ? callback : function() {});
 
         if (typeof itemObj === "undefined") {
@@ -185,14 +185,14 @@ var BDOcalculator = {
 
         if ($.inArray(type, ["ring", "earring"]) !== -1) {
             this.gear[type + "s"][item_no].item = itemObj;
-            this.gear[type + "s"][item_no].item_name = item_name;
+            this.gear[type + "s"][item_no].item_id = item_id;
         } else if (item_itemset === "gems") {
             this.gear[type].gems[item_no].gem = itemObj;
-            this.gear[type].gems[item_no].gem_name = item_name;
+            this.gear[type].gems[item_no].gem_name = item_id;
         } else {
             if (typeof this.gear[type].item !== "undefined") {
                 this.gear[type].item = itemObj;
-                this.gear[type].item_name = item_name;
+                this.gear[type].item_id = item_id;
                 this.gear[type].gems = {
                     "1": {
                         "gem_name": "",
@@ -427,7 +427,7 @@ var BDOcalculator = {
                     this.addToSets(this.gear[gear_key][acc_key].item.set, gear_key + acc_key);
                     
                     $("<li>")
-                        .html(BDOdatabase.enhancements[parseInt(this.gear[gear_key][acc_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15].prefix + this.gear[gear_key][acc_key].item_name)
+                        .html(BDOdatabase.enhancements[parseInt(this.gear[gear_key][acc_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15].prefix + this.gear[gear_key][acc_key].item_id)
                         .appendTo("#gear-list");
                 }
             } else {
@@ -454,7 +454,7 @@ var BDOcalculator = {
                     }
                     
                     var new_li = $("<li>")
-                        .html(BDOdatabase.enhancements[$.inArray(gear_key, ["belt", "necklace"]) !== -1 ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item_name)
+                        .html(BDOdatabase.enhancements[$.inArray(gear_key, ["belt", "necklace"]) !== -1 ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item_id)
                         .appendTo("#gear-list");
                         
                     var gem_ul = null;
@@ -751,7 +751,7 @@ var BDOcalculator = {
                                 stat_return.item_list.push({
                                     "value": this.getGearStat(this.gear[gear_key], "ap"),
                                     "slot": ".gear-slot." + gear_key,
-                                    "item": this.gear[gear_key].item_name
+                                    "item": this.gear[gear_key].item_id
                                 });
                                 stat_return.total += this.getGearStat(this.gear[gear_key], "ap");
                             }

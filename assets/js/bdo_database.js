@@ -6176,7 +6176,7 @@ var BDOdatabase =
                         "dp": 77
                     }
                 },
-                "name": "Giath’s Helmet"
+                "name": "Giath's Helmet"
             },
             "11018":
             {
@@ -11101,7 +11101,7 @@ var BDOdatabase =
                         "dp": 89
                     }
                 },
-                "name": "Red Nose’s Armor"
+                "name": "Red Nose's Armor"
             },
             "11017":
             {
@@ -25088,7 +25088,7 @@ var BDOdatabase =
                         "ap": 35
                     }
                 },
-                "name": "Laytenn’s Power Stone"
+                "name": "Laytenn's Power Stone"
             },
             "11631":
             {
@@ -88178,7 +88178,7 @@ var BDOdatabase =
                             "ap_max": 121
                         }
                     },
-                    "name": "Heiress’s Kamasylven Sword"
+                    "name": "Heiress's Kamasylven Sword"
                 },
                 "14732":
                 {
@@ -88407,7 +88407,7 @@ var BDOdatabase =
                             "ap_max": 116
                         }
                     },
-                    "name": "Young Tree Spirit’s Kamasylven Sword"
+                    "name": "Young Tree Spirit's Kamasylven Sword"
                 },
                 "14735":
                 {
@@ -88523,7 +88523,7 @@ var BDOdatabase =
                             "ap_max": 123
                         }
                     },
-                    "name": "Ultimate Heiress’s Kamasylven Sword"
+                    "name": "Ultimate Heiress's Kamasylven Sword"
                 }
             },
             "tamer":
@@ -90962,7 +90962,7 @@ var BDOdatabase =
                             "ap_max": 121
                         }
                     },
-                    "name": "Oeki’s Sah Chakram"
+                    "name": "Oeki's Sah Chakram"
                 },
                 "14792":
                 {
@@ -91307,7 +91307,7 @@ var BDOdatabase =
                             "ap_max": 123
                         }
                     },
-                    "name": "Ultimate Oeki’s Sah Chakram"
+                    "name": "Ultimate Oeki's Sah Chakram"
                 }
             },
             "witch":

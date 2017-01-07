@@ -7,7 +7,7 @@ A character planner for Black Desert Online. Originally started as a gear/equipm
 
 The character planner re-write is coming soon which will include more features outside of selecting only gear for your character. A test version _may_ be available at [beta.bdoplanner.com](http://beta.bdoplanner.com) although theres no guarantee the beta will be working at any time, it's a beta after all!
 
-The current version of the BDO Gear Calculator can be found (here)[https://github.com/Shadowtrance/BDO-Gear-Calculator] if you're interested in that until the new version is done!
+The current version of the BDO Gear Calculator can be found [here](https://github.com/Shadowtrance/BDO-Gear-Calculator) if you're interested in that until the new version is done!
 
 ## Current Version: None
 

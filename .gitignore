@@ -46,3 +46,4 @@ $RECYCLE.BIN/
 config.codekit
 .codekit-cache
 *.sass-cache
+*.htaccess

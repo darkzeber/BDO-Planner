@@ -427,7 +427,7 @@ var BDOcalculator = {
                     this.addToSets(this.gear[gear_key][acc_key].item.set, gear_key + acc_key);
                     
                     $("<li>")
-                        .html(BDOdatabase.enhancements[parseInt(this.gear[gear_key][acc_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15].prefix + this.gear[gear_key][acc_key].item_id)
+                        .html(BDOdatabase.enhancements[parseInt(this.gear[gear_key][acc_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15].prefix + this.gear[gear_key][acc_key].item_name)
                         .appendTo("#gear-list");
                 }
             } else {
@@ -454,7 +454,7 @@ var BDOcalculator = {
                     }
                     
                     var new_li = $("<li>")
-                        .html(BDOdatabase.enhancements[this.isAccessory(gear_key) ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item_id)
+                        .html(BDOdatabase.enhancements[this.isAccessory(gear_key) ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item_name)
                         .appendTo("#gear-list");
                         
                     var gem_ul = null;

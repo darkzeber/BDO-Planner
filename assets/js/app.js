@@ -491,6 +491,7 @@
 
         // item name
         item_element.append('<div class="item-name">'+
+                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '"><span class="item-name-enhancement-prefix">' + BDOdatabase.enhancements[BDOcalculator.isAccessory(item_type) ? (enhancement_level == 0 ? enhancement_level : parseInt(enhancement_level) + 15) : enhancement_level].prefix + '</span>' + item.name + '</strong>'+
                             '</div>');
 
         // item icon

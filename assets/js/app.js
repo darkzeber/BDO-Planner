@@ -1,6 +1,6 @@
 /*
 * @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
-* @http: https://shadowtrance.github.io/
+* @http: https://bdoplanner.com/
 */
 (function ($) {
     "use strict";
@@ -1027,7 +1027,15 @@
         }
     });
     
+    $('#helpus-alert').on('closed.bs.alert', function () {
+        Cookies.set("helpus-alert-closed", true, { expires: 365 });
+    });
+    
     $(document).ready(function() {
+        var helpus_alert_closed = Cookies.get("helpus-alert-closed") || false;
+        if (!helpus_alert_closed)
+            $('#helpus-alert').show();
+    
         loadShareLink(function(loaded) {
             if (loaded) {
                 $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").closest(".class_img").removeClass("faded").addClass("selected");

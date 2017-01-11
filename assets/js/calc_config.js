@@ -1,6 +1,6 @@
 /*
 * @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
-* @http: https://shadowtrance.github.io/
+* @http: https://bdoplanner.com/
 */
 
 var CalcConfig = {
@@ -10,7 +10,7 @@ var CalcConfig = {
         latestVersion: {
             major: 0,
             minor: 5,
-            revision: 0
+            revision: 1
         },
         compact_item_modals: false
     },

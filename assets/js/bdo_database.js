@@ -1,7 +1,7 @@
 /*
- * @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
- * @http: https://shadowtrance.github.io/
- */
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://bdoplanner.com/
+*/
 
 var BDOdatabase =
 {

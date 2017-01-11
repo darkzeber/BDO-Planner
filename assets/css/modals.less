@@ -1,0 +1,213 @@
+/*
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://bdoplanner.com/
+* WIP
+*/
+
+.modal-dialog .modal-content {
+    background-color: @planner-background;
+}
+
+.card-columns.items {
+    column-count: 2;
+}
+.compact-item-modals .card-columns.items {
+    column-count: 1;
+}
+
+.item-details, .remove-item {
+    position: relative;
+    padding: 5px 8px;
+    background: @item-box-background;
+    color: #fff;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+    .item-name {
+        strong {
+            font-size: 18px;
+            margin-right: 65px;
+            display: block;
+        }
+    }
+}
+
+.item-details {
+    &.selected {
+        border: 4px double #00FF2B;
+    }
+    
+    .item-icon {
+        display: inline-block;
+        vertical-align: top;
+        width: 48px;
+        height: 48px;
+        
+        img {
+            vertical-align: baseline;
+        }
+    }
+    
+    .item-stats {
+        vertical-align: top;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .item-choose {
+        position: absolute;
+        right: 8px;
+        top: 5px;
+    }
+
+    .item-gems, .item-effects, .item-set-effects, .item-enhancement-effects, .item-enhancement-level {
+        margin-top: 8px;
+        > div {
+            color: #e9bd23;
+            
+            &::before {
+                content: "- ";
+                color: #fff;
+            }
+        }
+    }
+    
+    .item-enhancement-level {
+        .slider.slider-horizontal {
+            width: 100%;
+        }
+        .item-details .item-enhancement-level strong {
+            display: block;
+        }
+    }
+
+    .item-effects strong {
+        display: inline-block;
+    }
+
+    .item-set-effects {
+        strong {
+            display: block;
+        }
+
+        span {
+            color: #fff;
+        }
+    }
+}
+
+.remove-item {
+    display: none;
+}
+
+#gear-rarity-filter {
+    list-style-type: none;
+    padding-left: 0px;
+
+    li {
+        float: left;
+        width: 28px;
+        height: 28px;
+        border-radius: 32px;
+        padding: 3px;
+        margin-right: 4px;
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.5),
+            inset -2px -2px 3px rgba(0, 0, 0, 0.5);
+        cursor: pointer;
+    }
+    li div {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        background: #1b2337;
+        border: 2px solid #1b2337;
+    }
+    li.common, li.common.active div {
+        background: #ffffff;
+    }
+    li.uncommon, li.uncommon.active div {
+        background: #5ff369;
+    }
+    li.rare, li.rare.active div {
+        background: #0391c4;
+    }
+    li.epic, li.epic.active div {
+        background: #f6c232;
+    }
+    li.legendary, li.legendary.active div {
+        background: #d36300;
+    }
+}
+
+#updatenotes {
+    h1 {
+        overflow: hidden;
+        font-size: 2rem;
+        font-weight: 300;
+        &:after {
+            content:"";
+            display: inline-block;
+            height: 0.5em;
+            vertical-align: bottom;
+            width: 100%;
+            margin-right: -100%;
+            margin-left: 10px;
+            border-top: 1px solid #eee;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 0px;
+        li:before {
+            content: "\f0da";
+            font-family: 'FontAwesome';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            margin: 0px 10px 0px 5px;
+        }
+    }
+}
+
+.compact-item-modals {
+    .card-columns.items {
+        .card {
+            height: 55px;
+        }
+        .item-icon {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+        .item-name {
+            position: absolute;
+            top: 5px;
+            left: 55px;
+        }
+        .item-stats {
+            position: absolute;
+            left: 55px;
+            top: 25px;
+            
+            div {
+                float: left;
+                margin-left: 10px;
+                
+                &:first-child {
+                    margin-left: 0px;
+                }
+            }
+        }
+        .item-enhancement-level {
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            width: 40%;
+        }
+        .item-gems, .item-effects, .item-set-effects, .item-enhancement-effects {
+            display: none;
+        }
+    }
+}

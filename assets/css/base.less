@@ -1,0 +1,114 @@
+/*
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://bdoplanner.com/
+*/
+
+body {
+    color: @base-text-color;
+    background: @site-background;
+    font-size: @base-text-size;
+}
+
+#main-container {
+    background-color: @planner-background;
+    min-height: 100vh;
+    padding-bottom: 60px;
+    box-shadow: 0px 0px 30px @planner-background;
+}
+
+a {
+    text-decoration: none;
+    color: @link-text-color;
+    
+    &:focus, &:hover {
+        color: darken(@link-text-color, 20%);
+    }
+}
+
+hr {
+    border-top: 1px solid #eee;
+    margin: 0px;
+}
+
+.logo-bar {
+    .first {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .second {
+        font-size: 1.6rem;
+        font-weight: 300;
+        opacity: 0.8;
+    }
+    .intro-text {
+        font-size: 1rem;
+        font-weight: 300;
+        float: right;
+        margin-top: 1rem;
+        
+        a {
+            text-decoration: none;
+        }
+    }
+}
+
+#sticky-footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: @item-box-background;
+    height: 50px;
+    padding-top: 10px;
+    z-index: 1025;
+    
+    .input-group {
+        background: white;
+        border-radius: .2rem;
+    }
+}
+
+#calculator-section, #player-class-section {
+    display: none;
+}
+
+input[type=checkbox] {
+    display:none;
+    
+    + label:before {
+        font-family: 'Glyphicons Halflings';
+        display: inline-block;
+        background: transparent;
+        border: 2px solid #dfce7f;
+        border-radius: 3px;
+        width: 24px;
+        height: 24px;
+        line-height: 22px;
+        text-align: center;
+        box-shadow: inset -1px -1px 3px rgba(0, 0, 0, 0.2);
+        padding: 0px;
+        margin-right: 10px;
+    }
+    + label:before {
+        content: "\00a0";
+    }
+    &:checked + label:before {
+        content: "\e013";
+        background: #dfce7f;
+        color: #1b2337;
+        border: 0px;
+        padding: 2px;
+    }
+}
+.custom-control-description {
+    font-size: 1rem;
+}
+
+.alert-warning a {
+    color: #0275d8;
+    text-decoration: none;
+    
+    &:hover {
+        color: darken(#0275d8, 10%);
+    }
+}

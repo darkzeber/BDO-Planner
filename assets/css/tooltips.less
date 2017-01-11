@@ -1,0 +1,51 @@
+/*
+* @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+* @http: https://bdoplanner.com/
+* WIP
+*/
+
+#stat-breakdown {
+    position: absolute;
+    background: #9f8772;
+    padding: 3px;
+    border-radius: 3px;
+    z-index: 2000;
+    display: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5),
+        inset 1px 1px 0px rgba(255, 255, 255, 0.5),
+        inset -1px -1px 0px rgba(0, 0, 0, 0.5);
+
+    .outer {
+        background: #292f41;
+        border-radius: 3px;
+
+        .inner {
+            font-size: 12px;
+            box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5),
+                inset -1px -1px 3px rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            
+            .info {
+                color: #e7d583;
+            }
+            ul.list {
+                list-style-type: none;
+                margin-bottom: 0px;
+                padding-left: 0px;
+            }
+            ul.list {
+                li:before {
+                    content: "\2014";
+                    font-style: normal;
+                    font-weight: 200;
+                    font-size: 6px;
+                    margin: 0px 5px 0px 2px;
+                    color: #e7d583;
+                }
+                li.no:before {
+                    color: transparent;
+                }
+            }
+        }
+    }
+}

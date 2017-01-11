@@ -1,6 +1,6 @@
 /*
 * @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
-* @http: https://shadowtrance.github.io/
+* @http: https://bdoplanner.com/
 */
 
 var BDOcalculator = {
@@ -183,7 +183,7 @@ var BDOcalculator = {
             itemObj = {};
         }
 
-        if ($.inArray(type, ["ring", "earring"]) !== -1) {
+        if (this.isItemPair(type)) {
             this.gear[type + "s"][item_no].item = itemObj;
             this.gear[type + "s"][item_no].item_id = item_id;
         } else if (item_itemset === "gems") {
@@ -212,7 +212,7 @@ var BDOcalculator = {
     setEnchantmentLevel: function(type, item_no, level, callback) {
         callback = (typeof callback === "function" ? callback : function() {});
 
-        if ($.inArray(type, ["ring", "earring"]) !== -1) {
+        if (this.isItemPair(type)) {
             this.gear[type + "s"][item_no].enhancement = String(level);
         } else {
             this.gear[type].enhancement = String(level);
@@ -391,7 +391,7 @@ var BDOcalculator = {
 
             // Loop "static" stats like AP and DP
             // since you can have 2 rings and earrings, we will have to run a loop on each of the
-            if ($.inArray(gear_key, ["rings", "earrings"]) !== -1) {
+            if (this.isItemPair(gear_key)) {
                 for (var acc_key in this.gear[gear_key]) {
                     if (!this.gear[gear_key].hasOwnProperty(acc_key)) {
                         continue;
@@ -454,7 +454,7 @@ var BDOcalculator = {
                     }
                     
                     var new_li = $("<li>")
-                        .html(BDOdatabase.enhancements[$.inArray(gear_key, ["belt", "necklace"]) !== -1 ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item_id)
+                        .html(BDOdatabase.enhancements[this.isAccessory(gear_key) ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item_id)
                         .appendTo("#gear-list");
                         
                     var gem_ul = null;
@@ -593,7 +593,7 @@ var BDOcalculator = {
 
             // Loop "static" stats like AP and DP
             // since you can have 2 rings and earrings, we will have to run a loop on each of the
-            if ($.inArray(gear_key, ["rings", "earrings"]) !== -1) {
+            if (this.isItemPair(gear_key)) {
                 for (var acc_key in this.gear[gear_key]) {
                     if (!this.gear[gear_key].hasOwnProperty(acc_key)) {
                         continue;
@@ -853,5 +853,17 @@ var BDOcalculator = {
                 }
             }
         }
+    },
+    isWeapon: function(item_type) {
+        return $.inArray(item_type, ["main-weapon", "secondary-weapon", "awakening-weapon"]) !== -1;
+    },
+    isAccessory: function(item_type) {
+        return $.inArray(item_type, ["ring", "rings", "belt", "earring", "earrings", "necklace"]) !== -1;
+    },
+    isGemable: function(item_type) {
+        return $.inArray(item_type, ["main-weapon", "secondary-weapon", "armor", "shoes", "gloves", "helmet", "outfit"]) !== -1;
+    },
+    isItemPair: function(item_type) {
+        return $.inArray(item_type, ["ring", "earring", "rings", "earrings"]) !== -1;
     }
 };

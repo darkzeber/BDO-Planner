@@ -1,7 +1,6 @@
 /*
 * @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
 * @http: https://bdoplanner.com/
-* WIP
 */
 
 #equipment {
@@ -39,7 +38,7 @@
 
     .gear-slot, .gem-slot {
         position: absolute;
-        border: @equipment-border-size solid @equipment-border-color/*fade(@equipment-border-color, 40%)*/;
+        border: @equipment-border-size solid fade(@equipment-border-color, 40%);
         border-radius: 5px;
         cursor: pointer;
         box-shadow: inset @equipment-box-shadow;
@@ -261,78 +260,5 @@
         top: @equipment-alchemy-stone-top;
         left: @equipment-alchemy-stone-left;
         background-image: url("../images/48/alchemy-stone.png");
-    }
-        
-    .stat-ap, .stat-awk-ap, .stat-dp {
-        border: 0px;
-        height: 60px;
-        text-align: center;
-        
-        strong {
-            display: block;
-            font-size: 14px;
-        }
-        
-        span {
-            display: block;
-            font-size: 32px;
-            color: #e7d583;
-        }
-    }
-    
-    .stat-ap {
-        top: 460px;
-        left: 50%;
-        margin-left: -238px;
-        width: 160px;
-    }
-
-    .stat-awk-ap {
-        top: 460px;
-        left: 50%;
-        margin-left: -80px;
-        width: 160px;
-        border-radius: 0px;
-        border-right: 1px solid #eee;
-        border-left: 1px solid #eee;
-    }
-
-    .stat-dp {
-        top: 460px;
-        left: 50%;
-        margin-left: 78px;
-        width: 160px;
-        border-top-left-radius: 0px;
-        border-bottom-left-radius: 0px;
-        border-left: 0px;
-    }
-}
-
-#active-alch-stone-label {
-    position: absolute;
-    text-align: center;
-    top: 538px;
-    left: 50%;
-    margin-left: -200px;
-    width: 200px;
-    display: block;
-    display: none;
-}
-#gear-score  {
-    position: absolute;
-    text-align: center;
-    top: 535px;
-    left: 50%;
-    margin-left: 0px;
-    width: 200px;
-    display: block;
-    padding: 5px 10px;
-    background: rgba(0, 0, 0, 0.4);
-    border: 1px solid #3e3e3e;
-    border-radius: 5px;
-    display: none;
-
-    .value {
-        color: #e7d583;
     }
 }

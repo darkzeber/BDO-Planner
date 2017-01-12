@@ -221,7 +221,7 @@
                 continue;
             }
             
-            if (item_type === "rings" || item_type === "earrings") {
+            if (BDOcalculator.isItemPair(item_type)) {
                 for (var i = 1; i >= 0; i--) {
                     item_id = item_list[gear[n][i][0]];
 
@@ -363,6 +363,7 @@
     function addItem(item_id, item_type, item_itemset, item_no, level, calculate) {
         var item = (item_itemset === "gems" ? BDOdatabase.gems :  BDOdatabase.items[item_itemset]);
         calculate = (typeof calculate === "undefined" ? true : calculate);
+        level = level || 0;
 
         if (item_itemset !== "gems") {
             if (BDOcalculator.isWeapon(item_type)) {
@@ -1026,16 +1027,8 @@
             $("body").removeClass("compact-item-modals");
         }
     });
-    
-    $('#helpus-alert').on('closed.bs.alert', function () {
-        Cookies.set("helpus-alert-closed", true, { expires: 365 });
-    });
-    
+        
     $(document).ready(function() {
-        var helpus_alert_closed = Cookies.get("helpus-alert-closed") || false;
-        if (!helpus_alert_closed)
-            $('#helpus-alert').show();
-    
         loadShareLink(function(loaded) {
             if (loaded) {
                 $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").closest(".class_img").removeClass("faded").addClass("selected");

@@ -430,7 +430,7 @@ var BDOdatabase =
             "desc": "",
             "total": 0,
             "symbol": "",
-            "target": "general-stats"
+            "target": ".general-stats"
         },
         "drr":
         {

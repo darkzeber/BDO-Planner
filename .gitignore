@@ -47,3 +47,4 @@ config.codekit
 .codekit-cache
 *.sass-cache
 *.htaccess
+dev files/

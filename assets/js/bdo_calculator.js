@@ -427,7 +427,7 @@ var BDOcalculator = {
                     this.addToSets(this.gear[gear_key][acc_key].item.set, gear_key + acc_key);
                     
                     $("<li>")
-                        .html(BDOdatabase.enhancements[parseInt(this.gear[gear_key][acc_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15].prefix + this.gear[gear_key][acc_key].item_name)
+                        .html(BDOdatabase.enhancements[parseInt(this.gear[gear_key][acc_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15].prefix + this.gear[gear_key][acc_key].item.name)
                         .appendTo("#gear-list");
                 }
             } else {
@@ -454,7 +454,7 @@ var BDOcalculator = {
                     }
                     
                     var new_li = $("<li>")
-                        .html(BDOdatabase.enhancements[this.isAccessory(gear_key) ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item_name)
+                        .html(BDOdatabase.enhancements[this.isAccessory(gear_key) ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item.name)
                         .appendTo("#gear-list");
                         
                     var gem_ul = null;
@@ -486,7 +486,7 @@ var BDOcalculator = {
                                     .appendTo(new_li);
                             }
                             $("<li>")
-                                .html(this.gear[gear_key].gems[gem_key].gem_name)
+                                .html(this.gear[gear_key].gems[gem_key].gem.name)
                                 .appendTo(gem_ul);
                         }
                     }
@@ -559,7 +559,7 @@ var BDOcalculator = {
                         continue;
                     }
 
-                    $(obj.target).append('<li data-breakdown="' + key + '"><strong>' + obj.title + ':</strong> ' + obj.total + obj.symbol + '</li>');
+                    $(obj.target).append('<li data-breakdown="' + key + '"><span>' + obj.title + ':</span> ' + obj.total + obj.symbol + '</li>');
                     break;
             }
         }
@@ -605,6 +605,8 @@ var BDOcalculator = {
                         continue;
                     }
                     
+                    var enh_prefix = BDOdatabase.enhancements[(this.gear[gear_key][acc_key].enhancement == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15)].prefix;
+                    
                     // loop the static stats of each accessory.
                     for (var assec_stat in accessory.item) {
                         if (!accessory.item.hasOwnProperty(assec_stat)) {
@@ -615,7 +617,7 @@ var BDOcalculator = {
                             stat_return.item_list.push({
                                 "value": this.getGearStat(accessory, assec_stat),
                                 "slot": ".gear-slot." + gear_key.slice(0, -1) + acc_key,
-                                "item": accessory.item.name
+                                "item": enh_prefix + accessory.item.name
                             });
                             stat_return.total += this.getGearStat(accessory, assec_stat);
                         }
@@ -631,7 +633,7 @@ var BDOcalculator = {
                             stat_return.item_list.push({
                                 "value": this.getGearStat(accessory, effect_key, true),
                                 "slot": ".gear-slot." + gear_key.slice(0, -1) + acc_key,
-                                "item": accessory.item.name
+                                "item": enh_prefix + accessory.item.name
                             });
                             stat_return.total += this.getGearStat(accessory, effect_key, true);
                         }
@@ -643,13 +645,15 @@ var BDOcalculator = {
                         stat_return.item_list.push({
                             "value": this.getGearStat(accessory, "ap"),
                             "slot": ".gear-slot." + gear_key.slice(0, -1) + acc_key,
-                            "item": accessory.item.name
+                            "item": enh_prefix + accessory.item.name
                         });
                         stat_return.total += this.getGearStat(accessory, "ap");
                     }
                 }
             } else {
-                if (Object.keys(this.gear[gear_key].item).length > 0) {                  
+                if (Object.keys(this.gear[gear_key].item).length > 0) {   
+                   var enh_prefix = BDOdatabase.enhancements[(this.isAccessory(gear_key) ? (this.gear[gear_key].enhancement == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15) : this.gear[gear_key].enhancement)].prefix;
+               
                     for (var stat_key in this.gear[gear_key].item) {
                         if (!this.gear[gear_key].item.hasOwnProperty(stat_key)) {
                             continue;
@@ -659,7 +663,7 @@ var BDOcalculator = {
                             stat_return.item_list.push({
                                 "value": this.getGearStat(this.gear[gear_key], stat_key),
                                 "slot": ".gear-slot." + gear_key,
-                                "item": this.gear[gear_key].item.name
+                                "item": enh_prefix + this.gear[gear_key].item.name
                             });
                             stat_return.total += this.getGearStat(this.gear[gear_key], stat_key);
                         }
@@ -674,7 +678,7 @@ var BDOcalculator = {
                             stat_return.item_list.push({
                                 "value": this.getGearStat(this.gear[gear_key], effect_key, true),
                                 "slot": ".gear-slot." + gear_key,
-                                "item": this.gear[gear_key].item.name
+                                "item": enh_prefix + this.gear[gear_key].item.name
                             });
                             stat_return.total += this.getGearStat(this.gear[gear_key], effect_key, true);
                         }
@@ -702,7 +706,7 @@ var BDOcalculator = {
                                 stat_return.item_list.push({
                                     "value": gem.item_effects[eff_key],
                                     "slot": ".gem-slot." + gear_key + gem_key,
-                                    "item": this.gear[gear_key].gems[gem_key].gem.name
+                                    "item": enh_prefix + this.gear[gear_key].gems[gem_key].gem.name
                                 });
                                 stat_return.total += gem.item_effects[eff_key];
                             }
@@ -719,7 +723,7 @@ var BDOcalculator = {
                                 stat_return.item_list.push({
                                     "value": ap,
                                     "slot": ".gear-slot." + gear_key,
-                                    "item": this.gear[gear_key].item.name
+                                    "item": enh_prefix + this.gear[gear_key].item.name
                                 });
                                 stat_return.total += ap;
                             }
@@ -730,7 +734,7 @@ var BDOcalculator = {
                                 stat_return.item_list.push({
                                     "value": ap,
                                     "slot": ".gear-slot." + gear_key,
-                                    "item": this.gear[gear_key].item.name
+                                    "item": enh_prefix + this.gear[gear_key].item.name
                                 });
                                 stat_return.total += ap;
                             }
@@ -741,7 +745,7 @@ var BDOcalculator = {
                                 stat_return.item_list.push({
                                     "value": ap,
                                     "slot": ".gear-slot." + gear_key,
-                                    "item": this.gear[gear_key].item.name
+                                    "item": enh_prefix + this.gear[gear_key].item.name
                                 });
                                 stat_return.total += ap;
                             }
@@ -751,7 +755,7 @@ var BDOcalculator = {
                                 stat_return.item_list.push({
                                     "value": this.getGearStat(this.gear[gear_key], "ap"),
                                     "slot": ".gear-slot." + gear_key,
-                                    "item": this.gear[gear_key].item_id
+                                    "item": enh_prefix + this.gear[gear_key].item.name
                                 });
                                 stat_return.total += this.getGearStat(this.gear[gear_key], "ap");
                             }
@@ -761,7 +765,7 @@ var BDOcalculator = {
                                 stat_return.item_list.push({
                                     "value": this.getGearStat(this.gear[gear_key], "ap"),
                                     "slot": ".gear-slot." + gear_key,
-                                    "item": this.gear[gear_key].item.name
+                                    "item": enh_prefix + this.gear[gear_key].item.name
                                 });
                                 stat_return.total += this.getGearStat(this.gear[gear_key], "ap");
                             }

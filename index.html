@@ -26,18 +26,6 @@
         <link rel="stylesheet" type="text/css" href="assets/css/app.css">
     </head>
     <body>
-        <!-- <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div id="helpus-alert" class="alert alert-warning" role="alert" style="display: none;">
-                        <h4 class="alert-warning">Help us out!</h4>
-                        <p>Hey guys! In preparation for later planned updates, we're trying to find out the HP/MP/Stamina/Weight growth formula for each class. We're collecting data from people on this, if you're interested in helping, please <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXjN1Tv0lULY6RkJjpy-tubkLyQbYzbLtKKMbOnSxncOalYg/viewform" target="_blank">fill this form in</a> for as many characters as you can. Don't worry, no personal information like names or anything is collected.</p>
-                        <p>If you want to see the data we've collected so far, then you can see that <a href="https://docs.google.com/spreadsheets/d/189XrpIEq-XZVYm_K5XP3oDGptRNwKljia9mBVC60Pt8/edit?usp=sharing" target="_blank">here.</a> If you have any information on the formula, please get in touch with either Ihm#6103 or Shadowtrance#5586 on Discord.</p>
-                        <p class="mb-0"><a href="#" data-dismiss="alert" aria-label="Close">Dismiss this message</a></p>
-                    </div>
-                </div>
-            </div>
-        </div> -->
         <div id="main-container" class="container">
             <div class="row">
                 <div class="col-xs-12">
@@ -170,7 +158,25 @@
                         <div class="gear-slot alchemy-stone" data-itemset="alchemy-stones" data-type="alchemy-stone" data-toggle="tooltip" data-placement="bottom" title="Empty"></div>
                     </div>
                     <div id="primary-stats">
-                        <div class="main-stats stat-ap" data-breakdown="ap">
+                        <table class="stats-table">
+                            <tbody>
+                                <tr>
+                                    <td class="stat-ap" data-breakdown="ap">
+                                        <div class="header">AP</div>
+                                        <div class="value">200</div>
+                                    </td>
+                                    <td class="stat-awk-ap" data-breakdown="awkap">
+                                        <div class="header">Awakening AP</div>
+                                        <div class="value">200</div>
+                                    </td>
+                                    <td class="stat-dp" data-breakdown="dp">
+                                        <div class="header">DP</div>
+                                        <div class="value">200</div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <!--<div class="main-stats stat-ap" data-breakdown="ap">
                             <strong>AP</strong>
                             <span>0</span>
                         </div>
@@ -191,7 +197,7 @@
                         </div>
                         <div id="gear-score">
                             Current Gear Score: <span class="value"></span>
-                        </div>
+                        </div>-->
                     </div>
                 </dir>
                 <div class="col-lg-6 col-md-12">
@@ -333,12 +339,6 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="alert alert-warning" role="alert">
-                                    <h4 class="alert-warning">Help us out!</h4>
-                                    <p>Hey guys! In preparation for later planned updates, we're trying to find out the HP/MP/Stamina/Weight growth formula for each class. We're collecting data from people on this, if you're interested in helping, please <a href="https://docs.google.com/forms/d/e/1FAIpQLSdXjN1Tv0lULY6RkJjpy-tubkLyQbYzbLtKKMbOnSxncOalYg/viewform" target="_blank">fill this form in</a> for as many characters as you can. Don't worry, no personal information like names or anything is collected.</p>
-                                    <p>If you want to see the data we've collected so far, then you can see that <a href="https://docs.google.com/spreadsheets/d/189XrpIEq-XZVYm_K5XP3oDGptRNwKljia9mBVC60Pt8/edit?usp=sharing" target="_blank">here</a></p>
-                                    <p class="mb-0">If you have any information on the formula, please get in touch with either Ihm#6103 or Shadowtrance#5586 on Discord.</p>
-                                </div>
                                 <div>
                                     This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/tree/update" target="_blank">github.com/Shadowtrance/BDO-Gear-Calculator</a>.
                                 </div>

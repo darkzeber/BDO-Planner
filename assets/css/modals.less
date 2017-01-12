@@ -1,7 +1,6 @@
 /*
 * @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
 * @http: https://bdoplanner.com/
-* WIP
 */
 
 .modal-dialog .modal-content {
@@ -34,7 +33,7 @@
 
 .item-details {
     &.selected {
-        border: 4px double #00FF2B;
+        border: 4px double @item-selected-color;
     }
     
     .item-icon {
@@ -64,7 +63,7 @@
     .item-gems, .item-effects, .item-set-effects, .item-enhancement-effects, .item-enhancement-level {
         margin-top: 8px;
         > div {
-            color: #e9bd23;
+            color: @link-text-color;
             
             &::before {
                 content: "- ";
@@ -75,7 +74,8 @@
     
     .item-enhancement-level {
         .slider.slider-horizontal {
-            width: 100%;
+            width: 96%;
+            margin: 0 2%;
         }
         .item-details .item-enhancement-level strong {
             display: block;
@@ -120,23 +120,23 @@
         width: 100%;
         height: 100%;
         border-radius: 20px;
-        background: #1b2337;
-        border: 2px solid #1b2337;
+        background: @planner-background;
+        border: 2px solid @planner-background;
     }
     li.common, li.common.active div {
-        background: #ffffff;
+        background: @rarity-color-common;
     }
     li.uncommon, li.uncommon.active div {
-        background: #5ff369;
+        background: @rarity-color-uncommon;
     }
     li.rare, li.rare.active div {
-        background: #0391c4;
+        background: @rarity-color-rare;
     }
     li.epic, li.epic.active div {
-        background: #f6c232;
+        background: @rarity-color-epic;
     }
     li.legendary, li.legendary.active div {
-        background: #d36300;
+        background: @rarity-color-legendary;
     }
 }
 

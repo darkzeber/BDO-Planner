@@ -40,7 +40,7 @@ hr {
         font-weight: 300;
         opacity: 0.8;
     }
-    .intro-text {
+    .text {
         font-size: 1rem;
         font-weight: 300;
         float: right;
@@ -51,20 +51,17 @@ hr {
         }
     }
 }
-
-#sticky-footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background: @item-box-background;
-    height: 50px;
-    padding-top: 10px;
-    z-index: 1025;
+.change-class-toggle {
+    font-size: 1rem;
+    font-weight: 300;
+    float: right;
     
-    .input-group {
-        background: white;
-        border-radius: .2rem;
+    span {
+        color: @link-text-color;
+    }
+    a {
+        font-size: 0.8rem;
+        text-decoration: none;
     }
 }
 
@@ -111,4 +108,8 @@ input[type=checkbox] {
     &:hover {
         color: darken(#0275d8, 10%);
     }
+}
+
+#navigation-bar {
+    border-bottom: 1px solid @base-text-color;
 }

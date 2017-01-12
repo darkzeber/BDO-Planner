@@ -377,6 +377,10 @@
                 item = item[item_type];
             }
         }
+        
+        if (item_type === "awakening-weapon") {
+            $("#primary-stats .stats-table .stat-awk-ap").show();
+        }
 
         item = item[item_id];
 
@@ -645,6 +649,10 @@
     }
 
     function resetSlot(item_type, item_no, item_itemset) {
+        if (item_type === "awakening-weapon") {
+            $("#primary-stats .stats-table .stat-awk-ap").hide();
+        }
+        
         if (item_itemset !== "gems") {
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
                 .attr({
@@ -841,14 +849,10 @@
     }
         
     // when a user selects a class, we initiate the equipment dropdowns based on class.
-    $("figure.class_img").on("click", function() {
+    $("#player-class-section .classes-panel").on("click", ".class",function() {
         if ($(this).hasClass("disabled")) return;
-        player_class = $(this).children("img").attr("data-value").toLowerCase();
+        player_class = $(this).attr("data-value").toLowerCase();
         BDOcalculator.player_class = player_class;
-        //Set all icons to faded and this one to selected
-        $(".class_cell .class_img").removeClass("selected").addClass("faded");
-
-        $(this).removeClass("faded").addClass("selected");
 
         BDOcalculator.init();
         BDOcalculator.calculate();
@@ -858,12 +862,10 @@
         });
         
         $(".background-ring-inner").css({
-            'background-image': 'url(' + $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").attr("src") + ')'
+            'background-image': $(this).find(".icon").css("background-image")
         });
 
-        $(".class_cell").slideUp("fast");
-        $(".classes_restore .show").slideDown("fast");
-        $(".classes_restore .hide").slideUp("fast");
+        $("#player-class-section").slideUp("fast");
         $("#calculator-section").slideDown("fast");
     });
     
@@ -958,10 +960,27 @@
         $('#gearlist').modal();
     });
 
+    $("#show-more-info").on("click", function (e) {
+        e.preventDefault();
+        
+        $('#moreinfo').modal();
+    });
     $("#show-update-notes").on("click", function (e) {
         e.preventDefault();
         
         $('#updatenotes').modal();
+    });
+    $("#show-settings").on("click", function (e) {
+        e.preventDefault();
+        
+        $('#settings').modal();
+    });
+    
+    $("#player-class-section .classes-panel").on("mouseenter", ".class", function (e) {
+        $(".classes-panel .class").addClass("bg");
+        $(this).removeClass("bg");
+    }).on("mouseleave", ".class", function (e) {
+        $(".classes-panel .class").removeClass("bg");
     });
     
     $("body").on("mouseenter", "[data-breakdown!=''][data-breakdown]", function (e) {
@@ -1027,7 +1046,7 @@
             $("body").removeClass("compact-item-modals");
         }
     });
-        
+     
     $(document).ready(function() {
         loadShareLink(function(loaded) {
             if (loaded) {

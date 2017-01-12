@@ -27,12 +27,12 @@
     </head>
     <body>
         <div id="main-container" class="container">
-            <div class="row">
+            <div id="navigation-bar" class="row">
                 <div class="col-xs-12">
                     <div class="logo-bar">
                         <span class="first">BDO</span>
                         <span class="second">Planner</span>
-                        <span class="intro-text">
+                        <span class="text">
                             <a href="#" id="show-more-info">More info</a>&nbsp;&middot;&nbsp;<a href="#" id="show-update-notes">Show update notes</a>&nbsp;&middot;&nbsp;<a href="#" id="show-settings">Settings</a>
                         </span>
                     </div>
@@ -40,72 +40,82 @@
             </div>
             <div id="player-class-section" class="row">
                 <div class="col-xs-12" align="center">
-                    <hr />
-                    <div class="classes_panel">
-                        <div class="classes_restore text-xs-center">
-                            <a href="#" class="show"><i class="fa fa-plus-circle"></i> Change Class <i class="fa fa-plus-circle"></i></a>
-                            <a href="#" class="hide mt-1"><i class="fa fa-minus-circle"></i> Hide Classes <i class="fa fa-minus-circle"></i></a>
-                        </div>
-                        <div class="class_cell mb-1">
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/warrior.png" class="class_icon" alt="" data-value="Warrior">
-                                <figcaption class="class_title" id="Warrior">Warrior</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/sorceress.png" class="class_icon" alt="" data-value="Sorceress">
-                                <figcaption class="class_title" id="Sorceress">Sorceress</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/ranger.png" class="class_icon" alt="" data-value="Ranger">
-                                <figcaption class="class_title" id="Ranger">Ranger</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/berserker.png" class="class_icon" alt="" data-value="Berserker">
-                                <figcaption class="class_title" id="Berserker">Berserker</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/tamer.png" class="class_icon" alt="" data-value="Tamer">
-                                <figcaption class="class_title" id="Tamer">Tamer</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/musa.png" class="class_icon" alt="" data-value="Musa">
-                                <figcaption class="class_title" id="Musa">Musa</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/maehwa.png" class="class_icon" alt="" data-value="Maehwa">
-                                <figcaption class="class_title" id="Maehwa">Maehwa</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/valkyrie.png" class="class_icon" alt="" data-value="Valkyrie">
-                                <figcaption class="class_title" id="Valkyrie">Valkyrie</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/wizard.png" class="class_icon" alt="" data-value="Wizard">
-                                <figcaption class="class_title" id="Wizard">Wizard</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/witch.png" class="class_icon" alt="" data-value="Witch">
-                                <figcaption class="class_title" id="Witch">Witch</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/ninja.png" class="class_icon" alt="" data-value="Ninja">
-                                <figcaption class="class_title" id="Ninja">Ninja</figcaption>
-                            </figure>
-                            <figure class="class_img faded">
-                                <img src="assets/images/class/kunoichi.png" class="class_icon" alt="" data-value="Kunoichi">
-                                <figcaption class="class_title" id="Kunoichi">Kunoichi</figcaption>
-                            </figure>
-                            <figure class="class_img disabled">
-                                <img src="assets/images/class/darkknight.png" class="class_icon" alt="" data-value="DarkKnight">
-                                <figcaption class="class_title" id="DarkKnight">Dark Knight</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <hr />
+                    <ul class="classes-panel">
+                        <li class="class warrior" data-value="Warrior">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Warrior</div>
+                        </li>
+                        <li class="class sorceress" data-value="Sorceress">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Sorceress</div>
+                        </li>
+                        <li class="class ranger" data-value="Ranger">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Ranger</div>
+                        </li>
+                        <li class="class berserker" data-value="Berserker">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Berserker</div>
+                        </li>
+                        <li class="class tamer" data-value="Tamer">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Tamer</div>
+                        </li>
+                        <li class="class musa" data-value="Musa">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Musa</div>
+                        </li>
+                        <li class="class maehwa" data-value="Maehwa">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Maehwa</div>
+                        </li>
+                        <li class="class valkyrie" data-value="Valkyrie">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Valkyrie</div>
+                        </li>
+                        <li class="class wizard" data-value="Wizard">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Wizard</div>
+                        </li>
+                        <li class="class witch" data-value="Witch">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Witch</div>
+                        </li>
+                        <li class="class ninja" data-value="Ninja">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Ninja</div>
+                        </li>
+                        <li class="class kunoichi" data-value="Kunoichi">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Kunoichi</div>
+                        </li>
+                        <li class="class darkknight disabled" data-value="DarkKnight">
+                            <div class="main-background"></div>
+                            <div class="icon"></div>
+                            <div class="name">Dark Knight</div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div id="calculator-section" class="row mt-1">
-                <dir class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+            <div id="calculator-section" class="row">
+                <div class="col-xs-12">
+                    <div class="change-class-toggle">
+                        Current Class: <span class="current-class">Musa</span> &middot; <a href="#" class="change-class">Change Class</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-sm-12 offset-sm-0">
                     <div id="equipment">
                         <div class="background-ring">
                             <div class="background-ring-inner"></div>
@@ -176,19 +186,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <!--<div class="main-stats stat-ap" data-breakdown="ap">
-                            <strong>AP</strong>
-                            <span>0</span>
-                        </div>
-                        <div class="main-stats stat-awk-ap" data-breakdown="awkap">
-                            <strong>Awakening AP</strong>
-                            <span>0</span>
-                        </div>
-                        <div class="main-stats stat-dp" data-breakdown="dp">
-                            <strong>DP</strong>
-                            <span>0</span>
-                        </div>
-                        <div id="active-alch-stone-label">
+                        <!--<div id="active-alch-stone-label">
                             <label class="custom-control custom-checkbox">
                                 <input type="checkbox" class="custom-control-input" id="active-alch-stone">
                                 <span class="custom-control-indicator"></span>
@@ -199,7 +197,7 @@
                             Current Gear Score: <span class="value"></span>
                         </div>-->
                     </div>
-                </dir>
+                </div>
                 <div class="col-lg-6 col-md-12">
                     <ul class="nav nav-pills" role="tablist">
                         <li class="nav-item">
@@ -207,9 +205,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="pill" href="#gear-list-tab" role="tab">Gear List</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="pill" href="#settings-tab" role="tab">Settings</a>
                         </li>
                     </ul>
 
@@ -251,36 +246,11 @@
                                 <ul id="gear-list"></ul>
                             </div>
                         </div>
-                        <div class="tab-pane" id="settings-tab" role="tabpanel">
-                            <div class="col-lg-12 mt-1">
-                                <label class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="enable-compact-item-modals">
-                                    <span class="custom-control-indicator"></span>
-                                    <span class="custom-control-description">Use compact item modals</span>
-                                </label>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
         
-        <div id="sticky-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-10 offset-xs-1" align="center">
-                        <div class="input-group input-group-sm">
-                            <span class="input-group-addon" id="save-link-label">Share Link:</span>
-                            <input id="share-link" type="text" class="form-control" aria-describedby="save-link-label">
-                            <span class="input-group-btn">
-                                <button type="button" class="btn btn-default" id="copy-button" data-toggle="tooltip" data-placement="right" data-clipboard-target="#share-link" title="Copy Link">Copy</button>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
         <div id="gearlist" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -329,6 +299,29 @@
             </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
         
+        <div id="moreinfo" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">BDO Planner &middot; More Info</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>
+                                    BDO Gear Calculator was originally created by <a href="https://github.com/MrEliasen" target="_blank">MrEliasen</a>, it was updated heavily and grown on to create a full character planner by <a href="https://github.com/Ihellmasker" target="_blank">Ihm</a> and <a href="https://github.com/Shadowtrance" target="_blank">Shadowtrance</a>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
         <div id="updatenotes" class="modal fade" tabindex="-1" role="dialog">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -339,9 +332,9 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-12">
-                                <div>
+                                <p>
                                     This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/tree/update" target="_blank">github.com/Shadowtrance/BDO-Gear-Calculator</a>.
-                                </div>
+                                </p>
                                 <h1>New features</h1>
                                 <ul>
                                     <li>Simplified costume pieces have been added, more will be coming soon. As all Pearl costumes give the same stats, we've simplified it into a single item regardless of class for now, we will be fully adding them at a later time though.</li>
@@ -363,6 +356,54 @@
                                 <ul>
                                     <li>Add non-conbat related gems and gear (like fishing and crafting items)</li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        <div id="settings" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Settings</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input" id="enable-compact-item-modals">
+                                    <span class="custom-control-indicator"></span>
+                                    <span class="custom-control-description">Use compact item modals</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        
+        <div id="savelink" class="modal fade" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Save Link</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p>
+                                    All settings are saved in cookies and will not be transfered between Computers/Browsers.
+                                </p>
                             </div>
                         </div>
                     </div>

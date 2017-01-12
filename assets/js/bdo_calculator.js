@@ -533,17 +533,15 @@ var BDOcalculator = {
                     break;
 
                 case "ap":
-                    //$('.stat-ap span').text(obj.min + ' ~ ' + obj.max);
-                    $('.stat-ap span').text(Math.floor((obj.min + obj.max) / 2));
+                    $('.stat-ap .value').text(Math.floor((obj.min + obj.max) / 2));
                     break;
 
                 case "awkap":
-                    //$('.stat-awk-ap span').text(obj.min + ' ~ ' + obj.max);
-                    $('.stat-awk-ap span').text(Math.floor((obj.min + obj.max) / 2));
+                    $('.stat-awk-ap .value').text(Math.floor((obj.min + obj.max) / 2));
                     break;
 
                 case "dp":
-                    $('.stat-dp span').text(obj.total);
+                    $('.stat-dp .value').text(obj.total);
                     break;
 
                 default:

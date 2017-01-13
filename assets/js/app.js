@@ -12,7 +12,7 @@
         current_modal = null,
         active_filters = {
             search: '',
-            rarity: ["common", "uncommon", "rare", "epic", "legendary"]
+            rarity: Object.keys(BDOdatabase.rarities)
         };
         
     $(':not(.disabled)[data-toggle="tooltip"]').tooltip(); // Enable tooltips
@@ -728,11 +728,11 @@
                 selected = false;
 
             if (BDOcalculator.isItemPair(item_type)) {
-                if (BDOcalculator.gear[item_type + "s"][item_no].item_id === key) {
+                if (BDOcalculator.gear[item_type + "s"][item_no].item_id === parseInt(key)) {
                     selected = true;
                 }
             } else {
-                if (BDOcalculator.gear[item_type].item_id === key) {
+                if (BDOcalculator.gear[item_type].item_id === parseInt(key)) {
                     selected = true;
                 }
             }

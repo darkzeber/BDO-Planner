@@ -43,15 +43,15 @@
 
     // little hacky, I know.
     function getGemType (item, slot) {
-        var gemName = BDOcalculator.gear[item].gems[slot].gem_name,
+        var gemId = BDOcalculator.gear[item].gems[slot].gem_id,
             itemGems = Object.keys(BDOdatabase.gems[item]),
             allGems  = Object.keys(BDOdatabase.gems.all);
 
-        if (gemName && allGems.indexOf(gemName) !== -1) {
-            return "a" + allGems.indexOf(gemName);
+        if (gemId && allGems.indexOf(gemId) !== -1) {
+            return -gemId;
         }
 
-        return itemGems.indexOf(gemName);
+        return gemId;
     }
 
     // Object.keys(BDOdatabase.items.helmets).indexOf(5) == "Grunil Helmet"
@@ -61,109 +61,111 @@
                 BDOdatabase.classes.indexOf(ucWords(player_class))
             ],
             [
-                Object.keys(BDOdatabase.items.helmets).indexOf(BDOcalculator.gear.helmet.item_id),
+                parseInt(BDOcalculator.gear.helmet.item_id) || -1,
                 parseInt(BDOcalculator.gear.helmet.enhancement),
                 [
-                    getGemType("helmet","1"),
-                    getGemType("helmet","2")
+                    parseInt(getGemType("helmet","1")) || -1,
+                    parseInt(getGemType("helmet","2")) || -1
                 ]
             ],
             [
-                Object.keys(BDOdatabase.items.armor).indexOf(BDOcalculator.gear.armor.item_id),
+                parseInt(BDOcalculator.gear.armor.item_id) || -1,
                 parseInt(BDOcalculator.gear.armor.enhancement),
                 [
-                    getGemType("armor","1"),
-                    getGemType("armor","2")
+                    parseInt(getGemType("armor","1")) || -1,
+                    parseInt(getGemType("armor","2")) || -1
                 ]
             ],
             [
-                Object.keys(BDOdatabase.items.shoes).indexOf(BDOcalculator.gear.shoes.item_id),
+                parseInt(BDOcalculator.gear.shoes.item_id) || -1,
                 parseInt(BDOcalculator.gear.shoes.enhancement),
                 [
-                    getGemType("shoes","1"),
-                    getGemType("shoes","2")
+                    parseInt(getGemType("shoes","1")) || -1,
+                    parseInt(getGemType("shoes","2")) || -1
                 ]
             ],
             [
-                Object.keys(BDOdatabase.items.gloves).indexOf(BDOcalculator.gear.gloves.item_id),
+                parseInt(BDOcalculator.gear.gloves.item_id) || -1,
                 parseInt(BDOcalculator.gear.gloves.enhancement),
                 [
-                    getGemType("gloves","1"),
-                    getGemType("gloves","2")
+                    parseInt(getGemType("gloves","1")) || -1,
+                    parseInt(getGemType("gloves","2")) || -1
                 ]
             ],
             [
                 [
-                    Object.keys(BDOdatabase.items.rings).indexOf(BDOcalculator.gear.rings["1"].item_id),
+                    parseInt(BDOcalculator.gear.rings["1"].item_id) || -1,
                     parseInt(BDOcalculator.gear.rings["1"].enhancement)
                 ],
                 [
-                    Object.keys(BDOdatabase.items.rings).indexOf(BDOcalculator.gear.rings["2"].item_id),
+                    parseInt(BDOcalculator.gear.rings["2"].item_id) || -1,
                     parseInt(BDOcalculator.gear.rings["2"].enhancement)
                 ]
             ],
             [
                 [
-                    Object.keys(BDOdatabase.items.earrings).indexOf(BDOcalculator.gear.earrings["1"].item_id),
+                    parseInt(BDOcalculator.gear.earrings["1"].item_id) || -1,
                     parseInt(BDOcalculator.gear.earrings["1"].enhancement)
                 ],
                 [
-                    Object.keys(BDOdatabase.items.earrings).indexOf(BDOcalculator.gear.earrings["2"].item_id),
+                    parseInt(BDOcalculator.gear.earrings["2"].item_id) || -1,
                     parseInt(BDOcalculator.gear.earrings["2"].enhancement)
                 ]
             ],
             [
-                Object.keys(BDOdatabase.items.belts).indexOf(BDOcalculator.gear.belt.item_id),
+                parseInt(BDOcalculator.gear.belt.item_id) || -1,
                 parseInt(BDOcalculator.gear.belt.enhancement)
             ],
             [
-                Object.keys(BDOdatabase.items.necklaces).indexOf(BDOcalculator.gear.necklace.item_id),
+                parseInt(BDOcalculator.gear.necklace.item_id) || -1,
                 parseInt(BDOcalculator.gear.necklace.enhancement)
             ],
             [
-                Object.keys(BDOdatabase.items["main-weapons"][player_class]).indexOf(BDOcalculator.gear["main-weapon"].item_id),
+                parseInt(BDOcalculator.gear["main-weapon"].item_id) || -1,
                 parseInt(BDOcalculator.gear["main-weapon"].enhancement),
                 [
-                    getGemType("main-weapon","1"),
-                    getGemType("main-weapon","2")
+                    parseInt(getGemType("main-weapon","1")) || -1,
+                    parseInt(getGemType("main-weapon","2")) || -1
                 ]
             ],
             [
-                Object.keys(BDOdatabase.items["awakening-weapons"][player_class]).indexOf(BDOcalculator.gear["awakening-weapon"].item_id),
+                parseInt(BDOcalculator.gear["awakening-weapon"].item_id) || -1,
                 parseInt(BDOcalculator.gear["awakening-weapon"].enhancement)
             ],
             [
-                Object.keys(BDOdatabase.items["secondary-weapons"][player_class]).indexOf(BDOcalculator.gear["secondary-weapon"].item_id),
+                parseInt(BDOcalculator.gear["secondary-weapon"].item_id) || -1,
                 parseInt(BDOcalculator.gear["secondary-weapon"].enhancement),
                 [
-                    getGemType("secondary-weapon","1"),
-                    getGemType("secondary-weapon","2")
+                    parseInt(getGemType("secondary-weapon","1")) || -1,
+                    parseInt(getGemType("secondary-weapon","2")) || -1
                 ]
             ],
             [
-                Object.keys(BDOdatabase.items["alchemy-stones"]).indexOf(BDOcalculator.gear["alchemy-stone"].item_id)
+                parseInt(BDOcalculator.gear["alchemy-stone"].item_id) || -1
             ],
             [
-                Object.keys(BDOdatabase.items["outfits"]).indexOf(BDOcalculator.gear["outfit"].item_id),
+                parseInt(BDOcalculator.gear["outfit"].item_id) || -1,
                 [
-                    getGemType("outfit","1")
+                    parseInt(getGemType("outfit","1")) || -1
                 ]
             ],
             [
-                Object.keys(BDOdatabase.items["main-weapon-outfits"]).indexOf(BDOcalculator.gear["main-weapon-outfit"].item_id)
+                parseInt(BDOcalculator.gear["main-weapon-outfit"].item_id) || -1
             ],
             [
-                Object.keys(BDOdatabase.items["awakening-weapon-outfits"]).indexOf(BDOcalculator.gear["awakening-weapon-outfit"].item_id)
+                parseInt(BDOcalculator.gear["awakening-weapon-outfit"].item_id) || -1
             ],
             [
-                Object.keys(BDOdatabase.items["secondary-weapon-outfits"]).indexOf(BDOcalculator.gear["secondary-weapon-outfit"].item_id)
+                parseInt(BDOcalculator.gear["secondary-weapon-outfit"].item_id) || -1
             ],
             [
-                Object.keys(BDOdatabase.items["underwear"]).indexOf(BDOcalculator.gear["underwear"].item_id)
+                parseInt(BDOcalculator.gear["underwear"].item_id) || -1
             ]
         ];
 
         var url = window.location.href.replace(window.location.search, "");
+        
+        console.log(JSON.stringify(save));
         
         /* This will update the address bar, dunno if it will be used though
         window.history.pushState({}, "BDO Planner", "?gear=" + JSON.stringify(save));*/
@@ -214,9 +216,8 @@
 
         var c = gear.length - 1;
         for (var n = 1; n <= c; n++) {
-            var item_key = array_index[n],
-                item_type = item_key,
-                item_itemset = item_key + (item_key === "armor" || item_key === "underwear" ? "" : (item_key.slice(-1) !== "s" ? "s" : "")),
+            var item_type = array_index[n],
+                item_itemset = item_type + (item_type === "armor" || item_type === "underwear" ? "" : (item_type.slice(-1) !== "s" ? "s" : "")),
                 item = BDOdatabase.items[item_itemset],
                 item_list = Object.keys(item),
                 item_id = "",
@@ -228,7 +229,11 @@
             
             if (BDOcalculator.isItemPair(item_type)) {
                 for (var i = 1; i >= 0; i--) {
-                    item_id = item_list[gear[n][i][0]];
+                    if (gear[n][i][0] === -1) {
+                        continue;
+                    }
+                    
+                    item_id = gear[n][i][0];
 
                     if (item_id === "" || typeof item_id === "undefined") {
                         continue;
@@ -241,9 +246,9 @@
                     arr_gems = (typeof gear[n][1] == "object" ? 1 : 2);
                 
                 if (item_type === "main-weapon" || item_type === "secondary-weapon" || item_type === "awakening-weapon") {
-                    item_id = Object.keys(item[player_class])[gear[n][0]];
+                    item_id = gear[n][0];
                 } else {
-                    item_id = item_list[gear[n][0]];
+                    item_id = gear[n][0];
                 }
 
                 if (item_id === "" || typeof item_id === "undefined") {
@@ -263,13 +268,13 @@
                             if (gear[n][arr_gems][i] === -1 || typeof gear[n][arr_gems][i] === "undefined") {
                                 continue;
                             }
-
-                            if (typeof gear[n][arr_gems][i] === "number") {
-                                item_id = gem_list[gear[n][arr_gems][i]];
+                            
+                            if (gear[n][arr_gems][i] > 0) {
+                                item_id = gear[n][arr_gems][i];
                             }
 
-                            if (item_type !== "outfit" && typeof gear[n][arr_gems][i] === "string") {
-                                item_id = allgem_list[parseInt(gear[n][arr_gems][i].replace('a',""))];
+                            if (item_type !== "outfit" && gear[n][arr_gems][i] < 0) {
+                                item_id = -gear[n][arr_gems][i];
                             }
 
                             if (item_id === "" || typeof item_id === "undefined") {
@@ -350,7 +355,7 @@
                 var gem;
 
                 for (var i = item.gems; i > 0; i--) {
-                    if (BDOcalculator.gear[item_type].gems[i].gem_name === "") {
+                    if (BDOcalculator.gear[item_type].gems[i].gem_id === "") {
                         $('#equipment .gem-slot.' + item_type + i).attr('style', '').show();
                         continue;
                     }
@@ -839,7 +844,7 @@
                 
                 
 
-            if (BDOcalculator.gear[item_type].gems[item_no].gem_name === key) {
+            if (BDOcalculator.gear[item_type].gems[item_no].gem_id === key) {
                 selected = true;
             }
             

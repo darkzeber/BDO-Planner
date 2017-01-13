@@ -18,11 +18,11 @@ var BDOcalculator = {
                 "item": {},
                 "gems": {
                     "1": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     },
                     "2": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     }
                 }
@@ -38,11 +38,11 @@ var BDOcalculator = {
                 "item": {},
                 "gems": {
                     "1": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     },
                     "2": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     }
                 }
@@ -53,11 +53,11 @@ var BDOcalculator = {
                 "item": {},
                 "gems": {
                     "1": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     },
                     "2": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     }
                 }
@@ -68,11 +68,11 @@ var BDOcalculator = {
                 "item": {},
                 "gems": {
                     "1": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     },
                     "2": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     }
                 }
@@ -83,11 +83,11 @@ var BDOcalculator = {
                 "item": {},
                 "gems": {
                     "1": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     },
                     "2": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     }
                 }
@@ -98,11 +98,11 @@ var BDOcalculator = {
                 "item": {},
                 "gems": {
                     "1": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     },
                     "2": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     }
                 }
@@ -146,7 +146,7 @@ var BDOcalculator = {
                 "item": {},
                 "gems": {
                     "1": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     }
                 }
@@ -188,18 +188,18 @@ var BDOcalculator = {
             this.gear[type + "s"][item_no].item_id = item_id;
         } else if (item_itemset === "gems") {
             this.gear[type].gems[item_no].gem = itemObj;
-            this.gear[type].gems[item_no].gem_name = item_id;
+            this.gear[type].gems[item_no].gem_id = item_id;
         } else {
             if (typeof this.gear[type].item !== "undefined") {
                 this.gear[type].item = itemObj;
                 this.gear[type].item_id = item_id;
                 this.gear[type].gems = {
                     "1": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     },
                     "2": {
-                        "gem_name": "",
+                        "gem_id": "",
                         "gem": {}
                     }
                 };
@@ -472,7 +472,7 @@ var BDOcalculator = {
                             }
 
                             if (gem.incompatible.length) {
-                                if ($.inArray(this.gear[gear_key].gems[(gem_key === "1" ? "2" : "1")].gem_name, gem.incompatible) !== -1) {
+                                if ($.inArray(this.gear[gear_key].gems[(gem_key === "1" ? "2" : "1")].gem_id, gem.incompatible) !== -1) {
                                     continue;
                                 }
                             }
@@ -480,7 +480,7 @@ var BDOcalculator = {
                             this.addStat(eff_key, gem.item_effects[eff_key]);
                         }
                         
-                        if (this.gear[gear_key].gems[gem_key].gem_name !== "") {
+                        if (this.gear[gear_key].gems[gem_key].gem_id !== "") {
                             if (gem_ul === null) {
                                 gem_ul = $("<ul>")
                                     .appendTo(new_li);
@@ -695,7 +695,7 @@ var BDOcalculator = {
                             }
 
                             if (gem.incompatible.length) {
-                                if ($.inArray(this.gear[gear_key].gems[(gem_key === "1" ? "2" : "1")].gem_name, gem.incompatible) !== -1) {
+                                if ($.inArray(this.gear[gear_key].gems[(gem_key === "1" ? "2" : "1")].gem_id, gem.incompatible) !== -1) {
                                     continue;
                                 }
                             }

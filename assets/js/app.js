@@ -665,26 +665,26 @@
         
         if (item_itemset !== "gems") {
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
+                .removeClass(rarities_string)
                 .attr({
                     'data-original-title': "Empty"
                 }).css({
-                    'background-image': '',
-                    'border-color': ''
+                    'background-image': ''
                 }).empty();
             $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2')
+            .removeClass(rarities_string)
             .attr({
                 'data-original-title': "Empty"
             }).css({
-                'background-image': '',
-                'border-color': ''
+                'background-image': ''
             }).hide();
         } else {
             $('#equipment .gem-slot.' + item_type + '' + item_no)
+            .removeClass(rarities_string)
             .attr({
                 'data-original-title': "Empty"
             }).css({
-                'background-image': '',
-                'border-color': ''
+                'background-image': ''
             });
         }
         

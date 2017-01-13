@@ -817,7 +817,7 @@ var BDOdatabase =
         "Maehwa",
         "Ninja",
         "Kunoichi",
-        "DarkKnight"
+        "Darkknight"
     ],
     "resistances":
     {

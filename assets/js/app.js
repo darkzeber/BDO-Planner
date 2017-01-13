@@ -57,7 +57,9 @@
     // Object.keys(BDOdatabase.items.helmets).indexOf(5) == "Grunil Helmet"
     function saveShareLink () {
         var save = [
-            BDOdatabase.classes.indexOf(ucWords(player_class)),
+            [
+                BDOdatabase.classes.indexOf(ucWords(player_class))
+            ],
             [
                 Object.keys(BDOdatabase.items.helmets).indexOf(BDOcalculator.gear.helmet.item_id),
                 parseInt(BDOcalculator.gear.helmet.enhancement),
@@ -162,8 +164,11 @@
         ];
 
         var url = window.location.href.replace(window.location.search, "");
+        
+        /* This will update the address bar, dunno if it will be used though
+        window.history.pushState({}, "BDO Planner", "?gear=" + JSON.stringify(save));*/
 
-        $('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + /*encodeURIComponent(*/JSON.stringify(save)/*)*/);
+        //$('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + /*encodeURIComponent(*/JSON.stringify(save)/*)*/);
     }
 
     function loadShareLink(callback) {
@@ -867,6 +872,7 @@
 
         $("#player-class-section").slideUp("fast");
         $("#calculator-section").slideDown("fast");
+        $(".change-class-toggle .current-class").text($(this).find(".name").text());
     });
     
     $(document).on('click', '.item-choose', function() {
@@ -886,21 +892,7 @@
         
         resetSlot($(this).attr('data-type'), $(this).attr('data-itemno'), $(this).attr('data-itemset'));
     });
-    
-    $(".classes_restore").on('click', 'a.show', function(e) {
-        e.preventDefault();
-        $(".class_cell").slideDown("fast");
-        $(".classes_restore .show").slideUp("fast");
-        $(".classes_restore .hide").slideDown("fast");
-    });
-
-    $(".classes_restore").on('click', 'a.hide', function(e) {
-        e.preventDefault();
-        $(".class_cell").slideUp("fast");
-        $(".classes_restore .show").slideDown("fast");
-        $(".classes_restore .hide").slideUp("fast");
-    });
-    
+        
     $('#gearlist').on('show.bs.modal', function() {
         $("#gearlist-search").val("");
         $("#gear-rarity-filter li").addClass("active");
@@ -1046,30 +1038,29 @@
             $("body").removeClass("compact-item-modals");
         }
     });
+    
+    $(".change-class").on("click", function () {
+        $("#calculator-section").slideUp("fast");
+        $("#player-class-section").slideDown("fast");
+    });
      
     $(document).ready(function() {
         loadShareLink(function(loaded) {
             if (loaded) {
-                $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").closest(".class_img").removeClass("faded").addClass("selected");
                 BDOcalculator.calculate();
                 saveShareLink();
                 
                 $(".background-ring-inner").css({
-                    'background-image': 'url(' + $(".class_cell .class_icon[data-value='" + ucWords(player_class) + "']").attr("src") + ')'
+                    'background-image': $(".classes-panel .class[data-value='" + ucWords(player_class) + "'] .icon").css("background-image")
                 });
 
-                $(".class_cell").slideUp("fast");
-                $(".classes_restore .show").slideDown("fast");
-                $(".classes_restore .hide").slideUp("fast");
                 $("#calculator-section").slideDown("fast");
+                $(".change-class-toggle .current-class").text($("[data-value='" + ucWords(player_class) + "']").find(".name").text());
             } else {
-                $(".classes_restore .show").slideUp("fast");
-                $(".classes_restore .hide").slideDown("fast");
+                $("#player-class-section").slideDown("fast");
             }
         });
 
-        $("#player-class-section").slideDown();
-        
         CalcConfig.readConfig(function () {
             $("#enable-compact-item-modals").prop("checked", CalcConfig.config.compact_item_modals);
             if(CalcConfig.config.compact_item_modals) {

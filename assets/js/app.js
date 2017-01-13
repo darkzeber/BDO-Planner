@@ -203,12 +203,12 @@
 
         gear = JSON.parse(gear);
 
-        if ($.inArray(ucWords(BDOdatabase.classes[gear[0]]), BDOdatabase.classes) === -1) {
+        if ($.inArray(ucWords(BDOdatabase.classes[gear[0][0]]), BDOdatabase.classes) === -1) {
             callback(false);
             return;
         }
 
-        player_class = BDOdatabase.classes[gear[0]].toLowerCase();
+        player_class = BDOdatabase.classes[gear[0][0]].toLowerCase();
         BDOcalculator.init();
         BDOcalculator.player_class = player_class;
 

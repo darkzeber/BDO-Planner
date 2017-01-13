@@ -690,11 +690,11 @@ var BDOdatabase =
     },
     "rarities":
     {
-        "common": "#ffffff", //white
-        "uncommon": "#5ff369", //green
-        "rare": "#0391c4", //blue
-        "epic": "#f6c232", //yellow
-        "legendary": "#d36300" //orange
+        "common": "#ffffff",
+        "uncommon": "#ffffff",
+        "rare": "#ffffff",
+        "epic": "#ffffff",
+        "legendary": "#ffffff"
     },
     "enhancements":
     {

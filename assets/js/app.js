@@ -13,7 +13,8 @@
         active_filters = {
             search: '',
             rarity: Object.keys(BDOdatabase.rarities)
-        };
+        },
+        rarities_string = Object.keys(BDOdatabase.rarities).join(" ");
         
     $(':not(.disabled)[data-toggle="tooltip"]').tooltip(); // Enable tooltips
 
@@ -325,9 +326,9 @@
 
         if (item_itemset !== "gems") { // If item IS NOT a gem
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
+                .removeClass(rarities_string).addClass(item.rarity)
                 .css({
-                    'background': 'url(assets/images/items/' + item_itemset + '/' + (!BDOcalculator.isWeapon(item_type) ? pad(item_id, 8) : player_class + "/" + pad(item_id, 8)) + '.png) no-repeat center center',
-                    'border-color': BDOdatabase.rarities[item.rarity]
+                    'background-image': 'url(assets/images/items/' + item_itemset + '/' + (!BDOcalculator.isWeapon(item_type) ? pad(item_id, 8) : player_class + "/" + pad(item_id, 8)) + '.png)'
                 }).attr({
                     "data-original-title": BDOdatabase.enhancements[BDOcalculator.isAccessory(item_type) ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].prefix + item.name
                 }).empty();
@@ -338,9 +339,9 @@
                 .appendTo("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"));
         } else { // Otherwise, it's a gem!
             $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']")
+                .removeClass(rarities_string).addClass(item.rarity)
                 .css({
-                    'background-image': 'url(assets/images/gems/' + pad(item_id, 8) + '.png)',
-                    'border-color': BDOdatabase.rarities[item.rarity]
+                    'background-image': 'url(assets/images/gems/' + pad(item_id, 8) + '.png)'
                 }).attr({
                     "data-original-title": item.name
                 });
@@ -355,16 +356,7 @@
                 var gem;
 
                 for (var i = item.gems; i > 0; i--) {
-                    if (BDOcalculator.gear[item_type].gems[i].gem_id === "") {
-                        $('#equipment .gem-slot.' + item_type + i).attr('style', '').show();
-                        continue;
-                    }
-
-                    gem = BDOcalculator.gear[item_type].gems[i].gem;
-
-                    $('#equipment .gem-slot.' + item_type + i).css({
-                        'border-color': BDOdatabase.rarities[gem.rarity]
-                    }).show();
+                    $('#equipment .gem-slot.' + item_type + i).removeClass(rarities_string).attr('style', '').show();
                 }
             }
         }
@@ -420,9 +412,10 @@
             stat_element;
 
         // item name
-        item_element.append('<div class="item-name">'+
-                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '">' + item.name + '</strong>'+
-                            '</div>');
+        var w_item_name = $("<div>")
+            .addClass("item-name " + item.rarity)
+            .text(item.name)
+            .appendTo(item_element);
 
         // item icon
         var w_item_icon = $("<div>")
@@ -505,9 +498,16 @@
         }
 
         // item name
-        item_element.append('<div class="item-name">'+
-                                '<strong style="color: ' + BDOdatabase.rarities[item.rarity] + '"><span class="item-name-enhancement-prefix">' + BDOdatabase.enhancements[BDOcalculator.isAccessory(item_type) ? (enhancement_level == 0 ? enhancement_level : parseInt(enhancement_level) + 15) : enhancement_level].prefix + '</span>' + item.name + '</strong>'+
-                            '</div>');
+        var w_item_name = $("<div>")
+            .addClass("item-name " + item.rarity)
+            .appendTo(item_element);
+        var w_item_name_enh = $("<span>")
+            .addClass("item-name-enhancement-prefix")
+            .text(BDOdatabase.enhancements[BDOcalculator.isAccessory(item_type) ? (enhancement_level == 0 ? enhancement_level : parseInt(enhancement_level) + 15) : enhancement_level].prefix)
+            .appendTo(w_item_name);
+        var w_item_name_val = $("<span>")
+            .text(item.name)
+            .appendTo(w_item_name);
 
         // item icon
         var w_item_icon = $("<div>")
@@ -842,9 +842,7 @@
             var item = items_list[key],
                 selected = false;
                 
-                
-
-            if (BDOcalculator.gear[item_type].gems[item_no].gem_id === key) {
+            if (BDOcalculator.gear[item_type].gems[item_no].gem_id === parseInt(key)) {
                 selected = true;
             }
             

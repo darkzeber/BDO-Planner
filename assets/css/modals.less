@@ -23,17 +23,32 @@
     border-radius: 5px;
 
     .item-name {
-        strong {
-            font-size: 18px;
-            margin-right: 65px;
-            display: block;
+        font-size: 1rem;
+        margin-right: 65px;
+        display: block;
+        font-weight: 400;
+        
+        &.common {
+            color: @rarity-color-common;
+        }
+        &.uncommon {
+            color: @rarity-color-uncommon;
+        }
+        &.rare {
+            color: @rarity-color-rare;
+        }
+        &.epic {
+            color: @rarity-color-epic;
+        }
+        &.legendary {
+            color: @rarity-color-legendary;
         }
     }
 }
 
 .item-details {
     &.selected {
-        border: 4px double @item-selected-color;
+        border: 4px double @link-text-color;
     }
     
     .item-icon {

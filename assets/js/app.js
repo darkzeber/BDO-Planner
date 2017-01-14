@@ -16,8 +16,6 @@
         },
         rarities_string = Object.keys(BDOdatabase.rarities).join(" ");
         
-    $(':not(.disabled)[data-toggle="tooltip"]').tooltip(); // Enable tooltips
-
     // Original from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
     function getParameterByName(name) {
         name = name.replace(/[\[\]]/g, "\\$&");
@@ -312,12 +310,10 @@
 
     function resetGearslotItem(item_type, item_no) {
         $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
-            'style': '',
-            'data-original-title': "Empty"
+            'style': ''
         }).empty();
         $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').attr({
-            'style': '',
-            'data-original-title': "Empty"
+            'style': ''
         }).hide();
     }
 
@@ -329,8 +325,6 @@
                 .removeClass(rarities_string).addClass(item.rarity)
                 .css({
                     'background-image': 'url(assets/images/items/' + item_itemset + '/' + (!BDOcalculator.isWeapon(item_type) ? pad(item_id, 8) : player_class + "/" + pad(item_id, 8)) + '.png)'
-                }).attr({
-                    "data-original-title": BDOdatabase.enhancements[BDOcalculator.isAccessory(item_type) ? (parseInt(level) == 0 ? 0 : parseInt(level) + 15) : level].prefix + item.name
                 }).empty();
                 
             $("<div>")
@@ -342,15 +336,11 @@
                 .removeClass(rarities_string).addClass(item.rarity)
                 .css({
                     'background-image': 'url(assets/images/gems/' + pad(item_id, 8) + '.png)'
-                }).attr({
-                    "data-original-title": item.name
                 });
         }
 
         if (BDOcalculator.isGemable(item_type) && item_itemset !== "gems") {
-            $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').attr({
-                "data-original-title": "Empty"
-            }).hide();
+            $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').hide();
 
             if (item.gems > 0) {
                 var gem;
@@ -405,9 +395,8 @@
         });
     }
 
-    function generateGemItemPlate(item, item_type, item_no, key, c, selected) {
-        c = (typeof c === 'undefined' ? 1 : c);
-
+    function generateGemItemPlate(item, item_type, item_no, key, selected, tooltip) {
+        tooltip = tooltip || false;
         var item_element = $('<div class="item-details ' + (selected ? ' selected ' : '') + 'card"/>'),
             stat_element;
 
@@ -429,19 +418,21 @@
             })
             .appendTo(w_item_icon);
 
-        // item choose button
-        var item_button = $("<button>")
-            .addClass("btn btn-sm btn-primary item-choose")
-            .attr({
-                "data-item": key,
-                "data-itemset": "gems",
-                "data-type": item_type,
-                "data-itemno": item_no,
-                "data-rarity": item.rarity,
-                "data-itemname": item.name
-            })
-            .html("Choose")
-            .appendTo(item_element);
+        if (!tooltip) {
+            // item choose button
+            var item_button = $("<button>")
+                .addClass("btn btn-sm btn-primary item-choose")
+                .attr({
+                    "data-item": key,
+                    "data-itemset": "gems",
+                    "data-type": item_type,
+                    "data-itemno": item_no,
+                    "data-rarity": item.rarity,
+                    "data-itemname": item.name
+                })
+                .html("Choose")
+                .appendTo(item_element);
+        }
 
         // item effects
         stat_element = $('<div class="item-effects"/>');
@@ -480,9 +471,8 @@
         return item_element;
     }
 
-    function generateItemPlate(item, item_type, item_itemset, item_no, key, c, selected) {
-        c = (typeof c === 'undefined' ? 1 : c);
-
+    function generateItemPlate(item, item_type, item_itemset, item_no, key, selected, tooltip) {
+        tooltip = tooltip || false;
         var item_element = $('<div class="item-details ' + (selected ? ' selected ' : '') + 'card"/>'),
             stat_element,
             enhancement_level = 0;
@@ -535,22 +525,24 @@
         }
         stat_element.appendTo(item_element);
 
-        // item choose button
-        var item_button = $("<button>")
-            .addClass("btn btn-sm btn-primary item-choose")
-            .attr({
-                "data-enh": enhancement_level,
-                "data-item": key,
-                "data-itemset": item_itemset,
-                "data-type": item_type,
-                "data-itemno": item_no,
-                "data-rarity": item.rarity,
-                "data-itemname": item.name
-            })
-            .html("Choose")
-            .appendTo(item_element);
+        if (!tooltip) {
+            // item choose button
+            var item_button = $("<button>")
+                .addClass("btn btn-sm btn-primary item-choose")
+                .attr({
+                    "data-enh": enhancement_level,
+                    "data-item": key,
+                    "data-itemset": item_itemset,
+                    "data-type": item_type,
+                    "data-itemno": item_no,
+                    "data-rarity": item.rarity,
+                    "data-itemname": item.name
+                })
+                .html("Choose")
+                .appendTo(item_element);
+        }
 
-        if (BDOcalculator.isGemable(item_type)) {
+        if (!tooltip && BDOcalculator.isGemable(item_type)) {
             // item gems
             item_element.append('<div class="item-gems">'+
                                     '<strong>Gem Slots:</strong>'+
@@ -634,27 +626,27 @@
 
         stat_element.appendTo(item_element);
         
-        var enhance_max = getEnhancementMax(item);
-                 
-        if (enhance_max > 0) {
+        if (!tooltip) {
+            var enhance_max = getEnhancementMax(item);
+            if (enhance_max > 0) {
+                // item enhancement effects
+                item_element.append('<div class="item-enhancement-effects">'+
+                                    '<strong>Enhancement Effects:</strong>'+
+                                    '<div>' + (typeof item.enhancement_text === 'undefined' || item.enhancement_text === "" ? 'Info Missing..' : item.enhancement_text) + '</div>'+
+                                '</div>');
+                                
 
-            // item enhancement effects
-            item_element.append('<div class="item-enhancement-effects">'+
-                                '<strong>Enhancement Effects:</strong>'+
-                                '<div>' + (typeof item.enhancement_text === 'undefined' || item.enhancement_text === "" ? 'Info Missing..' : item.enhancement_text) + '</div>'+
-                            '</div>');
-                            
+                var slider_steps = [];
+                for (var i = 0; i <= getEnhancementMax(item); i += 5) {
+                    slider_steps.push(i);
+                }
 
-            var slider_steps = [];
-            for (var i = 0; i <= getEnhancementMax(item); i += 5) {
-                slider_steps.push(i);
+                // item enhance level
+                item_element.append('<div class="item-enhancement-level">'+
+                                    '<strong>Enhancement Level:</strong>'+
+                                    '<input data-slider-min="" data-slider-max="' + getEnhancementMax(item) + '" data-slider-value="' + enhancement_level + '" class="item-enhancement-slider" data-slider-ticks="[' + slider_steps.join(",") + ']">'+
+                                '</div>');
             }
-
-            // item enhance level
-            item_element.append('<div class="item-enhancement-level">'+
-                                '<strong>Enhancement Level:</strong>'+
-                                '<input data-slider-min="" data-slider-max="' + getEnhancementMax(item) + '" data-slider-value="' + enhancement_level + '" class="item-enhancement-slider" data-slider-ticks="[' + slider_steps.join(",") + ']">'+
-                            '</div>');
         }
 
         return item_element;
@@ -668,24 +660,18 @@
         if (item_itemset !== "gems") {
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
                 .removeClass(rarities_string)
-                .attr({
-                    'data-original-title': "Empty"
-                }).css({
+                .css({
                     'background-image': ''
                 }).empty();
             $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2')
             .removeClass(rarities_string)
-            .attr({
-                'data-original-title': "Empty"
-            }).css({
+            .css({
                 'background-image': ''
             }).hide();
         } else {
             $('#equipment .gem-slot.' + item_type + '' + item_no)
             .removeClass(rarities_string)
-            .attr({
-                'data-original-title': "Empty"
-            }).css({
+            .css({
                 'background-image': ''
             });
         }
@@ -707,8 +693,7 @@
         $(".card.remove-item").hide();
         
         var items_db = BDOdatabase.items[item_itemset],
-            items_list = (typeof items_db[player_class] === "undefined" ? items_db : items_db[player_class]),
-            c = 1;
+            items_list = (typeof items_db[player_class] === "undefined" ? items_db : items_db[player_class]);
             
         $(".remove-item .btn")
             .removeAttr("data-itemno")
@@ -743,9 +728,7 @@
                 $(".card.remove-item").show();
             }
 
-            generateItemPlate(item, item_type, item_itemset, item_no, key, c, selected).appendTo('#gearlist .modal-body .items');
-
-            c++;
+            generateItemPlate(item, item_type, item_itemset, item_no, key, selected).appendTo('#gearlist .modal-body .items');
         }
         
         
@@ -817,7 +800,7 @@
     function buildGemModal(item_type, item_no) {
         $(".card.remove-item").hide();
         
-        var items_list, c = 1;
+        var items_list;
         if (item_type !== "outfit") {
             items_list = $.extend({}, BDOdatabase.gems.all, BDOdatabase.gems[item_type]);
         } else {
@@ -852,9 +835,7 @@
                 $(".card.remove-item").show();
             }
 
-            generateGemItemPlate(item, item_type, item_no, key, c, selected).appendTo('#gearlist .modal-body .items');
-
-            c++;
+            generateGemItemPlate(item, item_type, item_no, key, selected).appendTo('#gearlist .modal-body .items');
         }
     }
         
@@ -980,23 +961,25 @@
         $(".classes-panel .class").removeClass("bg");
     });
     
-    $("body").on("mouseenter", "[data-breakdown!=''][data-breakdown]", function (e) {
-        var offset = $(this).offset();
+    function calculateTooltipPosition(offset, width) {
         var screenWidth = $(document).width();
-        var width = $(this).outerWidth();
         if (offset.left + width < screenWidth / 2) {
-            $('#stat-breakdown').css({
+            return {
                 top: offset.top,
                 left: (offset.left + width) + 10,
                 right: "auto"
-            }).show();
+            };
         } else {
-            $('#stat-breakdown').css({
+            return {
                 top: offset.top,
                 left: "auto",
                 right: (screenWidth - offset.left) + 10
-            }).show();
+            };
         }
+    }
+    
+    $("body").on("mouseenter", "[data-breakdown!=''][data-breakdown]", function (e) {
+        $('#stat-breakdown').css(calculateTooltipPosition($(this).offset(), $(this).outerWidth())).show();
         var stat_type = $(this).attr("data-breakdown");
         $("#stat-breakdown .opener").text("Total " + BDOdatabase.stats[stat_type].title + ": ");
         var stats = BDOcalculator.calculateSingleStat(stat_type);
@@ -1028,6 +1011,50 @@
     }).on("mouseleave", "[data-breakdown!=''][data-breakdown]", function (e) {
         $("#stat-breakdown").hide();
         $(".gear-slot, .gem-slot").removeClass("active-stat");
+    });
+    
+    $("body").on("mouseenter", "#equipment .gear-slot", function (e) {
+        var item_type = $(this).attr('data-type'),
+            item_itemset = $(this).attr('data-itemset'),
+            item_no = $(this).attr('data-item'),
+            key,
+            item;
+            
+        if (BDOcalculator.isItemPair(item_type)) {
+            key = BDOcalculator.gear[item_type + 's'][item_no].item_id;
+        } else {
+            key = BDOcalculator.gear[item_type].item_id;
+        }
+        
+        if (typeof key === "undefined" || key == "") return;
+        
+        $('#item-tooltip').css(calculateTooltipPosition($(this).offset(), $(this).outerWidth())).show();
+        
+        if (BDOcalculator.isItemPair(item_type)) {
+            item = BDOcalculator.gear[item_type + 's'][item_no].item;
+        } else {
+            item = BDOcalculator.gear[item_type].item;
+        }
+        $("#item-tooltip .inner").html(generateItemPlate(item, item_type, item_itemset, item_no, key, false, true));
+    }).on("mouseleave", "#equipment .gear-slot", function (e) {
+        $("#item-tooltip").hide();
+    });
+    $("body").on("mouseenter", "#equipment .gem-slot", function (e) {
+        var item_type = $(this).attr('data-type'),
+            item_no = $(this).attr('data-item'),
+            key,
+            item;
+            
+        key = BDOcalculator.gear[item_type].gems[item_no].gem_id;
+        
+        if (typeof key === "undefined" || key == "") return;
+        
+        $('#item-tooltip').css(calculateTooltipPosition($(this).offset(), $(this).outerWidth())).show();
+        
+        item = BDOcalculator.gear[item_type].gems[item_no].gem;
+        $("#item-tooltip .inner").html(generateGemItemPlate(item, item_type, item_no, key, false, true));
+    }).on("mouseleave", "#equipment .gem-slot", function (e) {
+        $("#item-tooltip").hide();
     });
     
     $("#active-alch-stone").on("click", function () {

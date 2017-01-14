@@ -49,3 +49,32 @@
         }
     }
 }
+
+#item-tooltip {
+    position: absolute;
+    background: @section-header-color;
+    padding: 3px;
+    border-radius: 3px;
+    z-index: 2000;
+    display: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5),
+        inset 1px 1px 0px rgba(255, 255, 255, 0.5),
+        inset -1px -1px 0px rgba(0, 0, 0, 0.5);
+
+    .outer {
+        background: @tooltip-background;
+        border-radius: 3px;
+
+        .inner {
+            font-size: 12px;
+            box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.5),
+                inset -1px -1px 3px rgba(0, 0, 0, 0.5);
+            padding: 5px;
+            
+            .item-details {
+                background: none;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

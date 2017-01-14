@@ -428,6 +428,7 @@ var BDOcalculator = {
                     
                     $("<li>")
                         .html(BDOdatabase.enhancements[parseInt(this.gear[gear_key][acc_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key][acc_key].enhancement) + 15].prefix + this.gear[gear_key][acc_key].item.name)
+                        .addClass(this.gear[gear_key][acc_key].item.rarity)
                         .appendTo("#gear-list");
                 }
             } else {
@@ -455,6 +456,7 @@ var BDOcalculator = {
                     
                     var new_li = $("<li>")
                         .html(BDOdatabase.enhancements[this.isAccessory(gear_key) ?parseInt(this.gear[gear_key].enhancement) == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15 : this.gear[gear_key].enhancement].prefix + this.gear[gear_key].item.name)
+                        .addClass(this.gear[gear_key].item.rarity)
                         .appendTo("#gear-list");
                         
                     var gem_ul = null;
@@ -487,6 +489,7 @@ var BDOcalculator = {
                             }
                             $("<li>")
                                 .html(this.gear[gear_key].gems[gem_key].gem.name)
+                                .addClass(this.gear[gear_key].gems[gem_key].gem.rarity)
                                 .appendTo(gem_ul);
                         }
                     }

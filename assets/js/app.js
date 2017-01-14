@@ -424,7 +424,7 @@
             
         var item_icon = $("<img>")
             .attr({
-                "alt": "BDO Gear Calculator",
+                "alt": "BDO Planner",
                 "src": 'assets/images/gems/' + pad(key, 8) + '.png'
             })
             .appendTo(w_item_icon);
@@ -516,7 +516,7 @@
             
         var item_icon = $("<img>")
             .attr({
-                "alt": "BDO Gear Calculator",
+                "alt": "BDO Planner",
                 "src": 'assets/images/items/' + item_itemset + '/' + (!BDOcalculator.isWeapon(item_type) ? pad(key, 8) : player_class + "/" + pad(key, 8)) + '.png'
             })
             .appendTo(w_item_icon);
@@ -525,13 +525,13 @@
         stat_element = $('<div class="item-stats"/>');
 
         if (typeof item.ap !== 'undefined') {
-            stat_element.append('<div>AP: ' + BDOcalculator.getItemStat(item, "ap", false, enhancement_level) + '</div>');
+            stat_element.append('<div>AP: <span>' + BDOcalculator.getItemStat(item, "ap", false, enhancement_level) + '</span></div>');
         }
         if (typeof item.ap_min !== 'undefined') {
-            stat_element.append('<div>AP: ' + BDOcalculator.getItemStat(item, "ap_min", false, enhancement_level) + '~' + BDOcalculator.getItemStat(item, "ap_max", false, enhancement_level) + '</div>');
+            stat_element.append('<div>AP: <span>' + BDOcalculator.getItemStat(item, "ap_min", false, enhancement_level) + ' ~ ' + BDOcalculator.getItemStat(item, "ap_max", false, enhancement_level) + '</span></div>');
         }
         if (typeof item.dp !== 'undefined') {
-            stat_element.append('<div>DP: ' + BDOcalculator.getItemStat(item, "dp", false, enhancement_level) + '</div>');
+            stat_element.append('<div>DP: <span>' + BDOcalculator.getItemStat(item, "dp", false, enhancement_level) + '</span></div>');
         }
         stat_element.appendTo(item_element);
 
@@ -550,11 +550,13 @@
             .html("Choose")
             .appendTo(item_element);
 
-        // item gems
-        item_element.append('<div class="item-gems">'+
-                                '<strong>Gem Slots:</strong>'+
-                                '<div>' + item.gems + '</div>'+
-                            '</div>');
+        if (BDOcalculator.isGemable(item_type)) {
+            // item gems
+            item_element.append('<div class="item-gems">'+
+                                    '<strong>Gem Slots:</strong>'+
+                                    '<div>' + item.gems + '</div>'+
+                                '</div>');
+        }
 
         // item effects
         stat_element = $('<div class="item-effects"/>');
@@ -578,56 +580,56 @@
 
         stat_element.appendTo(item_element);
 
-        // item set effects
-        stat_element = $('<div class="item-set-effects"/>');
-        stat_element.append('<strong>Set Effects</strong>');
+        if (typeof item.set !== "undefined" || item.set == "") {
+            // item set effects
+            stat_element = $('<div class="item-set-effects"/>');
+            stat_element.append('<strong>Set Effects</strong>');
+            
+            if (typeof BDOdatabase.set_effects[item.set] !== 'undefined') {
+                if (typeof BDOdatabase.set_effects[item.set].combos !== 'undefined') {
 
-        if (typeof BDOdatabase.set_effects[item.set] !== 'undefined') {
-            if (typeof BDOdatabase.set_effects[item.set].combos !== 'undefined') {
-
-                for (var combos_key in BDOdatabase.set_effects[item.set].combos) {
-                    if (!BDOdatabase.set_effects[item.set].combos.hasOwnProperty(combos_key)) {
-                         continue;
-                    }
-
-                    var combos = BDOdatabase.set_effects[item.set].combos[combos_key],
-                        effect_string = '';
-
-                    for (var combo_eff_key in combos.effects) {
-                        if (!combos.effects.hasOwnProperty(combo_eff_key)) {
+                    for (var combos_key in BDOdatabase.set_effects[item.set].combos) {
+                        if (!BDOdatabase.set_effects[item.set].combos.hasOwnProperty(combos_key)) {
                              continue;
                         }
 
-                        effect_string += (effect_string === '' ? '<div><span>' + ucWords(combos.pieces.join(' + ')) + ':</span> ' : ' & ') + BDOdatabase.stats[combo_eff_key].title + ' +' + combos.effects[combo_eff_key] + BDOdatabase.stats[combo_eff_key].symbol;
-                    }
+                        var combos = BDOdatabase.set_effects[item.set].combos[combos_key],
+                            effect_string = '';
 
-                    stat_element.append(effect_string + '</div>');
+                        for (var combo_eff_key in combos.effects) {
+                            if (!combos.effects.hasOwnProperty(combo_eff_key)) {
+                                 continue;
+                            }
+
+                            effect_string += (effect_string === '' ? '<div><span>' + ucWords(combos.pieces.join(' + ')) + ':</span> ' : ' & ') + BDOdatabase.stats[combo_eff_key].title + ' +' + combos.effects[combo_eff_key] + BDOdatabase.stats[combo_eff_key].symbol;
+                        }
+
+                        stat_element.append(effect_string + '</div>');
+                    }
                 }
-            }
 
-            if (typeof BDOdatabase.set_effects[item.set].pieces !== 'undefined') {
+                if (typeof BDOdatabase.set_effects[item.set].pieces !== 'undefined') {
 
-                for (var pieces_key in BDOdatabase.set_effects[item.set].pieces) {
-                    if (!BDOdatabase.set_effects[item.set].pieces.hasOwnProperty(pieces_key)) {
-                         continue;
-                    }
-
-                    var pieces_effects = BDOdatabase.set_effects[item.set].pieces[pieces_key],
-                        effect_string = '';
-
-                    for (var set_eff_key in pieces_effects) {
-                        if (!pieces_effects.hasOwnProperty(set_eff_key)) {
+                    for (var pieces_key in BDOdatabase.set_effects[item.set].pieces) {
+                        if (!BDOdatabase.set_effects[item.set].pieces.hasOwnProperty(pieces_key)) {
                              continue;
                         }
 
-                        effect_string += (effect_string === '' ? '<div><span>' + pieces_key + '-Pieces:</span> ' : ' & ') + BDOdatabase.stats[set_eff_key].title + ' +' + pieces_effects[set_eff_key] + BDOdatabase.stats[set_eff_key].symbol;
-                    }
+                        var pieces_effects = BDOdatabase.set_effects[item.set].pieces[pieces_key],
+                            effect_string = '';
 
-                    stat_element.append(effect_string + '</div>');
+                        for (var set_eff_key in pieces_effects) {
+                            if (!pieces_effects.hasOwnProperty(set_eff_key)) {
+                                 continue;
+                            }
+
+                            effect_string += (effect_string === '' ? '<div><span>' + pieces_key + '-Pieces:</span> ' : ' & ') + BDOdatabase.stats[set_eff_key].title + ' +' + pieces_effects[set_eff_key] + BDOdatabase.stats[set_eff_key].symbol;
+                        }
+
+                        stat_element.append(effect_string + '</div>');
+                    }
                 }
             }
-        } else {
-            stat_element.append('<div>None.</div>');
         }
 
         stat_element.appendTo(item_element);
@@ -728,11 +730,11 @@
                 selected = false;
 
             if (BDOcalculator.isItemPair(item_type)) {
-                if (BDOcalculator.gear[item_type + "s"][item_no].item_id === parseInt(key)) {
+                if (parseInt(BDOcalculator.gear[item_type + "s"][item_no].item_id) === parseInt(key)) {
                     selected = true;
                 }
             } else {
-                if (BDOcalculator.gear[item_type].item_id === parseInt(key)) {
+                if (parseInt(BDOcalculator.gear[item_type].item_id) === parseInt(key)) {
                     selected = true;
                 }
             }
@@ -795,13 +797,13 @@
                     stat_element = $('<div class="item-stats"/>');
 
                     if (typeof item.ap !== 'undefined') {
-                        stat_element.append('<div>AP: ' + BDOcalculator.getItemStat(item, "ap", false, e.value.newValue) + '</div>');
+                        stat_element.append('<div>AP: <span>' + BDOcalculator.getItemStat(item, "ap", false, e.value.newValue) + '</span></div>');
                     }
                     if (typeof item.ap_min !== 'undefined') {
-                        stat_element.append('<div>AP: ' + BDOcalculator.getItemStat(item, "ap_min", false, e.value.newValue) + '~' + BDOcalculator.getItemStat(item, "ap_max", false, e.value.newValue) + '</div>');
+                        stat_element.append('<div>AP: <span>' + BDOcalculator.getItemStat(item, "ap_min", false, e.value.newValue) + ' ~ ' + BDOcalculator.getItemStat(item, "ap_max", false, e.value.newValue) + '</span></div>');
                     }
                     if (typeof item.dp !== 'undefined') {
-                        stat_element.append('<div>DP: ' + BDOcalculator.getItemStat(item, "dp", false, e.value.newValue) + '</div>');
+                        stat_element.append('<div>DP: <span>' + BDOcalculator.getItemStat(item, "dp", false, e.value.newValue) + '</span></div>');
                     }
 
                     itemPlate.find('.item-stats').replaceWith(stat_element);
@@ -842,7 +844,7 @@
             var item = items_list[key],
                 selected = false;
                 
-            if (BDOcalculator.gear[item_type].gems[item_no].gem_id === parseInt(key)) {
+            if (parseInt(BDOcalculator.gear[item_type].gems[item_no].gem_id) === parseInt(key)) {
                 selected = true;
             }
             

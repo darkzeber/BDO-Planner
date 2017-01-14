@@ -163,13 +163,11 @@
         ];
 
         var url = window.location.href.replace(window.location.search, "");
-        
-        console.log(JSON.stringify(save));
-        
+
         /* This will update the address bar, dunno if it will be used though
         window.history.pushState({}, "BDO Planner", "?gear=" + JSON.stringify(save));*/
 
-        //$('#share-link').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + /*encodeURIComponent(*/JSON.stringify(save)/*)*/);
+        $('#share-link-long').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + JSON.stringify(save));
     }
 
     function loadShareLink(callback) {
@@ -953,6 +951,11 @@
         
         $('#settings').modal();
     });
+    $("#open-save-menu").on("click", function (e) {
+        e.preventDefault();
+        
+        $('#savelink').modal();
+    });
     
     $("#player-class-section .classes-panel").on("mouseenter", ".class", function (e) {
         $(".classes-panel .class").addClass("bg");
@@ -1036,10 +1039,7 @@
             item = BDOcalculator.gear[item_type].item;
         }
         $("#item-tooltip .inner").html(generateItemPlate(item, item_type, item_itemset, item_no, key, false, true));
-    }).on("mouseleave", "#equipment .gear-slot", function (e) {
-        $("#item-tooltip").hide();
-    });
-    $("body").on("mouseenter", "#equipment .gem-slot", function (e) {
+    }).on("mouseenter", "#equipment .gem-slot", function (e) {
         var item_type = $(this).attr('data-type'),
             item_no = $(this).attr('data-item'),
             key,
@@ -1053,7 +1053,7 @@
         
         item = BDOcalculator.gear[item_type].gems[item_no].gem;
         $("#item-tooltip .inner").html(generateGemItemPlate(item, item_type, item_no, key, false, true));
-    }).on("mouseleave", "#equipment .gem-slot", function (e) {
+    }).on("mouseleave", "#equipment .gear-slot, #equipment .gem-slot", function (e) {
         $("#item-tooltip").hide();
     });
     
@@ -1109,17 +1109,28 @@
         });
                 
         //Copy share link to clipboard / tooltip setup
-        var cb = new Clipboard('#copy-button');
-
+        var cb = new Clipboard('#copy-button-long-link');
         // Initialize the tooltip.
-        $('#copy-button').tooltip();
-
-        $('#copy-button').bind('click', function() {
-            $('#copy-button').trigger('copied', ['Copied!']);
+        $('#copy-button-long-link').tooltip();
+        $('#copy-button-long-link').bind('click', function() {
+            $('#copy-button-long-link').trigger('copied', ['Copied!']);
         });
-
         // Handler for updating the tooltip message.
-        $('#copy-button').bind('copied', function(event, message) {
+        $('#copy-button-long-link').bind('copied', function(event, message) {
+            $(this).attr('data-original-title', message)
+            .tooltip('show')
+            .attr('data-original-title', "Copy Link");
+        });
+        
+        //Copy share link to clipboard / tooltip setup
+        var cb = new Clipboard('#copy-button-short-link');
+        // Initialize the tooltip.
+        $('#copy-button-short-link').tooltip();
+        $('#copy-button-short-link').bind('click', function() {
+            $('#copy-button-short-link').trigger('copied', ['Copied!']);
+        });
+        // Handler for updating the tooltip message.
+        $('#copy-button-short-link').bind('copied', function(event, message) {
             $(this).attr('data-original-title', message)
             .tooltip('show')
             .attr('data-original-title', "Copy Link");

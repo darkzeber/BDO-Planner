@@ -68,6 +68,9 @@ hr {
 #calculator-section, #player-class-section {
     display: none;
 }
+#calculator-section {
+    padding: 6px 0px;
+}
 
 input[type=checkbox] {
     display:none;
@@ -112,4 +115,18 @@ input[type=checkbox] {
 
 #navigation-bar {
     border-bottom: 1px solid @base-text-color;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.7);
+}
+
+#footer-bar {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    .container {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-top: 1px solid @base-text-color;
+        box-shadow: 0px -5px 10px 1px rgba(0, 0, 0, 0.7);
+    }
 }

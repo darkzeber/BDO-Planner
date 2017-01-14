@@ -261,6 +261,16 @@
             </div>
         </div>
         
+        <div id="footer-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="offset-lg-10 col-lg-2">
+                        <a href="#" id="open-save-menu" class="btn btn-success btn-block btn-sm"><i class="fa fa-floppy-o"></i> Save</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div id="gearlist" class="modal fade" tabindex="-1" role="dialog" data-backdrop="static">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
@@ -321,6 +331,9 @@
                             <div class="col-md-12">
                                 <p>
                                     BDO Gear Calculator was originally created by <a href="https://github.com/MrEliasen" target="_blank">MrEliasen</a>, it was updated heavily and grown on to create a full character planner by <a href="https://github.com/Ihellmasker" target="_blank">Ihm</a> and <a href="https://github.com/Shadowtrance" target="_blank">Shadowtrance</a>.
+                                </p>
+                                <p>
+                                    © 2017 BDOPlanner.com and may not be used or reproduced without consent. All Black Desert Online media and content is a registered trademark of Pearl Abyss & Kakao Games.
                                 </p>
                             </div>
                         </div>
@@ -386,6 +399,9 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-12">
+                                <p>
+                                    All settings are saved in cookies and will not be transfered between Computers/Browsers.
+                                </p>
                                 <label class="custom-control custom-checkbox">
                                     <input type="checkbox" class="custom-control-input" id="enable-compact-item-modals">
                                     <span class="custom-control-indicator"></span>
@@ -412,8 +428,27 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <p>
-                                    All settings are saved in cookies and will not be transfered between Computers/Browsers.
+                                    You can either copy the link from the bar below or press the copy button on the right. The long links will last forever, however they're <em>long</em>.
                                 </p>
+                                <div class="input-group input-group-sm">
+                                    <input id="share-link-long" type="text" class="form-control" readonly>
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-secondary" id="copy-button-long-link" data-toggle="tooltip" data-placement="top" data-clipboard-target="#share-link-long" title="Copy Link"><i class="fa fa-clipboard"></i></button>
+                                    </span>
+                                </div>
+                                <hr class="my-1" />
+                                <p>
+                                    Alternatively, you can create an uneditable short link. If the link is unused for <strong>1 month</strong> it will be automatically deleted.
+                                </p>
+                                <div class="input-group input-group-sm">
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-secondary" id="create-short-link"><i class="fa fa-plus-circle"></i> Create</button>
+                                    </span>
+                                    <input id="share-link-short" type="text" class="form-control" readonly>
+                                    <span class="input-group-btn">
+                                        <button type="button" class="btn btn-secondary" id="copy-button-short-link" data-toggle="tooltip" data-placement="top" data-clipboard-target="#share-link-short" title="Copy Link"><i class="fa fa-clipboard"></i></button>
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>

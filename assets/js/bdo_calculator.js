@@ -652,8 +652,11 @@ var BDOcalculator = {
                     }
                 }
             } else {
-                if (Object.keys(this.gear[gear_key].item).length > 0) {   
-                   var enh_prefix = BDOdatabase.enhancements[(this.isAccessory(gear_key) ? (this.gear[gear_key].enhancement == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15) : this.gear[gear_key].enhancement)].prefix;
+                if (Object.keys(this.gear[gear_key].item).length > 0) {
+                    if (gear_key == "alchemy-stone" && !$("#active-alch-stone").prop("checked")) {
+                        continue;
+                    }
+                    var enh_prefix = BDOdatabase.enhancements[(this.isAccessory(gear_key) ? (this.gear[gear_key].enhancement == 0 ? 0 : parseInt(this.gear[gear_key].enhancement) + 15) : this.gear[gear_key].enhancement)].prefix;
                
                     for (var stat_key in this.gear[gear_key].item) {
                         if (!this.gear[gear_key].item.hasOwnProperty(stat_key)) {

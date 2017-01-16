@@ -48,3 +48,5 @@ config.codekit
 *.sass-cache
 *.htaccess
 dev files/
+php/libs/
+php/secure/

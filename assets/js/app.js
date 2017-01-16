@@ -15,24 +15,7 @@
             rarity: Object.keys(BDOdatabase.rarities)
         },
         rarities_string = Object.keys(BDOdatabase.rarities).join(" ");
-        
-    // Original from http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
-    function getParameterByName(name) {
-        name = name.replace(/[\[\]]/g, "\\$&");
-        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)", "i"),
-            results = regex.exec(window.location.href);
 
-        if (!results) {
-            return null;
-        }
-
-        if (!results[2]) {
-            return '';
-        }
-
-        return decodeURIComponent(results[2].replace(/\+/g, " "));
-    }
-    
     // http://stackoverflow.com/questions/10073699/pad-a-number-with-leading-zeros-in-javascript
     function pad(n, width, z) {
         z = z || '0';
@@ -52,10 +35,9 @@
 
         return gemId;
     }
-
-    // Object.keys(BDOdatabase.items.helmets).indexOf(5) == "Grunil Helmet"
-    function saveShareLink () {
-        var save = [
+    
+    function createShareLink () {
+        return [
             [
                 BDOdatabase.classes.indexOf(ucWords(player_class))
             ],
@@ -161,17 +143,22 @@
                 parseInt(BDOcalculator.gear["underwear"].item_id) || -1
             ]
         ];
+    }
 
-        var url = window.location.href.replace(window.location.search, "");
+    // Object.keys(BDOdatabase.items.helmets).indexOf(5) == "Grunil Helmet"
+    function saveShareLink () {
+        var save = createShareLink();
+
+        var url = window.location.origin;
 
         /* This will update the address bar, dunno if it will be used though
-        window.history.pushState({}, "BDO Planner", "?gear=" + JSON.stringify(save));*/
+        window.history.pushState({}, "BDO Planner", "?save=" + JSON.stringify(save));*/
 
-        $('#share-link-long').val(url + (url.indexOf('?') === -1 ? '?' : '&') + 'gear=' + JSON.stringify(save));
+        $('#share-link-long').val(url + '/save/' + JSON.stringify(save));
     }
 
     function loadShareLink(callback) {
-        var gear = getParameterByName('gear'),
+        var save = null,
             array_index = [
                 "class",
                 "helmet",
@@ -192,26 +179,30 @@
                 "secondary-weapon-outfit",
                 "underwear"
             ];
+            
+        if($("#loaded_link").val() !== "") {
+            save = $("#loaded_link").val();
+        }
 
         callback = (typeof callback !== "undefined" ? callback : function(e) {});
 
-        if (gear === null) {
+        if (save === null || save === '') {
             callback(false);
             return;
         }
 
-        gear = JSON.parse(gear);
+        save = JSON.parse(save);
 
-        if ($.inArray(ucWords(BDOdatabase.classes[gear[0][0]]), BDOdatabase.classes) === -1) {
+        if ($.inArray(ucWords(BDOdatabase.classes[save[0][0]]), BDOdatabase.classes) === -1) {
             callback(false);
             return;
         }
 
-        player_class = BDOdatabase.classes[gear[0][0]].toLowerCase();
+        player_class = BDOdatabase.classes[save[0][0]].toLowerCase();
         BDOcalculator.init();
         BDOcalculator.player_class = player_class;
 
-        var c = gear.length - 1;
+        var c = save.length - 1;
         for (var n = 1; n <= c; n++) {
             var item_type = array_index[n],
                 item_itemset = item_type + (item_type === "armor" || item_type === "underwear" ? "" : (item_type.slice(-1) !== "s" ? "s" : "")),
@@ -220,32 +211,32 @@
                 item_id = "",
                 item_no;
 
-            if (gear[n][0] === -1) {
+            if (save[n][0] === -1) {
                 continue;
             }
             
             if (BDOcalculator.isItemPair(item_type)) {
                 for (var i = 1; i >= 0; i--) {
-                    if (gear[n][i][0] === -1) {
+                    if (save[n][i][0] === -1) {
                         continue;
                     }
                     
-                    item_id = gear[n][i][0];
+                    item_id = save[n][i][0];
 
                     if (item_id === "" || typeof item_id === "undefined") {
                         continue;
                     }
 
-                    addItem(item_id, item_type.slice(0, -1), item_type, i + 1, gear[n][i][1], false);
+                    addItem(item_id, item_type.slice(0, -1), item_type, i + 1, save[n][i][1], false);
                 }
             } else {
-                var arr_enh = (typeof gear[n][1] == "object" ? -1 : 1),
-                    arr_gems = (typeof gear[n][1] == "object" ? 1 : 2);
+                var arr_enh = (typeof save[n][1] == "object" ? -1 : 1),
+                    arr_gems = (typeof save[n][1] == "object" ? 1 : 2);
                 
                 if (item_type === "main-weapon" || item_type === "secondary-weapon" || item_type === "awakening-weapon") {
-                    item_id = gear[n][0];
+                    item_id = save[n][0];
                 } else {
-                    item_id = gear[n][0];
+                    item_id = save[n][0];
                 }
 
                 if (item_id === "" || typeof item_id === "undefined") {
@@ -253,25 +244,25 @@
                 }
 
                 // set item
-                addItem(item_id, item_type, item_itemset, item_no, (arr_enh === -1 ? 0 : gear[n][1]), false);
+                addItem(item_id, item_type, item_itemset, item_no, (arr_enh === -1 ? 0 : save[n][1]), false);
 
                 // set gems
                 if (BDOcalculator.isGemable(item_type)) {
-                    if (gear[n][arr_gems].length) {
+                    if (save[n][arr_gems].length) {
                         var gem_list = Object.keys(BDOdatabase.gems[item_type]),
                             allgem_list = Object.keys(BDOdatabase.gems.all);
 
                         for (var i = 1; i >= 0; i--) {
-                            if (gear[n][arr_gems][i] === -1 || typeof gear[n][arr_gems][i] === "undefined") {
+                            if (save[n][arr_gems][i] === -1 || typeof save[n][arr_gems][i] === "undefined") {
                                 continue;
                             }
                             
-                            if (gear[n][arr_gems][i] > 0) {
-                                item_id = gear[n][arr_gems][i];
+                            if (save[n][arr_gems][i] > 0) {
+                                item_id = save[n][arr_gems][i];
                             }
 
-                            if (item_type !== "outfit" && gear[n][arr_gems][i] < 0) {
-                                item_id = -gear[n][arr_gems][i];
+                            if (item_type !== "outfit" && save[n][arr_gems][i] < 0) {
+                                item_id = -save[n][arr_gems][i];
                             }
 
                             if (item_id === "" || typeof item_id === "undefined") {
@@ -309,10 +300,14 @@
     function resetGearslotItem(item_type, item_no) {
         $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
             'style': ''
-        }).empty();
+        })
+        .removeClass(rarities_string)
+        .empty();
         $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').attr({
             'style': ''
-        }).hide();
+        })
+        .removeClass(rarities_string)
+        .hide();
     }
 
     function setGearslotItem(item, item_type, item_no, item_id, item_itemset, level) {
@@ -322,7 +317,7 @@
             $("#equipment .gear-slot[data-type='" + item_type + "']" + (item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
                 .removeClass(rarities_string).addClass(item.rarity)
                 .css({
-                    'background-image': 'url(assets/images/items/' + item_itemset + '/' + (!BDOcalculator.isWeapon(item_type) ? pad(item_id, 8) : player_class + "/" + pad(item_id, 8)) + '.png)'
+                    'background-image': 'url(/assets/images/items/' + item_itemset + '/' + (!BDOcalculator.isWeapon(item_type) ? pad(item_id, 8) : player_class + "/" + pad(item_id, 8)) + '.png)'
                 }).empty();
                 
             $("<div>")
@@ -333,7 +328,7 @@
             $("#equipment .gem-slot[data-type='" + item_type + "']" + "[data-item='" + item_no + "']")
                 .removeClass(rarities_string).addClass(item.rarity)
                 .css({
-                    'background-image': 'url(assets/images/gems/' + pad(item_id, 8) + '.png)'
+                    'background-image': 'url(/assets/images/gems/' + pad(item_id, 8) + '.png)'
                 });
         }
 
@@ -412,7 +407,7 @@
         var item_icon = $("<img>")
             .attr({
                 "alt": "BDO Planner",
-                "src": 'assets/images/gems/' + pad(key, 8) + '.png'
+                "src": '/assets/images/gems/' + pad(key, 8) + '.png'
             })
             .appendTo(w_item_icon);
 
@@ -476,11 +471,11 @@
             enhancement_level = 0;
 
         if (BDOcalculator.isItemPair(item_type)) {
-            if (BDOcalculator.gear[item_type + "s"][item_no].item_id === key) {
+            if (parseInt(BDOcalculator.gear[item_type + "s"][item_no].item_id) === parseInt(key)) {
                 enhancement_level = BDOcalculator.gear[item_type + "s"][item_no].enhancement;
             }
         } else {
-            if (BDOcalculator.gear[item_type].item_id === key) {
+            if (parseInt(BDOcalculator.gear[item_type].item_id) === parseInt(key)) {
                 enhancement_level = BDOcalculator.gear[item_type].enhancement;
             }
         }
@@ -505,7 +500,7 @@
         var item_icon = $("<img>")
             .attr({
                 "alt": "BDO Planner",
-                "src": 'assets/images/items/' + item_itemset + '/' + (!BDOcalculator.isWeapon(item_type) ? pad(key, 8) : player_class + "/" + pad(key, 8)) + '.png'
+                "src": '/assets/images/items/' + item_itemset + '/' + (!BDOcalculator.isWeapon(item_type) ? pad(key, 8) : player_class + "/" + pad(key, 8)) + '.png'
             })
             .appendTo(w_item_icon);
 
@@ -674,7 +669,7 @@
             });
         }
         
-        BDOcalculator.setGear({}, item_type, item_no, "", item_itemset, function() {               
+        BDOcalculator.setGear({}, item_type, item_no, "", item_itemset, function() {       
             BDOcalculator.calculate();
             saveShareLink();
         });
@@ -1074,6 +1069,21 @@
     $(".change-class").on("click", function () {
         $("#calculator-section").slideUp("fast");
         $("#player-class-section").slideDown("fast");
+    });
+    
+    $("#create-short-link").on("click", function () {
+        $.ajax({
+            url: "/php/post/create_short_link.php",
+            method: "POST",
+            data: {
+                data: JSON.stringify(createShareLink())
+            },
+            success: function (data) {
+                var url = window.location.origin;
+
+                $('#share-link-short').val(url + '/s/' + data.short_link);
+            }
+        });
     });
      
     $(document).ready(function() {

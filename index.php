@@ -1,4 +1,7 @@
- <!DOCTYPE html>
+<?php
+    include $_SERVER['DOCUMENT_ROOT'].'/php/inline/get_full_link.php';
+?>
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -10,22 +13,35 @@
         <meta name="description" content="A gear/equipment calculator for Black Desert Online.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="icon" type="image/png" href="assets/favicon.png" />
+        <meta property="og:title" content="BDO Planner" />
+        <meta property="og:image" content="http://beta.bdoplanner.com/assets/favicon.png" />
+        <meta property="og:description" content="BDO Planner build config" />
+        
+        <link rel="icon" type="image/png" href="/assets/favicon.png" />
 
         <!-- Include the required libraries' css where applicable -->
         <!-- slider -->
-        <link rel="stylesheet" href="libs/css/bootstrap-slider.min.css" />
+        <link rel="stylesheet" href="/libs/css/bootstrap-slider.min.css" />
 
         <!-- bootstrap -->
-        <link rel="stylesheet" href="libs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/libs/css/bootstrap.min.css">
         
         <!-- font awesome -->
-        <link rel="stylesheet" href="libs/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/libs/css/font-awesome.min.css">
         
         <!-- The actual "app" css -->
-        <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
     </head>
     <body>
+        <?php
+            $loaded_link = null;
+            if (isset($_GET["shortsave"])) {
+                $loaded_link = get_full_link($_GET["shortsave"]);
+            } elseif (isset($_GET["save"])) {
+                $loaded_link = get_full_link($_GET["save"]);
+            }
+        ?>
+        <input id="loaded_link" type="text" value="<?php echo $loaded_link != null ? $loaded_link : ''; ?>" readonly>
         <div id="main-container" class="container">
             <div id="navigation-bar" class="row">
                 <div class="col-xs-12">
@@ -478,26 +494,26 @@
 
         <!-- Include the required libraries -->
         <!-- jquery -->
-        <script src="libs/js/jquery.min.js"></script>
+        <script src="/libs/js/jquery.min.js"></script>
 
         <!-- bootstrap -->
-        <script src="libs/js/tether.min.js"></script>
-        <script src="libs/js/bootstrap.min.js"></script>
+        <script src="/libs/js/tether.min.js"></script>
+        <script src="/libs/js/bootstrap.min.js"></script>
 
         <!-- slider -->
-        <script src="libs/js/bootstrap-slider.min.js"></script>
+        <script src="/libs/js/bootstrap-slider.min.js"></script>
 
         <!-- clipboard -->
-        <script src="libs/js/clipboard.min.js"></script>
+        <script src="/libs/js/clipboard.min.js"></script>
         
         <!-- JS Cookig -->
-        <script src="libs/js/js.cookie.min.js"></script>
+        <script src="/libs/js/js.cookie.min.js"></script>
 
         <!-- The actual "app" js -->
-        <script type="text/javascript" src="assets/js/bdo_database.js"></script>
-        <script type="text/javascript" src="assets/js/bdo_calculator.js"></script>
-        <script type="text/javascript" src="assets/js/calc_config.js"></script>
-        <script type="text/javascript" src="assets/js/app.js"></script>
+        <script type="text/javascript" src="/assets/js/bdo_database.js"></script>
+        <script type="text/javascript" src="/assets/js/bdo_calculator.js"></script>
+        <script type="text/javascript" src="/assets/js/calc_config.js"></script>
+        <script type="text/javascript" src="/assets/js/app.js"></script>
         
         <!-- Google Analytics -->
         <script>

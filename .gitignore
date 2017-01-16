@@ -50,3 +50,4 @@ config.codekit
 dev files/
 php/libs/
 php/secure/
+php/cron/

@@ -25945,7 +25945,6 @@ var BDOdatabase =
             {
                 "10603":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -26065,7 +26064,6 @@ var BDOdatabase =
                 },
                 "10605":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "uncommon",
@@ -26183,7 +26181,6 @@ var BDOdatabase =
                 },
                 "10607":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -26300,7 +26297,6 @@ var BDOdatabase =
                 },
                 "10609":
                 {
-                    "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "rare",
@@ -26417,7 +26413,6 @@ var BDOdatabase =
                 },
                 "10610":
                 {
-                    "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "epic",
@@ -26534,7 +26529,6 @@ var BDOdatabase =
                 },
                 "10612":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "uncommon",
@@ -26648,7 +26642,6 @@ var BDOdatabase =
                 },
                 "10613":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "uncommon",
@@ -26765,7 +26758,6 @@ var BDOdatabase =
                 },
                 "10614":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "uncommon",
@@ -26882,7 +26874,6 @@ var BDOdatabase =
                 },
                 "10620":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -27001,7 +26992,6 @@ var BDOdatabase =
                 },
                 "10621":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -27120,7 +27110,6 @@ var BDOdatabase =
                 },
                 "10622":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -27240,7 +27229,6 @@ var BDOdatabase =
                 },
                 "10623":
                 {
-                    "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
                     "rarity": "epic",
@@ -27360,7 +27348,6 @@ var BDOdatabase =
                 },
                 "10628":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -27478,7 +27465,6 @@ var BDOdatabase =
                 },
                 "10629":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -27596,7 +27582,6 @@ var BDOdatabase =
                 },
                 "10630":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -27715,7 +27700,6 @@ var BDOdatabase =
                 },
                 "10631":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -27834,7 +27818,6 @@ var BDOdatabase =
                 },
                 "10632":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -27951,7 +27934,6 @@ var BDOdatabase =
                 },
                 "10633":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -28068,7 +28050,6 @@ var BDOdatabase =
                 },
                 "10634":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -28186,7 +28167,6 @@ var BDOdatabase =
                 },
                 "10635":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
                     "rarity": "epic",
@@ -28304,7 +28284,6 @@ var BDOdatabase =
                 },
                 "10636":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -28422,7 +28401,6 @@ var BDOdatabase =
                 },
                 "10637":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -28540,7 +28518,6 @@ var BDOdatabase =
                 },
                 "10638":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -28659,7 +28636,6 @@ var BDOdatabase =
                 },
                 "10639":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
                     "rarity": "epic",
@@ -28778,7 +28754,6 @@ var BDOdatabase =
                 },
                 "10640":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -28896,7 +28871,6 @@ var BDOdatabase =
                 },
                 "10641":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -29014,7 +28988,6 @@ var BDOdatabase =
                 },
                 "10642":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -29133,7 +29106,6 @@ var BDOdatabase =
                 },
                 "10643":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "epic",
@@ -30420,7 +30392,6 @@ var BDOdatabase =
                 },
                 "10674":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -30541,7 +30512,6 @@ var BDOdatabase =
                 },
                 "10675":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -30662,7 +30632,6 @@ var BDOdatabase =
                 },
                 "10676":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -30784,7 +30753,6 @@ var BDOdatabase =
                 },
                 "10677":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -30909,7 +30877,6 @@ var BDOdatabase =
             {
                 "10203":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -31029,7 +30996,6 @@ var BDOdatabase =
                 },
                 "10205":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "uncommon",
@@ -31147,7 +31113,6 @@ var BDOdatabase =
                 },
                 "10207":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -31264,7 +31229,6 @@ var BDOdatabase =
                 },
                 "10209":
                 {
-                    "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "rare",
@@ -31381,7 +31345,6 @@ var BDOdatabase =
                 },
                 "10210":
                 {
-                    "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "epic",
@@ -31498,7 +31461,6 @@ var BDOdatabase =
                 },
                 "10212":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "uncommon",
@@ -31612,7 +31574,6 @@ var BDOdatabase =
                 },
                 "10213":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "uncommon",
@@ -31729,7 +31690,6 @@ var BDOdatabase =
                 },
                 "10214":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "uncommon",
@@ -31846,7 +31806,6 @@ var BDOdatabase =
                 },
                 "10220":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -31965,7 +31924,6 @@ var BDOdatabase =
                 },
                 "10221":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -32084,7 +32042,6 @@ var BDOdatabase =
                 },
                 "10222":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -32204,7 +32161,6 @@ var BDOdatabase =
                 },
                 "10223":
                 {
-                    "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
                     "rarity": "epic",
@@ -32324,7 +32280,6 @@ var BDOdatabase =
                 },
                 "10228":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -32442,7 +32397,6 @@ var BDOdatabase =
                 },
                 "10229":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -32560,7 +32514,6 @@ var BDOdatabase =
                 },
                 "10230":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -32679,7 +32632,6 @@ var BDOdatabase =
                 },
                 "10231":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -32798,7 +32750,6 @@ var BDOdatabase =
                 },
                 "10232":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -32915,7 +32866,6 @@ var BDOdatabase =
                 },
                 "10233":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -33032,7 +32982,6 @@ var BDOdatabase =
                 },
                 "10234":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -33150,7 +33099,6 @@ var BDOdatabase =
                 },
                 "10235":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
                     "rarity": "epic",
@@ -33268,7 +33216,6 @@ var BDOdatabase =
                 },
                 "10236":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -33386,7 +33333,6 @@ var BDOdatabase =
                 },
                 "10237":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -33504,7 +33450,6 @@ var BDOdatabase =
                 },
                 "10238":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -33623,7 +33568,6 @@ var BDOdatabase =
                 },
                 "10239":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
                     "rarity": "epic",
@@ -33742,7 +33686,6 @@ var BDOdatabase =
                 },
                 "10240":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -33860,7 +33803,6 @@ var BDOdatabase =
                 },
                 "10241":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -33978,7 +33920,6 @@ var BDOdatabase =
                 },
                 "10242":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -34097,7 +34038,6 @@ var BDOdatabase =
                 },
                 "10243":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "epic",
@@ -35384,7 +35324,6 @@ var BDOdatabase =
                 },
                 "10274":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -35505,7 +35444,6 @@ var BDOdatabase =
                 },
                 "10275":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -35626,7 +35564,6 @@ var BDOdatabase =
                 },
                 "10276":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -35748,7 +35685,6 @@ var BDOdatabase =
                 },
                 "10277":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -35873,7 +35809,6 @@ var BDOdatabase =
             {
                 "10403":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -35993,7 +35928,6 @@ var BDOdatabase =
                 },
                 "10405":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "uncommon",
@@ -36111,7 +36045,6 @@ var BDOdatabase =
                 },
                 "10407":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -36228,7 +36161,6 @@ var BDOdatabase =
                 },
                 "10409":
                 {
-                    "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "rare",
@@ -36345,7 +36277,6 @@ var BDOdatabase =
                 },
                 "10410":
                 {
-                    "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "epic",
@@ -36462,7 +36393,6 @@ var BDOdatabase =
                 },
                 "10412":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "uncommon",
@@ -36576,7 +36506,6 @@ var BDOdatabase =
                 },
                 "10413":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "uncommon",
@@ -36693,7 +36622,6 @@ var BDOdatabase =
                 },
                 "10414":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "uncommon",
@@ -36810,7 +36738,6 @@ var BDOdatabase =
                 },
                 "10420":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -36929,7 +36856,6 @@ var BDOdatabase =
                 },
                 "10421":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -37048,7 +36974,6 @@ var BDOdatabase =
                 },
                 "10422":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -37167,7 +37092,6 @@ var BDOdatabase =
                 },
                 "10423":
                 {
-                    "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
                     "rarity": "epic",
@@ -37287,7 +37211,6 @@ var BDOdatabase =
                 },
                 "10428":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -37405,7 +37328,6 @@ var BDOdatabase =
                 },
                 "10429":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -37523,7 +37445,6 @@ var BDOdatabase =
                 },
                 "10430":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -37641,7 +37562,6 @@ var BDOdatabase =
                 },
                 "10431":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -37760,7 +37680,6 @@ var BDOdatabase =
                 },
                 "10432":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -37877,7 +37796,6 @@ var BDOdatabase =
                 },
                 "10433":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -37994,7 +37912,6 @@ var BDOdatabase =
                 },
                 "10434":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -38111,7 +38028,6 @@ var BDOdatabase =
                 },
                 "10435":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
                     "rarity": "epic",
@@ -38229,7 +38145,6 @@ var BDOdatabase =
                 },
                 "10436":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -38347,7 +38262,6 @@ var BDOdatabase =
                 },
                 "10437":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -38465,7 +38379,6 @@ var BDOdatabase =
                 },
                 "10438":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -38583,7 +38496,6 @@ var BDOdatabase =
                 },
                 "10439":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
                     "rarity": "epic",
@@ -38702,7 +38614,6 @@ var BDOdatabase =
                 },
                 "10440":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -38820,7 +38731,6 @@ var BDOdatabase =
                 },
                 "10441":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -38938,7 +38848,6 @@ var BDOdatabase =
                 },
                 "10442":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -39056,7 +38965,6 @@ var BDOdatabase =
                 },
                 "10443":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "epic",
@@ -40342,7 +40250,6 @@ var BDOdatabase =
                 },
                 "10474":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -40463,7 +40370,6 @@ var BDOdatabase =
                 },
                 "10475":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -40584,7 +40490,6 @@ var BDOdatabase =
                 },
                 "10476":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -40706,7 +40611,6 @@ var BDOdatabase =
                 },
                 "10477":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -40831,7 +40735,6 @@ var BDOdatabase =
             {
                 "13203":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -40951,7 +40854,6 @@ var BDOdatabase =
                 },
                 "13205":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "uncommon",
@@ -41069,7 +40971,6 @@ var BDOdatabase =
                 },
                 "13207":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -41186,7 +41087,6 @@ var BDOdatabase =
                 },
                 "13209":
                 {
-                    "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "rare",
@@ -41303,7 +41203,6 @@ var BDOdatabase =
                 },
                 "13210":
                 {
-                    "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "epic",
@@ -41420,7 +41319,6 @@ var BDOdatabase =
                 },
                 "13212":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "uncommon",
@@ -41534,7 +41432,6 @@ var BDOdatabase =
                 },
                 "13213":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "uncommon",
@@ -41651,7 +41548,6 @@ var BDOdatabase =
                 },
                 "13214":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "uncommon",
@@ -41768,7 +41664,6 @@ var BDOdatabase =
                 },
                 "13220":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -41887,7 +41782,6 @@ var BDOdatabase =
                 },
                 "13221":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -42006,7 +41900,6 @@ var BDOdatabase =
                 },
                 "13222":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -42126,7 +42019,6 @@ var BDOdatabase =
                 },
                 "13223":
                 {
-                    "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
                     "rarity": "epic",
@@ -42246,7 +42138,6 @@ var BDOdatabase =
                 },
                 "13228":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -42364,7 +42255,6 @@ var BDOdatabase =
                 },
                 "13229":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -42482,7 +42372,6 @@ var BDOdatabase =
                 },
                 "13230":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -42601,7 +42490,6 @@ var BDOdatabase =
                 },
                 "13231":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -42720,7 +42608,6 @@ var BDOdatabase =
                 },
                 "13232":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -42837,7 +42724,6 @@ var BDOdatabase =
                 },
                 "13233":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -42954,7 +42840,6 @@ var BDOdatabase =
                 },
                 "13234":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -43072,7 +42957,6 @@ var BDOdatabase =
                 },
                 "13235":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
                     "rarity": "epic",
@@ -43190,7 +43074,6 @@ var BDOdatabase =
                 },
                 "13236":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -43308,7 +43191,6 @@ var BDOdatabase =
                 },
                 "13237":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -43426,7 +43308,6 @@ var BDOdatabase =
                 },
                 "13238":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -43545,7 +43426,6 @@ var BDOdatabase =
                 },
                 "13239":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
                     "rarity": "epic",
@@ -43664,7 +43544,6 @@ var BDOdatabase =
                 },
                 "13240":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -43782,7 +43661,6 @@ var BDOdatabase =
                 },
                 "13241":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -43900,7 +43778,6 @@ var BDOdatabase =
                 },
                 "13242":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -44019,7 +43896,6 @@ var BDOdatabase =
                 },
                 "13243":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "epic",
@@ -45306,7 +45182,6 @@ var BDOdatabase =
                 },
                 "13274":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -45427,7 +45302,6 @@ var BDOdatabase =
                 },
                 "13275":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -45548,7 +45422,6 @@ var BDOdatabase =
                 },
                 "13276":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -45670,7 +45543,6 @@ var BDOdatabase =
                 },
                 "13277":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -45795,7 +45667,6 @@ var BDOdatabase =
             {
                 "10003":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -45915,7 +45786,6 @@ var BDOdatabase =
                 },
                 "10005":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "uncommon",
@@ -46033,7 +45903,6 @@ var BDOdatabase =
                 },
                 "10007":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -46150,7 +46019,6 @@ var BDOdatabase =
                 },
                 "10009":
                 {
-                    "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "rare",
@@ -46267,7 +46135,6 @@ var BDOdatabase =
                 },
                 "10010":
                 {
-                    "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "epic",
@@ -46385,7 +46252,6 @@ var BDOdatabase =
                 },
                 "10012":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "uncommon",
@@ -46499,7 +46365,6 @@ var BDOdatabase =
                 },
                 "10013":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "uncommon",
@@ -46616,7 +46481,6 @@ var BDOdatabase =
                 },
                 "10014":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "uncommon",
@@ -46733,7 +46597,6 @@ var BDOdatabase =
                 },
                 "10020":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -46852,7 +46715,6 @@ var BDOdatabase =
                 },
                 "10021":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -46972,7 +46834,6 @@ var BDOdatabase =
                 },
                 "10022":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -47093,7 +46954,6 @@ var BDOdatabase =
                 },
                 "10023":
                 {
-                    "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
                     "rarity": "epic",
@@ -47214,7 +47074,6 @@ var BDOdatabase =
                 },
                 "10028":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -47332,7 +47191,6 @@ var BDOdatabase =
                 },
                 "10029":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -47451,7 +47309,6 @@ var BDOdatabase =
                 },
                 "10030":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -47571,7 +47428,6 @@ var BDOdatabase =
                 },
                 "10031":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -47691,7 +47547,6 @@ var BDOdatabase =
                 },
                 "10032":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -47808,7 +47663,6 @@ var BDOdatabase =
                 },
                 "10033":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -47926,7 +47780,6 @@ var BDOdatabase =
                 },
                 "10034":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -48045,7 +47898,6 @@ var BDOdatabase =
                 },
                 "10035":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
                     "rarity": "epic",
@@ -48164,7 +48016,6 @@ var BDOdatabase =
                 },
                 "10036":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -48282,7 +48133,6 @@ var BDOdatabase =
                 },
                 "10037":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -48401,7 +48251,6 @@ var BDOdatabase =
                 },
                 "10038":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -48521,7 +48370,6 @@ var BDOdatabase =
                 },
                 "10039":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
                     "rarity": "epic",
@@ -48641,7 +48489,6 @@ var BDOdatabase =
                 },
                 "10040":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -48759,7 +48606,6 @@ var BDOdatabase =
                 },
                 "10041":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -48878,7 +48724,6 @@ var BDOdatabase =
                 },
                 "10042":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -48998,7 +48843,6 @@ var BDOdatabase =
                 },
                 "10043":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "epic",
@@ -50292,7 +50136,6 @@ var BDOdatabase =
                 },
                 "10074":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -50413,7 +50256,6 @@ var BDOdatabase =
                 },
                 "10075":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -50535,7 +50377,6 @@ var BDOdatabase =
                 },
                 "10076":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -50658,7 +50499,6 @@ var BDOdatabase =
                 },
                 "10077":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -50784,7 +50624,6 @@ var BDOdatabase =
             {
                 "14403":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -50904,7 +50743,6 @@ var BDOdatabase =
                 },
                 "14405":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "uncommon",
@@ -51022,7 +50860,6 @@ var BDOdatabase =
                 },
                 "14407":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -51139,7 +50976,6 @@ var BDOdatabase =
                 },
                 "14409":
                 {
-                    "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "rare",
@@ -51256,7 +51092,6 @@ var BDOdatabase =
                 },
                 "14410":
                 {
-                    "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "epic",
@@ -51373,7 +51208,6 @@ var BDOdatabase =
                 },
                 "14412":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "uncommon",
@@ -51487,7 +51321,6 @@ var BDOdatabase =
                 },
                 "14413":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "uncommon",
@@ -51604,7 +51437,6 @@ var BDOdatabase =
                 },
                 "14414":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "uncommon",
@@ -51721,7 +51553,6 @@ var BDOdatabase =
                 },
                 "14420":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -51840,7 +51671,6 @@ var BDOdatabase =
                 },
                 "14421":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -51959,7 +51789,6 @@ var BDOdatabase =
                 },
                 "14422":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -52078,7 +51907,6 @@ var BDOdatabase =
                 },
                 "14423":
                 {
-                    "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
                     "rarity": "epic",
@@ -52198,7 +52026,6 @@ var BDOdatabase =
                 },
                 "14428":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -52316,7 +52143,6 @@ var BDOdatabase =
                 },
                 "14429":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -52434,7 +52260,6 @@ var BDOdatabase =
                 },
                 "14430":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -52552,7 +52377,6 @@ var BDOdatabase =
                 },
                 "14431":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -52671,7 +52495,6 @@ var BDOdatabase =
                 },
                 "14432":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -52788,7 +52611,6 @@ var BDOdatabase =
                 },
                 "14433":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -52905,7 +52727,6 @@ var BDOdatabase =
                 },
                 "14434":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -53022,7 +52843,6 @@ var BDOdatabase =
                 },
                 "14435":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
                     "rarity": "epic",
@@ -53140,7 +52960,6 @@ var BDOdatabase =
                 },
                 "14436":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -53258,7 +53077,6 @@ var BDOdatabase =
                 },
                 "14437":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -53376,7 +53194,6 @@ var BDOdatabase =
                 },
                 "14438":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -53494,7 +53311,6 @@ var BDOdatabase =
                 },
                 "14439":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
                     "rarity": "epic",
@@ -53613,7 +53429,6 @@ var BDOdatabase =
                 },
                 "14440":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -53731,7 +53546,6 @@ var BDOdatabase =
                 },
                 "14441":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -53849,7 +53663,6 @@ var BDOdatabase =
                 },
                 "14442":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -53968,7 +53781,6 @@ var BDOdatabase =
                 },
                 "14443":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "epic",
@@ -55253,7 +55065,6 @@ var BDOdatabase =
                 },
                 "14474":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -55374,7 +55185,6 @@ var BDOdatabase =
                 },
                 "14475":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -55495,7 +55305,6 @@ var BDOdatabase =
                 },
                 "14476":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -55617,7 +55426,6 @@ var BDOdatabase =
                 },
                 "14477":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -55742,7 +55550,6 @@ var BDOdatabase =
             {
                 "13303":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -55862,7 +55669,6 @@ var BDOdatabase =
                 },
                 "13305":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "uncommon",
@@ -55980,7 +55786,6 @@ var BDOdatabase =
                 },
                 "13307":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "uncommon",
@@ -56097,7 +55902,6 @@ var BDOdatabase =
                 },
                 "13309":
                 {
-                    "set": "Liverto",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "rare",
@@ -56214,7 +56018,6 @@ var BDOdatabase =
                 },
                 "13310":
                 {
-                    "set": "Kzarka",
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "epic",
@@ -56331,7 +56134,6 @@ var BDOdatabase =
                 },
                 "13312":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "uncommon",
@@ -56445,7 +56247,6 @@ var BDOdatabase =
                 },
                 "13313":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "uncommon",
@@ -56562,7 +56363,6 @@ var BDOdatabase =
                 },
                 "13314":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "uncommon",
@@ -56679,7 +56479,6 @@ var BDOdatabase =
                 },
                 "13320":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -56798,7 +56597,6 @@ var BDOdatabase =
                 },
                 "13321":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -56917,7 +56715,6 @@ var BDOdatabase =
                 },
                 "13322":
                 {
-                    "set": "Azwell",
                     "ap_min": 14,
                     "ap_max": 18,
                     "rarity": "rare",
@@ -57037,7 +56834,6 @@ var BDOdatabase =
                 },
                 "13323":
                 {
-                    "set": "Azwell",
                     "ap_min": 16,
                     "ap_max": 24,
                     "rarity": "epic",
@@ -57157,7 +56953,6 @@ var BDOdatabase =
                 },
                 "13328":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -57275,7 +57070,6 @@ var BDOdatabase =
                 },
                 "13329":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -57393,7 +57187,6 @@ var BDOdatabase =
                 },
                 "13330":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -57512,7 +57305,6 @@ var BDOdatabase =
                 },
                 "13331":
                 {
-                    "set": "Seleth",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -57631,7 +57423,6 @@ var BDOdatabase =
                 },
                 "13332":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -57748,7 +57539,6 @@ var BDOdatabase =
                 },
                 "13333":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -57865,7 +57655,6 @@ var BDOdatabase =
                 },
                 "13334":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 27,
                     "rarity": "rare",
@@ -57983,7 +57772,6 @@ var BDOdatabase =
                 },
                 "13335":
                 {
-                    "set": "Kalis",
                     "ap_min": 13,
                     "ap_max": 31,
                     "rarity": "epic",
@@ -58101,7 +57889,6 @@ var BDOdatabase =
                 },
                 "13336":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -58219,7 +58006,6 @@ var BDOdatabase =
                 },
                 "13337":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -58337,7 +58123,6 @@ var BDOdatabase =
                 },
                 "13338":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 15,
                     "rarity": "rare",
@@ -58456,7 +58241,6 @@ var BDOdatabase =
                 },
                 "13339":
                 {
-                    "set": "Bares",
                     "ap_min": 11,
                     "ap_max": 19,
                     "rarity": "epic",
@@ -58575,7 +58359,6 @@ var BDOdatabase =
                 },
                 "13340":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -58693,7 +58476,6 @@ var BDOdatabase =
                 },
                 "13341":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -58811,7 +58593,6 @@ var BDOdatabase =
                 },
                 "13342":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 21,
                     "rarity": "rare",
@@ -58930,7 +58711,6 @@ var BDOdatabase =
                 },
                 "13343":
                 {
-                    "set": "Yuria",
                     "ap_min": 16,
                     "ap_max": 25,
                     "rarity": "epic",
@@ -60217,7 +59997,6 @@ var BDOdatabase =
                 },
                 "13374":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -60338,7 +60117,6 @@ var BDOdatabase =
                 },
                 "13375":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -60459,7 +60237,6 @@ var BDOdatabase =
                 },
                 "13376":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 14,
                     "rarity": "rare",
@@ -60581,7 +60358,6 @@ var BDOdatabase =
                 },
                 "13377":
                 {
-                    "set": "Elsh",
                     "ap_min": 10,
                     "ap_max": 18,
                     "rarity": "epic",
@@ -60828,7 +60604,6 @@ var BDOdatabase =
             {
                 "10703":
                 {
-                    "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -60938,7 +60713,6 @@ var BDOdatabase =
                 },
                 "10704":
                 {
-                    "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -61057,7 +60831,6 @@ var BDOdatabase =
                 },
                 "10705":
                 {
-                    "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 7,
@@ -61167,7 +60940,6 @@ var BDOdatabase =
                 },
                 "10706":
                 {
-                    "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -61294,7 +61066,6 @@ var BDOdatabase =
                 },
                 "10707":
                 {
-                    "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -61421,7 +61192,6 @@ var BDOdatabase =
                 },
                 "10708":
                 {
-                    "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -61548,7 +61318,6 @@ var BDOdatabase =
                 },
                 "10709":
                 {
-                    "set": "Saiyer",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -61675,7 +61444,6 @@ var BDOdatabase =
                 },
                 "10710":
                 {
-                    "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 5,
@@ -61795,7 +61563,6 @@ var BDOdatabase =
                 },
                 "10711":
                 {
-                    "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 5,
@@ -61915,7 +61682,6 @@ var BDOdatabase =
                 },
                 "10712":
                 {
-                    "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 5,
@@ -62035,7 +61801,6 @@ var BDOdatabase =
                 },
                 "10713":
                 {
-                    "set": "Oros",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 5,
@@ -62155,7 +61920,6 @@ var BDOdatabase =
                 },
                 "10714":
                 {
-                    "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 8,
@@ -62282,7 +62046,6 @@ var BDOdatabase =
                 },
                 "10715":
                 {
-                    "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 8,
@@ -62409,7 +62172,6 @@ var BDOdatabase =
                 },
                 "10716":
                 {
-                    "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 8,
@@ -62536,7 +62298,6 @@ var BDOdatabase =
                 },
                 "10717":
                 {
-                    "set": "Theos",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 8,
@@ -63962,7 +63723,6 @@ var BDOdatabase =
                 },
                 "10738":
                 {
-                    "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "epic",
@@ -64082,7 +63842,6 @@ var BDOdatabase =
                 },
                 "10740":
                 {
-                    "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -64217,7 +63976,6 @@ var BDOdatabase =
             {
                 "10303":
                 {
-                    "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "uncommon",
@@ -64306,7 +64064,6 @@ var BDOdatabase =
                 },
                 "10304":
                 {
-                    "set": "Steel",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "uncommon",
@@ -64420,7 +64177,6 @@ var BDOdatabase =
                 },
                 "10305":
                 {
-                    "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 3,
@@ -64559,7 +64315,6 @@ var BDOdatabase =
                 },
                 "10306":
                 {
-                    "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -64649,7 +64404,6 @@ var BDOdatabase =
                 },
                 "10307":
                 {
-                    "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -64739,7 +64493,6 @@ var BDOdatabase =
                 },
                 "10308":
                 {
-                    "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -64829,7 +64582,6 @@ var BDOdatabase =
                 },
                 "10309":
                 {
-                    "set": "Bronze",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "epic",
@@ -64919,7 +64671,6 @@ var BDOdatabase =
                 },
                 "10310":
                 {
-                    "set": "Steel",
                     "ap_min": 7,
                     "ap_max": 7,
                     "rarity": "rare",
@@ -65036,7 +64787,6 @@ var BDOdatabase =
                 },
                 "10311":
                 {
-                    "set": "Steel",
                     "ap_min": 7,
                     "ap_max": 7,
                     "rarity": "rare",
@@ -65153,7 +64903,6 @@ var BDOdatabase =
                 },
                 "10312":
                 {
-                    "set": "Steel",
                     "ap_min": 7,
                     "ap_max": 7,
                     "rarity": "rare",
@@ -65270,7 +65019,6 @@ var BDOdatabase =
                 },
                 "10313":
                 {
-                    "set": "Steel",
                     "ap_min": 7,
                     "ap_max": 7,
                     "rarity": "epic",
@@ -65387,7 +65135,6 @@ var BDOdatabase =
                 },
                 "10314":
                 {
-                    "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -65528,7 +65275,6 @@ var BDOdatabase =
                 },
                 "10315":
                 {
-                    "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -65669,7 +65415,6 @@ var BDOdatabase =
                 },
                 "10316":
                 {
-                    "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -65810,7 +65555,6 @@ var BDOdatabase =
                 },
                 "10317":
                 {
-                    "set": "Parrying",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -67153,7 +66897,6 @@ var BDOdatabase =
                 },
                 "10338":
                 {
-                    "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "epic",
@@ -67273,7 +67016,6 @@ var BDOdatabase =
                 },
                 "10340":
                 {
-                    "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -67408,7 +67150,6 @@ var BDOdatabase =
             {
                 "10503":
                 {
-                    "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "uncommon",
@@ -67497,7 +67238,6 @@ var BDOdatabase =
                 },
                 "10504":
                 {
-                    "set": "Jubre",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "uncommon",
@@ -67611,7 +67351,6 @@ var BDOdatabase =
                 },
                 "10505":
                 {
-                    "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 3,
@@ -67720,7 +67459,6 @@ var BDOdatabase =
                 },
                 "10506":
                 {
-                    "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -67815,7 +67553,6 @@ var BDOdatabase =
                 },
                 "10507":
                 {
-                    "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -67910,7 +67647,6 @@ var BDOdatabase =
                 },
                 "10508":
                 {
-                    "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -68005,7 +67741,6 @@ var BDOdatabase =
                 },
                 "10509":
                 {
-                    "set": "Helrick",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 0,
@@ -68101,7 +67836,6 @@ var BDOdatabase =
                 },
                 "10510":
                 {
-                    "set": "Jubre",
                     "ap_min": 7,
                     "ap_max": 9,
                     "dp": 0,
@@ -68223,7 +67957,6 @@ var BDOdatabase =
                 },
                 "10511":
                 {
-                    "set": "Jubre",
                     "ap_min": 7,
                     "ap_max": 9,
                     "dp": 0,
@@ -68345,7 +68078,6 @@ var BDOdatabase =
                 },
                 "10512":
                 {
-                    "set": "Jubre",
                     "ap_min": 7,
                     "ap_max": 9,
                     "dp": 0,
@@ -68467,7 +68199,6 @@ var BDOdatabase =
                 },
                 "10513":
                 {
-                    "set": "Jubre",
                     "ap_min": 7,
                     "ap_max": 9,
                     "dp": 0,
@@ -68589,7 +68320,6 @@ var BDOdatabase =
                 },
                 "10514":
                 {
-                    "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 4,
@@ -68716,7 +68446,6 @@ var BDOdatabase =
                 },
                 "10515":
                 {
-                    "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 4,
@@ -68843,7 +68572,6 @@ var BDOdatabase =
                 },
                 "10516":
                 {
-                    "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 4,
@@ -68970,7 +68698,6 @@ var BDOdatabase =
                 },
                 "10517":
                 {
-                    "set": "Rhik",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 4,
@@ -70299,7 +70026,6 @@ var BDOdatabase =
                 },
                 "10538":
                 {
-                    "set": "Nouver",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "epic",
@@ -70419,7 +70145,6 @@ var BDOdatabase =
                 },
                 "10540":
                 {
-                    "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -70554,7 +70279,6 @@ var BDOdatabase =
             {
                 "13003":
                 {
-                    "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "uncommon",
@@ -70643,7 +70367,6 @@ var BDOdatabase =
                 },
                 "13004":
                 {
-                    "set": "Needle",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "uncommon",
@@ -70757,7 +70480,6 @@ var BDOdatabase =
                 },
                 "13005":
                 {
-                    "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 3,
@@ -70866,7 +70588,6 @@ var BDOdatabase =
                 },
                 "13006":
                 {
-                    "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -70961,7 +70682,6 @@ var BDOdatabase =
                 },
                 "13007":
                 {
-                    "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -71056,7 +70776,6 @@ var BDOdatabase =
                 },
                 "13008":
                 {
-                    "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -71151,7 +70870,6 @@ var BDOdatabase =
                 },
                 "13009":
                 {
-                    "set": "Incense",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 0,
@@ -71247,7 +70965,6 @@ var BDOdatabase =
                 },
                 "13010":
                 {
-                    "set": "Needle",
                     "ap_min": 7,
                     "ap_max": 9,
                     "rarity": "rare",
@@ -71364,7 +71081,6 @@ var BDOdatabase =
                 },
                 "13011":
                 {
-                    "set": "Needle",
                     "ap_min": 7,
                     "ap_max": 9,
                     "rarity": "rare",
@@ -71481,7 +71197,6 @@ var BDOdatabase =
                 },
                 "13012":
                 {
-                    "set": "Needle",
                     "ap_min": 7,
                     "ap_max": 9,
                     "rarity": "rare",
@@ -71598,7 +71313,6 @@ var BDOdatabase =
                 },
                 "13013":
                 {
-                    "set": "Needle",
                     "ap_min": 7,
                     "ap_max": 9,
                     "rarity": "epic",
@@ -71715,7 +71429,6 @@ var BDOdatabase =
                 },
                 "13014":
                 {
-                    "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 4,
@@ -71842,7 +71555,6 @@ var BDOdatabase =
                 },
                 "13015":
                 {
-                    "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 4,
@@ -71969,7 +71681,6 @@ var BDOdatabase =
                 },
                 "13016":
                 {
-                    "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 4,
@@ -72096,7 +71807,6 @@ var BDOdatabase =
                 },
                 "13017":
                 {
-                    "set": "Blade",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 4,
@@ -73441,7 +73151,6 @@ var BDOdatabase =
                 },
                 "13038":
                 {
-                    "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "epic",
@@ -73561,7 +73270,6 @@ var BDOdatabase =
                 },
                 "13040":
                 {
-                    "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -73696,7 +73404,6 @@ var BDOdatabase =
             {
                 "10102":
                 {
-                    "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -73822,7 +73529,6 @@ var BDOdatabase =
                 },
                 "10103":
                 {
-                    "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -73941,7 +73647,6 @@ var BDOdatabase =
                 },
                 "10105":
                 {
-                    "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 7,
@@ -74051,7 +73756,6 @@ var BDOdatabase =
                 },
                 "10106":
                 {
-                    "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -74178,7 +73882,6 @@ var BDOdatabase =
                 },
                 "10107":
                 {
-                    "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -74305,7 +74008,6 @@ var BDOdatabase =
                 },
                 "10108":
                 {
-                    "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -74432,7 +74134,6 @@ var BDOdatabase =
                 },
                 "10109":
                 {
-                    "set": "Vangertz",
                     "ap_min": 1,
                     "ap_max": 3,
                     "dp": 4,
@@ -74559,7 +74260,6 @@ var BDOdatabase =
                 },
                 "10110":
                 {
-                    "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 5,
@@ -74679,7 +74379,6 @@ var BDOdatabase =
                 },
                 "10111":
                 {
-                    "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 5,
@@ -74799,7 +74498,6 @@ var BDOdatabase =
                 },
                 "10112":
                 {
-                    "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 5,
@@ -74919,7 +74617,6 @@ var BDOdatabase =
                 },
                 "10113":
                 {
-                    "set": "Axion",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 5,
@@ -75039,7 +74736,6 @@ var BDOdatabase =
                 },
                 "10114":
                 {
-                    "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 8,
@@ -75166,7 +74862,6 @@ var BDOdatabase =
                 },
                 "10115":
                 {
-                    "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 8,
@@ -75293,7 +74988,6 @@ var BDOdatabase =
                 },
                 "10116":
                 {
-                    "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 8,
@@ -75420,7 +75114,6 @@ var BDOdatabase =
                 },
                 "10117":
                 {
-                    "set": "Kite",
                     "ap_min": 0,
                     "ap_max": 0,
                     "dp": 8,
@@ -76765,7 +76458,6 @@ var BDOdatabase =
                 },
                 "10138":
                 {
-                    "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "epic",
@@ -76885,7 +76577,6 @@ var BDOdatabase =
                 },
                 "10140":
                 {
-                    "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -77020,7 +76711,6 @@ var BDOdatabase =
             {
                 "13103":
                 {
-                    "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "uncommon",
@@ -77109,7 +76799,6 @@ var BDOdatabase =
                 },
                 "13104":
                 {
-                    "set": "White",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "uncommon",
@@ -77223,7 +76912,6 @@ var BDOdatabase =
                 },
                 "13105":
                 {
-                    "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 3,
@@ -77362,7 +77050,6 @@ var BDOdatabase =
                 },
                 "13106":
                 {
-                    "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -77457,7 +77144,6 @@ var BDOdatabase =
                 },
                 "13107":
                 {
-                    "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -77552,7 +77238,6 @@ var BDOdatabase =
                 },
                 "13108":
                 {
-                    "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -77647,7 +77332,6 @@ var BDOdatabase =
                 },
                 "13109":
                 {
-                    "set": "Black Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 0,
@@ -77743,7 +77427,6 @@ var BDOdatabase =
                 },
                 "13110":
                 {
-                    "set": "White",
                     "ap_min": 7,
                     "ap_max": 7,
                     "rarity": "rare",
@@ -77860,7 +77543,6 @@ var BDOdatabase =
                 },
                 "13111":
                 {
-                    "set": "White",
                     "ap_min": 7,
                     "ap_max": 7,
                     "rarity": "rare",
@@ -77977,7 +77659,6 @@ var BDOdatabase =
                 },
                 "13112":
                 {
-                    "set": "White",
                     "ap_min": 7,
                     "ap_max": 7,
                     "rarity": "rare",
@@ -78094,7 +77775,6 @@ var BDOdatabase =
                 },
                 "13113":
                 {
-                    "set": "White",
                     "ap_min": 7,
                     "ap_max": 7,
                     "rarity": "epic",
@@ -78211,7 +77891,6 @@ var BDOdatabase =
                 },
                 "13114":
                 {
-                    "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -78351,7 +78030,6 @@ var BDOdatabase =
                 },
                 "13115":
                 {
-                    "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -78491,7 +78169,6 @@ var BDOdatabase =
                 },
                 "13116":
                 {
-                    "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -78631,7 +78308,6 @@ var BDOdatabase =
                 },
                 "13117":
                 {
-                    "set": "White Warrior",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -79989,7 +79665,6 @@ var BDOdatabase =
                 },
                 "13138":
                 {
-                    "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "epic",
@@ -80109,7 +79784,6 @@ var BDOdatabase =
                 },
                 "13140":
                 {
-                    "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -80244,7 +79918,6 @@ var BDOdatabase =
             {
                 "14603":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "uncommon",
@@ -80333,7 +80006,6 @@ var BDOdatabase =
                 },
                 "14604":
                 {
-                    "set": "Estique",
                     "ap_min": 5,
                     "ap_max": 5,
                     "rarity": "uncommon",
@@ -80447,7 +80119,6 @@ var BDOdatabase =
                 },
                 "14605":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 3,
@@ -80586,7 +80257,6 @@ var BDOdatabase =
                 },
                 "14606":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -80681,7 +80351,6 @@ var BDOdatabase =
                 },
                 "14607":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -80776,7 +80445,6 @@ var BDOdatabase =
                 },
                 "14608":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -80871,7 +80539,6 @@ var BDOdatabase =
                 },
                 "14609":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 0,
@@ -80967,7 +80634,6 @@ var BDOdatabase =
                 },
                 "14610":
                 {
-                    "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "rare",
@@ -81084,7 +80750,6 @@ var BDOdatabase =
                 },
                 "14611":
                 {
-                    "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "rare",
@@ -81201,7 +80866,6 @@ var BDOdatabase =
                 },
                 "14612":
                 {
-                    "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "rare",
@@ -81318,7 +80982,6 @@ var BDOdatabase =
                 },
                 "14613":
                 {
-                    "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "epic",
@@ -81435,7 +81098,6 @@ var BDOdatabase =
                 },
                 "14614":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -81576,7 +81238,6 @@ var BDOdatabase =
                 },
                 "14615":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -81717,7 +81378,6 @@ var BDOdatabase =
                 },
                 "14616":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -81858,7 +81518,6 @@ var BDOdatabase =
                 },
                 "14617":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -83217,7 +82876,6 @@ var BDOdatabase =
                 },
                 "14638":
                 {
-                    "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "epic",
@@ -83337,7 +82995,6 @@ var BDOdatabase =
                 },
                 "14640":
                 {
-                    "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,
@@ -83472,7 +83129,6 @@ var BDOdatabase =
             {
                 "14503":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "uncommon",
@@ -83561,7 +83217,6 @@ var BDOdatabase =
                 },
                 "14504":
                 {
-                    "set": "Estique",
                     "ap_min": 5,
                     "ap_max": 5,
                     "rarity": "uncommon",
@@ -83675,7 +83330,6 @@ var BDOdatabase =
                 },
                 "14505":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 3,
@@ -83814,7 +83468,6 @@ var BDOdatabase =
                 },
                 "14506":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -83909,7 +83562,6 @@ var BDOdatabase =
                 },
                 "14507":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -84004,7 +83656,6 @@ var BDOdatabase =
                 },
                 "14508":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "rarity": "rare",
@@ -84099,7 +83750,6 @@ var BDOdatabase =
                 },
                 "14509":
                 {
-                    "set": "Quitar",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 0,
@@ -84195,7 +83845,6 @@ var BDOdatabase =
                 },
                 "14510":
                 {
-                    "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "rare",
@@ -84312,7 +83961,6 @@ var BDOdatabase =
                 },
                 "14511":
                 {
-                    "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "rare",
@@ -84429,7 +84077,6 @@ var BDOdatabase =
                 },
                 "14512":
                 {
-                    "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "rare",
@@ -84546,7 +84193,6 @@ var BDOdatabase =
                 },
                 "14513":
                 {
-                    "set": "Estique",
                     "ap_min": 6,
                     "ap_max": 6,
                     "rarity": "epic",
@@ -84663,7 +84309,6 @@ var BDOdatabase =
                 },
                 "14514":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -84804,7 +84449,6 @@ var BDOdatabase =
                 },
                 "14515":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -84945,7 +84589,6 @@ var BDOdatabase =
                 },
                 "14516":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -85086,7 +84729,6 @@ var BDOdatabase =
                 },
                 "14517":
                 {
-                    "set": "Tadd",
                     "ap_min": 3,
                     "ap_max": 3,
                     "dp": 4,
@@ -86445,7 +86087,6 @@ var BDOdatabase =
                 },
                 "14538":
                 {
-                    "set": "Nouver",
                     "ap_min": 6,
                     "ap_max": 8,
                     "rarity": "epic",
@@ -86565,7 +86206,6 @@ var BDOdatabase =
                 },
                 "14540":
                 {
-                    "set": "Kutum",
                     "ap_min": 4,
                     "ap_max": 6,
                     "dp": 4,

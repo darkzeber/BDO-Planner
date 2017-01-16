@@ -296,14 +296,6 @@ var BDOdatabase =
             "symbol": "%",
             "target": ".resist-stats"
         },
-        "ar":
-        {
-            "title": "All Resistances",
-            "desc": "",
-            "total": 0,
-            "symbol": "%",
-            "target": ".resist-stats"
-        },
         "rta":
         {
             "title": "Resistance to All Status Abnormalities",
@@ -866,8 +858,8 @@ var BDOdatabase =
         "witch":
         {
             "kb": 20,
-            "kd": 30,
-            "ssfr": 20,
+            "kd": 20,
+            "ssfr": 30,
             "gr": 20
         },
         "wizard":
@@ -2049,6 +2041,19 @@ var BDOdatabase =
                     "dmgth": 2
                 },
                 "name": "Red Battlefield Crystal: Comeliness"
+            },
+            "15852":
+            {
+                "rarity": "legendary",
+                "shatter_chance": "high",
+                "incompatible": [],
+                "item_effects":
+                {
+                    "hp": 100,
+                    "dr": 2,
+                    "ssfr": 10
+                },
+                "name": "Kaidict's Crystal - Titan"
             }
         },
         "helmet":
@@ -2271,7 +2276,7 @@ var BDOdatabase =
                     "hprc": 5,
                     "cbexp": 10
                 },
-                "name": "Caphras's Crystal - Adventure"
+                "name": "Kaidict's Crystal - Adventure"
             }
         },
         "secondary-weapon":
@@ -63964,7 +63969,10 @@ var BDOdatabase =
                     "gems": 2,
                     "item_effects":
                     {
-                        "ar": 10
+                        "kb": 10,
+                        "kd": 10,
+                        "ssfr": 10,
+                        "gr": 10
                     },
                     "enhancement_text": "",
                     "enhancement":
@@ -67152,7 +67160,10 @@ var BDOdatabase =
                     "gems": 2,
                     "item_effects":
                     {
-                        "ar": 10
+                        "kb": 10,
+                        "kd": 10,
+                        "ssfr": 10,
+                        "gr": 10
                     },
                     "enhancement_text": "",
                     "enhancement":
@@ -70295,7 +70306,10 @@ var BDOdatabase =
                     "gems": 2,
                     "item_effects":
                     {
-                        "ar": 10
+                        "kb": 10,
+                        "kd": 10,
+                        "ssfr": 10,
+                        "gr": 10
                     },
                     "enhancement_text": "",
                     "enhancement":
@@ -73434,7 +73448,10 @@ var BDOdatabase =
                     "gems": 2,
                     "item_effects":
                     {
-                        "ar": 10
+                        "kb": 10,
+                        "kd": 10,
+                        "ssfr": 10,
+                        "gr": 10
                     },
                     "enhancement_text": "",
                     "enhancement":
@@ -76755,7 +76772,10 @@ var BDOdatabase =
                     "gems": 2,
                     "item_effects":
                     {
-                        "ar": 10
+                        "kb": 10,
+                        "kd": 10,
+                        "ssfr": 10,
+                        "gr": 10
                     },
                     "enhancement_text": "",
                     "enhancement":
@@ -79976,7 +79996,10 @@ var BDOdatabase =
                     "gems": 2,
                     "item_effects":
                     {
-                        "ar": 10
+                        "kb": 10,
+                        "kd": 10,
+                        "ssfr": 10,
+                        "gr": 10
                     },
                     "enhancement_text": "",
                     "enhancement":
@@ -83201,7 +83224,10 @@ var BDOdatabase =
                     "gems": 2,
                     "item_effects":
                     {
-                        "ar": 10
+                        "kb": 10,
+                        "kd": 10,
+                        "ssfr": 10,
+                        "gr": 10
                     },
                     "enhancement_text": "",
                     "enhancement":
@@ -86426,7 +86452,10 @@ var BDOdatabase =
                     "gems": 2,
                     "item_effects":
                     {
-                        "ar": 10
+                        "kb": 10,
+                        "kd": 10,
+                        "ssfr": 10,
+                        "gr": 10
                     },
                     "enhancement_text": "",
                     "enhancement":
@@ -92729,7 +92758,10 @@ var BDOdatabase =
                     "dr": 2,
                     "ev": 1,
                     "hp": 50,
-                    "ar": 1
+                    "kb": 1,
+                    "kd": 1,
+                    "ssfr": 1,
+                    "gr": 1
                 },
                 "enhancement_text": "",
                 "enhancement": {},
@@ -92783,7 +92815,10 @@ var BDOdatabase =
                     "dr": 3,
                     "ev": 2,
                     "hp": 70,
-                    "ar": 2
+                    "kb": 2,
+                    "kd": 2,
+                    "ssfr": 2,
+                    "gr": 2
                 },
                 "enhancement_text": "",
                 "enhancement": {},
@@ -92837,7 +92872,10 @@ var BDOdatabase =
                     "dr": 4,
                     "ev": 3,
                     "hp": 90,
-                    "ar": 3
+                    "kb": 3,
+                    "kd": 3,
+                    "ssfr": 3,
+                    "gr": 3
                 },
                 "enhancement_text": "",
                 "enhancement": {},
@@ -92891,7 +92929,10 @@ var BDOdatabase =
                     "dr": 6,
                     "ev": 4,
                     "hp": 110,
-                    "ar": 4
+                    "kb": 4,
+                    "kd": 4,
+                    "ssfr": 4,
+                    "gr": 4
                 },
                 "enhancement_text": "",
                 "enhancement": {},
@@ -92945,7 +92986,10 @@ var BDOdatabase =
                     "dr": 8,
                     "ev": 6,
                     "hp": 140,
-                    "ar": 5
+                    "kb": 5,
+                    "kd": 5,
+                    "ssfr": 5,
+                    "gr": 5
                 },
                 "enhancement_text": "",
                 "enhancement": {},
@@ -92999,7 +93043,10 @@ var BDOdatabase =
                     "dr": 10,
                     "ev": 8,
                     "hp": 170,
-                    "ar": 6
+                    "kb": 6,
+                    "kd": 6,
+                    "ssfr": 6,
+                    "gr": 6
                 },
                 "enhancement_text": "",
                 "enhancement": {},
@@ -93053,7 +93100,10 @@ var BDOdatabase =
                     "dr": 13,
                     "ev": 11,
                     "hp": 210,
-                    "ar": 7
+                    "kb": 7,
+                    "kd": 7,
+                    "ssfr": 7,
+                    "gr": 7
                 },
                 "enhancement_text": "",
                 "enhancement": {},
@@ -93107,7 +93157,10 @@ var BDOdatabase =
                     "dr": 16,
                     "ev": 14,
                     "hp": 250,
-                    "ar": 8
+                    "kb": 8,
+                    "kd": 8,
+                    "ssfr": 8,
+                    "gr": 8
                 },
                 "enhancement_text": "",
                 "enhancement": {},

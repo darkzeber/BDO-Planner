@@ -91920,7 +91920,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Destruction (W)"
+                "name": "Imperfect Alchemy Stone of Destruction"
             },
             "45202":
             {
@@ -91933,7 +91933,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Destruction (G)"
+                "name": "Imperfect Alchemy Stone of Destruction"
             },
             "45203":
             {
@@ -91947,7 +91947,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Destruction (B)"
+                "name": "Imperfect Alchemy Stone of Destruction"
             },
             "45204":
             {
@@ -91963,7 +91963,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Destruction (Y)"
+                "name": "Imperfect Alchemy Stone of Destruction"
             },
             "45205":
             {
@@ -91975,7 +91975,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Destruction (W)"
+                "name": "Rough Alchemy Stone of Destruction"
             },
             "45206":
             {
@@ -91988,7 +91988,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Destruction (G)"
+                "name": "Rough Alchemy Stone of Destruction"
             },
             "45207":
             {
@@ -92002,7 +92002,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Destruction (B)"
+                "name": "Rough Alchemy Stone of Destruction"
             },
             "45208":
             {
@@ -92018,7 +92018,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Destruction (Y)"
+                "name": "Rough Alchemy Stone of Destruction"
             },
             "45209":
             {
@@ -92030,7 +92030,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Destruction (W)"
+                "name": "Polished Alchemy Stone of Destruction"
             },
             "45210":
             {
@@ -92043,7 +92043,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Destruction (G)"
+                "name": "Polished Alchemy Stone of Destruction"
             },
             "45211":
             {
@@ -92057,7 +92057,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Destruction (B)"
+                "name": "Polished Alchemy Stone of Destruction"
             },
             "45212":
             {
@@ -92073,7 +92073,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Destruction (Y)"
+                "name": "Polished Alchemy Stone of Destruction"
             },
             "45213":
             {
@@ -92085,7 +92085,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Destruction (W)"
+                "name": "Sturdy Alchemy Stone of Destruction"
             },
             "45214":
             {
@@ -92098,7 +92098,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Destruction (G)"
+                "name": "Sturdy Alchemy Stone of Destruction"
             },
             "45215":
             {
@@ -92112,7 +92112,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Destruction (B)"
+                "name": "Sturdy Alchemy Stone of Destruction"
             },
             "45216":
             {
@@ -92128,7 +92128,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Destruction (Y)"
+                "name": "Sturdy Alchemy Stone of Destruction"
             },
             "45217":
             {
@@ -92140,7 +92140,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Destruction (W)"
+                "name": "Sharp Alchemy Stone of Destruction"
             },
             "45218":
             {
@@ -92153,7 +92153,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Destruction (G)"
+                "name": "Sharp Alchemy Stone of Destruction"
             },
             "45219":
             {
@@ -92167,7 +92167,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Destruction (B)"
+                "name": "Sharp Alchemy Stone of Destruction"
             },
             "45220":
             {
@@ -92183,7 +92183,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Destruction (Y)"
+                "name": "Sharp Alchemy Stone of Destruction"
             },
             "45221":
             {
@@ -92195,7 +92195,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Destruction (W)"
+                "name": "Resplendent Alchemy Stone of Destruction"
             },
             "45222":
             {
@@ -92208,7 +92208,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Destruction (G)"
+                "name": "Resplendent Alchemy Stone of Destruction"
             },
             "45223":
             {
@@ -92222,7 +92222,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Destruction (B)"
+                "name": "Resplendent Alchemy Stone of Destruction"
             },
             "45224":
             {
@@ -92238,7 +92238,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Destruction (Y)"
+                "name": "Resplendent Alchemy Stone of Destruction"
             },
             "45225":
             {
@@ -92250,7 +92250,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Destruction (W)"
+                "name": "Splendid Alchemy Stone of Destruction"
             },
             "45226":
             {
@@ -92263,7 +92263,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Destruction (G)"
+                "name": "Splendid Alchemy Stone of Destruction"
             },
             "45227":
             {
@@ -92277,7 +92277,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Destruction (B)"
+                "name": "Splendid Alchemy Stone of Destruction"
             },
             "45228":
             {
@@ -92293,7 +92293,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Destruction (Y)"
+                "name": "Splendid Alchemy Stone of Destruction"
             },
             "45229":
             {
@@ -92305,7 +92305,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Destruction (W)"
+                "name": "Shining Alchemy Stone of Destruction"
             },
             "45230":
             {
@@ -92318,7 +92318,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Destruction (G)"
+                "name": "Shining Alchemy Stone of Destruction"
             },
             "45231":
             {
@@ -92332,7 +92332,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Destruction (B)"
+                "name": "Shining Alchemy Stone of Destruction"
             },
             "45232":
             {
@@ -92348,7 +92348,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Destruction (Y)"
+                "name": "Shining Alchemy Stone of Destruction"
             },
             "45233":
             {
@@ -92360,7 +92360,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Protection (W)"
+                "name": "Imperfect Alchemy Stone of Protection"
             },
             "45234":
             {
@@ -92373,7 +92373,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Protection (G)"
+                "name": "Imperfect Alchemy Stone of Protection"
             },
             "45235":
             {
@@ -92387,7 +92387,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Protection (B)"
+                "name": "Imperfect Alchemy Stone of Protection"
             },
             "45236":
             {
@@ -92405,7 +92405,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Protection (Y)"
+                "name": "Imperfect Alchemy Stone of Protection"
             },
             "45237":
             {
@@ -92417,7 +92417,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Protection (W)"
+                "name": "Rough Alchemy Stone of Protection"
             },
             "45238":
             {
@@ -92430,7 +92430,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Protection (G)"
+                "name": "Rough Alchemy Stone of Protection"
             },
             "45239":
             {
@@ -92444,7 +92444,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Protection (B)"
+                "name": "Rough Alchemy Stone of Protection"
             },
             "45240":
             {
@@ -92462,7 +92462,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Protection (Y)"
+                "name": "Rough Alchemy Stone of Protection"
             },
             "45241":
             {
@@ -92474,7 +92474,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Protection (W)"
+                "name": "Polished Alchemy Stone of Protection"
             },
             "45242":
             {
@@ -92487,7 +92487,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Protection (G)"
+                "name": "Polished Alchemy Stone of Protection"
             },
             "45243":
             {
@@ -92501,7 +92501,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Protection (B)"
+                "name": "Polished Alchemy Stone of Protection"
             },
             "45244":
             {
@@ -92519,7 +92519,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Protection (Y)"
+                "name": "Polished Alchemy Stone of Protection"
             },
             "45245":
             {
@@ -92531,7 +92531,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Protection (W)"
+                "name": "Sturdy Alchemy Stone of Protection"
             },
             "45246":
             {
@@ -92544,7 +92544,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Protection (G)"
+                "name": "Sturdy Alchemy Stone of Protection"
             },
             "45247":
             {
@@ -92558,7 +92558,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Protection (B)"
+                "name": "Sturdy Alchemy Stone of Protection"
             },
             "45248":
             {
@@ -92576,7 +92576,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Protection (Y)"
+                "name": "Sturdy Alchemy Stone of Protection"
             },
             "45249":
             {
@@ -92588,7 +92588,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Protection (W)"
+                "name": "Sharp Alchemy Stone of Protection"
             },
             "45250":
             {
@@ -92601,7 +92601,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Protection (G)"
+                "name": "Sharp Alchemy Stone of Protection"
             },
             "45251":
             {
@@ -92615,7 +92615,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Protection (B)"
+                "name": "Sharp Alchemy Stone of Protection"
             },
             "45252":
             {
@@ -92633,7 +92633,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Protection (Y)"
+                "name": "Sharp Alchemy Stone of Protection"
             },
             "45253":
             {
@@ -92645,7 +92645,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Protection (W)"
+                "name": "Resplendent Alchemy Stone of Protection"
             },
             "45254":
             {
@@ -92658,7 +92658,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Protection (G)"
+                "name": "Resplendent Alchemy Stone of Protection"
             },
             "45255":
             {
@@ -92672,7 +92672,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Protection (B)"
+                "name": "Resplendent Alchemy Stone of Protection"
             },
             "45256":
             {
@@ -92690,7 +92690,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Protection (Y)"
+                "name": "Resplendent Alchemy Stone of Protection"
             },
             "45257":
             {
@@ -92702,7 +92702,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Protection (W)"
+                "name": "Splendid Alchemy Stone of Protection"
             },
             "45258":
             {
@@ -92715,7 +92715,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Protection (G)"
+                "name": "Splendid Alchemy Stone of Protection"
             },
             "45259":
             {
@@ -92729,7 +92729,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Protection (B)"
+                "name": "Splendid Alchemy Stone of Protection"
             },
             "45260":
             {
@@ -92747,7 +92747,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Protection (Y)"
+                "name": "Splendid Alchemy Stone of Protection"
             },
             "45261":
             {
@@ -92759,7 +92759,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Protection (W)"
+                "name": "Shining Alchemy Stone of Protection"
             },
             "45262":
             {
@@ -92772,7 +92772,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Protection (G)"
+                "name": "Shining Alchemy Stone of Protection"
             },
             "45263":
             {
@@ -92786,7 +92786,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Protection (B)"
+                "name": "Shining Alchemy Stone of Protection"
             },
             "45264":
             {
@@ -92804,7 +92804,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Protection (Y)"
+                "name": "Shining Alchemy Stone of Protection"
             },
             "45265":
             {
@@ -92817,7 +92817,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Life (W)"
+                "name": "Imperfect Alchemy Stone of Life"
             },
             "45266":
             {
@@ -92831,7 +92831,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Life (G)"
+                "name": "Imperfect Alchemy Stone of Life"
             },
             "45267":
             {
@@ -92846,7 +92846,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Life (B)"
+                "name": "Imperfect Alchemy Stone of Life"
             },
             "45268":
             {
@@ -92862,7 +92862,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Imperfect Alchemy Stone of Life (Y)"
+                "name": "Imperfect Alchemy Stone of Life"
             },
             "45269":
             {
@@ -92875,7 +92875,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Life (W)"
+                "name": "Rough Alchemy Stone of Life"
             },
             "45270":
             {
@@ -92889,7 +92889,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Life (G)"
+                "name": "Rough Alchemy Stone of Life"
             },
             "45271":
             {
@@ -92904,7 +92904,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Life (B)"
+                "name": "Rough Alchemy Stone of Life"
             },
             "45272":
             {
@@ -92920,7 +92920,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Rough Alchemy Stone of Life (Y)"
+                "name": "Rough Alchemy Stone of Life"
             },
             "45273":
             {
@@ -92932,7 +92932,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Life (W)"
+                "name": "Polished Alchemy Stone of Life"
             },
             "45274":
             {
@@ -92946,7 +92946,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Life (G)"
+                "name": "Polished Alchemy Stone of Life"
             },
             "45275":
             {
@@ -92961,7 +92961,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Life (B)"
+                "name": "Polished Alchemy Stone of Life"
             },
             "45276":
             {
@@ -92977,7 +92977,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Polished Alchemy Stone of Life (Y)"
+                "name": "Polished Alchemy Stone of Life"
             },
             "45277":
             {
@@ -92990,7 +92990,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Life (W)"
+                "name": "Sturdy Alchemy Stone of Life"
             },
             "45278":
             {
@@ -93004,7 +93004,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Life (G)"
+                "name": "Sturdy Alchemy Stone of Life"
             },
             "45279":
             {
@@ -93019,7 +93019,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Life (B)"
+                "name": "Sturdy Alchemy Stone of Life"
             },
             "45280":
             {
@@ -93035,7 +93035,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sturdy Alchemy Stone of Life (Y)"
+                "name": "Sturdy Alchemy Stone of Life"
             },
             "45281":
             {
@@ -93048,7 +93048,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Life (W)"
+                "name": "Sharp Alchemy Stone of Life"
             },
             "45282":
             {
@@ -93062,7 +93062,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Life (G)"
+                "name": "Sharp Alchemy Stone of Life"
             },
             "45283":
             {
@@ -93077,7 +93077,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Life (B)"
+                "name": "Sharp Alchemy Stone of Life"
             },
             "45284":
             {
@@ -93093,7 +93093,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Sharp Alchemy Stone of Life (Y)"
+                "name": "Sharp Alchemy Stone of Life"
             },
             "45285":
             {
@@ -93106,7 +93106,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Life (W)"
+                "name": "Resplendent Alchemy Stone of Life"
             },
             "45286":
             {
@@ -93120,7 +93120,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Life (G)"
+                "name": "Resplendent Alchemy Stone of Life"
             },
             "45287":
             {
@@ -93135,7 +93135,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Life (B)"
+                "name": "Resplendent Alchemy Stone of Life"
             },
             "45288":
             {
@@ -93151,7 +93151,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Resplendent Alchemy Stone of Life (Y)"
+                "name": "Resplendent Alchemy Stone of Life"
             },
             "45289":
             {
@@ -93164,7 +93164,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Life (W)"
+                "name": "Splendid Alchemy Stone of Life"
             },
             "45290":
             {
@@ -93178,7 +93178,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Life (G)"
+                "name": "Splendid Alchemy Stone of Life"
             },
             "45291":
             {
@@ -93193,7 +93193,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Life (B)"
+                "name": "Splendid Alchemy Stone of Life"
             },
             "45292":
             {
@@ -93209,7 +93209,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Splendid Alchemy Stone of Life (Y)"
+                "name": "Splendid Alchemy Stone of Life"
             },
             "45293":
             {
@@ -93222,7 +93222,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Life (W)"
+                "name": "Shining Alchemy Stone of Life"
             },
             "45294":
             {
@@ -93236,7 +93236,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Life (G)"
+                "name": "Shining Alchemy Stone of Life"
             },
             "45295":
             {
@@ -93251,7 +93251,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Life (B)"
+                "name": "Shining Alchemy Stone of Life"
             },
             "45296":
             {
@@ -93267,7 +93267,7 @@ var BDOdatabase =
                 },
                 "enhancement_text": "",
                 "enhancement": {},
-                "name": "Shining Alchemy Stone of Life (Y)"
+                "name": "Shining Alchemy Stone of Life"
             }
         },
         "outfits":

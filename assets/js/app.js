@@ -298,12 +298,14 @@
     }
 
     function resetGearslotItem(item_type, item_no) {
-        $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']")).attr({
+        $("#equipment .gear-slot[data-type='" + item_type + "']" + (typeof item_no === 'undefined' ? '' : "[data-item='" + item_no + "']"))
+        .attr({
             'style': ''
         })
         .removeClass(rarities_string)
         .empty();
-        $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').attr({
+        $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2')
+        .attr({
             'style': ''
         })
         .removeClass(rarities_string)
@@ -852,9 +854,12 @@
         $("#player-class-section").slideUp("fast");
         $("#calculator-section").slideDown("fast");
         $(".change-class-toggle .current-class").text($(this).find(".name").text());
+        
+        $("#create-short-link").addClass("disabled");
+        $('#share-link-short').val("");
     });
     
-    $(document).on('click', '.item-choose', function() {
+    $(document).on("click", '.item-choose', function() {
         var item_type = $(this).attr('data-type'),
             item_id = $(this).attr('data-item'),
             item_itemset = $(this).attr('data-itemset'),
@@ -864,12 +869,18 @@
         $('#gearlist').modal("hide");
 
         addItem(item_id, item_type, item_itemset, item_no, level);
+        
+        $("#create-short-link").removeClass("disabled");
+        $('#share-link-short').val("");
     });
     
-    $(document).on('click', '.remove-item .btn', function() {
+    $(document).on("click", '.remove-item .btn', function() {
         $('#gearlist').modal("hide");
         
         resetSlot($(this).attr('data-type'), $(this).attr('data-itemno'), $(this).attr('data-itemset'));
+        
+        $("#create-short-link").removeClass("disabled");
+        $('#share-link-short').val("");
     });
         
     $('#gearlist').on('show.bs.modal', function() {
@@ -909,7 +920,7 @@
         filterModalItems();
     });
     
-    $("#equipment .gear-slot").click(function() {
+    $("#equipment .gear-slot").on("click", function() {
         if ($(this).hasClass("disabled")) return;
         current_item_type = $(this).attr('data-type');
         current_item_itemset = $(this).attr('data-itemset');
@@ -921,7 +932,7 @@
         $('#gearlist').modal();
     });
 
-    $("#equipment .gem-slot").click(function() {
+    $("#equipment .gem-slot").on("click", function() {
         current_item_type = $(this).attr('data-type');
         current_item_no = $(this).attr('data-item');
         current_modal = "gem";
@@ -1072,21 +1083,34 @@
     });
     
     $("#create-short-link").on("click", function () {
-        $.ajax({
-            url: "/php/post/create_short_link.php",
-            method: "POST",
-            data: {
-                data: JSON.stringify(createShareLink())
-            },
-            success: function (data) {
-                var url = window.location.origin;
+        if(!$(this).hasClass("disabled")) {
+            $(this).addClass("disabled");
+            $("#savelink .standard-icon").hide();
+            $("#savelink .loading-icon").show();
+            $.ajax({
+                url: "/php/post/create_short_link.php",
+                method: "POST",
+                data: {
+                    data: JSON.stringify(createShareLink())
+                },
+                success: function (data) {
+                    var url = window.location.origin;
 
-                $('#share-link-short').val(url + '/s/' + data.short_link);
-            }
-        });
+                    $('#share-link-short').val(url + '/s/' + data.short_link);
+                    
+                    $("#savelink .standard-icon").show();
+                    $("#savelink .loading-icon").hide();
+                }
+            });
+        }
     });
      
     $(document).ready(function() {
+        if ($("#share-link-short").val() !== "") {
+            var url = window.location.origin;
+
+            $('#share-link-short').val(url + '/s/' + $("#share-link-short").val());
+        }
         loadShareLink(function(loaded) {
             if (loaded) {
                 BDOcalculator.calculate();
@@ -1122,7 +1146,7 @@
         var cb = new Clipboard('#copy-button-long-link');
         // Initialize the tooltip.
         $('#copy-button-long-link').tooltip();
-        $('#copy-button-long-link').bind('click', function() {
+        $('#copy-button-long-link').bind("click", function() {
             $('#copy-button-long-link').trigger('copied', ['Copied!']);
         });
         // Handler for updating the tooltip message.
@@ -1136,7 +1160,7 @@
         var cb = new Clipboard('#copy-button-short-link');
         // Initialize the tooltip.
         $('#copy-button-short-link').tooltip();
-        $('#copy-button-short-link').bind('click', function() {
+        $('#copy-button-short-link').bind("click", function() {
             $('#copy-button-short-link').trigger('copied', ['Copied!']);
         });
         // Handler for updating the tooltip message.

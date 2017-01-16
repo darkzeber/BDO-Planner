@@ -43,24 +43,33 @@ legend {
             font-weight: 400;
             font-size: 10px;
             margin: 0px 10px 0px 5px;
-            color: @section-header-color;
             text-shadow: none;
         }
         
         &.common {
-            text-shadow: 0 1px 3px spin(@rarity-color-common, 180);
+            &:before {
+                color: spin(@rarity-color-common, 180);
+            }
         }
         &.uncommon {
-            text-shadow: 0 1px 3px @rarity-color-uncommon;
+            &:before {
+                color: @rarity-color-uncommon;
+            }
         }
         &.rare {
-            text-shadow: 0 1px 3px @rarity-color-rare;
+            &:before {
+                color: @rarity-color-rare;
+            }
         }
         &.epic {
-            text-shadow: 0 1px 3px @rarity-color-epic;
+            &:before {
+                color: @rarity-color-epic;
+            }
         }
         &.legendary {
-            text-shadow: 0 1px 3px @rarity-color-legendary;
+            &:before {
+                color: @rarity-color-legendary;
+            }
         }
     }
     

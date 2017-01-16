@@ -35,8 +35,12 @@
     <body>
         <?php
             $loaded_link = null;
+            $short_link = null;
             if (isset($_GET["shortsave"])) {
                 $loaded_link = get_full_link($_GET["shortsave"]);
+                if ($loaded_link != null) {
+                    $short_link = $_GET["shortsave"];
+                }
             } elseif (isset($_GET["save"])) {
                 $loaded_link = get_full_link($_GET["save"]);
             }
@@ -458,9 +462,9 @@
                                 </p>
                                 <div class="input-group input-group-sm">
                                     <span class="input-group-btn">
-                                        <button type="button" class="btn btn-secondary" id="create-short-link"><i class="fa fa-plus-circle"></i> Create</button>
+                                        <button type="button" class="btn btn-secondary <?php echo ($short_link !== null ? "disabled" : ($loaded_link !== null ? "" : "disabled")); ?>" id="create-short-link"><i class="fa fa-plus-circle fa-fw standard-icon"></i><i class="fa fa-spinner fa-pulse fa-fw loading-icon" style="display: none;"></i> Create</button>
                                     </span>
-                                    <input id="share-link-short" type="text" class="form-control" readonly>
+                                    <input id="share-link-short" type="text" class="form-control" readonly value="<?php echo ($short_link !== null ? $short_link : ''); ?>">
                                     <span class="input-group-btn">
                                         <button type="button" class="btn btn-secondary" id="copy-button-short-link" data-toggle="tooltip" data-placement="top" data-clipboard-target="#share-link-short" title="Copy Link"><i class="fa fa-clipboard"></i></button>
                                     </span>

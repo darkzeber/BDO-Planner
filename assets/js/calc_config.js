@@ -4,7 +4,6 @@
 */
 
 var CalcConfig = {
-    noCookies: false,
     newVersion: false,
     configDefault: {
         latestVersion: {
@@ -23,12 +22,7 @@ var CalcConfig = {
         }
         $.extend(this.config, this.configDefault, configCookies);
         this.saveConfig();
-        
-        var validateCookies = Cookies.getJSON('UserConfig') || {};
-        if (Object.keys(validateCookies).length === 0) { // Still no cookie loaded
-            this.noCookies = true;
-        }
-        
+
         if ((this.config.latestVersion.major < this.configDefault.latestVersion.major) || (this.config.latestVersion.minor < this.configDefault.latestVersion.minor)) {
             this.newVersion = true;
             

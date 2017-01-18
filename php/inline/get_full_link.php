@@ -25,9 +25,24 @@ SQL;
     if($result->num_rows > 0) {
         $row = $result->fetch_assoc();
         $return_val = $row['long_link'];
+    } else {
+        return null;
     }
 
     $result->free();
+    
+    $timestamp = time();
+    
+    $sql = <<<SQL
+        UPDATE `short_links`
+        SET `last_timestamp` = {$timestamp}
+        WHERE `short_link` = "{$short_link}"
+SQL;
+
+    if(!$result = $db->query($sql)) {
+        die('There was an error running the query [' . $db->error . ']');
+    }
+    
     $db->close();
 
     return $return_val;

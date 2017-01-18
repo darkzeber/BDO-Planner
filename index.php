@@ -15,6 +15,8 @@
         
         <meta property="og:title" content="BDO Planner" />
         <meta property="og:image" content="http://beta.bdoplanner.com/assets/favicon.png" />
+        <meta property="og:image:width" content="75" />
+        <meta property="og:image:height" content="75" />
         <meta property="og:description" content="BDO Planner build config" />
         
         <link rel="icon" type="image/png" href="/assets/favicon.png" />
@@ -42,7 +44,7 @@
                     $short_link = $_GET["shortsave"];
                 }
             } elseif (isset($_GET["save"])) {
-                $loaded_link = get_full_link($_GET["save"]);
+                $loaded_link = $_GET["save"];
             }
         ?>
         <input id="loaded_link" type="text" value="<?php echo $loaded_link != null ? $loaded_link : ''; ?>" readonly>
@@ -50,8 +52,7 @@
             <div id="navigation-bar" class="row">
                 <div class="col-xs-12">
                     <div class="logo-bar">
-                        <span class="first">BDO</span>
-                        <span class="second">Planner</span>
+                        <h1>BDO<span class="second">Planner</span></h1>
                         <span class="text">
                             <a href="#" id="show-more-info">More info</a>&nbsp;&middot;&nbsp;<a href="#" id="show-update-notes">Show update notes</a>&nbsp;&middot;&nbsp;<a href="#" id="show-settings">Settings</a>
                         </span>
@@ -61,67 +62,67 @@
             <div id="player-class-section" class="row">
                 <div class="col-xs-12" align="center">
                     <ul class="classes-panel">
-                        <li class="class warrior" data-value="Warrior">
+                        <li class="class warrior" data-value="5">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Warrior</div>
                         </li>
-                        <li class="class sorceress" data-value="Sorceress">
+                        <li class="class sorceress" data-value="2">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Sorceress</div>
                         </li>
-                        <li class="class ranger" data-value="Ranger">
+                        <li class="class ranger" data-value="1">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Ranger</div>
                         </li>
-                        <li class="class berserker" data-value="Berserker">
+                        <li class="class berserker" data-value="=">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Berserker</div>
                         </li>
-                        <li class="class tamer" data-value="Tamer">
+                        <li class="class tamer" data-value="3">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Tamer</div>
                         </li>
-                        <li class="class musa" data-value="Musa">
+                        <li class="class musa" data-value="8">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Musa</div>
                         </li>
-                        <li class="class maehwa" data-value="Maehwa">
+                        <li class="class maehwa" data-value="9">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Maehwa</div>
                         </li>
-                        <li class="class valkyrie" data-value="Valkyrie">
+                        <li class="class valkyrie" data-value="4">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Valkyrie</div>
                         </li>
-                        <li class="class wizard" data-value="Wizard">
+                        <li class="class wizard" data-value="7">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Wizard</div>
                         </li>
-                        <li class="class witch" data-value="Witch">
+                        <li class="class witch" data-value="6">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Witch</div>
                         </li>
-                        <li class="class ninja" data-value="Ninja">
+                        <li class="class ninja" data-value="10">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Ninja</div>
                         </li>
-                        <li class="class kunoichi" data-value="Kunoichi">
+                        <li class="class kunoichi" data-value="11">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Kunoichi</div>
                         </li>
-                        <li class="class darkknight disabled" data-value="Darkknight">
+                        <li class="class darkknight disabled" data-value="12">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Dark Knight</div>

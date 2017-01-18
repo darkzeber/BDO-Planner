@@ -1,4 +1,9 @@
 <?php
+/*
+ * @Author: https://github.com/Ihellmasker/BDO-Planner
+ * @http: https://bdoplanner.com/
+ */
+
 require_once $_SERVER['DOCUMENT_ROOT'].'/php/libs/random_compat.phar';
 
 function random_str($length, $keyspace = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ') {

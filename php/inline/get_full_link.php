@@ -1,4 +1,9 @@
 <?php
+/*
+ * @Author: https://github.com/Ihellmasker/BDO-Planner
+ * @http: https://bdoplanner.com/
+ */
+
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
 

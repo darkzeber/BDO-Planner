@@ -1,5 +1,5 @@
 /*
- * @Author: https://github.com/Shadowtrance/BDO-Gear-Calculator
+ * @Author: https://github.com/Ihellmasker/BDO-Planner
  * @http: https://bdoplanner.com/
  */
 

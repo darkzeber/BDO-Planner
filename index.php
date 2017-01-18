@@ -1,5 +1,9 @@
 <?php
     include $_SERVER['DOCUMENT_ROOT'].'/php/inline/get_full_link.php';
+    $__version_major = 1;
+    $__version_minor = 0;
+    $__version_revision = 0;
+    $__vr_str = "?".$__version_major.$__version_minor.$__version_revision;
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -32,7 +36,7 @@
         <link rel="stylesheet" href="/libs/css/font-awesome.min.css">
         
         <!-- The actual "app" css -->
-        <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/app.css<?php echo $__vr_str; ?>">
     </head>
     <body>
         <?php
@@ -354,7 +358,10 @@
                                     BDO Gear Calculator was originally created by <a href="https://github.com/MrEliasen" target="_blank">MrEliasen</a>, it was updated heavily and grown on to create a full character planner by <a href="https://github.com/Ihellmasker" target="_blank">Ihm</a> and <a href="https://github.com/Shadowtrance" target="_blank">Shadowtrance</a>.
                                 </p>
                                 <p>
-                                    © 2017 BDOPlanner.com and may not be used or reproduced without consent. All Black Desert Online media and content is a registered trademark of Pearl Abyss & Kakao Games.
+                                    This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Ihellmasker/BDO-Planner" target="_blank">github.com/Ihellmasker/BDO-Planner</a>.
+                                </p>
+                                <p>
+                                    All Black Desert Online media and content is a registered trademark of Pearl Abyss & Kakao Games.
                                 </p>
                             </div>
                         </div>
@@ -376,29 +383,44 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-12">
+                                <h1>Notes</h1>
                                 <p>
-                                    This is an open source project. You can get a copy of the source code here: <a href="https://github.com/Shadowtrance/BDO-Gear-Calculator/tree/update" target="_blank">github.com/Shadowtrance/BDO-Gear-Calculator</a>.
-                                </p>
-                                <h1>New features</h1>
+                                    We've officially renamed to BDO Planner now with the intent to add more features outside of just planning your gear choices!
+                                </p>    
+
+                                <h1>Features</h1>
+
+                                <p><em>
+                                    There were lots of changes done since the last update, so it's possible we'll Kakao this update note and miss a lot of stuff.
+                                </em></p>
+
                                 <ul>
-                                    <li>Simplified costume pieces have been added, more will be coming soon. As all Pearl costumes give the same stats, we've simplified it into a single item regardless of class for now, we will be fully adding them at a later time though.</li>
-                                    <li>More minor UI changes</li>
-                                    <li>Added class base resistances to calculations</li>
-                                    <li>Removed tooltips from Enhancement Sliders and added dividers to help, also added enhancement level into item names</li>
-                                    <li>Added gear score, which is your AP + DP, for reference purposes</li>
-                                    <li>Split stat displays into tabs</li>
-                                    <li>Added remove button to unequip item</li>
-                                    <li>Added Alchemy stones that can be toggled</li>
-                                    <li>Added Compact mode for popups, enable this under settings!</li>
+                                    <li><strong>Short links</strong>, this is the big thing, short links have now been added. As theres no account system, they will be delete after 30 days of not being accessed just to stop our databases overflowing. As long as the links used though it won't be deleted.</li>
+                                    <li><strong>Long links</strong>, we have had to redo the long link structure and some of the database, so unfortunately all old links will be broken completely. Long links still exist, and unlike the short links, they're not temporary. Hopefully we shouldn't have to change anything again that will break links.</li>
+                                    <li><strong>Item tooltips</strong>. Finally! When you hover an item it will show a proper tooltip of the items stats!</li>
+                                    <li>Fixed some bug with Alchemy Stone stats showing sometimes when they're not activated.</li>
+                                    <li><strong>All resist</strong> has changed slightly. If an item gave "all resist" before, it will now give the 4 resist categories separately to allow the calculation of your total resists to show properly.</li>
                                 </ul>
-                                <h1>Backend stuff you probably don't care about</h1>
+                                  
+                                <h1>Visual changes</h1>
+
                                 <ul>
-                                    <li>Updated to Bootstrap v4 Alpha5, this means the style has changed slightly but allows us to do some more stuff that we couldn't before.</li>
-                                    <li>Rewrote the search/filter system completely, should notice massive performance increases now</li>
+                                    <li><strong>New class select screen</strong>. We wanted something a bit more interesting to look at when you first open the page, so we made something a bit nicer here. Functionally it's still the same though.</li>
+                                    <li><strong>Settings moved to new modal</strong>. Just a small change we made as more tabs will be appearing for other things.</li>
+                                    <li><strong>Saving moved to new modal</strong>. Similar to above, we moved saving into it's own modal to remove the large text box from the footer, and because you can now generate short links on demand!</li>
+                                    <li>Various other minor font and colour tweaks around the place.</li>
+                                    <li>Change the styling on the enhancement sliders</li>
                                 </ul>
-                                <h1>Upcoming features</h1>
+                                  
+                                <h1>Back-end changes</h1>
+
+                                <p><em>
+                                    Just in case you follow the git more than just using it, here's some of the back-end things that were changed.
+                                </em></p>
+
                                 <ul>
-                                    <li>Add non-conbat related gems and gear (like fishing and crafting items)</li>
+                                    <li>Rewrote a lot of the database, now items are idenfitied by their ingame ID number rather than name, this allows for duplicate entries for things such as Alchemy Stones, it also allows for a more robust saving system rather than saving based on it's position in the database.</li>
+                                    <li>Removed redundant data, we found a lot of redundant data in our databases, such as sets on items without sets, so we removed a lot! Probably still more to go though.</li>
                                 </ul>
                             </div>
                         </div>
@@ -515,10 +537,10 @@
         <script src="/libs/js/js.cookie.min.js"></script>
 
         <!-- The actual "app" js -->
-        <script type="text/javascript" src="/assets/js/bdo_database.js"></script>
-        <script type="text/javascript" src="/assets/js/bdo_calculator.js"></script>
-        <script type="text/javascript" src="/assets/js/calc_config.js"></script>
-        <script type="text/javascript" src="/assets/js/app.js"></script>
+        <script type="text/javascript" src="/assets/js/bdo_database.js<?php echo $__vr_str; ?>"></script>
+        <script type="text/javascript" src="/assets/js/bdo_calculator.js<?php echo $__vr_str; ?>"></script>
+        <script type="text/javascript" src="/assets/js/calc_config.js<?php echo $__vr_str; ?>"></script>
+        <script type="text/javascript" src="/assets/js/app.js<?php echo $__vr_str; ?>"></script>
         
         <!-- Google Analytics -->
         <script>

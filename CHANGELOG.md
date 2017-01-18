@@ -10,16 +10,16 @@ We've officially moved renamed to BDO Planner now with the intent to add more fe
 
 _There were lots of changes done since the last update, so it's possible we'll Kakao this update note and miss a lot of stuff._
 
-  - *Short links*, this is the big thing, short links have now been added. As theres no account system, they will be delete after 30 days of not being accessed just to stop our databases overflowing. As long as the links used though it won't be deleted.
-  - *Long links*, we have had to redo the long link structure and some of the database, so unfortunately all old links will be broken completely. Long links still exist, and unlike the short links, they're not temporary. Hopefully we shouldn't have to change anything again that will break links...
-  - *Item tooltips*. Finally! When you hover an item it will show a proper tooltip of the items stats!
+  - **Short links**, this is the big thing, short links have now been added. As theres no account system, they will be delete after 30 days of not being accessed just to stop our databases overflowing. As long as the links used though it won't be deleted.
+  - **Long links**, we have had to redo the long link structure and some of the database, so unfortunately all old links will be broken completely. Long links still exist, and unlike the short links, they're not temporary. Hopefully we shouldn't have to change anything again that will break links...
+  - **Item tooltips**. Finally! When you hover an item it will show a proper tooltip of the items stats!
   - Fixed some bug with Alchemy Stone stats showing sometimes when they're not activated.
-  - *All resist* has changed slightly. If an item gave "all resist" before, it will now give the 4 resist categories separately to allow the calculation of your total resists to show properly.
+  - **All resist** has changed slightly. If an item gave "all resist" before, it will now give the 4 resist categories separately to allow the calculation of your total resists to show properly.
   
 ### Visual changes
-  - *New class select screen*. We wanted something a bit more interesting to look at when you first open the page, so we made something a bit nicer here. Functionally it's still the same though.
-  - *Settings moved to new modal*. Just a small change we made as more tabs will be appearing for other things.
-  - *Saving moved to new modal*. Similar to above, we moved saving into it's own modal to remove the large text box from the footer, and because you can now generate short links on demand!
+  - **New class select screen**. We wanted something a bit more interesting to look at when you first open the page, so we made something a bit nicer here. Functionally it's still the same though.
+  - **Settings moved to new modal**. Just a small change we made as more tabs will be appearing for other things.
+  - **Saving moved to new modal**. Similar to above, we moved saving into it's own modal to remove the large text box from the footer, and because you can now generate short links on demand!
   - Various other minor font and colour tweaks around the place.
   
 ### Back-end changes

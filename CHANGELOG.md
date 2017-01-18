@@ -1,6 +1,6 @@
 # Change Log
 
-## 1.0.0 (2017-XX-XX)
+## 1.0.0 (2017-XX-XX) Coming soon
 
 ### Notes
 
@@ -31,7 +31,7 @@ _Just in case you follow the git more than just using it, here's some of the bac
 
 ---
 
-## 0.5.1 (2017-01-??)
+## 0.5.1 (2017-01-07)
 
 Features
 

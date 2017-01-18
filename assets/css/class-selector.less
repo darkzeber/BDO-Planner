@@ -3,67 +3,6 @@
  * @http: https://bdoplanner.com/
  */
 
-/*.classes_restore {
-    .show, .hide {
-        display: block;
-    }
-}
-
-.class_img { 
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    border: 2px solid @class-border;
-    border-radius: 5px;
-    box-shadow: inset @equipment-box-shadow;
-    margin-bottom: 0px;
-    
-    &.disabled, &.disabled:hover {
-        cursor: not-allowed;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-    }
-    
-    &.faded .class_icon {
-        opacity: 0.4;
-    }
-    
-    &.selected {
-        .class_icon {
-            opacity: 1.0;
-            background: fade(@class-border, 30%);
-            padding: 10px;
-        }
-        .class_title {
-            color: @link-text-color;
-        }
-    }
-    
-    &:hover {
-        .class_icon, .class_title {
-            opacity: 1.0 !important;
-        }
-    }
-}
-
-.class_icon {
-    height: 70px;
-    width: 70px;
-    padding: 10px;
-    transition: opacity 0.2s;
-}
-
-.class_title {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    font-size: .8em;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}*/
-
 //@media (min-width: 576px)
 
 .classes-panel {
@@ -143,14 +82,14 @@
         }
         &.bg {
             .main-background {
-                filter: blur(2px);
-                -webkit-filter: blur(2px);
+                filter: blur(1px);
+                -webkit-filter: blur(1px);
             }
             
             &.disabled {
                 .main-background {
-                    filter: blur(2px) grayscale(100%);
-                    -webkit-filter: blur(2px) grayscale(100%);
+                    filter: blur(1px) grayscale(100%);
+                    -webkit-filter: blur(1px) grayscale(100%);
                 }
             }
         }

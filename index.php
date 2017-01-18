@@ -77,7 +77,7 @@
                             <div class="icon"></div>
                             <div class="name">Ranger</div>
                         </li>
-                        <li class="class berserker" data-value="=">
+                        <li class="class berserker" data-value="0">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Berserker</div>

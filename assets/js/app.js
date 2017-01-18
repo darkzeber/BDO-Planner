@@ -625,7 +625,7 @@
                     '</div>');
 
                 var slider_steps = [];
-                for (var i = 0; i <= getEnhancementMax(item); i += 5) {
+                for (var i = 0; i <= getEnhancementMax(item); i += 1) {
                     slider_steps.push(i);
                 }
 
@@ -722,7 +722,8 @@
         $(".item-enhancement-slider").each(function (k, v) {
             if ($(v).attr('data-slider-max') !== "0") {
                 $(v).slider({
-                    tooltip: 'hide'
+                    tooltip: 'hide',
+                    handle: 'round'
                 }).on("change", function (e) {
                     var itemPlate = $(e.target).closest('.item-details'),
                     button = $(e.target).closest('.item-details').find('.item-choose'),

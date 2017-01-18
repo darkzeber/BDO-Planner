@@ -89,12 +89,27 @@
     }
     
     .item-enhancement-level {
+        .item-details .item-enhancement-level strong {
+            display: block;
+        }
         .slider.slider-horizontal {
             width: 96%;
             margin: 0 2%;
         }
-        .item-details .item-enhancement-level strong {
-            display: block;
+        .slider-track {
+            margin-top: -2px;
+        }
+        .slider-track, .slider-selection {
+            border-radius: 0px;
+        }
+        .slider-tick.round {
+            border-radius: 0px;
+            width: 3px;
+            height: 18px;
+            margin-left: -3px;
+        }
+        .slider-handle.round {
+            display: none;
         }
     }
 

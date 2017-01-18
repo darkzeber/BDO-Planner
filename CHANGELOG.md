@@ -21,6 +21,7 @@ _There were lots of changes done since the last update, so it's possible we'll K
   - **Settings moved to new modal**. Just a small change we made as more tabs will be appearing for other things.
   - **Saving moved to new modal**. Similar to above, we moved saving into it's own modal to remove the large text box from the footer, and because you can now generate short links on demand!
   - Various other minor font and colour tweaks around the place.
+  - Change the styling on the enhancement sliders
   
 ### Back-end changes
 

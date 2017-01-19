@@ -18,7 +18,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <meta property="og:title" content="BDO Planner" />
-        <meta property="og:image" content="http://beta.bdoplanner.com/assets/favicon.png" />
+        <meta property="og:image" content="http://bdoplanner.com/assets/favicon.png" />
         <meta property="og:image:width" content="75" />
         <meta property="og:image:height" content="75" />
         <meta property="og:description" content="BDO Planner build config" />
@@ -180,7 +180,7 @@
                         <div class="gem-slot secondary-weapon2" data-type="secondary-weapon" data-item="2"></div>
                         
                         <div class="gear-slot outfit" data-itemset="outfits" data-type="outfit"></div>
-                        <div class="gem-slot outfit1" data-type="outfit" data-item="1"></div>
+                        <div class="gem-slot outfit1 disabled" data-type="outfit" data-item="1"></div>
                         
                         <div class="gear-slot main-weapon-outfit" data-itemset="main-weapon-outfits" data-type="main-weapon-outfit"></div>
                         
@@ -542,15 +542,7 @@
         <script type="text/javascript" src="/assets/js/calc_config.js<?php echo $__vr_str; ?>"></script>
         <script type="text/javascript" src="/assets/js/app.js<?php echo $__vr_str; ?>"></script>
         
-        <!-- Google Analytics -->
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/php/ga.php'; ?>
 
-            ga('create', 'UA-89245775-1', 'auto');
-            ga('send', 'pageview');
-        </script>
     </body>
 </html>

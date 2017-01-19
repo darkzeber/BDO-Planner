@@ -929,6 +929,8 @@
     });
 
     $("#equipment .gem-slot").on("click", function () {
+        if ($(this).hasClass("disabled"))
+            return;
         current_item_type = $(this).attr('data-type');
         current_item_no = $(this).attr('data-item');
         current_modal = "gem";

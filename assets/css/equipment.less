@@ -97,6 +97,11 @@
         margin-left: -((@equipment-slot-width * @equipment-gem-size-factor) / 2);
         background-image: url("../images/placeholders/gem.png");
         background-size: 80%;
+        
+        &.disabled {
+            cursor: not-allowed;
+            opacity: 0.3;
+        }
     }
     
     .helmet {

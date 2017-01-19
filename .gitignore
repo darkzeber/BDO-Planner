@@ -51,3 +51,4 @@ dev files/
 php/libs/
 php/secure/
 php/cron/
+php/ga.php

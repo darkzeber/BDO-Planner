@@ -15,7 +15,7 @@ The Changelog can be viewed [here](https://github.com/Ihellmasker/BDO-Planner/bl
 
 ## Support and Feedback
 
-More information coming soon.
+If you find any issues, or have any suggestions or questions, then please create a new ticket [here](https://github.com/Ihellmasker/BDO-Planner/issues).
 
 ## Contributors
 

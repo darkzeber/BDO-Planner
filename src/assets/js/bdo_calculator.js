@@ -13,6 +13,12 @@ var BDOcalculator = {
         this.player = {
             "class": {
                 "class_id": "",
+                "level": 1,
+                "training": {
+                    "strength": 1,
+                    "breath": 1,
+                    "health": 1
+                },
                 "obj": {}
             },
             "gear": {

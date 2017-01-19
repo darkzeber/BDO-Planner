@@ -48,7 +48,7 @@ config.codekit
 *.sass-cache
 *.htaccess
 dev files/
-php/libs/
-php/secure/
-php/cron/
-php/ga.php
+src/php/libs/
+src/php/secure/
+src/php/cron/
+src/php/ga.php

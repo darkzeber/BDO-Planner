@@ -16,6 +16,7 @@ Todo List
 * Add missing unconfirmed stats
 * Current title count + corresponding buffs to luck and stamina
 * Stop gems resetting on enhancement changes
+* Filtering/Searching by stat
 
 ## Some ideas
 

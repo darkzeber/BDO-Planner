@@ -251,13 +251,6 @@ var BDOdatabase = {
             "symbol": "%",
             "target": ".resist-stats"
         },
-        "frfr": {
-            "title": "Faint/Rigidity/Freezing Resistance",
-            "desc": "",
-            "total": 0,
-            "symbol": "%",
-            "target": ".resist-stats"
-        },
         "rta": {
             "title": "Resistance to All Status Abnormalities",
             "desc": "",
@@ -1257,7 +1250,7 @@ var BDOdatabase = {
                 "incompatible": [],
                 "item_effects": {
                     "kd": 25,
-                    "frfr": 5
+                    "ssfr": 5
                 },
                 "name": "Red Battlefield Crystal: Adamantine"
             }

@@ -1,7 +1,14 @@
 Change Log
 ========
 
-## 1.0.0 (2017-XX-XX) Coming soon
+## 1.0.1 (2017-01-19)
+
+### Bug fix time!
+
+* Fixed an issue with searches being case sensitive
+* Fixed an issue with item display in the popups on smaller resolutions
+
+## 1.0.0 (2017-01-19)
 
 ### Notes
 

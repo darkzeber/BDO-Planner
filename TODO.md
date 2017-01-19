@@ -5,6 +5,7 @@ Todo List
 
 * Handle invalid links better, rather than crashing
 * Allow class list to be minimised again after opened while gear set is currently being edited
+* Reset awakening AP slot when changing class
 
 ## Planned features
 

@@ -9,7 +9,7 @@ var CalcConfig = {
         latestVersion: {
             major: 1,
             minor: 0,
-            revision: 0
+            revision: 1
         },
         compact_item_modals: false
     },

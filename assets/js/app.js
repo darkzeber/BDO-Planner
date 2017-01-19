@@ -673,7 +673,7 @@
     function filterModalItems() {
         $(".item-details").show();
         $(".item-choose").filter(function () {
-            return $(this).attr("data-itemname").toLowerCase().indexOf($("#gearlist-search").val()) == -1 || $.inArray($(this).attr("data-rarity"), active_filters.rarity) === -1;
+            return $(this).attr("data-itemname").toLowerCase().indexOf($("#gearlist-search").val().toLowerCase()) == -1 || $.inArray($(this).attr("data-rarity"), active_filters.rarity) === -1;
         }).closest(".item-details").hide();
     }
 

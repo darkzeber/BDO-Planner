@@ -2,7 +2,7 @@
     include $_SERVER['DOCUMENT_ROOT'].'/php/inline/get_full_link.php';
     $__version_major = 1;
     $__version_minor = 0;
-    $__version_revision = 0;
+    $__version_revision = 1;
     $__vr_str = "?".$__version_major.$__version_minor.$__version_revision;
 ?>
 <!DOCTYPE html>
@@ -386,7 +386,7 @@
                                 <h1>Notes</h1>
                                 <p>
                                     We've officially renamed to BDO Planner now with the intent to add more features outside of just planning your gear choices!
-                                </p>    
+                                </p>
 
                                 <h1>Features</h1>
 
@@ -421,6 +421,13 @@
                                 <ul>
                                     <li>Rewrote a lot of the database, now items are idenfitied by their ingame ID number rather than name, this allows for duplicate entries for things such as Alchemy Stones, it also allows for a more robust saving system rather than saving based on it's position in the database.</li>
                                     <li>Removed redundant data, we found a lot of redundant data in our databases, such as sets on items without sets, so we removed a lot! Probably still more to go though.</li>
+                                </ul>
+                                
+                                <h1>Bug fix time!</h1>
+
+                                <ul>
+                                    <li>Fixed an issue with searches being case sensitive</li>
+                                    <li>Fixed an issue with item display in the popups on smaller resolutions</li>
                                 </ul>
                             </div>
                         </div>

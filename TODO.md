@@ -9,6 +9,7 @@ Todo List
 
 ## Planned features
 
+* Pin searchbox, filters and removes to top of modal
 * Account system to save characters
 * Add extra information such as hp, mp, etc to allow for a full show of a characters stats
 * Add non combat items

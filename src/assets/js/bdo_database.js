@@ -9213,7 +9213,7 @@ var BDOdatabase = {
                         "dp": 89
                     }
                 },
-                "name": "Hebetate Tree Spirit's Armor"
+                "name": "Dim Tree Spirit's Armor"
             },
             "11019": {
                 "set": "Hercules' Might",

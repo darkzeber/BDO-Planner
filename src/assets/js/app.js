@@ -331,12 +331,14 @@
 
         if (BDOcalculator.isGemable(item_type) && item_itemset !== "gems") {
             $('#equipment .gem-slot.' + item_type + '1, #equipment .gem-slot.' + item_type + '2').hide();
-
-            if (item.gems > 0) {
-                var gem;
-
-                for (var i = item.gems; i > 0; i--) {
-                    $('#equipment .gem-slot.' + item_type + i).removeClass(rarities_string).attr('style', '').show();
+            
+            for (var i = 1; i <= Object.keys(BDOcalculator.player.gear[item_type].gems).length; i++) {
+                if (i <= item.gems) {
+                    if (BDOcalculator.player.gear[item_type].gems['' + i + ''].gem_id == "") {
+                        $('#equipment .gem-slot.' + item_type + i).removeClass(rarities_string).attr('style', '').show();
+                    } else {
+                        $('#equipment .gem-slot.' + item_type + i).show();
+                    }
                 }
             }
         }
@@ -830,6 +832,8 @@
     $("#player-class-section .classes-panel").on("click", ".class", function () {
         if ($(this).hasClass("disabled"))
             return;
+        
+        $("#primary-stats .stats-table .stat-awk-ap").hide();
 
         BDOcalculator.init();
         

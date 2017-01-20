@@ -193,27 +193,40 @@ var BDOcalculator = {
         if (typeof itemObj === "undefined") {
             itemObj = {};
         }
+        
+        var sameItem = false;
 
         if (this.isItemPair(type)) {
+            if (parseInt(item_id) == parseInt(this.player.gear[type + "s"][item_no].item_id)) {
+                sameItem = true;
+            }
             this.player.gear[type + "s"][item_no].item = itemObj;
             this.player.gear[type + "s"][item_no].item_id = item_id;
         } else if (item_itemset === "gems") {
+            if (parseInt(item_id) == parseInt(this.player.gear[type].gems[item_no].gem_id)) {
+                sameItem = true;
+            }
             this.player.gear[type].gems[item_no].gem = itemObj;
             this.player.gear[type].gems[item_no].gem_id = item_id;
         } else {
             if (typeof this.player.gear[type].item !== "undefined") {
+                if (parseInt(item_id) == parseInt(this.player.gear[type].item_id)) {
+                    sameItem = true;
+                }
                 this.player.gear[type].item = itemObj;
                 this.player.gear[type].item_id = item_id;
-                this.player.gear[type].gems = {
-                    "1": {
-                        "gem_id": "",
-                        "gem": {}
-                    },
-                    "2": {
-                        "gem_id": "",
-                        "gem": {}
-                    }
-                };
+                if (!sameItem) {
+                    this.player.gear[type].gems = {
+                        "1": {
+                            "gem_id": "",
+                            "gem": {}
+                        },
+                        "2": {
+                            "gem_id": "",
+                            "gem": {}
+                        }
+                    };
+                }
             }
         }
 

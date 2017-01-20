@@ -1325,7 +1325,7 @@ var BDOdatabase = {
                 "mp": 300
             }
         }
-    }
+    },
     "set_effects": {
         "Agerian": {
             "pieces": {

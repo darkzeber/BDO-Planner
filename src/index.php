@@ -2,7 +2,7 @@
     include $_SERVER['DOCUMENT_ROOT'].'/php/inline/get_full_link.php';
     $__version_major = 1;
     $__version_minor = 0;
-    $__version_revision = 1;
+    $__version_revision = 2;
     $__vr_str = "?".$__version_major.$__version_minor.$__version_revision;
 ?>
 <!DOCTYPE html>
@@ -400,6 +400,7 @@
                                     <li><strong>Item tooltips</strong>. Finally! When you hover an item it will show a proper tooltip of the items stats!</li>
                                     <li>Fixed some bug with Alchemy Stone stats showing sometimes when they're not activated.</li>
                                     <li><strong>All resist</strong> has changed slightly. If an item gave "all resist" before, it will now give the 4 resist categories separately to allow the calculation of your total resists to show properly.</li>
+                                    <li>Gems will no longer reset when changing the enhancement levels of items</li>
                                 </ul>
                                   
                                 <h1>Visual changes</h1>

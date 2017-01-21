@@ -1,6 +1,12 @@
 Change Log
 ========
 
+## 1.0.2 (2017-01-21)
+
+### Fixed it, maybe?
+
+* Gems will no longer reset when changing the enhancement levels of items
+
 ## 1.0.1 (2017-01-19)
 
 ### Bug fix time!

@@ -20593,6 +20593,399 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {},
                 "name": "Jarette's Belt"
+            },
+            "12308": {
+                "dp": 1,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 50,
+                    "mpwpsp": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Blue Coral Belt"
+            },
+            "12318": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 50,
+                    "hprc": 3,
+                    "mprc": 3,
+                    "wprc": 3,
+                    "sprc": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Golden Coral Belt"
+            },
+            "12313": {
+                "dp": 0,
+                "ap": 1,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 50,
+                    "stam": 60
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Green Coral Belt"
+            },
+            "12303": {
+                "dp": 0,
+                "ap": 1,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 50,
+                    "hp": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Red Coral Belt"
+            },
+            "12323": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "uncommon",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 50,
+                    "dmgaes": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "White Coral Belt"
+            },
+            "12309": {
+                "dp": 2,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 60,
+                    "mpwpsp": 40
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Brilliant Blue Coral Belt"
+            },
+            "12319": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 60,
+                    "hprc": 4,
+                    "mprc": 4,
+                    "wprc": 4,
+                    "sprc": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Brilliant Golden Coral Belt"
+            },
+            "12314": {
+                "dp": 0,
+                "ap": 2,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 60,
+                    "stam": 80
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Brilliant Green Coral Belt"
+            },
+            "12304": {
+                "dp": 0,
+                "ap": 2,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 60,
+                    "hp": 40
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Brilliant Red Coral Belt"
+            },
+            "12324": {
+                "dp": 0,
+                "ap": 1,
+                "rarity": "rare",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 60,
+                    "dmgaes": 4
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Brilliant White Coral Belt"
+            },
+            "12310": {
+                "dp": 3,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 70,
+                    "mpwpsp": 70
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Daybreak Blue Coral Belt"
+            },
+            "12320": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 70,
+                    "hprc": 5,
+                    "mprc": 5,
+                    "wprc": 5,
+                    "sprc": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Golden Sun Coral Belt"
+            },
+            "12315": {
+                "dp": 0,
+                "ap": 3,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 70,
+                    "stam": 100
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Prairie Green Coral Belt"
+            },
+            "12305": {
+                "dp": 0,
+                "ap": 3,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 70,
+                    "hp": 70
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Twilight Red Coral Belt"
+            },
+            "12325": {
+                "dp": 0,
+                "ap": 2,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 70,
+                    "dmgaes": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Breezy White Coral Belt"
+            },
+            "12327": {
+                "dp": 3,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 80,
+                    "kb": 2,
+                    "kd": 2,
+                    "ssfr": 2,
+                    "gr": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "dp": 6,
+                        "kb": 3,
+                        "kd": 3,
+                        "ssfr": 3,
+                        "gr": 3
+                    },
+                    "2": {
+                        "dp": 9,
+                        "kb": 4,
+                        "kd": 4,
+                        "ssfr": 4,
+                        "gr": 4
+                    },
+                    "3": {
+                        "dp": 12,
+                        "kb": 5,
+                        "kd": 5,
+                        "ssfr": 5,
+                        "gr": 5
+                    },
+                    "4": {
+                        "dp": 15,
+                        "kb": 6,
+                        "kd": 6,
+                        "ssfr": 6,
+                        "gr": 6
+                    },
+                    "5": {
+                        "dp": 18,
+                        "kb": 7,
+                        "kd": 7,
+                        "ssfr": 7,
+                        "gr": 7
+                    }
+                },
+                "name": "Manos Blue Coral Belt"
+            },
+            "12329": {
+                "dp": 0,
+                "ap": 0,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 100,
+                    "ms": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "wgt": 200,
+                        "ms": 1
+                    },
+                    "2": {
+                        "wgt": 300,
+                        "ms": 2
+                    },
+                    "3": {
+                        "wgt": 400,
+                        "ms": 2
+                    },
+                    "4": {
+                        "wgt": 500,
+                        "ms": 3
+                    },
+                    "5": {
+                        "wgt": 600,
+                        "ms": 3
+                    }
+                },
+                "name": "Manos Golden Coral Belt"
+            },
+            "12328": {
+                "dp": 0,
+                "ap": 3,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 70,
+                    "ms": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 6,
+                        "wgt": 80
+                    },
+                    "2": {
+                        "ap": 9,
+                        "wgt": 90
+                    },
+                    "3": {
+                        "ap": 12,
+                        "wgt": 100
+                    },
+                    "4": {
+                        "ap": 15,
+                        "wgt": 110
+                    },
+                    "5": {
+                        "ap": 18,
+                        "wgt": 120
+                    }
+                },
+                "name": "Manos Green Coral Belt"
+            },
+            "12326": {
+                "dp": 0,
+                "ap": 3,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 70,
+                    "as": 1,
+                    "cs": 1
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 6,
+                        "wgt": 80
+                    },
+                    "2": {
+                        "ap": 9,
+                        "wgt": 90
+                    },
+                    "3": {
+                        "ap": 12,
+                        "wgt": 100
+                    },
+                    "4": {
+                        "ap": 15,
+                        "wgt": 110
+                    },
+                    "5": {
+                        "ap": 18,
+                        "wgt": 120
+                    }
+                },
+                "name": "Manos Red Coral Belt"
+            },
+            "12330": {
+                "dp": 0,
+                "ap": 2,
+                "rarity": "epic",
+                "gems": 0,
+                "item_effects": {
+                    "wgt": 70,
+                    "iar": 2
+                },
+                "enhancement_text": "",
+                "enhancement": {
+                    "1": {
+                        "ap": 5,
+                        "iar": 3
+                    },
+                    "2": {
+                        "ap": 8,
+                        "iar": 4
+                    },
+                    "3": {
+                        "ap": 11,
+                        "iar": 5
+                    },
+                    "4": {
+                        "ap": 14,
+                        "iar": 6
+                    },
+                    "5": {
+                        "ap": 17,
+                        "iar": 7
+                    }
+                },
+                "name": "Manos White Coral Belt"
             }
         },
         "main-weapons": {

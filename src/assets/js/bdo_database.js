@@ -12,7 +12,8 @@ var BDOdatabase = {
             "desc": "Increase damage against all targets",
             "min": 0,
             "max": 0,
-            "symbol": ""
+            "symbol": "",
+            "total": 0
         },
         "hap": { //Hidden AP like Grunil set bonus and crystals
             "title": "Hidden AP",
@@ -26,7 +27,8 @@ var BDOdatabase = {
             "desc": "Increase damage against all targets",
             "min": 0,
             "max": 0,
-            "symbol": ""
+            "symbol": "",
+            "total": 0
         },
         "dp": {
             "title": "DP",

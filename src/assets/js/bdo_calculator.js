@@ -277,9 +277,9 @@ var BDOcalculator = {
 
                 this.stats[stat_key].min += parseInt(value[0]);
                 this.stats[stat_key].max += parseInt(value[1]);
-
+                this.stats[stat_key].total += Math.floor((parseInt(value[0]) + parseInt(value[1])) / 2);
             }
-            if (stat_key === "awkap") {
+            else if (stat_key === "awkap") {
                 if (parseInt(value) === value) {
                     value = [
                         value,
@@ -291,7 +291,7 @@ var BDOcalculator = {
 
                 this.stats[stat_key].min += parseInt(value[0]);
                 this.stats[stat_key].max += parseInt(value[1]);
-
+                this.stats[stat_key].total += Math.floor((parseInt(value[0]) + parseInt(value[1])) / 2);
             } else {
                 this.stats[stat_key].total += value;
             }
@@ -560,11 +560,11 @@ var BDOcalculator = {
                 break;
 
             case "ap":
-                $('.stat-ap .value').text(Math.floor((obj.min + obj.max) / 2));
+                $('.stat-ap .value').text(obj.total);
                 break;
 
             case "awkap":
-                $('.stat-awk-ap .value').text(Math.floor((obj.min + obj.max) / 2));
+                $('.stat-awk-ap .value').text(obj.total);
                 break;
 
             case "dp":

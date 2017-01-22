@@ -6,6 +6,7 @@ Todo List
 * Handle invalid links better, rather than crashing
 * Allow class list to be minimised again after opened while gear set is currently being edited
 * Awakened AP instead of normal AP for gear score? Both?
+* Fix issue with rounding being handle wrong
 
 ## Planned features
 
@@ -18,7 +19,6 @@ Todo List
 * Add food/potion buffs
 * Add missing unconfirmed stats
 * Current title count + corresponding buffs to luck and stamina
-* Stop gems resetting on enhancement changes
 * Filtering/Searching by stat
 
 ## Some ideas

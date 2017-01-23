@@ -1,0 +1,31 @@
+[
+    {
+        "id": 19001,
+        "name": "Combat Armor Pearl Costume",
+        "rarity": "legendary",
+        "incompatible": [
+            {
+                "value": "outfit-helmet",
+                "type": "slot"
+            },
+            {
+                "value": "outfit-gloves",
+                "type": "slot"
+            },
+            {
+                "value": "outfit-shoes",
+                "type": "slot"
+            }
+        ],
+        "item_effects": {
+            "vr": 10,
+            "dthpen": -10,
+            "am": 10,
+            "jh": 0.5,
+            "cbexp": 10
+        },
+        "crystals": 1,
+        "enhancement_text": "",
+        "enhancement": {}
+    }
+]

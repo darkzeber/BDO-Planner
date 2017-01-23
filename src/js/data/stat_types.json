@@ -1,0 +1,576 @@
+{
+    "ap": {
+        "title": "AP",
+        "desc": "Increase damage against all targets",
+        "symbol": "",
+        "min": 0,
+        "max": 0,
+        "total": 0
+    },
+    "hap": {
+        "title": "Hidden AP",
+        "desc": "Increase damage against all targets",
+        "symbol": "",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "awkap": {
+        "title": "AP",
+        "desc": "Increase damage against all targets",
+        "symbol": "",
+        "min": 0,
+        "max": 0,
+        "total": 0
+    },
+    "dp": {
+        "title": "DP",
+        "desc": "Decreases damage received from all targets",
+        "symbol": "",
+        "total": 0
+    },
+    "atk": {
+        "title": "Attack",
+        "desc": "",
+        "symbol": "",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "map": {
+        "title": "Magic AP",
+        "desc": "",
+        "symbol": "",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "mlap": {
+        "title": "Melee AP",
+        "desc": "",
+        "symbol": "",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "rap": {
+        "title": "Ranged AP",
+        "desc": "",
+        "symbol": "",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "aaad": {
+        "title": "Additional Air Attack Damage",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "abad": {
+        "title": "Additional Back Attack Damage",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "acad": {
+        "title": "Additional Counter Attack Damage",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "achd": {
+        "title": "Additional Critical Hit Damage",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "adad": {
+        "title": "Additional Down Attack Damage",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "assad": {
+        "title": "Additional Special Attack Damage",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "hp": {
+        "title": "Health",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "mpwpsp": {
+        "title": "MP/WP/SP",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "hprc": {
+        "title": "HP recovery",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "wprc": {
+        "title": "WP recovery",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "sprc": {
+        "title": "SP recovery",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "mprc": {
+        "title": "MP recovery",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "mpar": {
+        "title": "MP Auto Recovery",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "wpar": {
+        "title": "WP Auto Recovery",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "spar": {
+        "title": "SP Auto Recovery",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "hprcoa": {
+        "title": "HP Recovery On Attack",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "mpwpsprcoa": {
+        "title": "MP/WP/SP Recovery On Attack",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "hpar": {
+        "title": "HP Auto Recovery",
+        "desc": "",
+        "symbol": "",
+        "target": ".survive-stats",
+        "total": 0
+    },
+    "dr": {
+        "title": "Damage Reduction",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "lrdr": {
+        "title": "Long Range Damage Reduction",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "crdr": {
+        "title": "Close Range Damage Reduction",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "mdr": {
+        "title": "Magic Damage Reduction",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "sr": {
+        "title": "Stun Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".resist-stats",
+        "total": 0
+    },
+    "gr": {
+        "title": "Grapple Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".resist-stats",
+        "total": 0
+    },
+    "kb": {
+        "title": "Knockback/Floating Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".resist-stats",
+        "total": 0
+    },
+    "kd": {
+        "title": "Knockdown/Bound Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".resist-stats",
+        "total": 0
+    },
+    "ssfr": {
+        "title": "Stun/Stiffness/Freezing Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".resist-stats",
+        "total": 0
+    },
+    "rta": {
+        "title": "Resistance to All Status Abnormalities",
+        "desc": "",
+        "symbol": "%",
+        "target": ".resist-stats",
+        "total": 0
+    },
+    "as": {
+        "title": "Attack Speed",
+        "desc": "",
+        "symbol": "",
+        "target": ".ench-stats",
+        "total": 0
+    },
+    "asp": {
+        "title": "Attack Speed",
+        "desc": "",
+        "symbol": "%",
+        "target": ".ench-stats",
+        "total": 0
+    },
+    "cs": {
+        "title": "Casting Speed",
+        "desc": "",
+        "symbol": "",
+        "target": ".ench-stats",
+        "total": 0
+    },
+    "csp": {
+        "title": "Casting Speed",
+        "desc": "",
+        "symbol": "%",
+        "target": ".ench-stats",
+        "total": 0
+    },
+    "ms": {
+        "title": "Movement Speed",
+        "desc": "",
+        "symbol": "",
+        "target": ".ench-stats",
+        "total": 0
+    },
+    "chr": {
+        "title": "Critical Hit Rate",
+        "desc": "",
+        "symbol": "",
+        "target": ".ench-stats",
+        "total": 0
+    },
+    "lk": {
+        "title": "Luck",
+        "desc": "",
+        "symbol": "",
+        "target": ".ench-stats",
+        "total": 0
+    },
+    "acc": {
+        "title": "Accuracy",
+        "desc": "",
+        "symbol": "",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "ev": {
+        "title": "Evasion",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "stam": {
+        "title": "Stamina",
+        "desc": "",
+        "symbol": "",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "energy": {
+        "title": "Energy",
+        "desc": "",
+        "symbol": "",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "bg": {
+        "title": "Breath Gauge",
+        "desc": "",
+        "symbol": "sec",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "wgt": {
+        "title": "Weight Limit",
+        "desc": "",
+        "symbol": "LT",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "jh": {
+        "title": "Jump Height",
+        "desc": "",
+        "symbol": "",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "bsr": {
+        "title": "Black Spirit's Rage",
+        "desc": "",
+        "symbol": "",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "drr": {
+        "title": "Durability Reduction Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "dmgtdh": {
+        "title": "Damage To Demihumans",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "dmgth": {
+        "title": "Damage To Humans",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "dmgtb": {
+        "title": "Damage To Beasts",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "dmgaes": {
+        "title": "Damage Against Every Species",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "adafm": {
+        "title": "Additional Damage Against \"Ferocious\" Monsters",
+        "desc": "",
+        "symbol": "",
+        "target": ".extra-stats",
+        "total": 0
+    },
+    "iar": {
+        "title": "Ignore All Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "igr": {
+        "title": "Ignore Grapple Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "ikbr": {
+        "title": "Ignore Knockback Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "ikdr": {
+        "title": "Ignore Knockdown Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "isr": {
+        "title": "Ignore Stun Resistance",
+        "desc": "",
+        "symbol": "%",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "asad": {
+        "title": "Additional Speed Attack Damage",
+        "desc": "",
+        "symbol": "%",
+        "target": ".offence-stats",
+        "total": 0
+    },
+    "cbexp": {
+        "title": "Combat EXP",
+        "desc": "",
+        "symbol": "%",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "vr": {
+        "title": "Vision Range",
+        "desc": "",
+        "symbol": "m",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "spcev": {
+        "title": "Special Attack Evasion",
+        "desc": "",
+        "symbol": "%",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "mgdr": {
+        "title": "Magic Damage Reduction",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "mldr": {
+        "title": "Melee Damage Reduction",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "rdr": {
+        "title": "Ranged Damage Reduction",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "swev": {
+        "title": "Siege Weapon Evasion",
+        "desc": "",
+        "symbol": "",
+        "target": ".defense-stats",
+        "total": 0
+    },
+    "fdmg": {
+        "title": "Fall Damage Reduction",
+        "desc": "",
+        "symbol": "%",
+        "target": ".general-stats",
+        "total": 0
+    },
+    "fdr": {
+        "title": "Fall Damage Reduction (unknown additional amount)",
+        "desc": "",
+        "symbol": "",
+        "target": ".general-stats"
+    },
+    "alccktime": {
+        "title": "Alchemy/Cooking time",
+        "desc": "",
+        "symbol": "s",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "prsr": {
+        "title": "Processing Success Rate",
+        "desc": "",
+        "symbol": "%",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "gatfislv": {
+        "title": "Gathering/Fishing Level",
+        "desc": "",
+        "symbol": "",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "gatidr": {
+        "title": "Gathering Item Drop Rate",
+        "desc": "",
+        "symbol": "%",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "fislv": {
+        "title": "Fishing Level",
+        "desc": "",
+        "symbol": "",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "gatlv": {
+        "title": "Gathering Level",
+        "desc": "",
+        "symbol": "",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "awdrc": {
+        "title": "Awakening Weapon's Durability Consumption",
+        "desc": "",
+        "symbol": "%",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "mwdrc": {
+        "title": "Main Weapon's Durability Consumption",
+        "desc": "",
+        "symbol": "%",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "dthpen": {
+        "title": "Death Penalty",
+        "desc": "",
+        "symbol": "%",
+        "target": ".special-stats",
+        "total": 0
+    },
+    "am": {
+        "title": "Amity Gain",
+        "desc": "",
+        "symbol": "%",
+        "target": ".special-stats",
+        "total": 0
+    }
+}

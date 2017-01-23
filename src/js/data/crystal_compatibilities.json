@@ -1,0 +1,9 @@
+{
+    "primary": ["primary", "all"],
+    "secondary": ["secondary", "all"],
+    "helmet": ["helmet", "all"],
+    "armor": ["armor", "all"],
+    "gloves": ["gloves", "all"],
+    "shoes": ["shoes", "all"],
+    "outfit-armor": ["outfit-armor"]
+}

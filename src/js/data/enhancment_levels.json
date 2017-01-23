@@ -1,0 +1,86 @@
+{
+    "0": {
+        "prefix": "",
+        "display": ""
+    },
+    "1": {
+        "prefix": "+1 ",
+        "display": "+1"
+    },
+    "2": {
+        "prefix": "+2 ",
+        "display": "+2"
+    },
+    "3": {
+        "prefix": "+3 ",
+        "display": "+3"
+    },
+    "4": {
+        "prefix": "+4 ",
+        "display": "+4"
+    },
+    "5": {
+        "prefix": "+5 ",
+        "display": "+5"
+    },
+    "6": {
+        "prefix": "+6 ",
+        "display": "+6"
+    },
+    "7": {
+        "prefix": "+7 ",
+        "display": "+7"
+    },
+    "8": {
+        "prefix": "+8 ",
+        "display": "+8"
+    },
+    "9": {
+        "prefix": "+9 ",
+        "display": "+9"
+    },
+    "10": {
+        "prefix": "+10 ",
+        "display": "+10"
+    },
+    "11": {
+        "prefix": "+11 ",
+        "display": "+11"
+    },
+    "12": {
+        "prefix": "+12 ",
+        "display": "+12"
+    },
+    "13": {
+        "prefix": "+13 ",
+        "display": "+13"
+    },
+    "14": {
+        "prefix": "+14 ",
+        "display": "+14"
+    },
+    "15": {
+        "prefix": "+15 ",
+        "display": "+15"
+    },
+    "16": {
+        "prefix": "I PRI: ",
+        "display": "I"
+    },
+    "17": {
+        "prefix": "II DUO: ",
+        "display": "II"
+    },
+    "18": {
+        "prefix": "III TRI: ",
+        "display": "III"
+    },
+    "19": {
+        "prefix": "IV TET: ",
+        "display": "IV"
+    },
+    "20": {
+        "prefix": "V PEN: ",
+        "display": "V"
+    }
+}

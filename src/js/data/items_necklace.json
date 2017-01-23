@@ -1,0 +1,776 @@
+[
+    {
+        "id": 11601,
+        "name": "Yuria Necklace",
+        "rarity": "uncommon",
+        "item_effects": {
+            "dmgth": 4
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dmgth": 6
+            },
+            "2": {
+                "dmgth": 8
+            },
+            "3": {
+                "dmgth": 10
+            },
+            "4": {
+                "dmgth": 12
+            },
+            "5": {
+                "dmgth": 15
+            }
+        }
+    }, {
+        "id": 11602,
+        "name": "Bares Necklace",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 6
+            },
+            "2": {
+                "ap": 8
+            },
+            "3": {
+                "ap": 10
+            },
+            "4": {
+                "ap": 12
+            },
+            "5": {
+                "ap": 15
+            }
+        }
+    }, {
+        "id": 11603,
+        "name": "Hesus Necklace",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 0,
+        "dp": 2,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 4
+            },
+            "2": {
+                "dp": 6
+            },
+            "3": {
+                "dp": 8
+            },
+            "4": {
+                "dp": 10
+            },
+            "5": {
+                "dp": 12
+            }
+        }
+    }, {
+        "id": 11604,
+        "name": "Elisha Necklace",
+        "rarity": "uncommon",
+        "item_effects": {
+            "hprc": 2,
+            "mprc": 2
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "hprc": 4,
+                "mprc": 4
+            },
+            "2": {
+                "hprc": 6,
+                "mprc": 6
+            },
+            "3": {
+                "hprc": 8,
+                "mprc": 8
+            },
+            "4": {
+                "hprc": 10,
+                "mprc": 10
+            },
+            "5": {
+                "hprc": 15,
+                "mprc": 15
+            }
+        }
+    }, {
+        "id": 11605,
+        "name": "Kalis Necklace",
+        "rarity": "uncommon",
+        "item_effects": {
+            "acc": 4
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "acc": 6
+            },
+            "2": {
+                "acc": 8
+            },
+            "3": {
+                "acc": 10
+            },
+            "4": {
+                "acc": 12
+            },
+            "5": {
+                "acc": 15
+            }
+        }
+    }, {
+        "id": 11606,
+        "name": "Talis Necklace",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 0,
+        "dp": 4,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 6
+            },
+            "2": {
+                "dp": 8
+            },
+            "3": {
+                "dp": 10
+            },
+            "4": {
+                "dp": 12
+            },
+            "5": {
+                "dp": 14
+            }
+        }
+    }, {
+        "id": 11607,
+        "name": "Ogre Ring",
+        "rarity": "epic",
+        "item_effects": {},
+        "ap": 10,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 15
+            },
+            "2": {
+                "ap": 20
+            },
+            "3": {
+                "ap": 25
+            },
+            "4": {
+                "ap": 30
+            },
+            "5": {
+                "ap": 35
+            }
+        }
+    }, {
+        "id": 11609,
+        "name": "Necklace of Good Deeds",
+        "rarity": "rare",
+        "item_effects": {
+            "acc": 3
+        },
+        "ap": 6,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 8,
+                "acc": 4
+            },
+            "2": {
+                "ap": 10,
+                "acc": 5
+            },
+            "3": {
+                "ap": 12,
+                "acc": 6
+            },
+            "4": {
+                "ap": 14,
+                "acc": 7
+            },
+            "5": {
+                "ap": 16,
+                "acc": 8
+            }
+        }
+    }, {
+        "id": 11610,
+        "name": "Scarla Necklace",
+        "rarity": "rare",
+        "item_effects": {},
+        "ap": 5,
+        "dp": 5,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 6,
+                "dp": 6
+            },
+            "2": {
+                "ap": 7,
+                "dp": 7
+            },
+            "3": {
+                "ap": 8,
+                "dp": 8
+            },
+            "4": {
+                "ap": 9,
+                "dp": 9
+            },
+            "5": {
+                "ap": 10,
+                "dp": 10
+            }
+        }
+    }, {
+        "id": 11611,
+        "name": "Bensho's Necklace",
+        "rarity": "rare",
+        "item_effects": {},
+        "ap": 0,
+        "dp": 10,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 13
+            },
+            "2": {
+                "dp": 16
+            },
+            "3": {
+                "dp": 19
+            },
+            "4": {
+                "dp": 22
+            },
+            "5": {
+                "dp": 25
+            }
+        }
+    }, {
+        "id": 11613,
+        "name": "Ancient Guardian's Seal",
+        "rarity": "rare",
+        "set": "Core",
+        "item_effects": {},
+        "ap": 6,
+        "dp": 3,
+        "crystals": 0,
+        "enhancement_text": "Set effect enabled when equipped with “Ancient Weapon Core”",
+        "enhancement": {
+            "1": {
+                "ap": 8,
+                "dp": 4
+            },
+            "2": {
+                "ap": 10,
+                "dp": 5
+            },
+            "3": {
+                "ap": 12,
+                "dp": 6
+            },
+            "4": {
+                "ap": 14,
+                "dp": 7
+            },
+            "5": {
+                "ap": 16,
+                "dp": 8
+            }
+        }
+    }, {
+        "id": 11622,
+        "name": "Necklace of Dim Magical Power",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 3,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11623,
+        "name": "Necklace of Concentrated Magical Power",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11624,
+        "name": "Necklace of Sealed Magical Power",
+        "rarity": "rare",
+        "item_effects": {},
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 6
+            },
+            "2": {
+                "ap": 7
+            },
+            "3": {
+                "ap": 8
+            },
+            "4": {
+                "ap": 9
+            },
+            "5": {
+                "ap": 10
+            }
+        }
+    }, {
+        "id": 11625,
+        "name": "Sicil's Necklace",
+        "rarity": "epic",
+        "item_effects": {},
+        "ap": 7,
+        "dp": 3,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 10,
+                "dp": 5
+            },
+            "2": {
+                "ap": 13,
+                "dp": 7
+            },
+            "3": {
+                "ap": 16,
+                "dp": 9
+            },
+            "4": {
+                "ap": 19,
+                "dp": 11
+            },
+            "5": {
+                "ap": 22,
+                "dp": 13
+            }
+        }
+    }, {
+        "id": 11626,
+        "name": "Jarette's Necklace",
+        "rarity": "rare",
+        "set": "Jarette",
+        "item_effects": {},
+        "ap": 7,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11628,
+        "name": "Serap's Necklace",
+        "rarity": "epic",
+        "item_effects": {
+            "hp": 50
+        },
+        "ap": 8,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 12
+            },
+            "2": {
+                "ap": 16
+            },
+            "3": {
+                "ap": 20
+            },
+            "4": {
+                "ap": 24
+            },
+            "5": {
+                "ap": 28
+            }
+        }
+    }, {
+        "id": 11629,
+        "name": "Tungrad Necklace",
+        "rarity": "epic",
+        "item_effects": {
+            "bsr": 20
+        },
+        "ap": 10,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 15
+            },
+            "2": {
+                "ap": 20
+            },
+            "3": {
+                "ap": 25
+            },
+            "4": {
+                "ap": 30
+            },
+            "5": {
+                "ap": 35
+            }
+        }
+    }, {
+        "id": 11630,
+        "name": "Laytenn's Power Stone",
+        "rarity": "epic",
+        "item_effects": {},
+        "ap": 10,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 15
+            },
+            "2": {
+                "ap": 20
+            },
+            "3": {
+                "ap": 25
+            },
+            "4": {
+                "ap": 30
+            },
+            "5": {
+                "ap": 35
+            }
+        }
+    }, {
+        "id": 11631,
+        "name": "Necklace of Shultz the Gladiator",
+        "rarity": "rare",
+        "item_effects": {},
+        "ap": 7,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 10
+            },
+            "2": {
+                "ap": 13
+            },
+            "3": {
+                "ap": 16
+            },
+            "4": {
+                "ap": 19
+            },
+            "5": {
+                "ap": 22
+            }
+        }
+    }, {
+        "id": 11704,
+        "name": "Dark Blood Ruby Necklace",
+        "rarity": "rare",
+        "item_effects": {
+            "gr": 25
+        },
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11705,
+        "name": "Corrupt Ruby Necklace",
+        "rarity": "epic",
+        "item_effects": {
+            "gr": 30
+        },
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11709,
+        "name": "Translucent Ocean Sapphire Necklace",
+        "rarity": "rare",
+        "item_effects": {
+            "kb": 25
+        },
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11710,
+        "name": "Sapphire Necklace of Storms",
+        "rarity": "epic",
+        "item_effects": {
+            "kb": 30
+        },
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11714,
+        "name": "Shining Gold Topaz Necklace",
+        "rarity": "rare",
+        "item_effects": {
+            "kb": 25
+        },
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11715,
+        "name": "Topaz Necklace of Regeneration",
+        "rarity": "epic",
+        "item_effects": {
+            "kd": 30
+        },
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11719,
+        "name": "Placid Forest Emerald Necklace",
+        "rarity": "rare",
+        "item_effects": {
+            "sr": 25
+        },
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11720,
+        "name": "Emerald Necklace of Tranquility",
+        "rarity": "epic",
+        "item_effects": {
+            "sr": 30
+        },
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11726,
+        "name": "Manos Ruby Necklace",
+        "rarity": "epic",
+        "item_effects": {
+            "gr": 30
+        },
+        "ap": 6,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 9,
+                "gr": 32
+            },
+            "2": {
+                "ap": 12,
+                "gr": 34
+            },
+            "3": {
+                "ap": 15,
+                "gr": 36
+            },
+            "4": {
+                "ap": 18,
+                "gr": 38
+            },
+            "5": {
+                "ap": 21,
+                "gr": 40
+            }
+        }
+    }, {
+        "id": 11727,
+        "name": "Manos Sapphire Necklace",
+        "rarity": "epic",
+        "item_effects": {
+            "kb": 30
+        },
+        "ap": 6,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 9,
+                "kb": 32
+            },
+            "2": {
+                "ap": 12,
+                "kb": 34
+            },
+            "3": {
+                "ap": 15,
+                "kb": 36
+            },
+            "4": {
+                "ap": 18,
+                "kb": 38
+            },
+            "5": {
+                "ap": 21,
+                "kb": 40
+            }
+        }
+    }, {
+        "id": 11728,
+        "name": "Manos Topaz Necklace",
+        "rarity": "epic",
+        "item_effects": {
+            "kd": 30
+        },
+        "ap": 6,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 9,
+                "kd": 32
+            },
+            "2": {
+                "ap": 12,
+                "kd": 34
+            },
+            "3": {
+                "ap": 15,
+                "kd": 36
+            },
+            "4": {
+                "ap": 18,
+                "kd": 38
+            },
+            "5": {
+                "ap": 21,
+                "kd": 40
+            }
+        }
+    }, {
+        "id": 11729,
+        "name": "Manos Emerald Necklace",
+        "rarity": "epic",
+        "item_effects": {
+            "ssfr": 30
+        },
+        "ap": 6,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 9,
+                "ssfr": 32
+            },
+            "2": {
+                "ap": 12,
+                "ssfr": 34
+            },
+            "3": {
+                "ap": 15,
+                "ssfr": 36
+            },
+            "4": {
+                "ap": 18,
+                "ssfr": 38
+            },
+            "5": {
+                "ap": 21,
+                "ssfr": 40
+            }
+        }
+    }, {
+        "id": 11730,
+        "name": "Manos Diamond Necklace",
+        "rarity": "epic",
+        "item_effects": {
+            "rta": 10
+        },
+        "ap": 6,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 9,
+                "rta": 10
+            },
+            "2": {
+                "ap": 12,
+                "rta": 12
+            },
+            "3": {
+                "ap": 15,
+                "rta": 13
+            },
+            "4": {
+                "ap": 18,
+                "rta": 14
+            },
+            "5": {
+                "ap": 21,
+                "rta": 15
+            }
+        }
+    }
+]

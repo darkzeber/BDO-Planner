@@ -1,0 +1,4478 @@
+{
+    "great-sword": [
+        {
+            "id": 14701,
+            "name": "Mercenary's Steel Great Sword",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14702,
+            "name": "Dandelion Great Sword",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14703,
+            "name": "Mercenary's Great Sword",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14705,
+            "name": "Ultimate Mercenary's Steel Great Sword",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "scythe": [
+        {
+            "id": 14711,
+            "name": "Spell Scythe of Seduction",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14712,
+            "name": "Dandelion Scythe",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14713,
+            "name": "Scythe of Seduction",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14715,
+            "name": "Ultimate Spell Scythe of Seduction",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "iron-buster": [
+        {
+            "id": 14721,
+            "name": "Upgraded Iron Buster",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14722,
+            "name": "Dandelion Iron Buster",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14723,
+            "name": "Rough Iron Buster",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14725,
+            "name": "Ultimate Upgraded Iron Buster",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "kamasylven-sword": [
+        {
+            "id": 14731,
+            "name": "Heiress's Kamasylven Sword",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14732,
+            "name": "Dandelion Kamasylven Sword",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14733,
+            "name": "Young Tree Spirit's Kamasylven Sword",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14735,
+            "name": "Ultimate Heiress's Kamasylven Sword",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "bo-staff": [
+        {
+            "id": 14741,
+            "name": "Azure Thunder Celestial Bo Staff",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14742,
+            "name": "Dandelion Celestial Bo Staff",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14743,
+            "name": "Practice Celestial Bo Staff",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14745,
+            "name": "Ultimate Azure Thunder Celestial Bo Staff",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "lancia": [
+        {
+            "id": 14751,
+            "name": "Piece of Purification Lancia",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14752,
+            "name": "Dandelion Lancia",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14753,
+            "name": "Schzeriel Lancia",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14755,
+            "name": "Ultimate Piece of Purification Lancia",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "crescent-blade": [
+        {
+            "id": 14761,
+            "name": "Immaculate Crescent Blade",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14762,
+            "name": "Dandelion Crescent Blade",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14763,
+            "name": "Iron Crescent Blade",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14765,
+            "name": "Ultimate Immaculate Crescent Blade",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "kerispear": [
+        {
+            "id": 14771,
+            "name": "Frosty Cloud Kerispear",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14772,
+            "name": "Dandelion Kerispear",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14773,
+            "name": "Sundo Kerispear",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14775,
+            "name": "Ultimate Frosty Cloud Kerispear",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ]
+    "sura-katana": [
+        {
+            "id": 14781,
+            "name": "Yagakmu Sura Katana",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14782,
+            "name": "Dandelion Sura Katana",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14783,
+            "name": "Tempest Sura Katana",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14785,
+            "name": "Ultimate Yagakmu Sura Katana",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "sah-chakram": [
+        {
+            "id": 14791,
+            "name": "Oeki's Sah Chakram",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14792,
+            "name": "Dandelion Sah Chakram",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14793,
+            "name": "Sonan Sah Chakram",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14795,
+            "name": "Ultimate Oeki's Sah Chakram",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "aad-sphera": [
+        {
+            "id": 14801,
+            "name": "Alloria Aad Sphera",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14802,
+            "name": "Dandelion Aad Sphera",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14803,
+            "name": "Pri Aad Sphera",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14805,
+            "name": "Ultimate Alloria Aad Sphera",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ],
+    "godr-sphera": [
+        {
+            "id": 14811,
+            "name": "Lord Godr Sphera",
+            "rarity": "rare",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14812,
+            "name": "Dandelion Godr Sphera",
+            "rarity": "epic",
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14813,
+            "name": "Tati Godr Sphera",
+            "rarity": "uncommon",
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14815,
+            "name": "Ultimate Lord Godr Sphera",
+            "rarity": "epic",
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
+    ]
+}

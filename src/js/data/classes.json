@@ -1,0 +1,199 @@
+[
+    {
+        "id": 0,
+        "name": "berserker",
+        "display_name": "Berserker",
+        "weapons": {
+            "primary": "axe",
+            "secondary": "ornamental-knot",
+            "awakening": "iron-buster"
+        },
+        "resistances": {
+            "kb": 30,
+            "kd": 20,
+            "ssfr": 30,
+            "gr": 20
+        }
+    }, {
+        "id": 1,
+        "name": "ranger",
+        "display_name": "Ranger",
+        "weapons": {
+            "primary": "bow",
+            "secondary": "dagger",
+            "awakening": "kamasylven-sword"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 2,
+        "name": "sorceress",
+        "display_name": "Sorceress",
+        "weapons": {
+            "primary": "amulet",
+            "secondary": "talisman",
+            "awakening": "scythe"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 3,
+        "name": "tamer",
+        "display_name": "Tamer",
+        "weapons": {
+            "primary": "shortsword",
+            "secondary": "trinket",
+            "awakening": "bo-staff"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 4,
+        "name": "valkyrie",
+        "display_name": "Valkyrie",
+        "weapons": {
+            "primary": "longsword",
+            "secondary": "shield",
+            "awakening": "lancia"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 5,
+        "name": "warrior",
+        "display_name": "Warrior",
+        "weapons": {
+            "primary": "longsword",
+            "secondary": "shield",
+            "awakening": "great-sword"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 6,
+        "name": "witch",
+        "display_name": "Witch",
+        "weapons": {
+            "primary": "staff",
+            "secondary": "dagger",
+            "awakening": "aad-sphera"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 30,
+            "gr": 20
+        }
+    }, {
+        "id": 7,
+        "name": "wizard",
+        "display_name": "Wizard",
+        "weapons": {
+            "primary": "staff",
+            "secondary": "dagger",
+            "awakening": "godr-sphera"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 30,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 8,
+        "name": "musa",
+        "display_name": "Musa",
+        "weapons": {
+            "primary": "blade",
+            "secondary": "bow",
+            "awakening": "crescent-blade"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 9,
+        "name": "maehwa",
+        "display_name": "Maehwa",
+        "weapons": {
+            "primary": "blade",
+            "secondary": "bow",
+            "awakening": "kerispear"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 10,
+        "name": "ninja",
+        "display_name": "Ninja",
+        "weapons": {
+            "primary": "shortsword",
+            "secondary": "shuriken",
+            "awakening": "sura-katana"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 11,
+        "name": "kunoichi",
+        "display_name": "Kunoichi",
+        "weapons": {
+            "primary": "shortsword",
+            "secondary": "shuriken",
+            "awakening": "sah-chakram"
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }, {
+        "id": 12,
+        "name": "darkknight",
+        "display_name": "Dark Knight",
+        "disabled": true,
+        "weapons": {
+            "primary": "spellsword",
+            "secondary": "ornamental-knot",
+            "awakening": ""
+        },
+        "resistances": {
+            "kb": 20,
+            "kd": 20,
+            "ssfr": 20,
+            "gr": 20
+        }
+    }
+]

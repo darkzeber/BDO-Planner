@@ -1,0 +1,13 @@
+[
+    {
+        "id": 22399,
+        "name": "Secondary Weapon Pearl Costume",
+        "rarity": "legendary",
+        "item_effects": {
+            "stam": 100
+        },
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }
+]

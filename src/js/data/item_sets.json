@@ -1,0 +1,197 @@
+{
+    "Agerian": {
+        "pieces": {
+            "2": {
+                "hp": 100
+            },
+            "3": {
+                "as": 2,
+                "cs": 2
+            }
+        },
+        "combos": {}
+    },
+    "Hercules' Might": {
+        "pieces": {
+            "2": {
+                "wgt": 150
+            },
+            "3": {
+                "wgt": 50
+            }
+        },
+        "combos": {}
+    },
+    "Luck of Fortuna": {
+        "pieces": {
+            "2": {
+                "lk": 2
+            },
+            "3": {
+                "ms": 3
+            }
+        },
+        "combos": {}
+    },
+    "Strength of Heve": {
+        "pieces": {
+            "2": {
+                "hp": 250
+            },
+            "3": {
+                "hp": 50
+            }
+        },
+        "combos": {}
+    },
+    "Talis": {
+        "pieces": {
+            "2": {
+                "ms": 1,
+                "jh": 1
+            },
+            "3": {
+                "ms": 2
+            }
+        },
+        "combos": {}
+    },
+    "Taritas": {
+        "pieces": {
+            "2": {
+                "mpwpsp": 100
+            },
+            "3": {
+                "acc": 5
+            }
+        },
+        "combos": {}
+    },
+    "Steel Taritas": {
+        "pieces": {
+            "2": {
+                "mpwpsp": 100
+            },
+            "3": {
+                "acc": 5
+            }
+        },
+        "combos": {}
+    },
+    "Zereth": {
+        "pieces": {
+            "2": {
+                "stam": 200
+            },
+            "3": {
+                "dmgaes": 5
+            }
+        },
+        "combos": {}
+    },
+    "Rocaba": {
+        "pieces": {
+            "4": {
+                "ev": 2
+            }
+        },
+        "combos": [{
+                "pieces": [
+                    "gloves",
+                    "helmet"
+                ],
+                "effects": {
+                    "ev": 5
+                }
+            }, {
+                "pieces": [
+                    "armor",
+                    "shoes"
+                ],
+                "effects": {
+                    "hp": 75,
+                    "mpwpsp": 75
+                }
+            }
+        ]
+    },
+    "Grunil": {
+        "pieces": {
+            "4": {
+                "hap": 2
+            }
+        },
+        "combos": [{
+                "pieces": [
+                    "gloves",
+                    "helmet"
+                ],
+                "effects": {
+                    "hap": 5
+                }
+            }, {
+                "pieces": [
+                    "armor",
+                    "shoes"
+                ],
+                "effects": {
+                    "hp": 150
+                }
+            }
+        ]
+    },
+    "Giath-Bheg-Muskan-RedNose": {
+        "pieces": {
+            "3": {
+                "stam": 200
+            },
+            "4": {
+                "as": 1,
+                "cs": 1
+            }
+        }
+    },
+    "Rosar": {
+        "pieces": {},
+        "combos": [{
+                "pieces": [
+                    "main-weapon",
+                    "secondary-weapon"
+                ],
+                "effects": {
+                    "iar": 10
+                }
+            }
+        ]
+    },
+    "Krea": {
+        "pieces": {},
+        "combos": [{
+                "pieces": [
+                    "main-weapon",
+                    "secondary-weapon"
+                ],
+                "effects": {
+                    "acc": 5
+                }
+            }
+        ]
+    },
+    "Jarette": { //Still not working, no idea why!
+        "pieces": {
+            "4": {
+                "hap": 5
+            },
+            "6": {
+                "hap": 10
+            }
+        }
+    },
+    "Core": {
+        "pieces": {
+            "2": {
+                "acc": 5
+            }
+        }
+    }
+}

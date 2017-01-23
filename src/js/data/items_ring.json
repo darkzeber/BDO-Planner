@@ -1,0 +1,769 @@
+[
+    {
+        "id": 12001,
+        "name": "Yuria Ring",
+        "rarity": "uncommon",
+        "item_effects": {
+            "dmgth": 2
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dmgth": 3
+            },
+            "2": {
+                "dmgth": 4
+            },
+            "3": {
+                "dmgth": 5
+            },
+            "4": {
+                "dmgth": 6
+            },
+            "5": {
+                "dmgth": 8
+            }
+        }
+    }, {
+        "id": 12002,
+        "name": "Bares Ring",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 2,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 3
+            },
+            "2": {
+                "ap": 4
+            },
+            "3": {
+                "ap": 5
+            },
+            "4": {
+                "ap": 6
+            },
+            "5": {
+                "ap": 8
+            }
+        }
+    }, {
+        "id": 12003,
+        "name": "Hesus Ring",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 0,
+        "dp": 1,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 2
+            },
+            "2": {
+                "dp": 3
+            },
+            "3": {
+                "dp": 4
+            },
+            "4": {
+                "dp": 5
+            },
+            "5": {
+                "dp": 7
+            }
+        }
+    }, {
+        "id": 12004,
+        "name": "Elisha Ring",
+        "rarity": "uncommon",
+        "item_effects": {
+            "hp": 15
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "hp": 30
+            },
+            "2": {
+                "hp": 45
+            },
+            "3": {
+                "hp": 60
+            },
+            "4": {
+                "hp": 75
+            },
+            "5": {
+                "hp": 100
+            }
+        }
+    }, {
+        "id": 12005,
+        "name": "Kalis Ring",
+        "rarity": "uncommon",
+        "item_effects": {
+            "acc": 2
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "acc": 3
+            },
+            "2": {
+                "acc": 4
+            },
+            "3": {
+                "acc": 5
+            },
+            "4": {
+                "acc": 6
+            },
+            "5": {
+                "acc": 7
+            }
+        }
+    }, {
+        "id": 12006,
+        "name": "Talis Ring",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 0,
+        "dp": 2,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 3
+            },
+            "2": {
+                "dp": 4
+            },
+            "3": {
+                "dp": 5
+            },
+            "4": {
+                "dp": 6
+            },
+            "5": {
+                "dp": 8
+            }
+        }
+    }, {
+        "id": 12007,
+        "name": "Mark of Shadow",
+        "rarity": "rare",
+        "item_effects": {},
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 7
+            },
+            "2": {
+                "ap": 9
+            },
+            "3": {
+                "ap": 11
+            },
+            "4": {
+                "ap": 13
+            },
+            "5": {
+                "ap": 15
+            }
+        }
+    }, {
+        "id": 12008,
+        "name": "Shrine Guardian Token",
+        "rarity": "rare",
+        "item_effects": {
+            "hp": 20
+        },
+        "ap": 0,
+        "dp": 5,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 7,
+                "hp": 35
+            },
+            "2": {
+                "dp": 9,
+                "hp": 50
+            },
+            "3": {
+                "dp": 11,
+                "hp": 65
+            },
+            "4": {
+                "dp": 13,
+                "hp": 80
+            },
+            "5": {
+                "dp": 15,
+                "hp": 95
+            }
+        }
+    }, {
+        "id": 12010,
+        "name": "Ring of Good Deeds",
+        "rarity": "uncommon",
+        "item_effects": {
+            "acc": 1
+        },
+        "ap": 2,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 3,
+                "acc": 2
+            },
+            "2": {
+                "ap": 4,
+                "acc": 3
+            },
+            "3": {
+                "ap": 5,
+                "acc": 4
+            },
+            "4": {
+                "ap": 6,
+                "acc": 5
+            },
+            "5": {
+                "ap": 7,
+                "acc": 6
+            }
+        }
+    }, {
+        "id": 12011,
+        "name": "Nert Ring",
+        "rarity": "rare",
+        "item_effects": {
+            "acc": 1,
+            "hp": 25
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "acc": 2,
+                "hp": 50
+            },
+            "2": {
+                "acc": 3,
+                "hp": 75
+            },
+            "3": {
+                "acc": 4,
+                "hp": 100
+            },
+            "4": {
+                "acc": 5,
+                "hp": 125
+            },
+            "5": {
+                "acc": 6,
+                "hp": 150
+            }
+        }
+    }, {
+        "id": 12012,
+        "name": "Outlaw's Ring",
+        "rarity": "rare",
+        "item_effects": {
+            "stam": 50
+        },
+        "ap": 3,
+        "dp": 4,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 4,
+                "dp": 5
+            },
+            "2": {
+                "ap": 5,
+                "dp": 6
+            },
+            "3": {
+                "ap": 6,
+                "dp": 7
+            },
+            "4": {
+                "ap": 7,
+                "dp": 8
+            },
+            "5": {
+                "ap": 8,
+                "dp": 9
+            }
+        }
+    }, {
+        "id": 12013,
+        "name": "Ring of Dim Magical Power",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 3,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12014,
+        "name": "Ring of Concentrated Magical Power",
+        "rarity": "uncommon",
+        "item_effects": {},
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12015,
+        "name": "Ring of Sealed Magical Power",
+        "rarity": "rare",
+        "item_effects": {},
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 6
+            },
+            "2": {
+                "ap": 7
+            },
+            "3": {
+                "ap": 8
+            },
+            "4": {
+                "ap": 9
+            },
+            "5": {
+                "ap": 10
+            }
+        }
+    }, {
+        "id": 12017,
+        "name": "Blue Coral Ring",
+        "rarity": "rare",
+        "item_effects": {
+            "mpwpsp": 25
+        },
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 6,
+                "mpwpsp": 30
+            },
+            "2": {
+                "ap": 7,
+                "mpwpsp": 35
+            },
+            "3": {
+                "ap": 8,
+                "mpwpsp": 40
+            },
+            "4": {
+                "ap": 9,
+                "mpwpsp": 45
+            },
+            "5": {
+                "ap": 10,
+                "mpwpsp": 50
+            }
+        }
+    }, {
+        "id": 12018,
+        "name": "Red Coral Ring",
+        "rarity": "rare",
+        "item_effects": {
+            "stam": 50
+        },
+        "ap": 4,
+        "dp": 3,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 5,
+                "dp": 4
+            },
+            "2": {
+                "ap": 6,
+                "dp": 5
+            },
+            "3": {
+                "ap": 7,
+                "dp": 6
+            },
+            "4": {
+                "ap": 8,
+                "dp": 7
+            },
+            "5": {
+                "ap": 9,
+                "dp": 8
+            }
+        }
+    }, {
+        "id": 12027,
+        "name": "Sahazad's Ring of Monarch",
+        "rarity": "rare",
+        "item_effects": {
+            "hp": 25
+        },
+        "ap": 7,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12028,
+        "name": "Barhan's Ring of Conquest",
+        "rarity": "rare",
+        "item_effects": {
+            "mpwpsp": 25
+        },
+        "ap": 7,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12029,
+        "name": "Manmehan's Ring of Gold",
+        "rarity": "rare",
+        "item_effects": {
+            "hp": 50
+        },
+        "ap": 0,
+        "dp": 7,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12030,
+        "name": "Saya's Ring of Eternity",
+        "rarity": "rare",
+        "item_effects": {
+            "mpwpsp": 50
+        },
+        "ap": 0,
+        "dp": 7,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12031,
+        "name": "Ring of Crescent Guardian",
+        "rarity": "epic",
+        "item_effects": {},
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 8
+            },
+            "2": {
+                "ap": 11
+            },
+            "3": {
+                "ap": 14
+            },
+            "4": {
+                "ap": 17
+            },
+            "5": {
+                "ap": 20
+            }
+        }
+    }, {
+        "id": 12032,
+        "name": "Ring of Cadry Guardian",
+        "rarity": "epic",
+        "item_effects": {
+            "hp": 25,
+            "mpwpsp": 25
+        },
+        "ap": 0,
+        "dp": 5,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 8,
+                "hp": 40
+            },
+            "2": {
+                "dp": 11,
+                "hp": 55
+            },
+            "3": {
+                "dp": 14,
+                "hp": 70
+            },
+            "4": {
+                "dp": 17,
+                "hp": 85
+            },
+            "5": {
+                "dp": 20,
+                "hp": 100
+            }
+        }
+    }, {
+        "id": 12035,
+        "name": "Jarette's Ring",
+        "rarity": "rare",
+        "set": "Jarette",
+        "item_effects": {},
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12103,
+        "name": "Blood Ruby Ring",
+        "rarity": "uncommon",
+        "item_effects": {
+            "dmgth": 3,
+            "hp": 30
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12104,
+        "name": "Dark Blood Ruby Ring",
+        "rarity": "rare",
+        "item_effects": {
+            "dmgth": 4,
+            "hp": 40
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12105,
+        "name": "Corrupt Ruby Ring",
+        "rarity": "epic",
+        "item_effects": {
+            "dmgth": 5,
+            "hp": 50
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12108,
+        "name": "Ocean Sapphire Ring",
+        "rarity": "uncommon",
+        "item_effects": {
+            "dmgtdh": 3,
+            "hp": 30
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12109,
+        "name": "Translucent Ocean Sapphire Ring",
+        "rarity": "rare",
+        "item_effects": {
+            "dmgtdh": 4,
+            "hp": 40
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12110,
+        "name": "Sapphire Ring of Storms",
+        "rarity": "epic",
+        "item_effects": {
+            "dmgtdh": 5,
+            "hp": 50
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12113,
+        "name": "Gold Topaz Ring",
+        "rarity": "uncommon",
+        "item_effects": {
+            "dmgaes": 20,
+            "hp": 30
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12114,
+        "name": "Shining Gold Topaz Ring",
+        "rarity": "rare",
+        "item_effects": {
+            "dmgth": 4,
+            "hp": 40
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12115,
+        "name": "Topaz Ring of Regeneration",
+        "rarity": "epic",
+        "item_effects": {
+            "dmgaes": 5,
+            "hp": 50
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12118,
+        "name": "Forest Emerald Ring",
+        "rarity": "uncommon",
+        "item_effects": {
+            "acc": 3,
+            "hp": 30
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12119,
+        "name": "Placid Forest Emerald Ring",
+        "rarity": "rare",
+        "item_effects": {
+            "acc": 4,
+            "hp": 40
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12120,
+        "name": "Emerald Ring of Tranquility",
+        "rarity": "epic",
+        "item_effects": {
+            "acc": 5,
+            "hp": 50
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12126,
+        "name": "Manos Ruby Ring",
+        "rarity": "epic",
+        "item_effects": {
+            "dmgth": 6,
+            "hp": 50
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dmgth": 9
+            },
+            "2": {
+                "dmgth": 12
+            },
+            "3": {
+                "dmgth": 15
+            },
+            "4": {
+                "dmgth": 18
+            },
+            "5": {
+                "dmgth": 21
+            }
+        }
+    }, {
+        "id": 12128,
+        "name": "Manos Topaz Ring",
+        "rarity": "epic",
+        "item_effects": {
+            "dmgaes": 6,
+            "hp": 50
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dmgaes": 9
+            },
+            "2": {
+                "dmgaes": 12
+            },
+            "3": {
+                "dmgaes": 15
+            },
+            "4": {
+                "dmgaes": 18
+            },
+            "5": {
+                "dmgaes": 21
+            }
+        }
+    }
+]

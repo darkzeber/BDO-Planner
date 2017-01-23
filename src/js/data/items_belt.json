@@ -1,0 +1,787 @@
+[
+    {
+        "id": 12201,
+        "name": "Yuria Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "dmgth": 2,
+            "wgt": 40
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dmgth": 3
+            },
+            "2": {
+                "dmgth": 4
+            },
+            "3": {
+                "dmgth": 5
+            },
+            "4": {
+                "dmgth": 6
+            },
+            "5": {
+                "dmgth": 8
+            }
+        }
+    }, {
+        "id": 12202,
+        "name": "Bares Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 40
+        },
+        "ap": 2,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 3
+            },
+            "2": {
+                "ap": 4
+            },
+            "3": {
+                "ap": 5
+            },
+            "4": {
+                "ap": 6
+            },
+            "5": {
+                "ap": 8
+            }
+        }
+    }, {
+        "id": 12203,
+        "name": "Hesus Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 30
+        },
+        "ap": 0,
+        "dp": 2,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 3
+            },
+            "2": {
+                "dp": 4
+            },
+            "3": {
+                "dp": 5
+            },
+            "4": {
+                "dp": 6
+            },
+            "5": {
+                "dp": 8
+            }
+        }
+    }, {
+        "id": 12204,
+        "name": "Elisha Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 20,
+            "hp": 20
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "hp": 30
+            },
+            "2": {
+                "hp": 40
+            },
+            "3": {
+                "hp": 50
+            },
+            "4": {
+                "hp": 60
+            },
+            "5": {
+                "hp": 80
+            }
+        }
+    }, {
+        "id": 12205,
+        "name": "Kalis Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 40,
+            "acc": 2
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "acc": 3
+            },
+            "2": {
+                "acc": 4
+            },
+            "3": {
+                "acc": 5
+            },
+            "4": {
+                "acc": 6
+            },
+            "5": {
+                "acc": 7
+            }
+        }
+    }, {
+        "id": 12206,
+        "name": "Talis Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 40
+        },
+        "ap": 0,
+        "dp": 2,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 3
+            },
+            "2": {
+                "dp": 4
+            },
+            "3": {
+                "dp": 5
+            },
+            "4": {
+                "dp": 6
+            },
+            "5": {
+                "dp": 8
+            }
+        }
+    }, {
+        "id": 12208,
+        "name": "Rhutum Elite Belt",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 60
+        },
+        "ap": 0,
+        "dp": 4,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 6
+            },
+            "2": {
+                "dp": 8
+            },
+            "3": {
+                "dp": 10
+            },
+            "4": {
+                "dp": 12
+            },
+            "5": {
+                "dp": 14
+            }
+        }
+    }, {
+        "id": 12210,
+        "name": "Tree Spirit Belt",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 80,
+            "acc": 1
+        },
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 7,
+                "acc": 2
+            },
+            "2": {
+                "ap": 9,
+                "acc": 3
+            },
+            "3": {
+                "ap": 11,
+                "acc": 4
+            },
+            "4": {
+                "ap": 13,
+                "acc": 5
+            },
+            "5": {
+                "ap": 15,
+                "acc": 6
+            }
+        }
+    }, {
+        "id": 12211,
+        "name": "Belt of Shultz the Gladiator",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 60,
+            "stam": 50
+        },
+        "ap": 3,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 5,
+                "wgt": 70
+            },
+            "2": {
+                "ap": 7,
+                "wgt": 80
+            },
+            "3": {
+                "ap": 9,
+                "wgt": 90
+            },
+            "4": {
+                "ap": 11,
+                "wgt": 100
+            },
+            "5": {
+                "ap": 13,
+                "wgt": 110
+            }
+        }
+    }, {
+        "id": 12216,
+        "name": "Sturdy Rhutum Elite Fighter Belt",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 50
+        },
+        "ap": 0,
+        "dp": 3,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12220,
+        "name": "Ancient Weapon Core",
+        "rarity": "rare",
+        "set": "Core",
+        "item_effects": {
+            "wgt": 60
+        },
+        "ap": 4,
+        "dp": 4,
+        "crystals": 0,
+        "enhancement_text": "Set effect enabled when equipped with “Ancient Guardian's  Seal”",
+        "enhancement": {
+            "1": {
+                "ap": 5,
+                "dp": 5,
+                "wgt": 70
+            },
+            "2": {
+                "ap": 6,
+                "dp": 6,
+                "wgt": 80
+            },
+            "3": {
+                "ap": 7,
+                "dp": 7,
+                "wgt": 90
+            },
+            "4": {
+                "ap": 8,
+                "dp": 8,
+                "wgt": 100
+            },
+            "5": {
+                "ap": 9,
+                "dp": 9,
+                "wgt": 110
+            }
+        }
+    }, {
+        "id": 12229,
+        "name": "Centaur's Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "hp": 25,
+            "wgt": 80
+        },
+        "ap": 0,
+        "dp": 5,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "hp": 50,
+                "dp": 8
+            },
+            "2": {
+                "hp": 75,
+                "dp": 11
+            },
+            "3": {
+                "hp": 100,
+                "dp": 14
+            },
+            "4": {
+                "hp": 125,
+                "dp": 17
+            },
+            "5": {
+                "hp": 150,
+                "dp": 20
+            }
+        }
+    }, {
+        "id": 12230,
+        "name": "Basilisk's Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 80
+        },
+        "ap": 5,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 8
+            },
+            "2": {
+                "ap": 11
+            },
+            "3": {
+                "ap": 14
+            },
+            "4": {
+                "ap": 17
+            },
+            "5": {
+                "ap": 20
+            }
+        }
+    }, {
+        "id": 12231,
+        "name": "Jarette's Belt",
+        "rarity": "rare",
+        "set": "Jarette",
+        "item_effects": {},
+        "ap": 4,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12303,
+        "name": "Red Coral Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 50,
+            "hp": 30
+        },
+        "ap": 1,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12304,
+        "name": "Brilliant Red Coral Belt",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 60,
+            "hp": 40
+        },
+        "ap": 2,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12305,
+        "name": "Twilight Red Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 70,
+            "hp": 70
+        },
+        "ap": 3,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12308,
+        "name": "Blue Coral Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 50,
+            "mpwpsp": 30
+        },
+        "ap": 0,
+        "dp": 1,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12309,
+        "name": "Brilliant Blue Coral Belt",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 60,
+            "mpwpsp": 40
+        },
+        "ap": 0,
+        "dp": 2,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12310,
+        "name": "Daybreak Blue Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 70,
+            "mpwpsp": 70
+        },
+        "ap": 0,
+        "dp": 3,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12313,
+        "name": "Green Coral Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 50,
+            "stam": 60
+        },
+        "ap": 1,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12314,
+        "name": "Brilliant Green Coral Belt",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 60,
+            "stam": 80
+        },
+        "ap": 2,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12315,
+        "name": "Prairie Green Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 70,
+            "stam": 100
+        },
+        "ap": 3,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12318,
+        "name": "Golden Coral Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 50,
+            "hprc": 3,
+            "mprc": 3,
+            "wprc": 3,
+            "sprc": 3
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12319,
+        "name": "Brilliant Golden Coral Belt",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 60,
+            "hprc": 4,
+            "mprc": 4,
+            "wprc": 4,
+            "sprc": 4
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12320,
+        "name": "Golden Sun Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 70,
+            "hprc": 5,
+            "mprc": 5,
+            "wprc": 5,
+            "sprc": 5
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12323,
+        "name": "White Coral Belt",
+        "rarity": "uncommon",
+        "item_effects": {
+            "wgt": 50,
+            "dmgaes": 3
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12324,
+        "name": "Brilliant White Coral Belt",
+        "rarity": "rare",
+        "item_effects": {
+            "wgt": 60,
+            "dmgaes": 4
+        },
+        "ap": 1,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12325,
+        "name": "Breezy White Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 70,
+            "dmgaes": 5
+        },
+        "ap": 2,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 12326,
+        "name": "Manos Red Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 70,
+            "as": 1,
+            "cs": 1
+        },
+        "ap": 3,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 6,
+                "wgt": 80
+            },
+            "2": {
+                "ap": 9,
+                "wgt": 90
+            },
+            "3": {
+                "ap": 12,
+                "wgt": 100
+            },
+            "4": {
+                "ap": 15,
+                "wgt": 110
+            },
+            "5": {
+                "ap": 18,
+                "wgt": 120
+            }
+        }
+    }, {
+        "id": 12327,
+        "name": "Manos Blue Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 80,
+            "kb": 2,
+            "kd": 2,
+            "ssfr": 2,
+            "gr": 2
+        },
+        "ap": 0,
+        "dp": 3,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "dp": 6,
+                "kb": 3,
+                "kd": 3,
+                "ssfr": 3,
+                "gr": 3
+            },
+            "2": {
+                "dp": 9,
+                "kb": 4,
+                "kd": 4,
+                "ssfr": 4,
+                "gr": 4
+            },
+            "3": {
+                "dp": 12,
+                "kb": 5,
+                "kd": 5,
+                "ssfr": 5,
+                "gr": 5
+            },
+            "4": {
+                "dp": 15,
+                "kb": 6,
+                "kd": 6,
+                "ssfr": 6,
+                "gr": 6
+            },
+            "5": {
+                "dp": 18,
+                "kb": 7,
+                "kd": 7,
+                "ssfr": 7,
+                "gr": 7
+            }
+        }
+    }, {
+        "id": 12328,
+        "name": "Manos Green Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 70,
+            "ms": 2
+        },
+        "ap": 3,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 6,
+                "wgt": 80
+            },
+            "2": {
+                "ap": 9,
+                "wgt": 90
+            },
+            "3": {
+                "ap": 12,
+                "wgt": 100
+            },
+            "4": {
+                "ap": 15,
+                "wgt": 110
+            },
+            "5": {
+                "ap": 18,
+                "wgt": 120
+            }
+        }
+    }, {
+        "id": 12329,
+        "name": "Manos Golden Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 100,
+            "ms": 1
+        },
+        "ap": 0,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "wgt": 200,
+                "ms": 1
+            },
+            "2": {
+                "wgt": 300,
+                "ms": 2
+            },
+            "3": {
+                "wgt": 400,
+                "ms": 2
+            },
+            "4": {
+                "wgt": 500,
+                "ms": 3
+            },
+            "5": {
+                "wgt": 600,
+                "ms": 3
+            }
+        }
+    }, {
+        "id": 12330,
+        "name": "Manos White Coral Belt",
+        "rarity": "epic",
+        "item_effects": {
+            "wgt": 70,
+            "iar": 2
+        },
+        "ap": 2,
+        "dp": 0,
+        "crystals": 0,
+        "enhancement_text": "",
+        "enhancement": {
+            "1": {
+                "ap": 5,
+                "iar": 3
+            },
+            "2": {
+                "ap": 8,
+                "iar": 4
+            },
+            "3": {
+                "ap": 11,
+                "iar": 5
+            },
+            "4": {
+                "ap": 14,
+                "iar": 6
+            },
+            "5": {
+                "ap": 17,
+                "iar": 7
+            }
+        }
+    }
+]

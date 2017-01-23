@@ -155,7 +155,7 @@
         "pieces": {},
         "combos": [{
                 "pieces": [
-                    "main-weapon",
+                    "primary-weapon",
                     "secondary-weapon"
                 ],
                 "effects": {
@@ -168,7 +168,7 @@
         "pieces": {},
         "combos": [{
                 "pieces": [
-                    "main-weapon",
+                    "primary-weapon",
                     "secondary-weapon"
                 ],
                 "effects": {
@@ -177,7 +177,7 @@
             }
         ]
     },
-    "Jarette": { //Still not working, no idea why!
+    "Jarette": {
         "pieces": {
             "4": {
                 "hap": 5

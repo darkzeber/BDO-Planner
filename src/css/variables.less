@@ -1,0 +1,101 @@
+/*
+ * @Author: https://github.com/Ihellmasker/BDO-Planner
+ * @http: https://bdoplanner.com/
+ */
+
+@site-background:                   #101010;
+@planner-background:                #1b2337;
+
+@base-text-color:                   #e5e5e5;
+@base-text-size:                    0.75rem;
+
+@link-text-color:                   #dfce7f;
+
+@section-header-color:              #c4a68a;
+
+@item-box-background:               darken(@planner-background, 5%);
+
+@class-border:                      #9f8772;
+
+@item-selected-color:               #00FF2B;
+
+@rarity-color-common:               #ffffff;
+@rarity-color-uncommon:             #5ff369;
+@rarity-color-rare:                 #0391c4;
+@rarity-color-epic:                 #f6c232;
+@rarity-color-legendary:            #d36300;
+
+@tooltip-background:                @planner-background;
+
+@equipment-border-size:             2px;
+@equipment-border-color:            #7E7E7E;
+@equipment-box-shadow:              1px 1px 3px rgba(0, 0, 0, 0.7);
+@equipment-ring-width:              75%;
+@equipment-ring-height:             @equipment-ring-width;
+@equipment-ring-vert-offset:        11%;
+@equipment-ring-inner:              10%;
+@equipment-slot-width:              12%;
+@equipment-slot-height:             @equipment-slot-width;
+@equipment-middle-top:              @equipment-ring-vert-offset + (@equipment-ring-height / 2);
+@equipment-gem-size-factor:         .5;
+@equipment-gem-hori-top:            ((@equipment-slot-height / 2) * @equipment-gem-size-factor);
+@equipment-gem-hori-left:           (@equipment-slot-width / 2) + ((@equipment-slot-width / 2) * @equipment-gem-size-factor);
+@equipment-gem-vert-top:            (@equipment-slot-height / 2) + ((@equipment-slot-height / 2) * @equipment-gem-size-factor);
+@equipment-gem-vert-left:           ((@equipment-slot-width / 2) * @equipment-gem-size-factor);
+/* Helmet */
+@equipment-helmet-top:              @equipment-middle-top - 35%;
+@equipment-helmet-left:             50% - 15%;
+/* Armor */
+@equipment-armor-top:               @equipment-middle-top - 35%;
+@equipment-armor-left:              50% + 15%;
+/* Ring 1 */
+@equipment-ring1-top:               @equipment-middle-top - 25%;
+@equipment-ring1-left:              50% + (@equipment-ring-width / 2) - 8%;
+/* Ring 2 */
+@equipment-ring2-top:               @equipment-middle-top - 11%;
+@equipment-ring2-left:              50% + (@equipment-ring-width / 2) - 2%;
+/* Earring 1 */
+@equipment-earring1-top:            @equipment-middle-top - 25%;
+@equipment-earring1-left:           50% - (@equipment-ring-width / 2) + 8%;
+/* Earring 2 */
+@equipment-earring2-top:            @equipment-middle-top - 11%;
+@equipment-earring2-left:           50% - (@equipment-ring-width / 2) + 2%;
+/* Shoes */
+@equipment-shoes-top:               @equipment-middle-top + 5%;
+@equipment-shoes-left:              50% - (@equipment-ring-width / 2) + 1%;
+/* Gloves */
+@equipment-gloves-top:              @equipment-middle-top + 5%;
+@equipment-gloves-left:             50% + (@equipment-ring-width / 2) - 1%;
+/* Belt */
+@equipment-belt-top:                @equipment-middle-top + 20%;
+@equipment-belt-left:               50% - (@equipment-ring-width / 2) + 7%;
+/* Necklace */
+@equipment-necklace-top:            @equipment-middle-top + 20%;
+@equipment-necklace-left:           50% + (@equipment-ring-width / 2) - 7%;
+/* Main Weapon */
+@equipment-main-weapon-top:         @equipment-middle-top + 31%;
+@equipment-main-weapon-left:        50% - (@equipment-ring-width / 2) + 20%;
+/* Awakening Weapon */
+@equipment-awakening-weapon-top:    @equipment-middle-top + 36%;
+@equipment-awakening-weapon-left:   50%;
+/* Secondary Weapon */
+@equipment-secondary-weapon-top:    @equipment-middle-top + 31%;
+@equipment-secondary-weapon-left:   50% + (@equipment-ring-width / 2) - 20%;
+/* Outfit */
+@equipment-outfit-top:              @equipment-middle-top - 22%;
+@equipment-outfit-left:             50%;
+/* Main Weapon Outfit */
+@equipment-main-weapon-outfit-top:  @equipment-middle-top + 6%;
+@equipment-main-weapon-outfit-left: 50% - 20%;
+/* Awakening Weapon Outfit */
+@equipment-awakening-weapon-outfit-top:     @equipment-middle-top + 18%;
+@equipment-awakening-weapon-outfit-left:    50% - 9%;
+/* Secondary Weapon Outfit */
+@equipment-secondary-weapon-outfit-top:     @equipment-middle-top + 6%;
+@equipment-secondary-weapon-outfit-left:    50% + 20%;
+/* Underwear */
+@equipment-underwear-top:           @equipment-middle-top + 18%;
+@equipment-underwear-left:          50% + 9%;
+/* Alchemy Stone */
+@equipment-alchemy-stone-top:       @equipment-middle-top - 1%;
+@equipment-alchemy-stone-left:      50%;

@@ -1,8 +1,8 @@
 <?php
     include $_SERVER['DOCUMENT_ROOT'].'/php/inline/get_full_link.php';
     $__version_major = 1;
-    $__version_minor = 0;
-    $__version_revision = 2;
+    $__version_minor = 1;
+    $__version_revision = 0;
     $__vr_str = "?".$__version_major.$__version_minor.$__version_revision;
 ?>
 <!DOCTYPE html>
@@ -383,53 +383,21 @@
                     <div class="modal-body">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1>Notes</h1>
-                                <p>
-                                    We've officially renamed to BDO Planner now with the intent to add more features outside of just planning your gear choices!
-                                </p>
+                                <h1>New stuffs</h1>
 
-                                <h1>Features</h1>
+                                <ul>
+                                    <li>All of the new Coral belts have been added</li>
+                                </ul>
+
+                                <h1>Bugs D:</h1>
+
+                                <ul>
+                                    <li>Fixed an issue with Awakened AP being 1 lower than it should in certain circumstances</li>
+                                </ul>
 
                                 <p><em>
-                                    There were lots of changes done since the last update, so it's possible we'll Kakao this update note and miss a lot of stuff.
+                                    Old patch notes can be found <a href="https://github.com/Ihellmasker/BDO-Planner/blob/master/CHANGELOG.md">here</a>
                                 </em></p>
-
-                                <ul>
-                                    <li><strong>Short links</strong>, this is the big thing, short links have now been added. As theres no account system, they will be delete after 30 days of not being accessed just to stop our databases overflowing. As long as the links used though it won't be deleted.</li>
-                                    <li><strong>Long links</strong>, we have had to redo the long link structure and some of the database, so unfortunately all old links will be broken completely. Long links still exist, and unlike the short links, they're not temporary. Hopefully we shouldn't have to change anything again that will break links.</li>
-                                    <li><strong>Item tooltips</strong>. Finally! When you hover an item it will show a proper tooltip of the items stats!</li>
-                                    <li>Fixed some bug with Alchemy Stone stats showing sometimes when they're not activated.</li>
-                                    <li><strong>All resist</strong> has changed slightly. If an item gave "all resist" before, it will now give the 4 resist categories separately to allow the calculation of your total resists to show properly.</li>
-                                    <li>Gems will no longer reset when changing the enhancement levels of items</li>
-                                </ul>
-                                  
-                                <h1>Visual changes</h1>
-
-                                <ul>
-                                    <li><strong>New class select screen</strong>. We wanted something a bit more interesting to look at when you first open the page, so we made something a bit nicer here. Functionally it's still the same though.</li>
-                                    <li><strong>Settings moved to new modal</strong>. Just a small change we made as more tabs will be appearing for other things.</li>
-                                    <li><strong>Saving moved to new modal</strong>. Similar to above, we moved saving into it's own modal to remove the large text box from the footer, and because you can now generate short links on demand!</li>
-                                    <li>Various other minor font and colour tweaks around the place.</li>
-                                    <li>Change the styling on the enhancement sliders</li>
-                                </ul>
-                                  
-                                <h1>Back-end changes</h1>
-
-                                <p><em>
-                                    Just in case you follow the git more than just using it, here's some of the back-end things that were changed.
-                                </em></p>
-
-                                <ul>
-                                    <li>Rewrote a lot of the database, now items are idenfitied by their ingame ID number rather than name, this allows for duplicate entries for things such as Alchemy Stones, it also allows for a more robust saving system rather than saving based on it's position in the database.</li>
-                                    <li>Removed redundant data, we found a lot of redundant data in our databases, such as sets on items without sets, so we removed a lot! Probably still more to go though.</li>
-                                </ul>
-                                
-                                <h1>Bug fix time!</h1>
-
-                                <ul>
-                                    <li>Fixed an issue with searches being case sensitive</li>
-                                    <li>Fixed an issue with item display in the popups on smaller resolutions</li>
-                                </ul>
                             </div>
                         </div>
                     </div>

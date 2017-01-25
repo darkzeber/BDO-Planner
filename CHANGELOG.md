@@ -1,6 +1,16 @@
 Change Log
 ========
 
+## 1.1.0 (2017-01-25)
+
+### New stuffs
+
+* All of the new Coral belts have been added
+
+### Bugs D:
+
+* Fixed an issue with Awakened AP being 1 lower than it should in certain circumstances
+
 ## 1.0.2 (2017-01-21)
 
 ### Fixed it, maybe?

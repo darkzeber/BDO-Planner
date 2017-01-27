@@ -2438,7 +2438,7 @@
         "id": 11014,
         "name": "Red Nose's Armor",
         "rarity": "epic",
-        "set": "Giath-Bheg-Muskan-RedNose",
+        "set": "Boss",
         "item_effects": {
             "hprc": 10,
             "mpwpsp": 100
@@ -2512,7 +2512,7 @@
         "id": 11017,
         "name": "Dim Tree Spirit's Armor",
         "rarity": "epic",
-        "set": "Giath-Bheg-Muskan-RedNose",
+        "set": "Boss",
         "item_effects": {
             "hp": 200,
             "mpwpsp": 100

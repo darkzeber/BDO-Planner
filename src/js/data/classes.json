@@ -19,7 +19,7 @@
         "name": "ranger",
         "display_name": "Ranger",
         "weapons": {
-            "primary": "bow",
+            "primary": "longbow",
             "secondary": "dagger",
             "awakening": "kamasylven-sword"
         },

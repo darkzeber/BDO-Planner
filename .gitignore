@@ -47,7 +47,7 @@ config.codekit
 .codekit-cache
 *.sass-cache
 *.htaccess
-dev files/
+dev/
 src/php/libs/
 src/php/secure/
 src/php/cron/

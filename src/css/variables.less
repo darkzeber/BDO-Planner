@@ -37,11 +37,11 @@
 @equipment-slot-width:              12%;
 @equipment-slot-height:             @equipment-slot-width;
 @equipment-middle-top:              @equipment-ring-vert-offset + (@equipment-ring-height / 2);
-@equipment-gem-size-factor:         .5;
-@equipment-gem-hori-top:            ((@equipment-slot-height / 2) * @equipment-gem-size-factor);
-@equipment-gem-hori-left:           (@equipment-slot-width / 2) + ((@equipment-slot-width / 2) * @equipment-gem-size-factor);
-@equipment-gem-vert-top:            (@equipment-slot-height / 2) + ((@equipment-slot-height / 2) * @equipment-gem-size-factor);
-@equipment-gem-vert-left:           ((@equipment-slot-width / 2) * @equipment-gem-size-factor);
+@equipment-crystal-size-factor:     .5;
+@equipment-crystal-hori-top:        ((@equipment-slot-height / 2) * @equipment-crystal-size-factor);
+@equipment-crystal-hori-left:       (@equipment-slot-width / 2) + ((@equipment-slot-width / 2) * @equipment-crystal-size-factor);
+@equipment-crystal-vert-top:        (@equipment-slot-height / 2) + ((@equipment-slot-height / 2) * @equipment-crystal-size-factor);
+@equipment-crystal-vert-left:       ((@equipment-slot-width / 2) * @equipment-crystal-size-factor);
 /* Helmet */
 @equipment-helmet-top:              @equipment-middle-top - 35%;
 @equipment-helmet-left:             50% - 15%;
@@ -73,20 +73,29 @@
 @equipment-necklace-top:            @equipment-middle-top + 20%;
 @equipment-necklace-left:           50% + (@equipment-ring-width / 2) - 7%;
 /* Main Weapon */
-@equipment-main-weapon-top:         @equipment-middle-top + 31%;
-@equipment-main-weapon-left:        50% - (@equipment-ring-width / 2) + 20%;
+@equipment-primary-weapon-top:      @equipment-middle-top + 31%;
+@equipment-primary-weapon-left:     50% - (@equipment-ring-width / 2) + 20%;
 /* Awakening Weapon */
 @equipment-awakening-weapon-top:    @equipment-middle-top + 36%;
 @equipment-awakening-weapon-left:   50%;
 /* Secondary Weapon */
 @equipment-secondary-weapon-top:    @equipment-middle-top + 31%;
 @equipment-secondary-weapon-left:   50% + (@equipment-ring-width / 2) - 20%;
-/* Outfit */
-@equipment-outfit-top:              @equipment-middle-top - 22%;
-@equipment-outfit-left:             50%;
-/* Main Weapon Outfit */
-@equipment-main-weapon-outfit-top:  @equipment-middle-top + 6%;
-@equipment-main-weapon-outfit-left: 50% - 20%;
+/* Outfit Armor */
+@equipment-outfit-armor-top:        @equipment-middle-top - 21%;
+@equipment-outfit-armor-left:       50% + 9%;
+/* Outfit Helmet */
+@equipment-outfit-helmet-top:       @equipment-middle-top - 21%;
+@equipment-outfit-helmet-left:      50% - 9%;
+/* Outfit Gloves */
+@equipment-outfit-gloves-top:       @equipment-middle-top - 9%;
+@equipment-outfit-gloves-left:      50% - 20%;
+/* Outfit Shoes */
+@equipment-outfit-shoes-top:        @equipment-middle-top - 9%;
+@equipment-outfit-shoes-left:       50% + 20%;
+/* Primary Weapon Outfit */
+@equipment-primary-weapon-outfit-top:       @equipment-middle-top + 6%;
+@equipment-primary-weapon-outfit-left:      50% - 20%;
 /* Awakening Weapon Outfit */
 @equipment-awakening-weapon-outfit-top:     @equipment-middle-top + 18%;
 @equipment-awakening-weapon-outfit-left:    50% - 9%;

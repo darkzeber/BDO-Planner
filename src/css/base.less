@@ -9,6 +9,10 @@ body {
     font-size: @base-text-size;
 }
 
+.hide {
+    display: none !important;
+}
+
 #main-container {
     background-color: @planner-background;
     min-height: 100vh;
@@ -65,13 +69,6 @@ hr {
         font-size: 0.8rem;
         text-decoration: none;
     }
-}
-
-#calculator-section, #class-section {
-    display: none;
-}
-#calculator-section {
-    padding: 6px 0px;
 }
 
 input[type=checkbox] {
@@ -135,4 +132,8 @@ input[type=checkbox] {
 
 #loaded_link {
     display: none;
+}
+
+#calculator-section {
+    padding: 6px 0;
 }

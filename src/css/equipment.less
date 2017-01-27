@@ -3,13 +3,18 @@
  * @http: https://bdoplanner.com/
  */
 
- #equipment {
+#equipment {
     position: relative;
     margin: 0 auto;
     width: 100%;
     padding-top: 100%;
 
     .background-ring {
+        /* Used for lining up the icons
+        background: url('../imgs/equip wheel.png');
+        background-size: 120%;
+        background-position: center center;*/
+        
         border: @equipment-border-size solid fade(@equipment-border-color, 40%);
         width: @equipment-ring-width;
         height: 0px;
@@ -34,7 +39,7 @@
         }
     }
 
-    .gear-slot, .gem-slot {
+    .gear-slot, .crystal-slot {
         position: absolute;
         border: @equipment-border-size solid fade(@equipment-border-color, 40%);
         border-radius: 5px;
@@ -65,6 +70,18 @@
         &.legendary {
             border-color: @rarity-color-legendary;
         }
+        
+        &.disabled {
+            cursor: not-allowed;
+            opacity: 0.3;
+        }
+        &.multi-slot {
+        
+        }
+        &.selected {
+            box-shadow: inset @equipment-box-shadow,
+                0 0 15px 5px rgba(255, 255, 255, 0.7);
+        }
     }
     
     .gear-slot {
@@ -81,203 +98,261 @@
             color: white;
             text-shadow: 0px 0px 1px rgba(217, 40, 49, 1), 0px 0px 2px rgba(217, 40, 49, 1), 0px 0px 3px rgba(217, 40, 49, 1), 0px 0px 4px rgba(217, 40, 49, 1), 0px 0px 5px rgba(217, 40, 49, 1), 0px 0px 6px rgba(217, 40, 49, 1);
         }
-        &.disabled {
-            cursor: not-allowed;
-            opacity: 0.3;
-        }
     }
     
-    .gem-slot {
+    .crystal-slot {
         display: none;
-        width: @equipment-slot-width * @equipment-gem-size-factor;
-        height: @equipment-slot-height * @equipment-gem-size-factor;
-        margin-top: -((@equipment-slot-height * @equipment-gem-size-factor) / 2);
-        margin-left: -((@equipment-slot-width * @equipment-gem-size-factor) / 2);
-        background-image: url("../images/placeholders/gem.png");
+        width: @equipment-slot-width * @equipment-crystal-size-factor;
+        height: @equipment-slot-height * @equipment-crystal-size-factor;
+        margin-top: -((@equipment-slot-height * @equipment-crystal-size-factor) / 2);
+        margin-left: -((@equipment-slot-width * @equipment-crystal-size-factor) / 2);
         background-size: 80%;
         
-        &.disabled {
-            cursor: not-allowed;
-            opacity: 0.3;
+        &.empty {
+            background-image: url("../bdo/placeholders/crystal.png");
         }
     }
     
-    .helmet {
+    .gear-slot.helmet {
         top: @equipment-helmet-top;
         left: @equipment-helmet-left;
-        background-image: url("../images/placeholders/helmet.png");
+        
+        &.empty {
+            background-image: url("../bdo/placeholders/helmet.png");
+        }
     }
 
-    .gem-slot.helmet1 {
-        top: @equipment-helmet-top - @equipment-gem-vert-top;
-        left: @equipment-helmet-left - @equipment-gem-vert-left;
+    .crystal-slot.helmet1 {
+        top: @equipment-helmet-top - @equipment-crystal-vert-top;
+        left: @equipment-helmet-left - @equipment-crystal-vert-left;
     }
 
-    .gem-slot.helmet2 {
-        top: @equipment-helmet-top - @equipment-gem-vert-top;
-        left: @equipment-helmet-left + @equipment-gem-vert-left;
+    .crystal-slot.helmet2 {
+        top: @equipment-helmet-top - @equipment-crystal-vert-top;
+        left: @equipment-helmet-left + @equipment-crystal-vert-left;
     }
 
-    .armor {
+    .gear-slot.armor {
         top: @equipment-armor-top;
         left: @equipment-armor-left;
-        background-image: url("../images/placeholders/armor.png");
+        
+        &.empty {
+            background-image: url("../bdo/placeholders/armor.png");
+        }
     }
 
-    .gem-slot.armor1 {
-        top: @equipment-armor-top - @equipment-gem-vert-top;
-        left: @equipment-armor-left - @equipment-gem-vert-left;
+    .crystal-slot.armor.slot1 {
+        top: @equipment-armor-top - @equipment-crystal-vert-top;
+        left: @equipment-armor-left - @equipment-crystal-vert-left;
     }
 
-    .gem-slot.armor2 {
-        top: @equipment-armor-top - @equipment-gem-vert-top;
-        left: @equipment-armor-left + @equipment-gem-vert-left;
+    .crystal-slot.armor.slot2 {
+        top: @equipment-armor-top - @equipment-crystal-vert-top;
+        left: @equipment-armor-left + @equipment-crystal-vert-left;
     }
 
-    .ring1 {
+    .gear-slot.ring1 {
         top: @equipment-ring1-top;
         left: @equipment-ring1-left;
-        background-image: url("../images/placeholders/ring.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/ring.png");
+        }
     }
 
-    .ring2 {
+    .gear-slot.ring2 {
         top: @equipment-ring2-top;
         left: @equipment-ring2-left;
-        background-image: url("../images/placeholders/ring.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/ring.png");
+        }
     }
     
-    .earring1 {
+    .gear-slot.earring1 {
         top: @equipment-earring1-top;
         left: @equipment-earring1-left;
-        background-image: url("../images/placeholders/earring.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/earring.png");
+        }
     }
 
-    .earring2 {
+    .gear-slot.earring2 {
         top: @equipment-earring2-top;
         left: @equipment-earring2-left;
-        background-image: url("../images/placeholders/earring.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/earring.png");
+        }
     }
 
-    .shoes {
+    .gear-slot.shoes {
         top: @equipment-shoes-top;
         left: @equipment-shoes-left;
-        background-image: url("../images/placeholders/shoes.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/shoes.png");
+        }
     }
 
-    .gem-slot.shoes1 {
-        top: @equipment-shoes-top - @equipment-gem-hori-top;
-        left: @equipment-shoes-left - @equipment-gem-hori-left;
+    .crystal-slot.shoes.slot1 {
+        top: @equipment-shoes-top - @equipment-crystal-hori-top;
+        left: @equipment-shoes-left - @equipment-crystal-hori-left;
     }
 
-    .gem-slot.shoes2 {
-        top: @equipment-shoes-top + @equipment-gem-hori-top;
-        left: @equipment-shoes-left - @equipment-gem-hori-left;
+    .crystal-slot.shoes.slot2 {
+        top: @equipment-shoes-top + @equipment-crystal-hori-top;
+        left: @equipment-shoes-left - @equipment-crystal-hori-left;
     }
 
-    .gloves {
+    .gear-slot.gloves {
         top: @equipment-gloves-top;
         left: @equipment-gloves-left;
-        background-image: url("../images/placeholders/gloves.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/gloves.png");
+        }
     }
 
-    .gem-slot.gloves1 {
-        top: @equipment-gloves-top - @equipment-gem-hori-top;
-        left: @equipment-gloves-left + @equipment-gem-hori-left;
+    .crystal-slot.gloves.slot1 {
+        top: @equipment-gloves-top - @equipment-crystal-hori-top;
+        left: @equipment-gloves-left + @equipment-crystal-hori-left;
     }
 
-    .gem-slot.gloves2 {
-        top: @equipment-gloves-top + @equipment-gem-hori-top;
-        left: @equipment-gloves-left + @equipment-gem-hori-left;
+    .crystal-slot.gloves.slot2 {
+        top: @equipment-gloves-top + @equipment-crystal-hori-top;
+        left: @equipment-gloves-left + @equipment-crystal-hori-left;
     }
 
-    .belt {
+    .gear-slot.belt {
         top: @equipment-belt-top;
         left: @equipment-belt-left;
-        background-image: url("../images/placeholders/belt.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/belt.png");
+        }
     }
 
-    .necklace {
+    .gear-slot.necklace {
         top: @equipment-necklace-top;
         left: @equipment-necklace-left;
-        background-image: url("../images/placeholders/necklace.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/necklace.png");
+        }
     }
 
-    .main-weapon {
-        top: @equipment-main-weapon-top;
-        left: @equipment-main-weapon-left;
-        background-image: url("../images/placeholders/main-weapons.png");
+    .gear-slot.primary-weapon {
+        top: @equipment-primary-weapon-top;
+        left: @equipment-primary-weapon-left;
+        &.empty {
+            background-image: url("../bdo/placeholders/primary-weapon.png");
+        }
     }
 
-    .gem-slot.main-weapon1 {
-        top: @equipment-main-weapon-top + @equipment-gem-vert-top;
-        left: @equipment-main-weapon-left - @equipment-gem-vert-left;
+    .crystal-slot.primary-weapon.slot1 {
+        top: @equipment-primary-weapon-top + @equipment-crystal-vert-top;
+        left: @equipment-primary-weapon-left - @equipment-crystal-vert-left;
     }
 
-    .gem-slot.main-weapon2 {
-        top: @equipment-main-weapon-top + @equipment-gem-vert-top;
-        left: @equipment-main-weapon-left + @equipment-gem-vert-left;
+    .crystal-slot.primary-weapon.slot2 {
+        top: @equipment-primary-weapon-top + @equipment-crystal-vert-top;
+        left: @equipment-primary-weapon-left + @equipment-crystal-vert-left;
     }
 
-    .awakening-weapon {
+    .gear-slot.awakening-weapon {
         top: @equipment-awakening-weapon-top;
         left: @equipment-awakening-weapon-left;
-        background-image: url("../images/placeholders/awakening-weapons.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/awakening-weapon.png");
+        }
     }
 
-    .secondary-weapon {
+    .gear-slot.secondary-weapon {
         top: @equipment-secondary-weapon-top;
         left: @equipment-secondary-weapon-left;
-        background-image: url("../images/placeholders/secondary-weapons.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/secondary-weapon.png");
+        }
     }
 
-    .gem-slot.secondary-weapon1 {
-        top: @equipment-secondary-weapon-top + @equipment-gem-vert-top;
-        left: @equipment-secondary-weapon-left - @equipment-gem-vert-left;
+    .crystal-slot.secondary-weapon.slot1 {
+        top: @equipment-secondary-weapon-top + @equipment-crystal-vert-top;
+        left: @equipment-secondary-weapon-left - @equipment-crystal-vert-left;
     }
 
-    .gem-slot.secondary-weapon2 {
-        top: @equipment-secondary-weapon-top + @equipment-gem-vert-top;
-        left: @equipment-secondary-weapon-left + @equipment-gem-vert-left;
+    .crystal-slot.secondary-weapon.slot2 {
+        top: @equipment-secondary-weapon-top + @equipment-crystal-vert-top;
+        left: @equipment-secondary-weapon-left + @equipment-crystal-vert-left;
     }
 
-    .outfit {
-        top: @equipment-outfit-top;
-        left: @equipment-outfit-left;
-        background-image: url("../images/placeholders/outfit.png");
+    .gear-slot.outfit-armor {
+        top: @equipment-outfit-armor-top;
+        left: @equipment-outfit-armor-left;
+        &.empty {
+            background-image: url("../bdo/placeholders/outfit-armor.png");
+        }
     }
 
-    .gem-slot.outfit1 {
-        top: @equipment-outfit-top - @equipment-gem-vert-top;
-        left: @equipment-outfit-left;
+    .crystal-slot.outfit-armor.slot1 {
+        top: @equipment-outfit-armor-top - @equipment-crystal-vert-top;
+        left: @equipment-outfit-armor-left - @equipment-crystal-vert-left;
+    }
+    
+    .gear-slot.outfit-helmet {
+        top: @equipment-outfit-helmet-top;
+        left: @equipment-outfit-helmet-left;
+        &.empty {
+            background-image: url("../bdo/placeholders/outfit-helmet.png");
+        }
+    }
+    
+    .gear-slot.outfit-gloves {
+        top: @equipment-outfit-gloves-top;
+        left: @equipment-outfit-gloves-left;
+        &.empty {
+            background-image: url("../bdo/placeholders/outfit-gloves.png");
+        }
+    }
+    
+    .gear-slot.outfit-shoes {
+        top: @equipment-outfit-shoes-top;
+        left: @equipment-outfit-shoes-left;
+        &.empty {
+            background-image: url("../bdo/placeholders/outfit-shoes.png");
+        }
     }
 
-    .main-weapon-outfit {
-        top: @equipment-main-weapon-outfit-top;
-        left: @equipment-main-weapon-outfit-left;
-        background-image: url("../images/placeholders/main-weapon-outfit.png");
+    .gear-slot.primary-weapon-outfit {
+        top: @equipment-primary-weapon-outfit-top;
+        left: @equipment-primary-weapon-outfit-left;
+        &.empty {
+            background-image: url("../bdo/placeholders/primary-weapon-outfit.png");
+        }
     }
 
-    .awakening-weapon-outfit {
+    .gear-slot.awakening-weapon-outfit {
         top: @equipment-awakening-weapon-outfit-top;
         left: @equipment-awakening-weapon-outfit-left;
-        background-image: url("../images/placeholders/awakening-weapon-outfit.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/awakening-weapon-outfit.png");
+        }
     }
 
-    .secondary-weapon-outfit {
+    .gear-slot.secondary-weapon-outfit {
         top: @equipment-secondary-weapon-outfit-top;
         left: @equipment-secondary-weapon-outfit-left;
-        background-image: url("../images/placeholders/secondary-weapon-outfit.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/secondary-weapon-outfit.png");
+        }
     }
 
-    .underwear {
+    .gear-slot.underwear {
         top: @equipment-underwear-top;
         left: @equipment-underwear-left;
-        background-image: url("../images/placeholders/underwear.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/underwear.png");
+        }
     }
 
-    .alchemy-stone {
+    .gear-slot.alchemy-stone {
         top: @equipment-alchemy-stone-top;
         left: @equipment-alchemy-stone-left;
-        background-image: url("../images/placeholders/alchemy-stone.png");
+        &.empty {
+            background-image: url("../bdo/placeholders/alchemy-stone.png");
+        }
     }
 }

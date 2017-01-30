@@ -2,7 +2,7 @@
     {
         "id": 19001,
         "name": "Combat Armor Pearl Costume",
-        "rarity": "legendary",
+        "rarity": 4,
         "incompatible": [
             {
                 "value": "outfit-helmet",

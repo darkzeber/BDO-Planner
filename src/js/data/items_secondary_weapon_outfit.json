@@ -2,7 +2,7 @@
     {
         "id": 22399,
         "name": "Secondary Weapon Pearl Costume",
-        "rarity": "legendary",
+        "rarity": 4,
         "item_effects": {
             "stam": 100
         },

@@ -2,7 +2,7 @@
     {
         "id": 12001,
         "name": "Yuria Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dmgth": 2
         },
@@ -30,7 +30,7 @@
     }, {
         "id": 12002,
         "name": "Bares Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 2,
         "dp": 0,
@@ -56,7 +56,7 @@
     }, {
         "id": 12003,
         "name": "Hesus Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 0,
         "dp": 1,
@@ -82,7 +82,7 @@
     }, {
         "id": 12004,
         "name": "Elisha Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "hp": 15
         },
@@ -110,7 +110,7 @@
     }, {
         "id": 12005,
         "name": "Kalis Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "acc": 2
         },
@@ -138,7 +138,7 @@
     }, {
         "id": 12006,
         "name": "Talis Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 0,
         "dp": 2,
@@ -164,7 +164,7 @@
     }, {
         "id": 12007,
         "name": "Mark of Shadow",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {},
         "ap": 5,
         "dp": 0,
@@ -190,7 +190,7 @@
     }, {
         "id": 12008,
         "name": "Shrine Guardian Token",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "hp": 20
         },
@@ -223,7 +223,7 @@
     }, {
         "id": 12010,
         "name": "Ring of Good Deeds",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "acc": 1
         },
@@ -256,7 +256,7 @@
     }, {
         "id": 12011,
         "name": "Nert Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "acc": 1,
             "hp": 25
@@ -290,7 +290,7 @@
     }, {
         "id": 12012,
         "name": "Outlaw's Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "stam": 50
         },
@@ -323,7 +323,7 @@
     }, {
         "id": 12013,
         "name": "Ring of Dim Magical Power",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 3,
         "dp": 0,
@@ -333,7 +333,7 @@
     }, {
         "id": 12014,
         "name": "Ring of Concentrated Magical Power",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 4,
         "dp": 0,
@@ -343,7 +343,7 @@
     }, {
         "id": 12015,
         "name": "Ring of Sealed Magical Power",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {},
         "ap": 5,
         "dp": 0,
@@ -369,7 +369,7 @@
     }, {
         "id": 12017,
         "name": "Blue Coral Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "mpwpsp": 25
         },
@@ -402,7 +402,7 @@
     }, {
         "id": 12018,
         "name": "Red Coral Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "stam": 50
         },
@@ -435,7 +435,7 @@
     }, {
         "id": 12027,
         "name": "Sahazad's Ring of Monarch",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "hp": 25
         },
@@ -447,7 +447,7 @@
     }, {
         "id": 12028,
         "name": "Barhan's Ring of Conquest",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "mpwpsp": 25
         },
@@ -459,7 +459,7 @@
     }, {
         "id": 12029,
         "name": "Manmehan's Ring of Gold",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "hp": 50
         },
@@ -471,7 +471,7 @@
     }, {
         "id": 12030,
         "name": "Saya's Ring of Eternity",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "mpwpsp": 50
         },
@@ -483,7 +483,7 @@
     }, {
         "id": 12031,
         "name": "Ring of Crescent Guardian",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {},
         "ap": 5,
         "dp": 0,
@@ -509,7 +509,7 @@
     }, {
         "id": 12032,
         "name": "Ring of Cadry Guardian",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "hp": 25,
             "mpwpsp": 25
@@ -543,7 +543,7 @@
     }, {
         "id": 12035,
         "name": "Jarette's Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Jarette",
         "item_effects": {},
         "ap": 4,
@@ -554,7 +554,7 @@
     }, {
         "id": 12103,
         "name": "Blood Ruby Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dmgth": 3,
             "hp": 30
@@ -567,7 +567,7 @@
     }, {
         "id": 12104,
         "name": "Dark Blood Ruby Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dmgth": 4,
             "hp": 40
@@ -580,7 +580,7 @@
     }, {
         "id": 12105,
         "name": "Corrupt Ruby Ring",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dmgth": 5,
             "hp": 50
@@ -593,7 +593,7 @@
     }, {
         "id": 12108,
         "name": "Ocean Sapphire Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dmgtdh": 3,
             "hp": 30
@@ -606,7 +606,7 @@
     }, {
         "id": 12109,
         "name": "Translucent Ocean Sapphire Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dmgtdh": 4,
             "hp": 40
@@ -619,7 +619,7 @@
     }, {
         "id": 12110,
         "name": "Sapphire Ring of Storms",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dmgtdh": 5,
             "hp": 50
@@ -632,7 +632,7 @@
     }, {
         "id": 12113,
         "name": "Gold Topaz Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dmgaes": 20,
             "hp": 30
@@ -645,7 +645,7 @@
     }, {
         "id": 12114,
         "name": "Shining Gold Topaz Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dmgth": 4,
             "hp": 40
@@ -658,7 +658,7 @@
     }, {
         "id": 12115,
         "name": "Topaz Ring of Regeneration",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dmgaes": 5,
             "hp": 50
@@ -671,7 +671,7 @@
     }, {
         "id": 12118,
         "name": "Forest Emerald Ring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "acc": 3,
             "hp": 30
@@ -684,7 +684,7 @@
     }, {
         "id": 12119,
         "name": "Placid Forest Emerald Ring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "acc": 4,
             "hp": 40
@@ -697,7 +697,7 @@
     }, {
         "id": 12120,
         "name": "Emerald Ring of Tranquility",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "acc": 5,
             "hp": 50
@@ -710,7 +710,7 @@
     }, {
         "id": 12126,
         "name": "Manos Ruby Ring",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dmgth": 6,
             "hp": 50
@@ -739,7 +739,7 @@
     }, {
         "id": 12128,
         "name": "Manos Topaz Ring",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dmgaes": 6,
             "hp": 50

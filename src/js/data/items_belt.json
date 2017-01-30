@@ -2,7 +2,7 @@
     {
         "id": 12201,
         "name": "Yuria Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dmgth": 2,
             "wgt": 40
@@ -31,7 +31,7 @@
     }, {
         "id": 12202,
         "name": "Bares Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 40
         },
@@ -59,7 +59,7 @@
     }, {
         "id": 12203,
         "name": "Hesus Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 30
         },
@@ -87,7 +87,7 @@
     }, {
         "id": 12204,
         "name": "Elisha Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 20,
             "hp": 20
@@ -116,7 +116,7 @@
     }, {
         "id": 12205,
         "name": "Kalis Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 40,
             "acc": 2
@@ -145,7 +145,7 @@
     }, {
         "id": 12206,
         "name": "Talis Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 40
         },
@@ -173,7 +173,7 @@
     }, {
         "id": 12208,
         "name": "Rhutum Elite Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 60
         },
@@ -201,7 +201,7 @@
     }, {
         "id": 12210,
         "name": "Tree Spirit Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 80,
             "acc": 1
@@ -235,7 +235,7 @@
     }, {
         "id": 12211,
         "name": "Belt of Shultz the Gladiator",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 60,
             "stam": 50
@@ -269,7 +269,7 @@
     }, {
         "id": 12216,
         "name": "Sturdy Rhutum Elite Fighter Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 50
         },
@@ -281,7 +281,7 @@
     }, {
         "id": 12220,
         "name": "Ancient Weapon Core",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Core",
         "item_effects": {
             "wgt": 60
@@ -320,7 +320,7 @@
     }, {
         "id": 12229,
         "name": "Centaur's Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "hp": 25,
             "wgt": 80
@@ -354,7 +354,7 @@
     }, {
         "id": 12230,
         "name": "Basilisk's Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 80
         },
@@ -382,7 +382,7 @@
     }, {
         "id": 12231,
         "name": "Jarette's Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Jarette",
         "item_effects": {},
         "ap": 4,
@@ -393,7 +393,7 @@
     }, {
         "id": 12303,
         "name": "Red Coral Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 50,
             "hp": 30
@@ -406,7 +406,7 @@
     }, {
         "id": 12304,
         "name": "Brilliant Red Coral Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 60,
             "hp": 40
@@ -419,7 +419,7 @@
     }, {
         "id": 12305,
         "name": "Twilight Red Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 70,
             "hp": 70
@@ -432,7 +432,7 @@
     }, {
         "id": 12308,
         "name": "Blue Coral Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 50,
             "mpwpsp": 30
@@ -445,7 +445,7 @@
     }, {
         "id": 12309,
         "name": "Brilliant Blue Coral Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 60,
             "mpwpsp": 40
@@ -458,7 +458,7 @@
     }, {
         "id": 12310,
         "name": "Daybreak Blue Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 70,
             "mpwpsp": 70
@@ -471,7 +471,7 @@
     }, {
         "id": 12313,
         "name": "Green Coral Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 50,
             "stam": 60
@@ -484,7 +484,7 @@
     }, {
         "id": 12314,
         "name": "Brilliant Green Coral Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 60,
             "stam": 80
@@ -497,7 +497,7 @@
     }, {
         "id": 12315,
         "name": "Prairie Green Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 70,
             "stam": 100
@@ -510,7 +510,7 @@
     }, {
         "id": 12318,
         "name": "Golden Coral Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 50,
             "hprc": 3,
@@ -526,7 +526,7 @@
     }, {
         "id": 12319,
         "name": "Brilliant Golden Coral Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 60,
             "hprc": 4,
@@ -542,7 +542,7 @@
     }, {
         "id": 12320,
         "name": "Golden Sun Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 70,
             "hprc": 5,
@@ -558,7 +558,7 @@
     }, {
         "id": 12323,
         "name": "White Coral Belt",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "wgt": 50,
             "dmgaes": 3
@@ -571,7 +571,7 @@
     }, {
         "id": 12324,
         "name": "Brilliant White Coral Belt",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "wgt": 60,
             "dmgaes": 4
@@ -584,7 +584,7 @@
     }, {
         "id": 12325,
         "name": "Breezy White Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 70,
             "dmgaes": 5
@@ -597,7 +597,7 @@
     }, {
         "id": 12326,
         "name": "Manos Red Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 70,
             "as": 1,
@@ -632,7 +632,7 @@
     }, {
         "id": 12327,
         "name": "Manos Blue Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 80,
             "kb": 2,
@@ -684,7 +684,7 @@
     }, {
         "id": 12328,
         "name": "Manos Green Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 70,
             "ms": 2
@@ -718,7 +718,7 @@
     }, {
         "id": 12329,
         "name": "Manos Golden Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 100,
             "ms": 1
@@ -752,7 +752,7 @@
     }, {
         "id": 12330,
         "name": "Manos White Coral Belt",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "wgt": 70,
             "iar": 2

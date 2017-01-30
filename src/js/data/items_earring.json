@@ -2,7 +2,7 @@
     {
         "id": 11801,
         "name": "Yuria Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dmgth": 2
         },
@@ -30,7 +30,7 @@
     }, {
         "id": 11802,
         "name": "Bares Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 2,
         "dp": 0,
@@ -56,7 +56,7 @@
     }, {
         "id": 11803,
         "name": "Hesus Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 0,
         "dp": 1,
@@ -82,7 +82,7 @@
     }, {
         "id": 11804,
         "name": "Elisha Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "mpwpsp": 15
         },
@@ -94,7 +94,7 @@
     }, {
         "id": 11805,
         "name": "Kalis Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "acc": 2
         },
@@ -122,7 +122,7 @@
     }, {
         "id": 11806,
         "name": "Talis Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 0,
         "dp": 2,
@@ -148,7 +148,7 @@
     }, {
         "id": 11807,
         "name": "Token of Friendship",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "hp": 20
         },
@@ -181,7 +181,7 @@
     }, {
         "id": 11808,
         "name": "Witch's Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {},
         "ap": 5,
         "dp": 0,
@@ -207,7 +207,7 @@
     }, {
         "id": 11810,
         "name": "Mesto Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "acc": 1
         },
@@ -240,7 +240,7 @@
     }, {
         "id": 11811,
         "name": "Ridell Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "acc": 1
         },
@@ -273,7 +273,7 @@
     }, {
         "id": 11812,
         "name": "Earring of Dim Magical Power",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 3,
         "dp": 0,
@@ -283,7 +283,7 @@
     }, {
         "id": 11813,
         "name": "Earring of Concentrated Magical Power",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 4,
         "dp": 0,
@@ -293,7 +293,7 @@
     }, {
         "id": 11814,
         "name": "Earring of Sealed Magical Power",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {},
         "ap": 5,
         "dp": 0,
@@ -324,7 +324,7 @@
     }, {
         "id": 11815,
         "name": "Blue Whale Molar Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "hp": 100
         },
@@ -352,7 +352,7 @@
     }, {
         "id": 11816,
         "name": "Blue Coral Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "mpwpsp": 25
         },
@@ -380,7 +380,7 @@
     }, {
         "id": 11817,
         "name": "Red Coral Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "acc": 3,
             "stam": 50
@@ -419,7 +419,7 @@
     }, {
         "id": 11827,
         "name": "Fugitive Khalk's Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "stam": 50,
             "mpwpsp": 50
@@ -448,7 +448,7 @@
     }, {
         "id": 11828,
         "name": "Tungrade Earring",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "bsr": 10
         },
@@ -476,7 +476,7 @@
     }, {
         "id": 11829,
         "name": "Jarette's Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Jarette",
         "item_effects": {},
         "ap": 4,
@@ -487,7 +487,7 @@
     }, {
         "id": 11903,
         "name": "Blood Ruby Earrings",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "hp": 30
         },
@@ -499,7 +499,7 @@
     }, {
         "id": 11904,
         "name": "Dark Blood Ruby Earrings",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "hp": 40
         },
@@ -511,7 +511,7 @@
     }, {
         "id": 11905,
         "name": "Corrupt Ruby Earrings",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "hp": 50
         },
@@ -523,7 +523,7 @@
     }, {
         "id": 11908,
         "name": "Ocean Sapphire Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "mpwpsp": 30
         },
@@ -535,7 +535,7 @@
     }, {
         "id": 11909,
         "name": "Translucent Ocean Sapphire Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "mpwpsp": 40
         },
@@ -547,7 +547,7 @@
     }, {
         "id": 11910,
         "name": "Sapphire Earring of Storms",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "mpwpsp": 50
         },
@@ -559,7 +559,7 @@
     }, {
         "id": 11913,
         "name": "Gold Topaz Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "stam": 60
         },
@@ -571,7 +571,7 @@
     }, {
         "id": 11914,
         "name": "Shining Gold Topaz Earrings",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "stam": 80
         },
@@ -583,7 +583,7 @@
     }, {
         "id": 11915,
         "name": "Topaz Earrings of Regeneration",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "stam": 100
         },
@@ -595,7 +595,7 @@
     }, {
         "id": 11918,
         "name": "Forest Emerald Earring",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "hprc": 3,
             "mprc": 3,
@@ -610,7 +610,7 @@
     }, {
         "id": 11919,
         "name": "Placid Forest Emerald Earring",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "hprc": 4,
             "mprc": 4,
@@ -625,7 +625,7 @@
     }, {
         "id": 11920,
         "name": "Emerald Earring of Tranquility",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "hprc": 5,
             "mprc": 5,
@@ -640,7 +640,7 @@
     }, {
         "id": 11926,
         "name": "Manos Ruby Earrings",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "hp": 50
         },
@@ -668,7 +668,7 @@
     }, {
         "id": 11927,
         "name": "Manos Sapphire Earrings",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "mpwpsp": 100
         },
@@ -696,7 +696,7 @@
     }, {
         "id": 11928,
         "name": "Manos Topaz Earrings",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "stam": 100
         },

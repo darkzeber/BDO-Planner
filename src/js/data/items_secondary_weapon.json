@@ -3,7 +3,7 @@
         {
             "id": 10703,
             "name": "Saiyer Ornamental Knot",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "ev": 2,
@@ -89,7 +89,7 @@
         }, {
             "id": 10704,
             "name": "Oros Ornamental Knot",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 1,
                 "dr": 3
@@ -184,7 +184,7 @@
         }, {
             "id": 10705,
             "name": "Theos Ornamental Knot",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 1,
                 "dr": 5,
@@ -270,7 +270,7 @@
         }, {
             "id": 10706,
             "name": "Saiyer Ornamental Knot of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "ev": 2,
@@ -373,7 +373,7 @@
         }, {
             "id": 10707,
             "name": "Saiyer Ornamental Knot of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "ev": 2,
@@ -476,7 +476,7 @@
         }, {
             "id": 10708,
             "name": "Saiyer Ornamental Knot of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "ev": 2,
@@ -579,7 +579,7 @@
         }, {
             "id": 10709,
             "name": "Ultimate Saiyer Ornamental Knot",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 7,
                 "ev": 2,
@@ -682,7 +682,7 @@
         }, {
             "id": 10710,
             "name": "Oros Ornamental Knot of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 2,
                 "dr": 3,
@@ -778,7 +778,7 @@
         }, {
             "id": 10711,
             "name": "Oros Ornamental Knot of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 2,
                 "dr": 3,
@@ -874,7 +874,7 @@
         }, {
             "id": 10712,
             "name": "Oros Ornamental Knot of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 2,
                 "dr": 3,
@@ -970,7 +970,7 @@
         }, {
             "id": 10713,
             "name": "Ultimate Oros Ornamental Knot",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 2,
                 "dr": 3,
@@ -1066,7 +1066,7 @@
         }, {
             "id": 10714,
             "name": "Theos Ornamental Knot of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 5,
@@ -1169,7 +1169,7 @@
         }, {
             "id": 10715,
             "name": "Theos Ornamental Knot of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 5,
@@ -1272,7 +1272,7 @@
         }, {
             "id": 10716,
             "name": "Theos Ornamental Knot of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 5,
@@ -1375,7 +1375,7 @@
         }, {
             "id": 10717,
             "name": "Ultimate Theos Ornamental Knot",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 3,
                 "dr": 5,
@@ -1478,13 +1478,13 @@
         }, {
             "id": 10724,
             "name": "Krea Ornamental Knot",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 6,
             "ap_min": 4,
             "dp": 4,
-            "crystals": 1,
+            "crystals": 2,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -1576,7 +1576,7 @@
         }, {
             "id": 10725,
             "name": "Rosar Ornamental Knot",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 4,
@@ -1621,75 +1621,75 @@
                     "dp": 11
                 },
                 "8": {
-                    "ap_min": 1,
-                    "ap_max": 4,
+                    "ap_min": 2,
+                    "ap_max": 5,
                     "dp": 12
                 },
                 "9": {
-                    "ap_min": 1,
-                    "ap_max": 4,
+                    "ap_min": 3,
+                    "ap_max": 6,
                     "dp": 13
                 },
                 "10": {
-                    "ap_min": 1,
-                    "ap_max": 4,
+                    "ap_min": 4,
+                    "ap_max": 7,
                     "dp": 14
                 },
                 "11": {
-                    "ap_min": 1,
-                    "ap_max": 4,
+                    "ap_min": 5,
+                    "ap_max": 8,
                     "dp": 15
                 },
                 "12": {
-                    "ap_min": 1,
-                    "ap_max": 4,
+                    "ap_min": 6,
+                    "ap_max": 9,
                     "dp": 16
                 },
                 "13": {
-                    "ap_min": 1,
-                    "ap_max": 4,
+                    "ap_min": 7,
+                    "ap_max": 10,
                     "dp": 17
                 },
                 "14": {
-                    "ap_min": 1,
-                    "ap_max": 4,
+                    "ap_min": 8,
+                    "ap_max": 11,
                     "dp": 18
                 },
                 "15": {
-                    "ap_min": 1,
-                    "ap_max": 4,
+                    "ap_min": 9,
+                    "ap_max": 12,
                     "dp": 19
                 },
                 "16": {
-                    "ap_min": 2,
-                    "ap_max": 5,
+                    "ap_min": 10,
+                    "ap_max": 13,
                     "dp": 21
                 },
                 "17": {
-                    "ap_min": 3,
-                    "ap_max": 6,
+                    "ap_min": 11,
+                    "ap_max": 14,
                     "dp": 23
                 },
                 "18": {
-                    "ap_min": 4,
-                    "ap_max": 7,
+                    "ap_min": 12,
+                    "ap_max": 15,
                     "dp": 28
                 },
                 "19": {
-                    "ap_min": 5,
-                    "ap_max": 8,
+                    "ap_min": 13,
+                    "ap_max": 16,
                     "dp": 30
                 },
                 "20": {
-                    "ap_min": 6,
-                    "ap_max": 9,
+                    "ap_min": 14,
+                    "ap_max": 17,
                     "dp": 32
                 }
             }
         }, {
             "id": 10726,
             "name": "Krea Ornamental Knot of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "abad": 1
@@ -1697,7 +1697,7 @@
             "ap_max": 6,
             "ap_min": 4,
             "dp": 5,
-            "crystals": 1,
+            "crystals": 2,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -1789,7 +1789,7 @@
         }, {
             "id": 10727,
             "name": "Krea Ornamental Knot of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "adad": 1
@@ -1797,7 +1797,7 @@
             "ap_max": 6,
             "ap_min": 4,
             "dp": 5,
-            "crystals": 1,
+            "crystals": 2,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -1889,7 +1889,7 @@
         }, {
             "id": 10728,
             "name": "Krea Ornamental Knot of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "aaad": 1
@@ -1897,7 +1897,7 @@
             "ap_max": 6,
             "ap_min": 4,
             "dp": 5,
-            "crystals": 1,
+            "crystals": 2,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -1989,7 +1989,7 @@
         }, {
             "id": 10731,
             "name": "Ultimate Krea Ornamental Knot",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "assad": 1
@@ -1997,7 +1997,7 @@
             "ap_max": 6,
             "ap_min": 4,
             "dp": 5,
-            "crystals": 1,
+            "crystals": 2,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -2089,7 +2089,7 @@
         }, {
             "id": 10732,
             "name": "Rosar Ornamental Knot of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "abad": 1
@@ -2204,7 +2204,7 @@
         }, {
             "id": 10733,
             "name": "Rosar Ornamental Knot of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "adad": 1
@@ -2319,7 +2319,7 @@
         }, {
             "id": 10734,
             "name": "Rosar Ornamental Knot of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "aaad": 1
@@ -2434,7 +2434,7 @@
         }, {
             "id": 10737,
             "name": "Ultimate Rosar Ornamental Knot",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "assad": 1
@@ -2549,7 +2549,7 @@
         }, {
             "id": 10738,
             "name": "Nouver Ornamental Knot",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "kb": 10,
                 "kd": 10,
@@ -2645,7 +2645,7 @@
         }, {
             "id": 10740,
             "name": "Kutum Ornamental Knot",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "iar": 10
             },
@@ -2756,7 +2756,7 @@
         {
             "id": 10303,
             "name": "Bronze Dagger",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5
             },
@@ -2828,7 +2828,7 @@
         }, {
             "id": 10304,
             "name": "Steel Dagger",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 6,
             "ap_min": 6,
@@ -2919,7 +2919,7 @@
         }, {
             "id": 10305,
             "name": "Parrying Dagger",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 3,
                 "hp": 50
@@ -3034,7 +3034,7 @@
         }, {
             "id": 10306,
             "name": "Bronze Dagger of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "abad": 1
@@ -3107,7 +3107,7 @@
         }, {
             "id": 10307,
             "name": "Bronze Dagger of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "adad": 1
@@ -3180,7 +3180,7 @@
         }, {
             "id": 10308,
             "name": "Bronze Dagger of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "aaad": 1
@@ -3253,7 +3253,7 @@
         }, {
             "id": 10309,
             "name": "Ultimate Bronze Dagger",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 7,
                 "asad": 1
@@ -3326,7 +3326,7 @@
         }, {
             "id": 10310,
             "name": "Steel Dagger of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "abad": 1
             },
@@ -3419,7 +3419,7 @@
         }, {
             "id": 10311,
             "name": "Steel Dagger of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "adad": 1
             },
@@ -3512,7 +3512,7 @@
         }, {
             "id": 10312,
             "name": "Steel Dagger of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "aaad": 1
             },
@@ -3605,7 +3605,7 @@
         }, {
             "id": 10313,
             "name": "Ultimate Steel Dagger",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "assad": 1
             },
@@ -3698,7 +3698,7 @@
         }, {
             "id": 10314,
             "name": "Parrying Dagger of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -3815,7 +3815,7 @@
         }, {
             "id": 10315,
             "name": "Parrying Dagger of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -3932,7 +3932,7 @@
         }, {
             "id": 10316,
             "name": "Parrying Dagger of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -4049,7 +4049,7 @@
         }, {
             "id": 10317,
             "name": "Ultimate Parrying Dagger",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -4166,7 +4166,7 @@
         }, {
             "id": 10324,
             "name": "Krea Dagger",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 3,
@@ -4249,7 +4249,7 @@
         }, {
             "id": 10325,
             "name": "Rosar Dagger",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 4,
@@ -4332,7 +4332,7 @@
         }, {
             "id": 10326,
             "name": "Krea Dagger of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "abad": 1
@@ -4433,7 +4433,7 @@
         }, {
             "id": 10327,
             "name": "Krea Dagger of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "adad": 1
@@ -4534,7 +4534,7 @@
         }, {
             "id": 10328,
             "name": "Krea Dagger of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "aaad": 1
@@ -4635,7 +4635,7 @@
         }, {
             "id": 10331,
             "name": "Ultimate Krea Dagger",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "assad": 1
@@ -4736,7 +4736,7 @@
         }, {
             "id": 10332,
             "name": "Rosar Dagger of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "abad": 1
@@ -4837,7 +4837,7 @@
         }, {
             "id": 10333,
             "name": "Rosar Dagger of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "adad": 1
@@ -4938,7 +4938,7 @@
         }, {
             "id": 10334,
             "name": "Rosar Dagger of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "aaad": 1
@@ -5039,7 +5039,7 @@
         }, {
             "id": 10337,
             "name": "Ultimate Rosar Dagger",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "assad": 1
@@ -5140,7 +5140,7 @@
         }, {
             "id": 10338,
             "name": "Nouver Dagger",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "kb": 10,
                 "kd": 10,
@@ -5236,7 +5236,7 @@
         }, {
             "id": 10340,
             "name": "Kutum Dagger",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "iar": 10
             },
@@ -5347,7 +5347,7 @@
         {
             "id": 10503,
             "name": "Helrick Talisman",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5
             },
@@ -5419,7 +5419,7 @@
         }, {
             "id": 10504,
             "name": "Jubre Talisman",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 8,
             "ap_min": 6,
@@ -5510,7 +5510,7 @@
         }, {
             "id": 10505,
             "name": "Rhik Talisman",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 3,
                 "hp": 50
@@ -5595,7 +5595,7 @@
         }, {
             "id": 10506,
             "name": "Helrick Talisman of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "abad": 1
@@ -5673,7 +5673,7 @@
         }, {
             "id": 10507,
             "name": "Helrick Talisman of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "adad": 1
@@ -5751,7 +5751,7 @@
         }, {
             "id": 10508,
             "name": "Helrick Talisman of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "aaad": 1
@@ -5829,7 +5829,7 @@
         }, {
             "id": 10509,
             "name": "Ultimate Helrick Talisman",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 7,
                 "assad": 1
@@ -5908,7 +5908,7 @@
         }, {
             "id": 10510,
             "name": "Jubre Talisman of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "abad": 1
             },
@@ -6006,7 +6006,7 @@
         }, {
             "id": 10511,
             "name": "Jubre Talisman of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "adad": 1
             },
@@ -6104,7 +6104,7 @@
         }, {
             "id": 10512,
             "name": "Jubre Talisman of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "aaad": 1
             },
@@ -6202,7 +6202,7 @@
         }, {
             "id": 10513,
             "name": "Ultimate Jubre Talisman",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "assad": 1
             },
@@ -6300,7 +6300,7 @@
         }, {
             "id": 10514,
             "name": "Rhik Talisman of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -6403,7 +6403,7 @@
         }, {
             "id": 10515,
             "name": "Rhik Talisman of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -6506,7 +6506,7 @@
         }, {
             "id": 10516,
             "name": "Rhik Talisman of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -6609,7 +6609,7 @@
         }, {
             "id": 10517,
             "name": "Ultimate Rhik Talisman",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -6712,7 +6712,7 @@
         }, {
             "id": 10524,
             "name": "Krea Talisman",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 3,
@@ -6795,7 +6795,7 @@
         }, {
             "id": 10525,
             "name": "Rosar Talisman",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 4,
@@ -6878,7 +6878,7 @@
         }, {
             "id": 10526,
             "name": "Krea Talisman of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "abad": 1
@@ -6979,7 +6979,7 @@
         }, {
             "id": 10527,
             "name": "Krea Talisman of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "adad": 1
@@ -7080,7 +7080,7 @@
         }, {
             "id": 10528,
             "name": "Krea Talisman of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "aaad": 1
@@ -7181,7 +7181,7 @@
         }, {
             "id": 10531,
             "name": "Ultimate Krea Talisman",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "assad": 1
@@ -7282,7 +7282,7 @@
         }, {
             "id": 10532,
             "name": "Rosar Talisman of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "abad": 1
@@ -7383,7 +7383,7 @@
         }, {
             "id": 10533,
             "name": "Rosar Talisman of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "adad": 1
@@ -7484,7 +7484,7 @@
         }, {
             "id": 10534,
             "name": "Rosar Talisman of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "aaad": 1
@@ -7585,7 +7585,7 @@
         }, {
             "id": 10537,
             "name": "Ultimate Rosar Talisman",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "assad": 1
@@ -7686,7 +7686,7 @@
         }, {
             "id": 10538,
             "name": "Nouver Talisman",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "kb": 10,
                 "kd": 10,
@@ -7782,7 +7782,7 @@
         }, {
             "id": 10540,
             "name": "Kutum Talisman",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "iar": 10
             },
@@ -7893,7 +7893,7 @@
         {
             "id": 13003,
             "name": "Incense Trinket",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5
             },
@@ -7965,7 +7965,7 @@
         }, {
             "id": 13004,
             "name": "Needle Trinket",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 8,
             "ap_min": 6,
@@ -8056,7 +8056,7 @@
         }, {
             "id": 13005,
             "name": "Blade Trinket",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 3,
                 "hp": 50
@@ -8064,7 +8064,7 @@
             "ap_max": 0,
             "ap_min": 0,
             "dp": 3,
-            "crystals": 2,
+            "crystals": 1,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -8141,7 +8141,7 @@
         }, {
             "id": 13006,
             "name": "Incense Trinket of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "abad": 1
@@ -8219,7 +8219,7 @@
         }, {
             "id": 13007,
             "name": "Incense Trinket of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "adad": 1
@@ -8297,7 +8297,7 @@
         }, {
             "id": 13008,
             "name": "Incense Trinket of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "aaad": 1
@@ -8375,7 +8375,7 @@
         }, {
             "id": 13009,
             "name": "Ultimate Incense Trinket",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 7,
                 "assad": 1
@@ -8454,7 +8454,7 @@
         }, {
             "id": 13010,
             "name": "Needle Trinket of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "abad": 1
             },
@@ -8547,7 +8547,7 @@
         }, {
             "id": 13011,
             "name": "Needle Trinket of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "adad": 1
             },
@@ -8640,7 +8640,7 @@
         }, {
             "id": 13012,
             "name": "Needle Trinket of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "aaad": 1
             },
@@ -8733,7 +8733,7 @@
         }, {
             "id": 13013,
             "name": "Ultimate Needle Trinket",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "assad": 1
             },
@@ -8826,7 +8826,7 @@
         }, {
             "id": 13014,
             "name": "Blade Trinket of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -8836,7 +8836,7 @@
             "ap_max": 0,
             "ap_min": 0,
             "dp": 4,
-            "crystals": 2,
+            "crystals": 1,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -8929,7 +8929,7 @@
         }, {
             "id": 13015,
             "name": "Blade Trinket of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -8939,7 +8939,7 @@
             "ap_max": 0,
             "ap_min": 0,
             "dp": 4,
-            "crystals": 2,
+            "crystals": 1,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -9032,7 +9032,7 @@
         }, {
             "id": 13016,
             "name": "Blade Trinket of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -9042,7 +9042,7 @@
             "ap_max": 0,
             "ap_min": 0,
             "dp": 4,
-            "crystals": 2,
+            "crystals": 1,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -9135,7 +9135,7 @@
         }, {
             "id": 13017,
             "name": "Ultimate Blade Trinket",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -9145,7 +9145,7 @@
             "ap_max": 0,
             "ap_min": 0,
             "dp": 4,
-            "crystals": 2,
+            "crystals": 1,
             "enhancement_text": "",
             "enhancement": {
                 "1": {
@@ -9238,7 +9238,7 @@
         }, {
             "id": 13024,
             "name": "Krea Trinket",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 3,
@@ -9337,7 +9337,7 @@
         }, {
             "id": 13025,
             "name": "Rosar Trinket",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 4,
@@ -9420,7 +9420,7 @@
         }, {
             "id": 13026,
             "name": "Krea Trinket of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "abad": 1
@@ -9521,7 +9521,7 @@
         }, {
             "id": 13027,
             "name": "Krea Trinket of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "adad": 1
@@ -9622,7 +9622,7 @@
         }, {
             "id": 13028,
             "name": "Krea Trinket of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "aaad": 1
@@ -9723,7 +9723,7 @@
         }, {
             "id": 13031,
             "name": "Ultimate Krea Trinket",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "assad": 1
@@ -9824,7 +9824,7 @@
         }, {
             "id": 13032,
             "name": "Rosar Trinket of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "abad": 1
@@ -9925,7 +9925,7 @@
         }, {
             "id": 13033,
             "name": "Rosar Trinket of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "adad": 1
@@ -10026,7 +10026,7 @@
         }, {
             "id": 13034,
             "name": "Rosar Trinket of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "aaad": 1
@@ -10127,7 +10127,7 @@
         }, {
             "id": 13037,
             "name": "Ultimate Rosar Trinket",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "assad": 1
@@ -10228,7 +10228,7 @@
         }, {
             "id": 13038,
             "name": "Nouver Trinket",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "kb": 10,
                 "kd": 10,
@@ -10324,7 +10324,7 @@
         }, {
             "id": 13040,
             "name": "Kutum Trinket",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "iar": 10
             },
@@ -10435,7 +10435,7 @@
         {
             "id": 10102,
             "name": "Vangertz Shield",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "ev": 2,
@@ -10537,7 +10537,7 @@
         }, {
             "id": 10103,
             "name": "Axion Shield",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 1,
                 "dr": 3
@@ -10632,7 +10632,7 @@
         }, {
             "id": 10105,
             "name": "Kite Shield",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 2,
                 "dr": 5,
@@ -10718,7 +10718,7 @@
         }, {
             "id": 10106,
             "name": "Vangertz Shield of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "ev": 2,
@@ -10821,7 +10821,7 @@
         }, {
             "id": 10107,
             "name": "Vangertz Shield of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "ev": 2,
@@ -10924,7 +10924,7 @@
         }, {
             "id": 10108,
             "name": "Vangertz Shield of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "ev": 2,
@@ -11027,7 +11027,7 @@
         }, {
             "id": 10109,
             "name": "Ultimate Vangertz Shield",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 7,
                 "ev": 2,
@@ -11130,7 +11130,7 @@
         }, {
             "id": 10110,
             "name": "Axion Shield of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 1,
                 "dr": 3,
@@ -11226,7 +11226,7 @@
         }, {
             "id": 10111,
             "name": "Axion Shield of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 1,
                 "dr": 3,
@@ -11322,7 +11322,7 @@
         }, {
             "id": 10112,
             "name": "Axion Shield of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 1,
                 "dr": 3,
@@ -11418,7 +11418,7 @@
         }, {
             "id": 10113,
             "name": "Ultimate Axion Shield",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 1,
                 "dr": 3,
@@ -11514,7 +11514,7 @@
         }, {
             "id": 10114,
             "name": "Kite Shield of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 5,
@@ -11617,7 +11617,7 @@
         }, {
             "id": 10115,
             "name": "Kite Shield of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 5,
@@ -11720,7 +11720,7 @@
         }, {
             "id": 10116,
             "name": "Kite Shield of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 5,
@@ -11823,7 +11823,7 @@
         }, {
             "id": 10117,
             "name": "Ultimate Kite Shield",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 3,
                 "dr": 5,
@@ -11926,7 +11926,7 @@
         }, {
             "id": 10124,
             "name": "Krea Shield",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 3,
@@ -12025,7 +12025,7 @@
         }, {
             "id": 10125,
             "name": "Rosar Shield",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 4,
@@ -12108,7 +12108,7 @@
         }, {
             "id": 10126,
             "name": "Krea Shield of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "abad": 1
@@ -12209,7 +12209,7 @@
         }, {
             "id": 10127,
             "name": "Krea Shield of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "adad": 1
@@ -12310,7 +12310,7 @@
         }, {
             "id": 10128,
             "name": "Krea Shield of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "aaad": 1
@@ -12411,7 +12411,7 @@
         }, {
             "id": 10131,
             "name": "Ultimate Krea Shield",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "assad": 1
@@ -12512,7 +12512,7 @@
         }, {
             "id": 10132,
             "name": "Rosar Shield of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "abad": 1
@@ -12613,7 +12613,7 @@
         }, {
             "id": 10133,
             "name": "Rosar Shield of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "adad": 1
@@ -12714,7 +12714,7 @@
         }, {
             "id": 10134,
             "name": "Rosar Shield of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "aaad": 1
@@ -12815,7 +12815,7 @@
         }, {
             "id": 10137,
             "name": "Ultimate Rosar Shield",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "assad": 1
@@ -12916,7 +12916,7 @@
         }, {
             "id": 10138,
             "name": "Nouver Shield",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "kb": 10,
                 "kd": 10,
@@ -13012,7 +13012,7 @@
         }, {
             "id": 10140,
             "name": "Kutum Shield",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "iar": 10
             },
@@ -13123,7 +13123,7 @@
         {
             "id": 13103,
             "name": "Black Horn Warrior Bow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5
             },
@@ -13195,7 +13195,7 @@
         }, {
             "id": 13104,
             "name": "White Horn Bow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 6,
             "ap_min": 6,
@@ -13286,7 +13286,7 @@
         }, {
             "id": 13105,
             "name": "White Horn Warrior Bow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 3,
                 "hp": 50
@@ -13401,7 +13401,7 @@
         }, {
             "id": 13106,
             "name": "Black Horn Warrior Bow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "abad": 1
@@ -13479,7 +13479,7 @@
         }, {
             "id": 13107,
             "name": "Black Horn Warrior Bow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "adad": 1
@@ -13557,7 +13557,7 @@
         }, {
             "id": 13108,
             "name": "Black Horn Warrior Bow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "aaad": 1
@@ -13635,7 +13635,7 @@
         }, {
             "id": 13109,
             "name": "Ultimate Black Horn Warrior Bow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 7,
                 "assad": 1
@@ -13714,7 +13714,7 @@
         }, {
             "id": 13110,
             "name": "White Horn Bow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "abad": 1
             },
@@ -13807,7 +13807,7 @@
         }, {
             "id": 13111,
             "name": "White Horn Bow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "adad": 1
             },
@@ -13900,7 +13900,7 @@
         }, {
             "id": 13112,
             "name": "White Horn Bow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "aaad": 1
             },
@@ -13993,7 +13993,7 @@
         }, {
             "id": 13113,
             "name": "Ultimate White Horn Bow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "assad": 1
             },
@@ -14086,7 +14086,7 @@
         }, {
             "id": 13114,
             "name": "White Horn Warrior Bow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "hp": 50,
@@ -14202,7 +14202,7 @@
         }, {
             "id": 13115,
             "name": "White Horn Warrior Bow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "hp": 50,
@@ -14318,7 +14318,7 @@
         }, {
             "id": 13116,
             "name": "White Horn Warrior Bow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "hp": 50,
@@ -14434,7 +14434,7 @@
         }, {
             "id": 13117,
             "name": "Ultimate White Horn Warrior Bow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 3,
                 "hp": 100,
@@ -14550,7 +14550,7 @@
         }, {
             "id": 13124,
             "name": "Krea Horn Bow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 3,
@@ -14649,7 +14649,7 @@
         }, {
             "id": 13125,
             "name": "Rosar Horn Bow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 4,
@@ -14732,7 +14732,7 @@
         }, {
             "id": 13126,
             "name": "Krea Horn Bow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "abad": 1
@@ -14833,7 +14833,7 @@
         }, {
             "id": 13127,
             "name": "Krea Horn Bow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "adad": 1
@@ -14934,7 +14934,7 @@
         }, {
             "id": 13128,
             "name": "Krea Horn Bow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "aaad": 1
@@ -15035,7 +15035,7 @@
         }, {
             "id": 13131,
             "name": "Ultimate Krea Horn Bow",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "assad": 1
@@ -15136,7 +15136,7 @@
         }, {
             "id": 13132,
             "name": "Rosar Horn Bow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "abad": 1
@@ -15237,7 +15237,7 @@
         }, {
             "id": 13133,
             "name": "Rosar Horn Bow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "adad": 1
@@ -15338,7 +15338,7 @@
         }, {
             "id": 13134,
             "name": "Rosar Horn Bow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "aaad": 1
@@ -15439,7 +15439,7 @@
         }, {
             "id": 13137,
             "name": "Ultimate Rosar Horn Bow",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "assad": 1
@@ -15540,7 +15540,7 @@
         }, {
             "id": 13138,
             "name": "Nouver Horn Bow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "kb": 10,
                 "kd": 10,
@@ -15636,7 +15636,7 @@
         }, {
             "id": 13140,
             "name": "Kutum Horn Bow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "iar": 10
             },
@@ -15747,7 +15747,7 @@
         {
             "id": 14603,
             "name": "Quitar Shuriken",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5
             },
@@ -15819,7 +15819,7 @@
         }, {
             "id": 14604,
             "name": "Estique Shuriken",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 5,
             "ap_min": 5,
@@ -15910,7 +15910,7 @@
         }, {
             "id": 14605,
             "name": "Tadd Shuriken",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 3,
                 "hp": 50
@@ -16025,7 +16025,7 @@
         }, {
             "id": 14606,
             "name": "Quitar Shuriken of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "abad": 1
@@ -16103,7 +16103,7 @@
         }, {
             "id": 14607,
             "name": "Quitar Shuriken of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "adad": 1
@@ -16181,7 +16181,7 @@
         }, {
             "id": 14608,
             "name": "Quitar Shuriken of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "aaad": 1
@@ -16259,7 +16259,7 @@
         }, {
             "id": 14609,
             "name": "Ultimate Quitar Shuriken",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 7,
                 "assad": 1
@@ -16338,7 +16338,7 @@
         }, {
             "id": 14610,
             "name": "Estique Shuriken of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "abad": 1
             },
@@ -16431,7 +16431,7 @@
         }, {
             "id": 14611,
             "name": "Estique Shuriken of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "adad": 1
             },
@@ -16524,7 +16524,7 @@
         }, {
             "id": 14612,
             "name": "Estique Shuriken of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "aaad": 1
             },
@@ -16617,7 +16617,7 @@
         }, {
             "id": 14613,
             "name": "Ultimate Estique Shuriken",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "assad": 1
             },
@@ -16710,7 +16710,7 @@
         }, {
             "id": 14614,
             "name": "Tadd Shuriken of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -16827,7 +16827,7 @@
         }, {
             "id": 14615,
             "name": "Tadd Shuriken of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -16944,7 +16944,7 @@
         }, {
             "id": 14616,
             "name": "Tadd Shuriken of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -17061,7 +17061,7 @@
         }, {
             "id": 14617,
             "name": "Ultimate Tadd Shuriken",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -17178,7 +17178,7 @@
         }, {
             "id": 14624,
             "name": "Krea Shuriken",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 3,
@@ -17277,7 +17277,7 @@
         }, {
             "id": 14625,
             "name": "Rosar Shuriken",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 4,
@@ -17360,7 +17360,7 @@
         }, {
             "id": 14626,
             "name": "Krea Shuriken of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "abad": 1
@@ -17461,7 +17461,7 @@
         }, {
             "id": 14627,
             "name": "Krea Shuriken of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "adad": 1
@@ -17562,7 +17562,7 @@
         }, {
             "id": 14628,
             "name": "Krea Shuriken of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "aaad": 1
@@ -17663,7 +17663,7 @@
         }, {
             "id": 14631,
             "name": "Ultimate Krea Shuriken",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "assad": 1
@@ -17764,7 +17764,7 @@
         }, {
             "id": 14632,
             "name": "Rosar Shuriken of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "abad": 1
@@ -17865,7 +17865,7 @@
         }, {
             "id": 14633,
             "name": "Rosar Shuriken of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "adad": 1
@@ -17966,7 +17966,7 @@
         }, {
             "id": 14634,
             "name": "Rosar Shuriken of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "aaad": 1
@@ -18067,7 +18067,7 @@
         }, {
             "id": 14637,
             "name": "Ultimate Rosar Shuriken",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "assad": 1
@@ -18168,7 +18168,7 @@
         }, {
             "id": 14638,
             "name": "Nouver Shuriken",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "kb": 10,
                 "kd": 10,
@@ -18264,7 +18264,7 @@
         }, {
             "id": 14640,
             "name": "Kutum Shuriken",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "iar": 10
             },
@@ -18373,7 +18373,7 @@
         {
             "id": 14503,
             "name": "Quitar Kunai",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5
             },
@@ -18445,7 +18445,7 @@
         }, {
             "id": 14504,
             "name": "Estique Kunai",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 5,
             "ap_min": 5,
@@ -18536,7 +18536,7 @@
         }, {
             "id": 14505,
             "name": "Tadd Kunai",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "ev": 3,
                 "hp": 50
@@ -18651,7 +18651,7 @@
         }, {
             "id": 14506,
             "name": "Quitar Kunai of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "abad": 1
@@ -18729,7 +18729,7 @@
         }, {
             "id": 14507,
             "name": "Quitar Kunai of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "adad": 1
@@ -18807,7 +18807,7 @@
         }, {
             "id": 14508,
             "name": "Quitar Kunai of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 7,
                 "aaad": 1
@@ -18885,7 +18885,7 @@
         }, {
             "id": 14509,
             "name": "Ultimate Quitar Kunai",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 7,
                 "assad": 1
@@ -18964,7 +18964,7 @@
         }, {
             "id": 14510,
             "name": "Estique Kunai of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "abad": 1
             },
@@ -19057,7 +19057,7 @@
         }, {
             "id": 14511,
             "name": "Estique Kunai of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "adad": 1
             },
@@ -19150,7 +19150,7 @@
         }, {
             "id": 14512,
             "name": "Estique Kunai of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "aaad": 1
             },
@@ -19243,7 +19243,7 @@
         }, {
             "id": 14513,
             "name": "Ultimate Estique Kunai",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "assad": 1
             },
@@ -19336,7 +19336,7 @@
         }, {
             "id": 14514,
             "name": "Tadd Kunai of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -19453,7 +19453,7 @@
         }, {
             "id": 14515,
             "name": "Tadd Kunai of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -19570,7 +19570,7 @@
         }, {
             "id": 14516,
             "name": "Tadd Kunai of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -19687,7 +19687,7 @@
         }, {
             "id": 14517,
             "name": "Ultimate Tadd Kunai",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "ev": 3,
                 "dr": 1,
@@ -19804,7 +19804,7 @@
         }, {
             "id": 14524,
             "name": "Krea Kunai",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 3,
@@ -19903,7 +19903,7 @@
         }, {
             "id": 14525,
             "name": "Rosar Kunai",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 4,
@@ -19986,7 +19986,7 @@
         }, {
             "id": 14526,
             "name": "Krea Kunai of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "abad": 1
@@ -20087,7 +20087,7 @@
         }, {
             "id": 14527,
             "name": "Krea Kunai of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "adad": 1
@@ -20188,7 +20188,7 @@
         }, {
             "id": 14528,
             "name": "Krea Kunai of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "aaad": 1
@@ -20289,7 +20289,7 @@
         }, {
             "id": 14531,
             "name": "Ultimate Krea Kunai",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "assad": 1
@@ -20390,7 +20390,7 @@
         }, {
             "id": 14532,
             "name": "Rosar Kunai of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "abad": 1
@@ -20491,7 +20491,7 @@
         }, {
             "id": 14533,
             "name": "Rosar Kunai of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "adad": 1
@@ -20592,7 +20592,7 @@
         }, {
             "id": 14534,
             "name": "Rosar Kunai of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "aaad": 1
@@ -20693,7 +20693,7 @@
         }, {
             "id": 14537,
             "name": "Ultimate Rosar Kunai",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "assad": 1
@@ -20794,7 +20794,7 @@
         }, {
             "id": 14538,
             "name": "Nouver Kunai",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "kb": 10,
                 "kd": 10,
@@ -20890,7 +20890,7 @@
         }, {
             "id": 14540,
             "name": "Kutum Kunai",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "iar": 10
             },

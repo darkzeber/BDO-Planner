@@ -1,7 +1,17 @@
-{
-    "common": "#ffffff",
-    "uncommon": "#ffffff",
-    "rare": "#ffffff",
-    "epic": "#ffffff",
-    "legendary": "#ffffff"
-}
+[
+    {
+        "name": "common"
+    },
+    {
+        "name": "uncommon"
+    },
+    {
+        "name": "rare"
+    },
+    {
+        "name": "epic"
+    },
+    {
+        "name": "legendary"
+    }
+]

@@ -2,7 +2,7 @@
     {
         "id": 45201,
         "name": "Imperfect Alchemy Stone of Destruction",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "atk": 2
         },
@@ -12,7 +12,7 @@
     }, {
         "id": 45202,
         "name": "Imperfect Alchemy Stone of Destruction",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "atk": 2,
             "acc": 1
@@ -23,7 +23,7 @@
     }, {
         "id": 45203,
         "name": "Imperfect Alchemy Stone of Destruction",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "atk": 2,
             "acc": 1,
@@ -35,7 +35,7 @@
     }, {
         "id": 45204,
         "name": "Imperfect Alchemy Stone of Destruction",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "atk": 2,
             "acc": 1,
@@ -49,7 +49,7 @@
     }, {
         "id": 45205,
         "name": "Rough Alchemy Stone of Destruction",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "atk": 3
         },
@@ -59,7 +59,7 @@
     }, {
         "id": 45206,
         "name": "Rough Alchemy Stone of Destruction",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "atk": 3,
             "acc": 2
@@ -70,7 +70,7 @@
     }, {
         "id": 45207,
         "name": "Rough Alchemy Stone of Destruction",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "atk": 3,
             "acc": 2,
@@ -82,7 +82,7 @@
     }, {
         "id": 45208,
         "name": "Rough Alchemy Stone of Destruction",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "atk": 3,
             "acc": 2,
@@ -96,7 +96,7 @@
     }, {
         "id": 45209,
         "name": "Polished Alchemy Stone of Destruction",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "atk": 4
         },
@@ -106,7 +106,7 @@
     }, {
         "id": 45210,
         "name": "Polished Alchemy Stone of Destruction",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "atk": 4,
             "acc": 3
@@ -117,7 +117,7 @@
     }, {
         "id": 45211,
         "name": "Polished Alchemy Stone of Destruction",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "atk": 4,
             "acc": 3,
@@ -129,7 +129,7 @@
     }, {
         "id": 45212,
         "name": "Polished Alchemy Stone of Destruction",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "atk": 4,
             "acc": 3,
@@ -143,7 +143,7 @@
     }, {
         "id": 45213,
         "name": "Sturdy Alchemy Stone of Destruction",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "atk": 6
         },
@@ -153,7 +153,7 @@
     }, {
         "id": 45214,
         "name": "Sturdy Alchemy Stone of Destruction",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "atk": 6,
             "acc": 4
@@ -164,7 +164,7 @@
     }, {
         "id": 45215,
         "name": "Sturdy Alchemy Stone of Destruction",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "atk": 6,
             "acc": 4,
@@ -176,7 +176,7 @@
     }, {
         "id": 45216,
         "name": "Sturdy Alchemy Stone of Destruction",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "atk": 6,
             "acc": 4,
@@ -190,7 +190,7 @@
     }, {
         "id": 45217,
         "name": "Sharp Alchemy Stone of Destruction",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "atk": 8
         },
@@ -200,7 +200,7 @@
     }, {
         "id": 45218,
         "name": "Sharp Alchemy Stone of Destruction",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "atk": 8,
             "acc": 6
@@ -211,7 +211,7 @@
     }, {
         "id": 45219,
         "name": "Sharp Alchemy Stone of Destruction",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "atk": 8,
             "acc": 6,
@@ -223,7 +223,7 @@
     }, {
         "id": 45220,
         "name": "Sharp Alchemy Stone of Destruction",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "atk": 8,
             "acc": 6,
@@ -237,7 +237,7 @@
     }, {
         "id": 45221,
         "name": "Resplendent Alchemy Stone of Destruction",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "atk": 10
         },
@@ -247,7 +247,7 @@
     }, {
         "id": 45222,
         "name": "Resplendent Alchemy Stone of Destruction",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "atk": 10,
             "acc": 8
@@ -258,7 +258,7 @@
     }, {
         "id": 45223,
         "name": "Resplendent Alchemy Stone of Destruction",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "atk": 10,
             "acc": 8,
@@ -270,7 +270,7 @@
     }, {
         "id": 45224,
         "name": "Resplendent Alchemy Stone of Destruction",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "atk": 10,
             "acc": 8,
@@ -284,7 +284,7 @@
     }, {
         "id": 45225,
         "name": "Splendid Alchemy Stone of Destruction",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "atk": 13
         },
@@ -294,7 +294,7 @@
     }, {
         "id": 45226,
         "name": "Splendid Alchemy Stone of Destruction",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "atk": 13,
             "acc": 11
@@ -305,7 +305,7 @@
     }, {
         "id": 45227,
         "name": "Splendid Alchemy Stone of Destruction",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "atk": 13,
             "acc": 11,
@@ -317,7 +317,7 @@
     }, {
         "id": 45228,
         "name": "Splendid Alchemy Stone of Destruction",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "atk": 13,
             "acc": 11,
@@ -331,7 +331,7 @@
     }, {
         "id": 45229,
         "name": "Shining Alchemy Stone of Destruction",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "atk": 16
         },
@@ -341,7 +341,7 @@
     }, {
         "id": 45230,
         "name": "Shining Alchemy Stone of Destruction",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "atk": 16,
             "acc": 14
@@ -352,7 +352,7 @@
     }, {
         "id": 45231,
         "name": "Shining Alchemy Stone of Destruction",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "atk": 16,
             "acc": 14,
@@ -364,7 +364,7 @@
     }, {
         "id": 45232,
         "name": "Shining Alchemy Stone of Destruction",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "atk": 16,
             "acc": 14,
@@ -378,7 +378,7 @@
     }, {
         "id": 45233,
         "name": "Imperfect Alchemy Stone of Protection",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "dr": 2
         },
@@ -388,7 +388,7 @@
     }, {
         "id": 45234,
         "name": "Imperfect Alchemy Stone of Protection",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dr": 2,
             "ev": 1
@@ -399,7 +399,7 @@
     }, {
         "id": 45235,
         "name": "Imperfect Alchemy Stone of Protection",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dr": 2,
             "ev": 1,
@@ -411,7 +411,7 @@
     }, {
         "id": 45236,
         "name": "Imperfect Alchemy Stone of Protection",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dr": 2,
             "ev": 1,
@@ -427,7 +427,7 @@
     }, {
         "id": 45237,
         "name": "Rough Alchemy Stone of Protection",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "dr": 3
         },
@@ -437,7 +437,7 @@
     }, {
         "id": 45238,
         "name": "Rough Alchemy Stone of Protection",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dr": 3,
             "ev": 2
@@ -448,7 +448,7 @@
     }, {
         "id": 45239,
         "name": "Rough Alchemy Stone of Protection",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dr": 3,
             "ev": 2,
@@ -460,7 +460,7 @@
     }, {
         "id": 45240,
         "name": "Rough Alchemy Stone of Protection",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dr": 3,
             "ev": 2,
@@ -476,7 +476,7 @@
     }, {
         "id": 45241,
         "name": "Polished Alchemy Stone of Protection",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "dr": 4
         },
@@ -486,7 +486,7 @@
     }, {
         "id": 45242,
         "name": "Polished Alchemy Stone of Protection",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dr": 4,
             "ev": 3
@@ -497,7 +497,7 @@
     }, {
         "id": 45243,
         "name": "Polished Alchemy Stone of Protection",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dr": 4,
             "ev": 3,
@@ -509,7 +509,7 @@
     }, {
         "id": 45244,
         "name": "Polished Alchemy Stone of Protection",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dr": 4,
             "ev": 3,
@@ -525,7 +525,7 @@
     }, {
         "id": 45245,
         "name": "Sturdy Alchemy Stone of Protection",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "dr": 6
         },
@@ -535,7 +535,7 @@
     }, {
         "id": 45246,
         "name": "Sturdy Alchemy Stone of Protection",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dr": 6,
             "ev": 4
@@ -546,7 +546,7 @@
     }, {
         "id": 45247,
         "name": "Sturdy Alchemy Stone of Protection",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dr": 6,
             "ev": 4,
@@ -558,7 +558,7 @@
     }, {
         "id": 45248,
         "name": "Sturdy Alchemy Stone of Protection",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dr": 6,
             "ev": 4,
@@ -574,7 +574,7 @@
     }, {
         "id": 45249,
         "name": "Sharp Alchemy Stone of Protection",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "dr": 8
         },
@@ -584,7 +584,7 @@
     }, {
         "id": 45250,
         "name": "Sharp Alchemy Stone of Protection",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dr": 8,
             "ev": 6
@@ -595,7 +595,7 @@
     }, {
         "id": 45251,
         "name": "Sharp Alchemy Stone of Protection",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dr": 8,
             "ev": 6,
@@ -607,7 +607,7 @@
     }, {
         "id": 45252,
         "name": "Sharp Alchemy Stone of Protection",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dr": 8,
             "ev": 6,
@@ -623,7 +623,7 @@
     }, {
         "id": 45253,
         "name": "Resplendent Alchemy Stone of Protection",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "dr": 10
         },
@@ -633,7 +633,7 @@
     }, {
         "id": 45254,
         "name": "Resplendent Alchemy Stone of Protection",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dr": 10,
             "ev": 8
@@ -644,7 +644,7 @@
     }, {
         "id": 45255,
         "name": "Resplendent Alchemy Stone of Protection",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dr": 10,
             "ev": 8,
@@ -656,7 +656,7 @@
     }, {
         "id": 45256,
         "name": "Resplendent Alchemy Stone of Protection",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dr": 10,
             "ev": 8,
@@ -672,7 +672,7 @@
     }, {
         "id": 45257,
         "name": "Splendid Alchemy Stone of Protection",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "dr": 13
         },
@@ -682,7 +682,7 @@
     }, {
         "id": 45258,
         "name": "Splendid Alchemy Stone of Protection",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dr": 13,
             "ev": 11
@@ -693,7 +693,7 @@
     }, {
         "id": 45259,
         "name": "Splendid Alchemy Stone of Protection",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dr": 13,
             "ev": 11,
@@ -705,7 +705,7 @@
     }, {
         "id": 45260,
         "name": "Splendid Alchemy Stone of Protection",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dr": 13,
             "ev": 11,
@@ -721,7 +721,7 @@
     }, {
         "id": 45261,
         "name": "Shining Alchemy Stone of Protection",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "dr": 16
         },
@@ -731,7 +731,7 @@
     }, {
         "id": 45262,
         "name": "Shining Alchemy Stone of Protection",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dr": 16,
             "ev": 14
@@ -742,7 +742,7 @@
     }, {
         "id": 45263,
         "name": "Shining Alchemy Stone of Protection",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "dr": 16,
             "ev": 14,
@@ -754,7 +754,7 @@
     }, {
         "id": 45264,
         "name": "Shining Alchemy Stone of Protection",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "dr": 16,
             "ev": 14,
@@ -770,7 +770,7 @@
     }, {
         "id": 45265,
         "name": "Imperfect Alchemy Stone of Life",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "alccktime": -0.5,
             "prsr": 5
@@ -781,7 +781,7 @@
     }, {
         "id": 45266,
         "name": "Imperfect Alchemy Stone of Life",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "alccktime": 2,
             "prsr": 1,
@@ -793,7 +793,7 @@
     }, {
         "id": 45267,
         "name": "Imperfect Alchemy Stone of Life",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "alccktime": 2,
             "prsr": 1,
@@ -806,7 +806,7 @@
     }, {
         "id": 45268,
         "name": "Imperfect Alchemy Stone of Life",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "alccktime": 2,
             "prsr": 1,
@@ -820,7 +820,7 @@
     }, {
         "id": 45269,
         "name": "Rough Alchemy Stone of Life",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "alccktime": -0.7,
             "prsr": 7
@@ -831,7 +831,7 @@
     }, {
         "id": 45270,
         "name": "Rough Alchemy Stone of Life",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "alccktime": -0.7,
             "prsr": 7,
@@ -843,7 +843,7 @@
     }, {
         "id": 45271,
         "name": "Rough Alchemy Stone of Life",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "alccktime": -0.7,
             "prsr": 7,
@@ -856,7 +856,7 @@
     }, {
         "id": 45272,
         "name": "Rough Alchemy Stone of Life",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "alccktime": -0.7,
             "prsr": 7,
@@ -870,7 +870,7 @@
     }, {
         "id": 45273,
         "name": "Polished Alchemy Stone of Life",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "alccktime": 4
         },
@@ -880,7 +880,7 @@
     }, {
         "id": 45274,
         "name": "Polished Alchemy Stone of Life",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "alccktime": -0.9,
             "prsr": 9,
@@ -892,7 +892,7 @@
     }, {
         "id": 45275,
         "name": "Polished Alchemy Stone of Life",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "alccktime": -0.9,
             "prsr": 9,
@@ -905,7 +905,7 @@
     }, {
         "id": 45276,
         "name": "Polished Alchemy Stone of Life",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "alccktime": -0.9,
             "prsr": 9,
@@ -919,7 +919,7 @@
     }, {
         "id": 45277,
         "name": "Sturdy Alchemy Stone of Life",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "alccktime": -1.1,
             "prsr": 11
@@ -930,7 +930,7 @@
     }, {
         "id": 45278,
         "name": "Sturdy Alchemy Stone of Life",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "alccktime": -1.1,
             "prsr": 11,
@@ -942,7 +942,7 @@
     }, {
         "id": 45279,
         "name": "Sturdy Alchemy Stone of Life",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "alccktime": -1.1,
             "prsr": 11,
@@ -955,7 +955,7 @@
     }, {
         "id": 45280,
         "name": "Sturdy Alchemy Stone of Life",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "alccktime": -1.1,
             "prsr": 11,
@@ -969,7 +969,7 @@
     }, {
         "id": 45281,
         "name": "Sharp Alchemy Stone of Life",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "alccktime": -1.4,
             "prsr": 14
@@ -980,7 +980,7 @@
     }, {
         "id": 45282,
         "name": "Sharp Alchemy Stone of Life",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "alccktime": -1.4,
             "prsr": 14,
@@ -992,7 +992,7 @@
     }, {
         "id": 45283,
         "name": "Sharp Alchemy Stone of Life",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "alccktime": -1.4,
             "prsr": 14,
@@ -1005,7 +1005,7 @@
     }, {
         "id": 45284,
         "name": "Sharp Alchemy Stone of Life",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "alccktime": -1.4,
             "prsr": 14,
@@ -1019,7 +1019,7 @@
     }, {
         "id": 45285,
         "name": "Resplendent Alchemy Stone of Life",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "alccktime": -1.7,
             "prsr": 17
@@ -1030,7 +1030,7 @@
     }, {
         "id": 45286,
         "name": "Resplendent Alchemy Stone of Life",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "alccktime": -1.7,
             "prsr": 17,
@@ -1042,7 +1042,7 @@
     }, {
         "id": 45287,
         "name": "Resplendent Alchemy Stone of Life",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "alccktime": -1.7,
             "prsr": 17,
@@ -1055,7 +1055,7 @@
     }, {
         "id": 45288,
         "name": "Resplendent Alchemy Stone of Life",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "alccktime": -1.7,
             "prsr": 17,
@@ -1069,7 +1069,7 @@
     }, {
         "id": 45289,
         "name": "Splendid Alchemy Stone of Life",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "alccktime": -2,
             "prsr": 20
@@ -1080,7 +1080,7 @@
     }, {
         "id": 45290,
         "name": "Splendid Alchemy Stone of Life",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "alccktime": -2,
             "prsr": 20,
@@ -1092,7 +1092,7 @@
     }, {
         "id": 45291,
         "name": "Splendid Alchemy Stone of Life",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "alccktime": -2,
             "prsr": 20,
@@ -1105,7 +1105,7 @@
     }, {
         "id": 45292,
         "name": "Splendid Alchemy Stone of Life",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "alccktime": -2,
             "prsr": 20,
@@ -1119,7 +1119,7 @@
     }, {
         "id": 45293,
         "name": "Shining Alchemy Stone of Life",
-        "rarity": "common",
+        "rarity": 0,
         "item_effects": {
             "alccktime": -2.5,
             "prsr": 25
@@ -1130,7 +1130,7 @@
     }, {
         "id": 45294,
         "name": "Shining Alchemy Stone of Life",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "alccktime": -2.5,
             "prsr": 25,
@@ -1142,7 +1142,7 @@
     }, {
         "id": 45295,
         "name": "Shining Alchemy Stone of Life",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "alccktime": -2.5,
             "prsr": 25,
@@ -1155,7 +1155,7 @@
     }, {
         "id": 45296,
         "name": "Shining Alchemy Stone of Life",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "alccktime": -2.5,
             "prsr": 25,

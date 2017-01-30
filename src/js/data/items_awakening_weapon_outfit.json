@@ -2,7 +2,7 @@
     {
         "id": 22371,
         "name": "Awakening Weapon Pearl Costume",
-        "rarity": "legendary",
+        "rarity": 4,
         "item_effects": {
             "awdrc": 10
         },

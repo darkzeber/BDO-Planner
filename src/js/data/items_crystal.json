@@ -3,7 +3,7 @@
         {
             "id": 15006,
             "name": "Magic Crystal of Abundance - Armor",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "dr": 1
@@ -11,7 +11,7 @@
         }, {
             "id": 15021,
             "name": "Magic Crystal of Perfection",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "lk": 1
@@ -19,7 +19,7 @@
         }, {
             "id": 15106,
             "name": "Magic Crystal of Infinity - Armor",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "dr": 2
@@ -30,7 +30,7 @@
         {
             "id": 15011,
             "name": "Magic Crystal of Nature - Swiftness",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "ms": 1
@@ -38,7 +38,7 @@
         }, {
             "id": 15012,
             "name": "Magic Crystal of Nature - Adamantine",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "kb": 5
@@ -46,7 +46,7 @@
         }, {
             "id": 15013,
             "name": "Magic Crystal of Nature - Ascension",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "jh": 25
@@ -54,7 +54,7 @@
         }, {
             "id": 15027,
             "name": "Magic Crystal of Nature - Falling",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "fdmg": 10
@@ -62,7 +62,7 @@
         }, {
             "id": 15028,
             "name": "Magic Crystal of Nature - Energy",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "stam": 100
@@ -70,7 +70,7 @@
         }, {
             "id": 15111,
             "name": "Magic Crystal of Infinity - Swiftness",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "very high",
             "item_effects": {
                 "ms": 2
@@ -78,7 +78,7 @@
         }, {
             "id": 15112,
             "name": "Magic Crystal of Infinity - Adamantine",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "kb": 10
@@ -86,7 +86,7 @@
         }, {
             "id": 15113,
             "name": "Magic Crystal of Infinity - Ascension",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "jh": 35
@@ -94,7 +94,7 @@
         }, {
             "id": 15114,
             "name": "Magic Crystal of Infinity - Falling",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "fdmg": 15
@@ -102,7 +102,7 @@
         }, {
             "id": 15115,
             "name": "Magic Crystal of Infinity - Energy (Stamina)",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "stam": 150
@@ -110,7 +110,7 @@
         }, {
             "id": 15146,
             "name": "Magic Crystal of Infinity - Energy",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "very high",
             "item_effects": {
                 "energy": 10
@@ -118,7 +118,7 @@
         }, {
             "id": 15147,
             "name": "Magic Crystal of Infinity - Submergence",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "bg": 15
@@ -126,7 +126,7 @@
         }, {
             "id": 15211,
             "name": "Black Magic Crystal - Swiftness",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "ms": 2,
@@ -135,7 +135,7 @@
         }, {
             "id": 15212,
             "name": "Black Magic Crystal - Adamantine",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "kb": 10,
@@ -144,7 +144,7 @@
         }, {
             "id": 15213,
             "name": "Black Magic Crystal - Ascension",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "jh": 35,
@@ -153,7 +153,7 @@
         }, {
             "id": 15214,
             "name": "Black Magic Crystal - Falling",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "fdmg": 15,
@@ -162,7 +162,7 @@
         }, {
             "id": 15215,
             "name": "Black Magic Crystal - Energy",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "stam": 250
@@ -170,7 +170,7 @@
         }, {
             "id": 15604,
             "name": "Ancient Magic Crystal - Hystria",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "wgt": 20,
@@ -179,7 +179,7 @@
         }, {
             "id": 15616,
             "name": "Ancient Magic Crystal of Nature - Adamantine",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "kd": 25
@@ -187,7 +187,7 @@
         }, {
             "id": 15631,
             "name": "Black Magic Crystal - Hystria",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "",
             "item_effects": {
                 "wgt": 20,
@@ -197,7 +197,7 @@
         }, {
             "id": 15637,
             "name": "Red Battlefield Crystal: Hystria",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "wgt": 20,
@@ -207,7 +207,7 @@
         }, {
             "id": 15640,
             "name": "Red Battlefield Crystal: Adamantine",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "kd": 25,
@@ -219,7 +219,7 @@
         {
             "id": 15014,
             "name": "Magic Crystal of the Sun - Assault",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "as": 1
@@ -227,7 +227,7 @@
         }, {
             "id": 15015,
             "name": "Magic Crystal of the Sun - Sturdiness",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "gr": 5
@@ -235,7 +235,7 @@
         }, {
             "id": 15016,
             "name": "Magic Crystal of the Sun - Valor",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "chr": 1
@@ -243,7 +243,7 @@
         }, {
             "id": 15029,
             "name": "Magic Crystal of the Sun - Precision",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "acc": 1
@@ -251,7 +251,7 @@
         }, {
             "id": 15030,
             "name": "Magic Crystal of the Sun - Boulder",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "wgt": 10
@@ -259,7 +259,7 @@
         }, {
             "id": 15116,
             "name": "Magic Crystal of Infinity - Assault",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "very high",
             "item_effects": {
                 "as": 2
@@ -267,7 +267,7 @@
         }, {
             "id": 15117,
             "name": "Magic Crystal of Infinity - Sturdiness",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "gr": 10
@@ -275,7 +275,7 @@
         }, {
             "id": 15118,
             "name": "Magic Crystal of Infinity - Valor",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "chr": 2
@@ -283,7 +283,7 @@
         }, {
             "id": 15119,
             "name": "Magic Crystal of Infinity - Precision",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "acc": 2
@@ -291,7 +291,7 @@
         }, {
             "id": 15120,
             "name": "Magic Crystal of Infinity - Strength",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "wgt": 15
@@ -299,7 +299,7 @@
         }, {
             "id": 15148,
             "name": "Magic Crystal of Infinity - Melee Attack",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "very high",
             "item_effects": {
                 "mlap": 2
@@ -307,7 +307,7 @@
         }, {
             "id": 15149,
             "name": "Magic Crystal of Infinity - Ranged Attack",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "rap": 2
@@ -315,7 +315,7 @@
         }, {
             "id": 15150,
             "name": "Magic Crystal of Infinity - Magic Attack",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "map": 2
@@ -323,7 +323,7 @@
         }, {
             "id": 15216,
             "name": "Black Magic Crystal - Assault",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "as": 2,
@@ -332,7 +332,7 @@
         }, {
             "id": 15217,
             "name": "Black Magic Crystal - Sturdiness",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "gr": 10,
@@ -341,7 +341,7 @@
         }, {
             "id": 15218,
             "name": "Black Magic Crystal - Valor",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "chr": 2,
@@ -350,7 +350,7 @@
         }, {
             "id": 15219,
             "name": "Black Magic Crystal - Precision",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "acc": 2,
@@ -359,7 +359,7 @@
         }, {
             "id": 15603,
             "name": "Ancient Magic Crystal - Viper",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "as": 1,
@@ -368,7 +368,7 @@
         }, {
             "id": 15630,
             "name": "Black Magic Crystal - Viper",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "",
             "item_effects": {
                 "as": 1,
@@ -378,7 +378,7 @@
         }, {
             "id": 15636,
             "name": "Red Battlefield Crystal: Viper",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "as": 1,
@@ -391,7 +391,7 @@
         {
             "id": 15007,
             "name": "Magic Crystal of Abundance - Vigor",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "hp": 25
@@ -399,7 +399,7 @@
         }, {
             "id": 15008,
             "name": "Magic Crystal of Abundance - Patience",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "mpwpsp": 25
@@ -407,7 +407,7 @@
         }, {
             "id": 15009,
             "name": "Magic Crystal of Abundance - Healing",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "hprc": 2
@@ -415,7 +415,7 @@
         }, {
             "id": 15010,
             "name": "Magic Crystal of Abundance - Resonance",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "mprc": 2,
@@ -425,7 +425,7 @@
         }, {
             "id": 15107,
             "name": "Magic Crystal of Infinity - Vigor",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "hp": 35
@@ -433,7 +433,7 @@
         }, {
             "id": 15108,
             "name": "Magic Crystal of Infinity - Patience",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "mpwpsp": 35
@@ -441,7 +441,7 @@
         }, {
             "id": 15109,
             "name": "Magic Crystal of Infinity - Heal",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "hprc": 3
@@ -449,7 +449,7 @@
         }, {
             "id": 15110,
             "name": "Magic Crystal of Infinity - Resonance",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "mprc": 3,
@@ -459,7 +459,7 @@
         }, {
             "id": 15135,
             "name": "Magic Crystal of Infinity - Siege",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "swev": 10
@@ -467,7 +467,7 @@
         }, {
             "id": 15136,
             "name": "Magic Crystal of Infinity - Evasion",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "spcev": 10
@@ -475,7 +475,7 @@
         }, {
             "id": 15137,
             "name": "Magic Crystal of Infinity - Melee Defense",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "mldr": 2
@@ -483,7 +483,7 @@
         }, {
             "id": 15138,
             "name": "Magic Crystal of Infinity - Ranged Defense",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "rdr": 2
@@ -491,7 +491,7 @@
         }, {
             "id": 15139,
             "name": "Magic Crystal of Infinity - Magic Defense",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "mgdr": 2
@@ -499,7 +499,7 @@
         }, {
             "id": 15206,
             "name": "Black Magic Crystal - Armor",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "dr": 2,
@@ -508,7 +508,7 @@
         }, {
             "id": 15207,
             "name": "Black Magic Crystal - Vigor",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "hp": 50,
@@ -517,7 +517,7 @@
         }, {
             "id": 15602,
             "name": "Ancient Magic Crystal - Cobelinus",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "hp": 100,
@@ -526,7 +526,7 @@
         }, {
             "id": 15610,
             "name": "Ancient Magic Crystal of Abundance - Armor",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "dr": 5
@@ -534,7 +534,7 @@
         }, {
             "id": 15611,
             "name": "Ancient Magic Crystal of Abundance - Vigor",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "hp": 100
@@ -542,7 +542,7 @@
         }, {
             "id": 15612,
             "name": "Ancient Magic Crystal of Abundance - Patience",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "mpwpsp": 100
@@ -550,7 +550,7 @@
         }, {
             "id": 15613,
             "name": "Ancient Magic Crystal - Healing",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "hp": 50,
@@ -559,7 +559,7 @@
         }, {
             "id": 15614,
             "name": "Ancient Magic Crystal of Abundance - Resonance",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "mpwpsp": 50,
@@ -570,7 +570,7 @@
         }, {
             "id": 15629,
             "name": "Black Magic Crystal - Cobelinus",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "",
             "item_effects": {
                 "hp": 100,
@@ -580,7 +580,7 @@
         }, {
             "id": 15635,
             "name": "Red Battlefield Crystal: Comeliness",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "hp": 100,
@@ -590,7 +590,7 @@
         }, {
             "id": 15852,
             "name": "Kaidict's Crystal - Titan",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "high",
             "item_effects": {
                 "hp": 100,
@@ -603,7 +603,7 @@
         {
             "id": 15017,
             "name": "Magic Crystal of Enchantment - Memory",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "cs": 1
@@ -611,7 +611,7 @@
         }, {
             "id": 15018,
             "name": "Magic Crystal of Enchantment - Intimidation",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "kd": 5
@@ -619,7 +619,7 @@
         }, {
             "id": 15019,
             "name": "Magic Crystal of Enchantment - Vision",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "vr": 10
@@ -627,7 +627,7 @@
         }, {
             "id": 15020,
             "name": "Magic Crystal of Enchantment - Agility",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "ev": 1
@@ -635,7 +635,7 @@
         }, {
             "id": 15031,
             "name": "Magic Crystal of Enchantment - Experience",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "cbexp": 5
@@ -643,7 +643,7 @@
         }, {
             "id": 15121,
             "name": "Magic Crystal of Infinity - Memory",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "very high",
             "item_effects": {
                 "cs": 2
@@ -651,7 +651,7 @@
         }, {
             "id": 15122,
             "name": "Magic Crystal of Infinity - Intimidation",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "kd": 10
@@ -659,7 +659,7 @@
         }, {
             "id": 15123,
             "name": "Magic Crystal of Infinity - Vision",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "vr": 15
@@ -667,7 +667,7 @@
         }, {
             "id": 15124,
             "name": "Magic Crystal of Infinity - Agility",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "ev": 2
@@ -675,7 +675,7 @@
         }, {
             "id": 15125,
             "name": "Magic Crystal of Infinity - Experience",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "cbexp": 10
@@ -683,7 +683,7 @@
         }, {
             "id": 15221,
             "name": "Black Magic Crystal - Memory",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "cs": 2,
@@ -692,7 +692,7 @@
         }, {
             "id": 15222,
             "name": "Black Magic Crystal - Intimidation",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "kd": 10,
@@ -701,7 +701,7 @@
         }, {
             "id": 15223,
             "name": "Black Magic Crystal - Vision",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "vr": 15,
@@ -710,7 +710,7 @@
         }, {
             "id": 15224,
             "name": "Black Magic Crystal - Agility",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "ev": 2,
@@ -719,7 +719,7 @@
         }, {
             "id": 15601,
             "name": "Ancient Magic Crystal - Harphia",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "hp": 50,
@@ -728,7 +728,7 @@
         }, {
             "id": 15624,
             "name": "Ancient Magic Crystal of Enchantment - Agility",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "ev": 5
@@ -736,7 +736,7 @@
         }, {
             "id": 15628,
             "name": "Black Magic Crystal - Harphia",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "hp": 50,
@@ -746,7 +746,7 @@
         }, {
             "id": 15634,
             "name": "Red Battlefield Crystal: Harphia",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "hp": 50,
@@ -756,7 +756,7 @@
         }, {
             "id": 15851,
             "name": "Kaidict's Crystal - Adventure",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "high",
             "item_effects": {
                 "hp": 50,
@@ -769,7 +769,7 @@
         {
             "id": 15129,
             "name": "Magic Crystal of Infinity - Back Attack",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "abad": 1
@@ -777,7 +777,7 @@
         }, {
             "id": 15130,
             "name": "Magic Crystal of Infinity - Down Attack",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "adad": 1
@@ -785,7 +785,7 @@
         }, {
             "id": 15131,
             "name": "Magic Crystal of Infinity - Air Attack",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "aaad": 1
@@ -793,7 +793,7 @@
         }, {
             "id": 15132,
             "name": "Magic Crystal of Infinity - Critical",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "achd": 1
@@ -801,7 +801,7 @@
         }, {
             "id": 15133,
             "name": "Magic Crystal of Infinity - Speed Attack",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "asad": 10
@@ -809,7 +809,7 @@
         }, {
             "id": 15134,
             "name": "Magic Crystal of Infinity - Counter Attack",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "acad": 1
@@ -817,7 +817,7 @@
         }, {
             "id": 15151,
             "name": "Magic Crystal of Infinity - Ignore Knockback Resistance",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "ikbr": 10
@@ -825,7 +825,7 @@
         }, {
             "id": 15152,
             "name": "Magic Crystal of Infinity - Ignore Knockdown Resistance",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "ikdr": 10
@@ -833,7 +833,7 @@
         }, {
             "id": 15153,
             "name": "Magic Crystal of Infinity - Ignore Grapple Resistance",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "igr": 10
@@ -841,7 +841,7 @@
         }, {
             "id": 15154,
             "name": "Magic Crystal of Infinity - Ignore Stun Resistance",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "isr": 10
@@ -849,7 +849,7 @@
         }, {
             "id": 15626,
             "name": "Black Spirit Crystal",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "high",
             "item_effects": {
                 "hp": 100,
@@ -858,7 +858,7 @@
         }, {
             "id": 15627,
             "name": "Awakened Spirit's Crystal",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "hp": 150,
@@ -867,7 +867,7 @@
         }, {
             "id": 15633,
             "name": "Red Spirit Crystal",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "hp": 100,
@@ -880,7 +880,7 @@
         {
             "id": 15001,
             "name": "Magic Crystal of Crimson Flame - Precision",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "acc": 1
@@ -888,7 +888,7 @@
         }, {
             "id": 15002,
             "name": "Magic Crystal of Crimson Flame - Power",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "hap": 1
@@ -896,7 +896,7 @@
         }, {
             "id": 15003,
             "name": "Magic Crystal of Crimson Flame - Carnage (Demihumans)",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "dmgtdh": 1
@@ -904,7 +904,7 @@
         }, {
             "id": 15004,
             "name": "Magic Crystal of Crimson Flame - Carnage (Humans)",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "dmgth": 1
@@ -912,7 +912,7 @@
         }, {
             "id": 15005,
             "name": "Magic Crystal of Crimson Flame - Carnage (Beasts)",
-            "rarity": "uncommon",
+            "rarity": 1,
             "shatter_chance": "high",
             "item_effects": {
                 "dmgtb": 1
@@ -920,7 +920,7 @@
         }, {
             "id": 15022,
             "name": "Magic Crystal - Crimson Flame",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "incompatible": [
                 {
@@ -934,7 +934,7 @@
         }, {
             "id": 15023,
             "name": "Magic Crystal - Enchantment",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "cs": 1
@@ -942,7 +942,7 @@
         }, {
             "id": 15024,
             "name": "Magic Crystal - Destruction",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "as": 1
@@ -950,7 +950,7 @@
         }, {
             "id": 15025,
             "name": "Magic Crystal - Temptation",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "as": 2,
@@ -959,7 +959,7 @@
         }, {
             "id": 15026,
             "name": "Magic Crystal - Agony",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "chr": 2,
@@ -968,7 +968,7 @@
         }, {
             "id": 15032,
             "name": "Magic Crystal - Meditation",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "cs": 2,
@@ -977,7 +977,7 @@
         }, {
             "id": 15101,
             "name": "Magic Crystal of Infinity - Precision",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "acc": 2
@@ -985,7 +985,7 @@
         }, {
             "id": 15102,
             "name": "Magic Crystal of Infinity - Power",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "hap": 2
@@ -993,7 +993,7 @@
         }, {
             "id": 15103,
             "name": "Magic Crystal of Infinity - Carnage (Demihumans)",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "dmgtdh": 1
@@ -1001,7 +1001,7 @@
         }, {
             "id": 15104,
             "name": "Magic Crystal of Infinity - Carnage (Humans)",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "dmgth": 1
@@ -1009,7 +1009,7 @@
         }, {
             "id": 15105,
             "name": "Magic Crystal of Infinity - Carnage (Beasts)",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "dmgtb": 1
@@ -1017,7 +1017,7 @@
         }, {
             "id": 15126,
             "name": "Magic Crystal of Infinity - Durability",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "drr": 10
@@ -1025,7 +1025,7 @@
         }, {
             "id": 15127,
             "name": "Magic Crystal of Infinity - Absorption",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "hprcoa": 1
@@ -1033,7 +1033,7 @@
         }, {
             "id": 15128,
             "name": "Magic Crystal of Infinity - Extraction",
-            "rarity": "rare",
+            "rarity": 2,
             "shatter_chance": "high",
             "item_effects": {
                 "mpwpsprcoa": 1
@@ -1041,7 +1041,7 @@
         }, {
             "id": 15201,
             "name": "Black Magic Crystal - Precision",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "high",
             "item_effects": {
                 "acc": 2,
@@ -1050,7 +1050,7 @@
         }, {
             "id": 15501,
             "name": "Ancient Magic Crystal - Crimson Flame",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "chr": 2
@@ -1058,7 +1058,7 @@
         }, {
             "id": 15502,
             "name": "Ancient Magic Crystal - Enchantment",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "very low",
             "item_effects": {
                 "cs": 2
@@ -1066,7 +1066,7 @@
         }, {
             "id": 15503,
             "name": "Ancient Magic Crystal - Destruction",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "very low",
             "item_effects": {
                 "as": 2
@@ -1074,7 +1074,7 @@
         }, {
             "id": 15504,
             "name": "Ancient Magic Crystal - Temptation",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "very low",
             "item_effects": {
                 "cs": 1,
@@ -1083,7 +1083,7 @@
         }, {
             "id": 15605,
             "name": "Ancient Magic Crystal - Carmae",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "chr": 1,
@@ -1092,7 +1092,7 @@
         }, {
             "id": 15606,
             "name": "Ancient Magic Crystal of Crimson Flame - Power",
-            "rarity": "epic",
+            "rarity": 3,
             "shatter_chance": "low",
             "item_effects": {
                 "hap": 5
@@ -1100,7 +1100,7 @@
         }, {
             "id": 15632,
             "name": "Black Magic Crystal - Carmae",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "chr": 1,
@@ -1110,7 +1110,7 @@
         }, {
             "id": 15638,
             "name": "Red Battlefield Crystal: Carmae",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "chr": 1,
@@ -1120,7 +1120,7 @@
         }, {
             "id": 15639,
             "name": "Red Battlefield Crystal: Power",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "atk": 5,
@@ -1129,7 +1129,7 @@
         }, {
             "id": 15649,
             "name": "Ancient Magic Crystal - Addis",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "chr": 1,
@@ -1138,7 +1138,7 @@
         }, {
             "id": 15650,
             "name": "Black Magic Crystal - Addis",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "low",
             "item_effects": {
                 "chr": 1,
@@ -1148,7 +1148,7 @@
         }, {
             "id": 15651,
             "name": "Red Battlefield Crystal: Addis",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
                 "chr": 1,
@@ -1161,7 +1161,7 @@
         {
             "id": 15641,
             "name": "Ancient Spirit's Crystal - Swiftness",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "ms": 2
@@ -1169,7 +1169,7 @@
         }, {
             "id": 15642,
             "name": "Breakthrough Crystal - Movement Speed",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "ms": 1
@@ -1177,7 +1177,7 @@
         }, {
             "id": 15643,
             "name": "Breakthrough Crystal - Attack Speed",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "as": 1
@@ -1185,7 +1185,7 @@
         }, {
             "id": 15644,
             "name": "Breakthrough Crystal - Casting Speed",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "cs": 1
@@ -1193,7 +1193,7 @@
         }, {
             "id": 15645,
             "name": "Breakthrough Crystal - Critical Hit",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "chr": 1
@@ -1201,7 +1201,7 @@
         }, {
             "id": 15646,
             "name": "Breakthrough Crystal - Luck",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "lk": 1
@@ -1209,7 +1209,7 @@
         }, {
             "id": 15647,
             "name": "Breakthrough Crystal - Fishing",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "fislv": 1
@@ -1217,7 +1217,7 @@
         }, {
             "id": 15648,
             "name": "Breakthrough Crystal - Gathering",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "gatlv": 1
@@ -1225,7 +1225,7 @@
         }, {
             "id": 15652,
             "name": "Ancient Spirit's Crystal - Valor",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "chr": 1
@@ -1233,7 +1233,7 @@
         }, {
             "id": 15653,
             "name": "Ancient Spirit's Crystal - Viper",
-            "rarity": "legendary",
+            "rarity": 4,
             "shatter_chance": "none",
             "item_effects": {
                 "ms": 2

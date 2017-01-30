@@ -2,7 +2,7 @@
     {
         "id": 10811,
         "name": "Agerian Gloves",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Agerian",
         "item_effects": {
             "as": 1,
@@ -76,7 +76,7 @@
     }, {
         "id": 10815,
         "name": "Taritas Gloves",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Taritas",
         "item_effects": {
             "acc": 2
@@ -149,7 +149,7 @@
     }, {
         "id": 10819,
         "name": "Zereth Gloves",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Zereth",
         "item_effects": {
             "dmgaes": 2
@@ -222,7 +222,7 @@
     }, {
         "id": 10823,
         "name": "Talis Gloves",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Talis",
         "item_effects": {
             "chr": 1
@@ -295,7 +295,7 @@
     }, {
         "id": 10827,
         "name": "Agerian Gloves of Iron Wall",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Agerian",
         "item_effects": {
             "as": 1,
@@ -370,7 +370,7 @@
     }, {
         "id": 10831,
         "name": "Agerian Gloves of Agility",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Agerian",
         "item_effects": {
             "as": 1,
@@ -445,7 +445,7 @@
     }, {
         "id": 10835,
         "name": "Agerian Gloves of Intimidation",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Agerian",
         "item_effects": {
             "as": 1,
@@ -520,7 +520,7 @@
     }, {
         "id": 10839,
         "name": "Ultimate Agerian Gloves",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Agerian",
         "item_effects": {
             "as": 1,
@@ -595,7 +595,7 @@
     }, {
         "id": 10843,
         "name": "Taritas Gloves of Iron Wall",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Taritas",
         "item_effects": {
             "acc": 2,
@@ -669,7 +669,7 @@
     }, {
         "id": 10847,
         "name": "Taritas Gloves of Agility",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Taritas",
         "item_effects": {
             "acc": 2,
@@ -743,7 +743,7 @@
     }, {
         "id": 10851,
         "name": "Taritas Gloves of Intimidation",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Taritas",
         "item_effects": {
             "acc": 2,
@@ -817,7 +817,7 @@
     }, {
         "id": 10855,
         "name": "Ultimate Taritas Gloves",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Taritas",
         "item_effects": {
             "acc": 2,
@@ -891,7 +891,7 @@
     }, {
         "id": 10859,
         "name": "Zereth Gloves of Iron Wall",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Zereth",
         "item_effects": {
             "dmgaes": 2,
@@ -965,7 +965,7 @@
     }, {
         "id": 10863,
         "name": "Zereth Gloves of Agility",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Zereth",
         "item_effects": {
             "dmgaes": 2,
@@ -1039,7 +1039,7 @@
     }, {
         "id": 10867,
         "name": "Zereth Gloves of Intimidation",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Zereth",
         "item_effects": {
             "dmgaes": 2,
@@ -1113,7 +1113,7 @@
     }, {
         "id": 10871,
         "name": "Ultimate Zereth Gloves",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Zereth",
         "item_effects": {
             "dmgaes": 2,
@@ -1187,7 +1187,7 @@
     }, {
         "id": 10875,
         "name": "Talis Gloves of Iron Wall",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Talis",
         "item_effects": {
             "chr": 1,
@@ -1261,7 +1261,7 @@
     }, {
         "id": 10879,
         "name": "Talis Gloves of Agility",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Talis",
         "item_effects": {
             "chr": 1,
@@ -1335,7 +1335,7 @@
     }, {
         "id": 10883,
         "name": "Talis Gloves of Intimidation",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Talis",
         "item_effects": {
             "chr": 1,
@@ -1409,7 +1409,7 @@
     }, {
         "id": 10887,
         "name": "Ultimate Talis Gloves",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Talis",
         "item_effects": {
             "chr": 1,
@@ -1483,7 +1483,7 @@
     }, {
         "id": 10935,
         "name": "Grunil Gloves",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Grunil",
         "item_effects": {},
         "dp": 1,
@@ -1554,7 +1554,7 @@
     }, {
         "id": 10939,
         "name": "Rocaba Gloves",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Rocaba",
         "item_effects": {},
         "dp": 1,
@@ -1625,7 +1625,7 @@
     }, {
         "id": 10943,
         "name": "Grunil Gloves of Iron Wall",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Grunil",
         "item_effects": {
             "crdr": 2
@@ -1698,7 +1698,7 @@
     }, {
         "id": 10947,
         "name": "Grunil Gloves of Agility",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Grunil",
         "item_effects": {
             "lrdr": 2
@@ -1771,7 +1771,7 @@
     }, {
         "id": 10951,
         "name": "Grunil Gloves of Intimidation",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Grunil",
         "item_effects": {
             "mdr": 2
@@ -1844,7 +1844,7 @@
     }, {
         "id": 10963,
         "name": "Ultimate Grunil Gloves",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Grunil",
         "item_effects": {
             "dr": 2
@@ -1917,7 +1917,7 @@
     }, {
         "id": 10967,
         "name": "Rocaba Gloves of Iron Wall",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Rocaba",
         "item_effects": {
             "crdr": 2
@@ -1990,7 +1990,7 @@
     }, {
         "id": 10971,
         "name": "Rocaba Gloves of Agility",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Rocaba",
         "item_effects": {
             "lrdr": 2
@@ -2063,7 +2063,7 @@
     }, {
         "id": 10975,
         "name": "Rocaba Gloves of Intimidation",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Rocaba",
         "item_effects": {
             "mdr": 2
@@ -2136,7 +2136,7 @@
     }, {
         "id": 10987,
         "name": "Ultimate Rocaba Gloves",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Rocaba",
         "item_effects": {
             "dr": 2
@@ -2209,7 +2209,7 @@
     }, {
         "id": 11003,
         "name": "Gloves of Hercules' Might",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Hercules' Might",
         "item_effects": {},
         "dp": 1,
@@ -2280,7 +2280,7 @@
     }, {
         "id": 11007,
         "name": "Strength Gloves of Heve",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Strength of Heve",
         "item_effects": {},
         "dp": 1,
@@ -2351,7 +2351,7 @@
     }, {
         "id": 11011,
         "name": "Luck Gloves of Fortuna",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Luck of Fortuna",
         "item_effects": {},
         "dp": 1,
@@ -2422,7 +2422,7 @@
     }, {
         "id": 11015,
         "name": "Bheg's Gloves",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Boss",
         "item_effects": {},
         "dp": 2,
@@ -2493,7 +2493,7 @@
     }, {
         "id": 11020,
         "name": "Iron Wall Gloves of Hercules' Might",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Hercules' Might",
         "item_effects": {
             "crdr": 2
@@ -2566,7 +2566,7 @@
     }, {
         "id": 11024,
         "name": "Agility Gloves of Hercules' Might",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Hercules' Might",
         "item_effects": {
             "lrdr": 2
@@ -2639,7 +2639,7 @@
     }, {
         "id": 11028,
         "name": "Intimidation Gloves of Hercules' Might",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Hercules' Might",
         "item_effects": {
             "mdr": 2
@@ -2712,7 +2712,7 @@
     }, {
         "id": 11032,
         "name": "Ultimate Gloves of Hercules' Might",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Hercules' Might",
         "item_effects": {
             "dr": 2
@@ -2785,7 +2785,7 @@
     }, {
         "id": 11036,
         "name": "Iron Wall Strength Gloves of Heve",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Strength of Heve",
         "item_effects": {
             "crdr": 2
@@ -2858,7 +2858,7 @@
     }, {
         "id": 11040,
         "name": "Agility Strength Gloves of Heve",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Strength of Heve",
         "item_effects": {
             "lrdr": 2
@@ -2931,7 +2931,7 @@
     }, {
         "id": 11044,
         "name": "Intimidation Strength Gloves of Heve",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Strength of Heve",
         "item_effects": {
             "mdr": 2
@@ -3004,7 +3004,7 @@
     }, {
         "id": 11048,
         "name": "Ultimate Strength Gloves of Heve",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Strength of Heve",
         "item_effects": {
             "dr": 2
@@ -3077,7 +3077,7 @@
     }, {
         "id": 11052,
         "name": "Iron Wall Luck Gloves of Fortuna",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Luck of Fortuna",
         "item_effects": {
             "crdr": 2
@@ -3150,7 +3150,7 @@
     }, {
         "id": 11056,
         "name": "Agility Luck Gloves of Fortuna",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Luck of Fortuna",
         "item_effects": {
             "lrdr": 2
@@ -3223,7 +3223,7 @@
     }, {
         "id": 11060,
         "name": "Intimidation Luck Gloves of Fortuna",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Luck of Fortuna",
         "item_effects": {
             "mdr": 2
@@ -3296,7 +3296,7 @@
     }, {
         "id": 11064,
         "name": "Ultimate Luck Gloves of Fortuna",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Luck of Fortuna",
         "item_effects": {
             "dr": 2
@@ -3369,7 +3369,7 @@
     }, {
         "id": 14103,
         "name": "Steel Taritas Gloves",
-        "rarity": "uncommon",
+        "rarity": 1,
         "set": "Steel Taritas",
         "item_effects": {
             "acc": 2
@@ -3442,7 +3442,7 @@
     }, {
         "id": 14107,
         "name": "Steel Taritas Gloves of Iron Wall",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Steel Taritas",
         "item_effects": {
             "acc": 2,
@@ -3516,7 +3516,7 @@
     }, {
         "id": 14111,
         "name": "Steel Taritas Gloves of Agility",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Steel Taritas",
         "item_effects": {
             "acc": 2,
@@ -3590,7 +3590,7 @@
     }, {
         "id": 14115,
         "name": "Steel Taritas Gloves of Intimidation",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Steel Taritas",
         "item_effects": {
             "acc": 2,
@@ -3664,7 +3664,7 @@
     }, {
         "id": 14123,
         "name": "Ultimate Steel Taritas Gloves",
-        "rarity": "epic",
+        "rarity": 3,
         "set": "Steel Taritas",
         "item_effects": {
             "acc": 2,

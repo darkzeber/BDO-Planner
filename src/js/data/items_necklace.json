@@ -2,7 +2,7 @@
     {
         "id": 11601,
         "name": "Yuria Necklace",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "dmgth": 4
         },
@@ -30,7 +30,7 @@
     }, {
         "id": 11602,
         "name": "Bares Necklace",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 4,
         "dp": 0,
@@ -56,7 +56,7 @@
     }, {
         "id": 11603,
         "name": "Hesus Necklace",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 0,
         "dp": 2,
@@ -82,7 +82,7 @@
     }, {
         "id": 11604,
         "name": "Elisha Necklace",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "hprc": 2,
             "mprc": 2
@@ -116,7 +116,7 @@
     }, {
         "id": 11605,
         "name": "Kalis Necklace",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {
             "acc": 4
         },
@@ -144,7 +144,7 @@
     }, {
         "id": 11606,
         "name": "Talis Necklace",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 0,
         "dp": 4,
@@ -170,7 +170,7 @@
     }, {
         "id": 11607,
         "name": "Ogre Ring",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {},
         "ap": 10,
         "dp": 0,
@@ -196,7 +196,7 @@
     }, {
         "id": 11609,
         "name": "Necklace of Good Deeds",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "acc": 3
         },
@@ -229,7 +229,7 @@
     }, {
         "id": 11610,
         "name": "Scarla Necklace",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {},
         "ap": 5,
         "dp": 5,
@@ -260,7 +260,7 @@
     }, {
         "id": 11611,
         "name": "Bensho's Necklace",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {},
         "ap": 0,
         "dp": 10,
@@ -286,7 +286,7 @@
     }, {
         "id": 11613,
         "name": "Ancient Guardian's Seal",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Core",
         "item_effects": {},
         "ap": 6,
@@ -318,7 +318,7 @@
     }, {
         "id": 11622,
         "name": "Necklace of Dim Magical Power",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 3,
         "dp": 0,
@@ -328,7 +328,7 @@
     }, {
         "id": 11623,
         "name": "Necklace of Concentrated Magical Power",
-        "rarity": "uncommon",
+        "rarity": 1,
         "item_effects": {},
         "ap": 4,
         "dp": 0,
@@ -338,7 +338,7 @@
     }, {
         "id": 11624,
         "name": "Necklace of Sealed Magical Power",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {},
         "ap": 5,
         "dp": 0,
@@ -364,7 +364,7 @@
     }, {
         "id": 11625,
         "name": "Sicil's Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {},
         "ap": 7,
         "dp": 3,
@@ -395,7 +395,7 @@
     }, {
         "id": 11626,
         "name": "Jarette's Necklace",
-        "rarity": "rare",
+        "rarity": 2,
         "set": "Jarette",
         "item_effects": {},
         "ap": 7,
@@ -406,7 +406,7 @@
     }, {
         "id": 11628,
         "name": "Serap's Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "hp": 50
         },
@@ -434,7 +434,7 @@
     }, {
         "id": 11629,
         "name": "Tungrad Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "bsr": 20
         },
@@ -462,7 +462,7 @@
     }, {
         "id": 11630,
         "name": "Laytenn's Power Stone",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {},
         "ap": 10,
         "dp": 0,
@@ -488,7 +488,7 @@
     }, {
         "id": 11631,
         "name": "Necklace of Shultz the Gladiator",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {},
         "ap": 7,
         "dp": 0,
@@ -514,7 +514,7 @@
     }, {
         "id": 11704,
         "name": "Dark Blood Ruby Necklace",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "gr": 25
         },
@@ -526,7 +526,7 @@
     }, {
         "id": 11705,
         "name": "Corrupt Ruby Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "gr": 30
         },
@@ -538,7 +538,7 @@
     }, {
         "id": 11709,
         "name": "Translucent Ocean Sapphire Necklace",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "kb": 25
         },
@@ -550,7 +550,7 @@
     }, {
         "id": 11710,
         "name": "Sapphire Necklace of Storms",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "kb": 30
         },
@@ -562,7 +562,7 @@
     }, {
         "id": 11714,
         "name": "Shining Gold Topaz Necklace",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "kb": 25
         },
@@ -574,7 +574,7 @@
     }, {
         "id": 11715,
         "name": "Topaz Necklace of Regeneration",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "kd": 30
         },
@@ -586,7 +586,7 @@
     }, {
         "id": 11719,
         "name": "Placid Forest Emerald Necklace",
-        "rarity": "rare",
+        "rarity": 2,
         "item_effects": {
             "sr": 25
         },
@@ -598,7 +598,7 @@
     }, {
         "id": 11720,
         "name": "Emerald Necklace of Tranquility",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "sr": 30
         },
@@ -610,7 +610,7 @@
     }, {
         "id": 11726,
         "name": "Manos Ruby Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "gr": 30
         },
@@ -643,7 +643,7 @@
     }, {
         "id": 11727,
         "name": "Manos Sapphire Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "kb": 30
         },
@@ -676,7 +676,7 @@
     }, {
         "id": 11728,
         "name": "Manos Topaz Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "kd": 30
         },
@@ -709,7 +709,7 @@
     }, {
         "id": 11729,
         "name": "Manos Emerald Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "ssfr": 30
         },
@@ -742,7 +742,7 @@
     }, {
         "id": 11730,
         "name": "Manos Diamond Necklace",
-        "rarity": "epic",
+        "rarity": 3,
         "item_effects": {
             "rta": 10
         },

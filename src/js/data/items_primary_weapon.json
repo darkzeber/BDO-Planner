@@ -3,7 +3,7 @@
         {
             "id": 10603,
             "name": "Elsh Axe",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -99,7 +99,7 @@
         }, {
             "id": 10605,
             "name": "Azwell Axe",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "special": "AP does not decrease in the rain."
@@ -193,7 +193,7 @@
         }, {
             "id": 10607,
             "name": "Seleth Axe",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 10
             },
@@ -286,7 +286,7 @@
         }, {
             "id": 10609,
             "name": "Liverto Axe",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 3
             },
@@ -379,7 +379,7 @@
         }, {
             "id": 10610,
             "name": "Kzarka Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "as": 3
             },
@@ -472,7 +472,7 @@
         }, {
             "id": 10612,
             "name": "Kalis Axe",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 27,
             "ap_min": 13,
@@ -563,7 +563,7 @@
         }, {
             "id": 10613,
             "name": "Bares Axe",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5
             },
@@ -656,7 +656,7 @@
         }, {
             "id": 10614,
             "name": "Yuria Axe",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 5
             },
@@ -749,7 +749,7 @@
         }, {
             "id": 10620,
             "name": "Azwell Axe of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -844,7 +844,7 @@
         }, {
             "id": 10621,
             "name": "Azwell Axe of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "as": 1,
@@ -939,7 +939,7 @@
         }, {
             "id": 10622,
             "name": "Azwell Axe of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -1035,7 +1035,7 @@
         }, {
             "id": 10623,
             "name": "Ultimate Azwell Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -1131,7 +1131,7 @@
         }, {
             "id": 10628,
             "name": "Seleth Axe of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1
@@ -1225,7 +1225,7 @@
         }, {
             "id": 10629,
             "name": "Seleth Axe of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "as": 1
@@ -1319,7 +1319,7 @@
         }, {
             "id": 10630,
             "name": "Seleth Axe of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -1414,7 +1414,7 @@
         }, {
             "id": 10631,
             "name": "Ultimate Seleth Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -1509,7 +1509,7 @@
         }, {
             "id": 10632,
             "name": "Kalis Axe of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1
             },
@@ -1602,7 +1602,7 @@
         }, {
             "id": 10633,
             "name": "Kalis Axe of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "as": 1
             },
@@ -1695,7 +1695,7 @@
         }, {
             "id": 10634,
             "name": "Kalis Axe of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1,
                 "as": 1
@@ -1789,7 +1789,7 @@
         }, {
             "id": 10635,
             "name": "Ultimate Kalis Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "chr": 1,
                 "as": 1
@@ -1883,7 +1883,7 @@
         }, {
             "id": 10636,
             "name": "Bares Axe of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1
@@ -1977,7 +1977,7 @@
         }, {
             "id": 10637,
             "name": "Bares Axe of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "as": 1
@@ -2071,7 +2071,7 @@
         }, {
             "id": 10638,
             "name": "Bares Axe of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -2166,7 +2166,7 @@
         }, {
             "id": 10639,
             "name": "Ultimate Bares Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -2261,7 +2261,7 @@
         }, {
             "id": 10640,
             "name": "Yuria Axe of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1
@@ -2355,7 +2355,7 @@
         }, {
             "id": 10641,
             "name": "Yuria Axe of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "as": 1
@@ -2449,7 +2449,7 @@
         }, {
             "id": 10642,
             "name": "Yuria Axe of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -2544,7 +2544,7 @@
         }, {
             "id": 10643,
             "name": "Ultimate Yuria Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -2639,7 +2639,7 @@
         }, {
             "id": 10656,
             "name": "Krea Axe",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 19,
@@ -2731,7 +2731,7 @@
         }, {
             "id": 10657,
             "name": "Rosar Axe",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 22,
@@ -2823,7 +2823,7 @@
         }, {
             "id": 10658,
             "name": "Krea Axe of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1
@@ -2917,7 +2917,7 @@
         }, {
             "id": 10659,
             "name": "Krea Axe of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "as": 1
@@ -3011,7 +3011,7 @@
         }, {
             "id": 10660,
             "name": "Krea Axe of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -3106,7 +3106,7 @@
         }, {
             "id": 10663,
             "name": "Ultimate Krea Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -3201,7 +3201,7 @@
         }, {
             "id": 10664,
             "name": "Rosar Axe of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1
@@ -3295,7 +3295,7 @@
         }, {
             "id": 10665,
             "name": "Rosar Axe of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "as": 1
@@ -3389,7 +3389,7 @@
         }, {
             "id": 10666,
             "name": "Rosar Axe of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -3484,7 +3484,7 @@
         }, {
             "id": 10669,
             "name": "Ultimate Rosar Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -3579,7 +3579,7 @@
         }, {
             "id": 10674,
             "name": "Elsh Axe of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -3676,7 +3676,7 @@
         }, {
             "id": 10675,
             "name": "Elsh Axe of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -3773,7 +3773,7 @@
         }, {
             "id": 10676,
             "name": "Elsh Axe of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -3871,7 +3871,7 @@
         }, {
             "id": 10677,
             "name": "Ultimate Elsh Axe",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -3972,7 +3972,7 @@
         {
             "id": 10203,
             "name": "Elsh Longbow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -4068,7 +4068,7 @@
         }, {
             "id": 10205,
             "name": "Azwell Longbow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "special": "AP does not decrease in the rain."
@@ -4162,7 +4162,7 @@
         }, {
             "id": 10207,
             "name": "Seleth Longbow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 10
             },
@@ -4255,7 +4255,7 @@
         }, {
             "id": 10209,
             "name": "Liverto Longbow",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 3
             },
@@ -4348,7 +4348,7 @@
         }, {
             "id": 10210,
             "name": "Kzarka Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "as": 3
             },
@@ -4441,7 +4441,7 @@
         }, {
             "id": 10212,
             "name": "Kalis Longbow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 27,
             "ap_min": 13,
@@ -4532,7 +4532,7 @@
         }, {
             "id": 10213,
             "name": "Bares Longbow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5
             },
@@ -4625,7 +4625,7 @@
         }, {
             "id": 10214,
             "name": "Yuria Longbow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 5
             },
@@ -4718,7 +4718,7 @@
         }, {
             "id": 10220,
             "name": "Azwell Longbow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -4813,7 +4813,7 @@
         }, {
             "id": 10221,
             "name": "Azwell Longbow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "as": 1,
@@ -4908,7 +4908,7 @@
         }, {
             "id": 10222,
             "name": "Azwell Longbow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -5004,7 +5004,7 @@
         }, {
             "id": 10223,
             "name": "Ultimate Azwell Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -5100,7 +5100,7 @@
         }, {
             "id": 10228,
             "name": "Seleth Longbow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1
@@ -5194,7 +5194,7 @@
         }, {
             "id": 10229,
             "name": "Seleth Longbow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "as": 1
@@ -5288,7 +5288,7 @@
         }, {
             "id": 10230,
             "name": "Seleth Longbow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -5383,7 +5383,7 @@
         }, {
             "id": 10231,
             "name": "Ultimate Seleth Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -5478,7 +5478,7 @@
         }, {
             "id": 10232,
             "name": "Kalis Longbow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1
             },
@@ -5571,7 +5571,7 @@
         }, {
             "id": 10233,
             "name": "Kalis Longbow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "as": 1
             },
@@ -5664,7 +5664,7 @@
         }, {
             "id": 10234,
             "name": "Kalis Longbow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1,
                 "as": 1
@@ -5758,7 +5758,7 @@
         }, {
             "id": 10235,
             "name": "Ultimate Kalis Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "chr": 1,
                 "as": 1
@@ -5852,7 +5852,7 @@
         }, {
             "id": 10236,
             "name": "Bares Longbow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1
@@ -5946,7 +5946,7 @@
         }, {
             "id": 10237,
             "name": "Bares Longbow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "as": 1
@@ -6040,7 +6040,7 @@
         }, {
             "id": 10238,
             "name": "Bares Longbow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -6135,7 +6135,7 @@
         }, {
             "id": 10239,
             "name": "Ultimate Bares Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -6230,7 +6230,7 @@
         }, {
             "id": 10240,
             "name": "Yuria Longbow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1
@@ -6324,7 +6324,7 @@
         }, {
             "id": 10241,
             "name": "Yuria Longbow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "as": 1
@@ -6418,7 +6418,7 @@
         }, {
             "id": 10242,
             "name": "Yuria Longbow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -6513,7 +6513,7 @@
         }, {
             "id": 10243,
             "name": "Ultimate Yuria Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -6608,7 +6608,7 @@
         }, {
             "id": 10256,
             "name": "Krea Longbow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 19,
@@ -6700,7 +6700,7 @@
         }, {
             "id": 10257,
             "name": "Rosar Longbow",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 22,
@@ -6792,7 +6792,7 @@
         }, {
             "id": 10258,
             "name": "Krea Longbow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1
@@ -6886,7 +6886,7 @@
         }, {
             "id": 10259,
             "name": "Krea Longbow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "as": 1
@@ -6980,7 +6980,7 @@
         }, {
             "id": 10260,
             "name": "Krea Longbow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -7075,7 +7075,7 @@
         }, {
             "id": 10263,
             "name": "Ultimate Krea Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -7170,7 +7170,7 @@
         }, {
             "id": 10264,
             "name": "Rosar Longbow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1
@@ -7264,7 +7264,7 @@
         }, {
             "id": 10265,
             "name": "Rosar Longbow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "as": 1
@@ -7358,7 +7358,7 @@
         }, {
             "id": 10266,
             "name": "Rosar Longbow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -7453,7 +7453,7 @@
         }, {
             "id": 10269,
             "name": "Ultimate Rosar Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -7548,7 +7548,7 @@
         }, {
             "id": 10274,
             "name": "Elsh Longbow of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -7645,7 +7645,7 @@
         }, {
             "id": 10275,
             "name": "Elsh Longbow of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -7742,7 +7742,7 @@
         }, {
             "id": 10276,
             "name": "Elsh Longbow of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -7840,7 +7840,7 @@
         }, {
             "id": 10277,
             "name": "Ultimate Elsh Longbow",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -7941,7 +7941,7 @@
         {
             "id": 10403,
             "name": "Elsh Amulet",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -8037,7 +8037,7 @@
         }, {
             "id": 10405,
             "name": "Azwell Amulet",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "special": "AP does not decrease in the rain."
@@ -8131,7 +8131,7 @@
         }, {
             "id": 10407,
             "name": "Seleth Amulet",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 10
             },
@@ -8224,7 +8224,7 @@
         }, {
             "id": 10409,
             "name": "Liverto Amulet",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 3
             },
@@ -8317,7 +8317,7 @@
         }, {
             "id": 10410,
             "name": "Kzarka Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "cs": 3
             },
@@ -8410,7 +8410,7 @@
         }, {
             "id": 10412,
             "name": "Kalis Amulet",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 27,
             "ap_min": 13,
@@ -8501,7 +8501,7 @@
         }, {
             "id": 10413,
             "name": "Bares Amulet",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5
             },
@@ -8594,7 +8594,7 @@
         }, {
             "id": 10414,
             "name": "Yuria Amulet",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 5
             },
@@ -8687,7 +8687,7 @@
         }, {
             "id": 10420,
             "name": "Azwell Amulet of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -8782,7 +8782,7 @@
         }, {
             "id": 10421,
             "name": "Azwell Amulet of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "as": 1,
@@ -8877,7 +8877,7 @@
         }, {
             "id": 10422,
             "name": "Azwell Amulet of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "cs": 1,
@@ -8972,7 +8972,7 @@
         }, {
             "id": 10423,
             "name": "Ultimate Azwell Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -9068,7 +9068,7 @@
         }, {
             "id": 10428,
             "name": "Seleth Amulet of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1
@@ -9162,7 +9162,7 @@
         }, {
             "id": 10429,
             "name": "Seleth Amulet of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "as": 1
@@ -9256,7 +9256,7 @@
         }, {
             "id": 10430,
             "name": "Seleth Amulet of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "cs": 1
@@ -9350,7 +9350,7 @@
         }, {
             "id": 10431,
             "name": "Ultimate Seleth Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -9445,7 +9445,7 @@
         }, {
             "id": 10432,
             "name": "Kalis Amulet of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1
             },
@@ -9538,7 +9538,7 @@
         }, {
             "id": 10433,
             "name": "Kalis Amulet of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "as": 1
             },
@@ -9631,7 +9631,7 @@
         }, {
             "id": 10434,
             "name": "Kalis Amulet of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "as": 1
             },
@@ -9724,7 +9724,7 @@
         }, {
             "id": 10435,
             "name": "Ultimate Kalis Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "chr": 1,
                 "cs": 1
@@ -9818,7 +9818,7 @@
         }, {
             "id": 10436,
             "name": "Bares Amulet of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1
@@ -9912,7 +9912,7 @@
         }, {
             "id": 10437,
             "name": "Bares Amulet of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "as": 1
@@ -10006,7 +10006,7 @@
         }, {
             "id": 10438,
             "name": "Bares Amulet of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "cs": 1
@@ -10100,7 +10100,7 @@
         }, {
             "id": 10439,
             "name": "Ultimate Bares Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -10195,7 +10195,7 @@
         }, {
             "id": 10440,
             "name": "Yuria Amulet of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1
@@ -10289,7 +10289,7 @@
         }, {
             "id": 10441,
             "name": "Yuria Amulet of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "as": 1
@@ -10383,7 +10383,7 @@
         }, {
             "id": 10442,
             "name": "Yuria Amulet of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "cs": 1
@@ -10477,7 +10477,7 @@
         }, {
             "id": 10443,
             "name": "Ultimate Yuria Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -10572,7 +10572,7 @@
         }, {
             "id": 10456,
             "name": "Krea Amulet",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 19,
@@ -10664,7 +10664,7 @@
         }, {
             "id": 10457,
             "name": "Rosar Amulet",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 22,
@@ -10756,7 +10756,7 @@
         }, {
             "id": 10458,
             "name": "Krea Amulet of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1
@@ -10850,7 +10850,7 @@
         }, {
             "id": 10459,
             "name": "Krea Amulet of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "as": 1
@@ -10944,7 +10944,7 @@
         }, {
             "id": 10460,
             "name": "Krea Amulet of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "cs": 1
@@ -11038,7 +11038,7 @@
         }, {
             "id": 10463,
             "name": "Ultimate Krea Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -11133,7 +11133,7 @@
         }, {
             "id": 10464,
             "name": "Rosar Amulet of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1
@@ -11227,7 +11227,7 @@
         }, {
             "id": 10465,
             "name": "Rosar Amulet of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "as": 1
@@ -11321,7 +11321,7 @@
         }, {
             "id": 10466,
             "name": "Rosar Amulet of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -11416,7 +11416,7 @@
         }, {
             "id": 10469,
             "name": "Ultimate Rosar Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -11511,7 +11511,7 @@
         }, {
             "id": 10474,
             "name": "Elsh Amulet of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -11608,7 +11608,7 @@
         }, {
             "id": 10475,
             "name": "Elsh Amulet of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -11705,7 +11705,7 @@
         }, {
             "id": 10476,
             "name": "Elsh Amulet of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -11803,7 +11803,7 @@
         }, {
             "id": 10477,
             "name": "Ultimate Elsh Amulet",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -11904,7 +11904,7 @@
         {
             "id": 13203,
             "name": "Elsh Shortsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -12000,7 +12000,7 @@
         }, {
             "id": 13205,
             "name": "Azwell Shortsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "special": "AP does not decrease in the rain."
@@ -12094,7 +12094,7 @@
         }, {
             "id": 13207,
             "name": "Seleth Shortsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 10
             },
@@ -12187,7 +12187,7 @@
         }, {
             "id": 13209,
             "name": "Liverto Shortsword",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 3
             },
@@ -12280,7 +12280,7 @@
         }, {
             "id": 13210,
             "name": "Kzarka Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "as": 3
             },
@@ -12373,7 +12373,7 @@
         }, {
             "id": 13212,
             "name": "Kalis Shortsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 27,
             "ap_min": 13,
@@ -12464,7 +12464,7 @@
         }, {
             "id": 13213,
             "name": "Bares Shortsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5
             },
@@ -12557,7 +12557,7 @@
         }, {
             "id": 13214,
             "name": "Yuria Shortsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 5
             },
@@ -12650,7 +12650,7 @@
         }, {
             "id": 13220,
             "name": "Azwell Shortsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -12745,7 +12745,7 @@
         }, {
             "id": 13221,
             "name": "Azwell Shortsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "as": 1,
@@ -12840,7 +12840,7 @@
         }, {
             "id": 13222,
             "name": "Azwell Shortsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -12936,7 +12936,7 @@
         }, {
             "id": 13223,
             "name": "Ultimate Azwell Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -13032,7 +13032,7 @@
         }, {
             "id": 13228,
             "name": "Seleth Shortsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1
@@ -13126,7 +13126,7 @@
         }, {
             "id": 13229,
             "name": "Seleth Shortsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "as": 1
@@ -13220,7 +13220,7 @@
         }, {
             "id": 13230,
             "name": "Seleth Shortsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -13315,7 +13315,7 @@
         }, {
             "id": 13231,
             "name": "Ultimate Seleth Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -13410,7 +13410,7 @@
         }, {
             "id": 13232,
             "name": "Kalis Shortsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1
             },
@@ -13503,7 +13503,7 @@
         }, {
             "id": 13233,
             "name": "Kalis Shortsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "as": 1
             },
@@ -13596,7 +13596,7 @@
         }, {
             "id": 13234,
             "name": "Kalis Shortsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1,
                 "as": 1
@@ -13690,7 +13690,7 @@
         }, {
             "id": 13235,
             "name": "Ultimate Kalis Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "chr": 1,
                 "as": 1
@@ -13784,7 +13784,7 @@
         }, {
             "id": 13236,
             "name": "Bares Shortsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1
@@ -13878,7 +13878,7 @@
         }, {
             "id": 13237,
             "name": "Bares Shortsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "as": 1
@@ -13972,7 +13972,7 @@
         }, {
             "id": 13238,
             "name": "Bares Shortsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -14067,7 +14067,7 @@
         }, {
             "id": 13239,
             "name": "Ultimate Bares Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -14162,7 +14162,7 @@
         }, {
             "id": 13240,
             "name": "Yuria Shortsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1
@@ -14256,7 +14256,7 @@
         }, {
             "id": 13241,
             "name": "Yuria Shortsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "as": 1
@@ -14350,7 +14350,7 @@
         }, {
             "id": 13242,
             "name": "Yuria Shortsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -14445,7 +14445,7 @@
         }, {
             "id": 13243,
             "name": "Ultimate Yuria Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -14540,7 +14540,7 @@
         }, {
             "id": 13256,
             "name": "Krea Shortsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 19,
@@ -14632,7 +14632,7 @@
         }, {
             "id": 13257,
             "name": "Rosar Shortsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 22,
@@ -14724,7 +14724,7 @@
         }, {
             "id": 13258,
             "name": "Krea Shortsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1
@@ -14818,7 +14818,7 @@
         }, {
             "id": 13259,
             "name": "Krea Shortsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "as": 1
@@ -14912,7 +14912,7 @@
         }, {
             "id": 13260,
             "name": "Krea Shortsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -15007,7 +15007,7 @@
         }, {
             "id": 13263,
             "name": "Ultimate Krea Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -15102,7 +15102,7 @@
         }, {
             "id": 13264,
             "name": "Rosar Shortsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1
@@ -15196,7 +15196,7 @@
         }, {
             "id": 13265,
             "name": "Rosar Shortsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "as": 1
@@ -15290,7 +15290,7 @@
         }, {
             "id": 13266,
             "name": "Rosar Shortsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -15385,7 +15385,7 @@
         }, {
             "id": 13269,
             "name": "Ultimate Rosar Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -15480,7 +15480,7 @@
         }, {
             "id": 13274,
             "name": "Elsh Shortsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -15577,7 +15577,7 @@
         }, {
             "id": 13275,
             "name": "Elsh Shortsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -15674,7 +15674,7 @@
         }, {
             "id": 13276,
             "name": "Elsh Shortsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -15772,7 +15772,7 @@
         }, {
             "id": 13277,
             "name": "Ultimate Elsh Shortsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -15873,7 +15873,7 @@
         {
             "id": 10003,
             "name": "Elsh Longsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -15969,7 +15969,7 @@
         }, {
             "id": 10005,
             "name": "Azwell Longsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "special": "AP does not decrease in the rain."
@@ -16063,7 +16063,7 @@
         }, {
             "id": 10007,
             "name": "Seleth Longsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 10
             },
@@ -16156,7 +16156,7 @@
         }, {
             "id": 10009,
             "name": "Liverto Longsword",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 3
             },
@@ -16249,7 +16249,7 @@
         }, {
             "id": 10010,
             "name": "Kzarka Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "as": 3,
                 "cs": 3
@@ -16343,7 +16343,7 @@
         }, {
             "id": 10012,
             "name": "Kalis Longsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 27,
             "ap_min": 13,
@@ -16434,7 +16434,7 @@
         }, {
             "id": 10013,
             "name": "Bares Longsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5
             },
@@ -16527,7 +16527,7 @@
         }, {
             "id": 10014,
             "name": "Yuria Longsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 5
             },
@@ -16620,7 +16620,7 @@
         }, {
             "id": 10020,
             "name": "Azwell Longsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -16715,7 +16715,7 @@
         }, {
             "id": 10021,
             "name": "Azwell Longsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "as": 1,
@@ -16811,7 +16811,7 @@
         }, {
             "id": 10022,
             "name": "Azwell Longsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -16908,7 +16908,7 @@
         }, {
             "id": 10023,
             "name": "Ultimate Azwell Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -17005,7 +17005,7 @@
         }, {
             "id": 10028,
             "name": "Seleth Longsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1
@@ -17099,7 +17099,7 @@
         }, {
             "id": 10029,
             "name": "Seleth Longsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "as": 1,
@@ -17194,7 +17194,7 @@
         }, {
             "id": 10030,
             "name": "Seleth Longsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -17290,7 +17290,7 @@
         }, {
             "id": 10031,
             "name": "Ultimate Seleth Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -17386,7 +17386,7 @@
         }, {
             "id": 10032,
             "name": "Kalis Longsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1
             },
@@ -17479,7 +17479,7 @@
         }, {
             "id": 10033,
             "name": "Kalis Longsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "as": 1,
                 "cs": 1
@@ -17573,7 +17573,7 @@
         }, {
             "id": 10034,
             "name": "Kalis Longsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1,
                 "as": 1,
@@ -17668,7 +17668,7 @@
         }, {
             "id": 10035,
             "name": "Ultimate Kalis Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "chr": 1,
                 "as": 1,
@@ -17763,7 +17763,7 @@
         }, {
             "id": 10036,
             "name": "Bares Longsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1
@@ -17857,7 +17857,7 @@
         }, {
             "id": 10037,
             "name": "Bares Longsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "as": 1,
@@ -17952,7 +17952,7 @@
         }, {
             "id": 10038,
             "name": "Bares Longsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -18048,7 +18048,7 @@
         }, {
             "id": 10039,
             "name": "Ultimate Bares Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -18144,7 +18144,7 @@
         }, {
             "id": 10040,
             "name": "Yuria Longsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1
@@ -18238,7 +18238,7 @@
         }, {
             "id": 10041,
             "name": "Yuria Longsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "as": 1,
@@ -18333,7 +18333,7 @@
         }, {
             "id": 10042,
             "name": "Yuria Longsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -18429,7 +18429,7 @@
         }, {
             "id": 10043,
             "name": "Ultimate Yuria Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -18525,7 +18525,7 @@
         }, {
             "id": 10056,
             "name": "Krea Longsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 19,
@@ -18617,7 +18617,7 @@
         }, {
             "id": 10057,
             "name": "Rosar Longsword",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 22,
@@ -18709,7 +18709,7 @@
         }, {
             "id": 10058,
             "name": "Krea Longsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1
@@ -18803,7 +18803,7 @@
         }, {
             "id": 10059,
             "name": "Krea Longsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "as": 1,
@@ -18898,7 +18898,7 @@
         }, {
             "id": 10060,
             "name": "Krea Longsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -18994,7 +18994,7 @@
         }, {
             "id": 10063,
             "name": "Ultimate Krea Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -19090,7 +19090,7 @@
         }, {
             "id": 10064,
             "name": "Rosar Longsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1
@@ -19184,7 +19184,7 @@
         }, {
             "id": 10065,
             "name": "Rosar Longsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "as": 1,
@@ -19279,7 +19279,7 @@
         }, {
             "id": 10066,
             "name": "Rosar Longsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -19375,7 +19375,7 @@
         }, {
             "id": 10069,
             "name": "Ultimate Rosar Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -19471,7 +19471,7 @@
         }, {
             "id": 10074,
             "name": "Elsh Longsword of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -19568,7 +19568,7 @@
         }, {
             "id": 10075,
             "name": "Elsh Longsword of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -19666,7 +19666,7 @@
         }, {
             "id": 10076,
             "name": "Elsh Longsword of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -19765,7 +19765,7 @@
         }, {
             "id": 10077,
             "name": "Ultimate Elsh Longsword",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -19867,7 +19867,7 @@
         {
             "id": 14403,
             "name": "Elsh Staff",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -19963,7 +19963,7 @@
         }, {
             "id": 14405,
             "name": "Azwell Staff",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "special": "AP does not decrease in the rain."
@@ -20057,7 +20057,7 @@
         }, {
             "id": 14407,
             "name": "Seleth Staff",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 10
             },
@@ -20150,7 +20150,7 @@
         }, {
             "id": 14409,
             "name": "Liverto Staff",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 3
             },
@@ -20243,7 +20243,7 @@
         }, {
             "id": 14410,
             "name": "Kzarka Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "cs": 3
             },
@@ -20336,7 +20336,7 @@
         }, {
             "id": 14412,
             "name": "Kalis Staff",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 27,
             "ap_min": 13,
@@ -20427,7 +20427,7 @@
         }, {
             "id": 14413,
             "name": "Bares Staff",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5
             },
@@ -20520,7 +20520,7 @@
         }, {
             "id": 14414,
             "name": "Yuria Staff",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 5
             },
@@ -20613,7 +20613,7 @@
         }, {
             "id": 14420,
             "name": "Azwell Staff of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -20708,7 +20708,7 @@
         }, {
             "id": 14421,
             "name": "Azwell Staff of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "as": 1,
@@ -20803,7 +20803,7 @@
         }, {
             "id": 14422,
             "name": "Azwell Staff of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "cs": 1,
@@ -20898,7 +20898,7 @@
         }, {
             "id": 14423,
             "name": "Ultimate Azwell Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -20994,7 +20994,7 @@
         }, {
             "id": 14428,
             "name": "Seleth Staff of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1
@@ -21088,7 +21088,7 @@
         }, {
             "id": 14429,
             "name": "Seleth Staff of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "as": 1
@@ -21182,7 +21182,7 @@
         }, {
             "id": 14430,
             "name": "Seleth Staff of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "cs": 1
@@ -21276,7 +21276,7 @@
         }, {
             "id": 14431,
             "name": "Ultimate Seleth Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -21371,7 +21371,7 @@
         }, {
             "id": 14432,
             "name": "Kalis Staff of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1
             },
@@ -21464,7 +21464,7 @@
         }, {
             "id": 14433,
             "name": "Kalis Staff of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "as": 1
             },
@@ -21557,7 +21557,7 @@
         }, {
             "id": 14434,
             "name": "Kalis Staff of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "cs": 1
             },
@@ -21650,7 +21650,7 @@
         }, {
             "id": 14435,
             "name": "Ultimate Kalis Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "chr": 1,
                 "cs": 1
@@ -21744,7 +21744,7 @@
         }, {
             "id": 14436,
             "name": "Bares Staff of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1
@@ -21838,7 +21838,7 @@
         }, {
             "id": 14437,
             "name": "Bares Staff of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "as": 1
@@ -21932,7 +21932,7 @@
         }, {
             "id": 14438,
             "name": "Bares Staff of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "cs": 1
@@ -22026,7 +22026,7 @@
         }, {
             "id": 14439,
             "name": "Ultimate Bares Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -22121,7 +22121,7 @@
         }, {
             "id": 14440,
             "name": "Yuria Staff of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1
@@ -22215,7 +22215,7 @@
         }, {
             "id": 14441,
             "name": "Yuria Staff of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "as": 1
@@ -22309,7 +22309,7 @@
         }, {
             "id": 14442,
             "name": "Yuria Staff of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -22404,7 +22404,7 @@
         }, {
             "id": 14443,
             "name": "Ultimate Yuria Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -22499,7 +22499,7 @@
         }, {
             "id": 14456,
             "name": "Krea Staff",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 19,
@@ -22591,7 +22591,7 @@
         }, {
             "id": 14457,
             "name": "Rosar Staff",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 22,
@@ -22683,7 +22683,7 @@
         }, {
             "id": 14458,
             "name": "Krea Staff of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1
@@ -22777,7 +22777,7 @@
         }, {
             "id": 14459,
             "name": "Krea Staff of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "as": 1
@@ -22871,7 +22871,7 @@
         }, {
             "id": 14460,
             "name": "Krea Staff of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "cs": 1
@@ -22965,7 +22965,7 @@
         }, {
             "id": 14463,
             "name": "Ultimate Krea Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -23060,7 +23060,7 @@
         }, {
             "id": 14464,
             "name": "Rosar Staff of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1
@@ -23154,7 +23154,7 @@
         }, {
             "id": 14465,
             "name": "Rosar Staff of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "as": 1
@@ -23248,7 +23248,7 @@
         }, {
             "id": 14466,
             "name": "Rosar Staff of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "cs": 1
@@ -23342,7 +23342,7 @@
         }, {
             "id": 14469,
             "name": "Ultimate Rosar Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -23437,7 +23437,7 @@
         }, {
             "id": 14474,
             "name": "Elsh Staff of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -23534,7 +23534,7 @@
         }, {
             "id": 14475,
             "name": "Elsh Staff of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -23631,7 +23631,7 @@
         }, {
             "id": 14476,
             "name": "Elsh Staff of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -23729,7 +23729,7 @@
         }, {
             "id": 14477,
             "name": "Ultimate Elsh Staff",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -23830,7 +23830,7 @@
         {
             "id": 13303,
             "name": "Elsh Blade",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -23926,7 +23926,7 @@
         }, {
             "id": 13305,
             "name": "Azwell Blade",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "acc": 5,
                 "special": "AP does not decrease in the rain."
@@ -24020,7 +24020,7 @@
         }, {
             "id": 13307,
             "name": "Seleth Blade",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 10
             },
@@ -24113,7 +24113,7 @@
         }, {
             "id": 13309,
             "name": "Liverto Blade",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 3
             },
@@ -24206,7 +24206,7 @@
         }, {
             "id": 13310,
             "name": "Kzarka Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "as": 3
             },
@@ -24299,7 +24299,7 @@
         }, {
             "id": 13312,
             "name": "Kalis Blade",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {},
             "ap_max": 27,
             "ap_min": 13,
@@ -24390,7 +24390,7 @@
         }, {
             "id": 13313,
             "name": "Bares Blade",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgaes": 5
             },
@@ -24483,7 +24483,7 @@
         }, {
             "id": 13314,
             "name": "Yuria Blade",
-            "rarity": "uncommon",
+            "rarity": 1,
             "item_effects": {
                 "dmgth": 5
             },
@@ -24576,7 +24576,7 @@
         }, {
             "id": 13320,
             "name": "Azwell Blade of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -24671,7 +24671,7 @@
         }, {
             "id": 13321,
             "name": "Azwell Blade of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "as": 1,
@@ -24766,7 +24766,7 @@
         }, {
             "id": 13322,
             "name": "Azwell Blade of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -24862,7 +24862,7 @@
         }, {
             "id": 13323,
             "name": "Ultimate Azwell Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "acc": 5,
                 "chr": 1,
@@ -24958,7 +24958,7 @@
         }, {
             "id": 13328,
             "name": "Seleth Blade of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1
@@ -25052,7 +25052,7 @@
         }, {
             "id": 13329,
             "name": "Seleth Blade of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "as": 1
@@ -25146,7 +25146,7 @@
         }, {
             "id": 13330,
             "name": "Seleth Blade of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -25241,7 +25241,7 @@
         }, {
             "id": 13331,
             "name": "Ultimate Seleth Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 10,
                 "chr": 1,
@@ -25336,7 +25336,7 @@
         }, {
             "id": 13332,
             "name": "Kalis Blade of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1
             },
@@ -25429,7 +25429,7 @@
         }, {
             "id": 13333,
             "name": "Kalis Blade of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "as": 1
             },
@@ -25522,7 +25522,7 @@
         }, {
             "id": 13334,
             "name": "Kalis Blade of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "chr": 1,
                 "as": 1
@@ -25616,7 +25616,7 @@
         }, {
             "id": 13335,
             "name": "Ultimate Kalis Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "chr": 1,
                 "as": 1
@@ -25710,7 +25710,7 @@
         }, {
             "id": 13336,
             "name": "Bares Blade of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1
@@ -25804,7 +25804,7 @@
         }, {
             "id": 13337,
             "name": "Bares Blade of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "as": 1
@@ -25898,7 +25898,7 @@
         }, {
             "id": 13338,
             "name": "Bares Blade of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -25993,7 +25993,7 @@
         }, {
             "id": 13339,
             "name": "Ultimate Bares Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "chr": 1,
@@ -26088,7 +26088,7 @@
         }, {
             "id": 13340,
             "name": "Yuria Blade of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1
@@ -26182,7 +26182,7 @@
         }, {
             "id": 13341,
             "name": "Yuria Blade of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "as": 1
@@ -26276,7 +26276,7 @@
         }, {
             "id": 13342,
             "name": "Yuria Blade of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -26371,7 +26371,7 @@
         }, {
             "id": 13343,
             "name": "Ultimate Yuria Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgth": 5,
                 "chr": 1,
@@ -26466,7 +26466,7 @@
         }, {
             "id": 13356,
             "name": "Krea Blade",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Krea",
             "item_effects": {},
             "ap_max": 19,
@@ -26558,7 +26558,7 @@
         }, {
             "id": 13357,
             "name": "Rosar Blade",
-            "rarity": "uncommon",
+            "rarity": 1,
             "set": "Rosar",
             "item_effects": {},
             "ap_max": 22,
@@ -26650,7 +26650,7 @@
         }, {
             "id": 13358,
             "name": "Krea Blade of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1
@@ -26744,7 +26744,7 @@
         }, {
             "id": 13359,
             "name": "Krea Blade of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "as": 1
@@ -26838,7 +26838,7 @@
         }, {
             "id": 13360,
             "name": "Krea Blade of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -26933,7 +26933,7 @@
         }, {
             "id": 13363,
             "name": "Ultimate Krea Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Krea",
             "item_effects": {
                 "chr": 1,
@@ -27028,7 +27028,7 @@
         }, {
             "id": 13364,
             "name": "Rosar Blade of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1
@@ -27122,7 +27122,7 @@
         }, {
             "id": 13365,
             "name": "Rosar Blade of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "as": 1
@@ -27216,7 +27216,7 @@
         }, {
             "id": 13366,
             "name": "Rosar Blade of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -27311,7 +27311,7 @@
         }, {
             "id": 13369,
             "name": "Ultimate Rosar Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "set": "Rosar",
             "item_effects": {
                 "chr": 1,
@@ -27406,7 +27406,7 @@
         }, {
             "id": 13374,
             "name": "Elsh Blade of Crimson Flame",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -27503,7 +27503,7 @@
         }, {
             "id": 13375,
             "name": "Elsh Blade of Destruction",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -27600,7 +27600,7 @@
         }, {
             "id": 13376,
             "name": "Elsh Blade of Temptation",
-            "rarity": "rare",
+            "rarity": 2,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -27698,7 +27698,7 @@
         }, {
             "id": 13377,
             "name": "Ultimate Elsh Blade",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "dmgaes": 5,
                 "acc": 3,
@@ -27799,7 +27799,7 @@
         {
             "id": 0,
             "name": "Spellsword Test",
-            "rarity": "epic",
+            "rarity": 3,
             "item_effects": {
                 "as": 3
             },

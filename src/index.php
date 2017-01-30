@@ -2,7 +2,7 @@
     include $_SERVER['DOCUMENT_ROOT'].'/php/inline/get_full_link.php';
     $__version_major = 1;
     $__version_minor = 1;
-    $__version_revision = 0;
+    $__version_revision = 1;
     $__vr_str = "?".$__version_major.$__version_minor.$__version_revision;
 ?>
 <!DOCTYPE html>
@@ -58,7 +58,7 @@
                     <div class="logo-bar">
                         <h1>BDO<span class="second">Planner</span></h1>
                         <span class="text">
-                            <a href="#" id="show-more-info">More info</a>&nbsp;&middot;&nbsp;<a href="#" id="show-update-notes">Show update notes</a>&nbsp;&middot;&nbsp;<a href="#" id="show-settings">Settings</a>
+                            <a href="https://github.com/Ihellmasker/BDO-Planner/issues">Bugs &amp; Suggestions</a>&nbsp;&middot;&nbsp;<a href="#" id="show-more-info">More info</a>&nbsp;&middot;&nbsp;<a href="#" id="show-update-notes">Show update notes</a>&nbsp;&middot;&nbsp;<a href="#" id="show-settings">Settings</a>
                         </span>
                     </div>
                 </div>

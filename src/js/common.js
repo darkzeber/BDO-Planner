@@ -10,3 +10,11 @@ function isSocketable(item_type) {
 function isItemPair(item_type) {
     return $.inArray(item_type, ["ring", "earring"]) !== -1;
 }
+function pad(n, width, z) {
+    z = z || '0';
+    n = n + '';
+    return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+}
+function rarityClasses() {
+    return "common uncommon rare epic legendary";
+}

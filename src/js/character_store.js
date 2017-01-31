@@ -204,5 +204,24 @@ var BDOcharacter = {
         id = parseInt(id);
         this.build.class.id = id;
         this.build.class.obj = _.findWhere(BDOdatabase.classes, {"id": id});
+    },
+    
+    setGear: function(item) {
+/*
+    cur_item = {
+        "type": $(this).attr('data-type'),
+        "slot": $(this).attr('data-slot'),
+        "typeslot": $(this).attr('data-type') + (typeof $(this).attr('data-slot') === "undefined" ? "" : $(this).attr('data-slot')),
+        "id": $(this).attr('data-itemid')
+    }
+    
+                    "id": -1,
+                    "enhancement": 0,
+                    "obj": {}
+*/
+        if (isItemPair(item.type)) {
+            this.build.gear[item.type][item.slot].id = item.id;
+        this.build.gear[item.type][item.slot].obj = _.findWhere(BDOdatabase.items[item.type], {"id": item.id});
+        }
     }
 }

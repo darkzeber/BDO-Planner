@@ -43,7 +43,7 @@
                     <div class="logo-bar">
                         <h1>BDO<span class="second">Planner</span></h1>
                         <span class="text">
-                            <a href="#" id="show-more-info">More info</a>&nbsp;&middot;&nbsp;<a href="#" id="show-update-notes">Show update notes</a>&nbsp;&middot;&nbsp;<a href="#" id="show-settings">Settings</a>
+                            <a href="https://github.com/Ihellmasker/BDO-Planner/issues">Bugs &amp; Suggestions</a>&nbsp;&middot;&nbsp;<a href="#" id="show-more-info">More info</a>&nbsp;&middot;&nbsp;<a href="#" id="show-update-notes">Show update notes</a>&nbsp;&middot;&nbsp;<a href="#" id="show-settings">Settings</a>
                         </span>
                     </div>
                 </div>
@@ -172,21 +172,18 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div class="tab-pane active" id="item-tab" role="tabpanel">
-                            <div class="row my-2">
-                                <div class="col-6">
+                            <div id="equipment-item-selectors" class="row my-2 hide">
+                                <div class="col-9">
                                     <select id="equipment-item-select" data-placeholder="Slot Empty" class="chosen-select">
                                         <option value=""></option>
                                     </select>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-3">
                                     <select id="equipment-enhancement-select" class="chosen-select">
                                     </select>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-2 px-2">
-                                    <div class="gear-thumbnail"></div>
-                                </div>
+                            <div id="equipment-item-selected-stats">
                             </div>
                         </div>
                         <div class="tab-pane" id="stats-tab" role="tabpanel">

@@ -764,8 +764,8 @@ var BDOdatabase = {
             "display_name": "Wizard",
             "resistances": {
                 "kb": 20,
-                "kd": 30,
-                "ssfr": 20,
+                "kd": 20,
+                "ssfr": 30,
                 "gr": 20
             }
         },

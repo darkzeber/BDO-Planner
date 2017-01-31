@@ -51612,17 +51612,17 @@ var BDOdatabase = {
                         },
                         "18": {
                             "ap_min": 24,
-                            "ap_max": 27,
+                            "ap_max": 26,
                             "dp": 20
                         },
                         "19": {
                             "ap_min": 25,
-                            "ap_max": 28,
+                            "ap_max": 27,
                             "dp": 22
                         },
                         "20": {
                             "ap_min": 26,
-                            "ap_max": 29,
+                            "ap_max": 28,
                             "dp": 24
                         }
                     },

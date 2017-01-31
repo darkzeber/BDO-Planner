@@ -998,7 +998,7 @@
         $("#stat-breakdown .opener")
         $("<span>")
         .addClass("info")
-        .html(stats.total + BDOdatabase.stats[stat_type].symbol)
+        .html(Math.floor(stats.total) + BDOdatabase.stats[stat_type].symbol)
         .appendTo("#stat-breakdown .opener");
         if (BDOdatabase.stats[stat_type].desc != "") {
             $("<li>")

@@ -265,7 +265,7 @@ var BDOcalculator = {
                 return;
             }
 
-            if (stat_key === "ap") {
+            if (stat_key === "ap" || stat_key === "awkap") {
                 if (parseInt(value) === value) {
                     value = [
                         value,
@@ -277,21 +277,7 @@ var BDOcalculator = {
 
                 this.stats[stat_key].min += parseInt(value[0]);
                 this.stats[stat_key].max += parseInt(value[1]);
-                this.stats[stat_key].total += Math.floor((parseInt(value[0]) + parseInt(value[1])) / 2);
-            }
-            else if (stat_key === "awkap") {
-                if (parseInt(value) === value) {
-                    value = [
-                        value,
-                        value
-                    ];
-                } else {
-                    value = value.split('-');
-                }
-
-                this.stats[stat_key].min += parseInt(value[0]);
-                this.stats[stat_key].max += parseInt(value[1]);
-                this.stats[stat_key].total += Math.floor((parseInt(value[0]) + parseInt(value[1])) / 2);
+                this.stats[stat_key].total += (parseInt(value[0]) + parseInt(value[1])) / 2;
             } else {
                 this.stats[stat_key].total += value;
             }
@@ -560,15 +546,15 @@ var BDOcalculator = {
                 break;
 
             case "ap":
-                $('.stat-ap .value').text(obj.total);
+                $('.stat-ap .value').text(Math.floor(obj.total));
                 break;
 
             case "awkap":
-                $('.stat-awk-ap .value').text(obj.total);
+                $('.stat-awk-ap .value').text(Math.floor(obj.total));
                 break;
 
             case "dp":
-                $('.stat-dp .value').text(obj.total);
+                $('.stat-dp .value').text(Math.floor(obj.total));
                 break;
 
             default:
@@ -746,7 +732,7 @@ var BDOcalculator = {
                     // Item-slot specific calculations
                     switch (gear_key) {
                     case "main-weapon":
-                        var ap = Math.floor((this.getGearStat(this.player.gear[gear_key], "ap_min") + this.getGearStat(this.player.gear[gear_key], "ap_max")) / 2);
+                        var ap = (this.getGearStat(this.player.gear[gear_key], "ap_min") + this.getGearStat(this.player.gear[gear_key], "ap_max")) / 2;
                         if ("ap" == stat_to_get && ap != 0) {
                             stat_return.item_list.push({
                                 "value": ap,
@@ -757,7 +743,7 @@ var BDOcalculator = {
                         }
                         break;
                     case "secondary-weapon":
-                        var ap = Math.floor((this.getGearStat(this.player.gear[gear_key], "ap_min") + this.getGearStat(this.player.gear[gear_key], "ap_max")) / 2);
+                        var ap = (this.getGearStat(this.player.gear[gear_key], "ap_min") + this.getGearStat(this.player.gear[gear_key], "ap_max")) / 2;
                         if (("ap" == stat_to_get || "awkap" == stat_to_get) && ap != 0) {
                             stat_return.item_list.push({
                                 "value": ap,
@@ -768,7 +754,7 @@ var BDOcalculator = {
                         }
                         break;
                     case "awakening-weapon":
-                        var ap = Math.floor((this.getGearStat(this.player.gear[gear_key], "ap_min") + this.getGearStat(this.player.gear[gear_key], "ap_max")) / 2);
+                        var ap = (this.getGearStat(this.player.gear[gear_key], "ap_min") + this.getGearStat(this.player.gear[gear_key], "ap_max")) / 2;
                         if ("awkap" == stat_to_get && ap != 0) {
                             stat_return.item_list.push({
                                 "value": ap,

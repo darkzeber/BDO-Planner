@@ -1,6 +1,16 @@
 Change Log
 ========
 
+_If we jump numbers at all, it's probably because it just fixed something minor we didn't make a note of, or maybe we just don't like that number._
+
+## 1.1.2 (2017-01-25)
+
+### Bugsssss
+
+* Fixed the rounding issue with AP and Awakening AP... again... hopefully for the last time.
+* Corrected Kutum weapons AP
+* Corrected Wizard base resistances
+
 ## 1.1.0 (2017-01-25)
 
 ### New stuffs

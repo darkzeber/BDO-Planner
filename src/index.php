@@ -2,7 +2,7 @@
     include $_SERVER['DOCUMENT_ROOT'].'/php/inline/get_full_link.php';
     $__version_major = 1;
     $__version_minor = 1;
-    $__version_revision = 1;
+    $__version_revision = 2;
     $__vr_str = "?".$__version_major.$__version_minor.$__version_revision;
 ?>
 <!DOCTYPE html>
@@ -392,7 +392,9 @@
                                 <h1>Bugs D:</h1>
 
                                 <ul>
-                                    <li>Fixed an issue with Awakened AP being 1 lower than it should in certain circumstances</li>
+                                    <li>Fixed the rounding issue with AP and Awakening AP... again... hopefully for the last time.</li>
+                                    <li>Corrected Kutum weapons AP</li>
+                                    <li>Corrected Wizard base resistances</li>
                                 </ul>
 
                                 <p><em>

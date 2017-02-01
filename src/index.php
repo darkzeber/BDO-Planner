@@ -395,6 +395,7 @@
                                     <li>Fixed the rounding issue with AP and Awakening AP... again... hopefully for the last time.</li>
                                     <li>Corrected Kutum weapons AP</li>
                                     <li>Corrected Wizard base resistances</li>
+                                    <li>Corrected Rosar weapon enhancements</li>
                                 </ul>
 
                                 <p><em>

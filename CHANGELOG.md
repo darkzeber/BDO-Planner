@@ -10,6 +10,7 @@ _If we jump numbers at all, it's probably because it just fixed something minor 
 * Fixed the rounding issue with AP and Awakening AP... again... hopefully for the last time.
 * Corrected Kutum weapons AP
 * Corrected Wizard base resistances
+* Corrected Rosar weapon enhancements
 
 ## 1.1.0 (2017-01-25)
 

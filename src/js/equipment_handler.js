@@ -74,6 +74,8 @@ $("#equipment").on("click", ".gear-slot", function () {
         }
     }
     $("#equipment-enhancement-select").trigger("chosen:updated");
+    
+    $("#equipment-item-selected-stats").removeClass(rarityClasses).addClass("hide");
 });
         
 $("#equipment-item-select").on('change', function (evt, params) {
@@ -81,71 +83,37 @@ $("#equipment-item-select").on('change', function (evt, params) {
         setGearSlot(params.selected);
         createEquipmentSidePanel();
     } else { // Remove item
-        $("#equipment-item-selected-stats").removeClass(rarityClasses).empty();
+        $("#equipment-item-selected-stats").removeClass(rarityClasses).addClass("hide");
     }
 });
 
 function createEquipmentSidePanel() {
-    $("#equipment-item-selected-stats").removeClass(rarityClasses).empty();
+    $("#equipment-item-selected-stats").removeClass(rarityClasses + " hide");
+    $("#equipment-item-selected-stats .gear-stats").removeClass("hide");
     
     var row, subRow, col, player_item;
     
     if (isItemPair(cur_item.type)) {
         player_item = BDOcharacter.build.gear[cur_item.type][cur_item.slot];
+    } else {
+        player_item = BDOcharacter.build.gear[cur_item.type];
     }
     
     $("#equipment-item-selected-stats").addClass(BDOdatabase.rarity[player_item.obj.rarity].name);
     
-    row = $("<div>")
-        .addClass("row")
-        .appendTo("#equipment-item-selected-stats");
+    $("#equipment-item-selected-stats .gear-name").text(/*BDOdatabase.enhancement[]*/player_item.obj.name);
         
-    col = $("<div>")
-        .addClass("col-12")
-        .appendTo(row);
+    $(".gear-thumbnail").css({
+        "background-image": "url('/bdo/items/" + cur_item.type + (isWeapon(cur_item.type) ? "/" + BDOcharacter.build.class.obj.weapons[cur_item.type] : "") + "/" + pad(player_item.id, 8) + ".png')"
+    });
         
-    name = $("<div>")
-        .addClass("gear-name")
-        .text(/*BDOdatabase.enhancement[]*/player_item.obj.name)
-        .appendTo(col);
+    $(".gear-stats.gear-ap").addClass((typeof player_item.obj.ap !== "undefined" && player_item.obj.ap > 0 ? "" : (typeof player_item.obj.ap_min !== "undefined" && player_item.obj.ap_min > 0 ? "" : "hide")));
         
-    row = $("<div>")
-        .addClass("row")
-        .appendTo("#equipment-item-selected-stats");
+    $(".gear-stats.gear-ap span").text((typeof player_item.obj.ap !== "undefined" && player_item.obj.ap > 0 ? player_item.obj.ap : (typeof player_item.obj.ap_min !== "undefined" && player_item.obj.ap_min > 0 ? player_item.obj.ap_min + " ~ " + player_item.obj.ap_max : "")));
         
-    col = $("<div>")
-        .addClass("col-2 px-2")
-        .appendTo(row);
+    $(".gear-stats.gear-dp").addClass((typeof player_item.obj.dp === "undefined" || player_item.obj.dp == 0 ? " hide" : ""));
         
-    $("<div>")
-        .addClass("gear-thumbnail")
-        .appendTo(col);
-        
-    col = $("<div>")
-        .addClass("col-10")
-        .appendTo(row);
-        
-    subRow = $("<div>")
-        .addClass("row")
-        .appendTo(col);
-        
-    var ap = $("<div>")
-        .addClass("gear-stats" + (typeof player_item.obj.ap === "undefined" || player_item.obj.ap == 0 ? " hide" : ""))
-        .text("AP: ")
-        .appendTo(subRow);
-        
-    $("<span>")
-        .text((typeof player_item.obj.ap !== "undefined" && player_item.obj.ap > 0 ? player_item.obj.ap : ""))
-        .appendTo(ap);
-        
-    var dp = $("<div>")
-        .addClass("gear-stats" + (typeof player_item.obj.dp === "undefined" || player_item.obj.dp == 0 ? " hide" : ""))
-        .text("DP: ")
-        .appendTo(subRow);
-        
-    $("<span>")
-        .text((typeof player_item.obj.dp !== "undefined" && player_item.obj.dp > 0 ? player_item.obj.dp : ""))
-        .appendTo(dp);
+    $(".gear-stats.gear-dp span").text((typeof player_item.obj.dp !== "undefined" && player_item.obj.dp > 0 ? player_item.obj.dp : ""));
 }
 function clearGearSlot() {}
 function clearCrystalSlot() {}

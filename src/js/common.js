@@ -10,6 +10,9 @@ function isSocketable(item_type) {
 function isItemPair(item_type) {
     return $.inArray(item_type, ["ring", "earring"]) !== -1;
 }
+function isOutfit(item_type) {
+    return $.inArray(item_type, ["outfit-armor", "outfit-helmet", "outfit-gloves", "outfit-shoes", "primary-weapon-outfit", "awakening-weapon-outfit", "secondary-weapon-outfit"]) !== -1;
+}
 function pad(n, width, z) {
     z = z || '0';
     n = n + '';

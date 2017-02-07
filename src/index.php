@@ -183,7 +183,27 @@
                                     </select>
                                 </div>
                             </div>
-                            <div id="equipment-item-selected-stats">
+                            <div id="equipment-item-selected-stats hide">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="gear-name">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2 px-2">
+                                        <div class="gear-thumbnail">
+                                        </div>
+                                    </div>
+                                    <div class="col-10">
+                                        <div class="gear-stats gear-ap hide">
+                                            AP: <span></span>
+                                        </div>
+                                        <div class="gear-stats gear-dp hide">
+                                            DP: <span></span>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="tab-pane" id="stats-tab" role="tabpanel">

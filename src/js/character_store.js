@@ -219,9 +219,15 @@ var BDOcharacter = {
                     "enhancement": 0,
                     "obj": {}
 */
+        this.build.gear[item.type].enhancement = 0
         if (isItemPair(item.type)) {
             this.build.gear[item.type][item.slot].id = item.id;
-        this.build.gear[item.type][item.slot].obj = _.findWhere(BDOdatabase.items[item.type], {"id": item.id});
+            this.build.gear[item.type][item.slot].obj = _.findWhere(BDOdatabase.items[item.type], {"id": item.id});
+        } else if (isWeapon(item.type)) {
+            this.build.gear[item.type].id = item.id;
+            this.build.gear[item.type].obj = _.findWhere(BDOdatabase.items[item.type][this.build.class.obj.weapons[item.type]], {"id": item.id});
+        } else {
+            
         }
     }
 }

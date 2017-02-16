@@ -2766,7 +2766,7 @@ var BDOdatabase = {
                 "shatter_chance": "might",
                 "incompatible": [],
                 "item_effects": {
-                    "atk": 5,
+                    "hap": 5,
                     "dmgth": 2
                 },
                 "name": "Red Battlefield Crystal: Power"
@@ -54408,23 +54408,28 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 23,
-                            "ap_max": 25
+                            "ap_max": 25,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 25,
-                            "ap_max": 27
+                            "ap_max": 27,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 30,
-                            "ap_max": 32
+                            "ap_max": 32,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 32,
-                            "ap_max": 34
+                            "ap_max": 34,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 34,
-                            "ap_max": 36
+                            "ap_max": 36,
+                            "dp": 5
                         }
                     },
                     "name": "Jubre Talisman"
@@ -54900,7 +54905,8 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 24,
-                            "ap_max": 26
+                            "ap_max": 26,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 26,
@@ -54998,7 +55004,8 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 24,
-                            "ap_max": 26
+                            "ap_max": 26,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 26,
@@ -55096,7 +55103,8 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 24,
-                            "ap_max": 26
+                            "ap_max": 26,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 26,
@@ -55194,7 +55202,8 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 24,
-                            "ap_max": 26
+                            "ap_max": 26,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 26,

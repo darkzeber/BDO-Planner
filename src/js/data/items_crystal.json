@@ -1123,7 +1123,7 @@
             "rarity": 4,
             "shatter_chance": "might",
             "item_effects": {
-                "atk": 5,
+                "hap": 5,
                 "dmgth": 2
             }
         }, {

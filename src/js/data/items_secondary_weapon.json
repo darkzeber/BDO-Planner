@@ -5469,6 +5469,7 @@
             "item_effects": {},
             "ap_max": 8,
             "ap_min": 6,
+            "dp": 0,
             "crystals": 1,
             "enhancement_text": "",
             "enhancement": {

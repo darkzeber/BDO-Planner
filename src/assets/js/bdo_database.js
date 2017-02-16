@@ -54341,6 +54341,7 @@ var BDOdatabase = {
                 "10504": {
                     "ap_min": 6,
                     "ap_max": 8,
+                    "dp": 0,
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {},

@@ -10466,6 +10466,61 @@ var BDOdatabase = {
                     }
                 },
                 "name": "Ultimate Steel Taritas Armor"
+            },
+            "11518": {
+                "dp": 48,
+                "rarity": "uncommon",
+                "gems": 2,
+                "item_effects": {},
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Dim Magical Armor"
+            },
+            "11519": {
+                "dp": 50,
+                "rarity": "uncommon",
+                "gems": 2,
+                "item_effects": {
+                    "hp": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Armor of Concentrated Magical Power"
+            },
+            "11520": {
+                "dp": 52,
+                "rarity": "rare",
+                "gems": 2,
+                "item_effects": {
+                    "hp": 30
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Armor of Sealed Magical Power"
+            },
+            "11521": {
+                "dp": 54,
+                "rarity": "rare",
+                "gems": 2,
+                "item_effects": {
+                    "hp": 30,
+                    "acc": 3
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Freed Magical Armor"
+            },
+            "11522": {
+                "dp": 60,
+                "rarity": "epic",
+                "gems": 2,
+                "item_effects": {
+                    "hp": 50,
+                    "acc": 5
+                },
+                "enhancement_text": "",
+                "enhancement": {},
+                "name": "Roaring Magical Armor"
             }
         },
         "shoes": {

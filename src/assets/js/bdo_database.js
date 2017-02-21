@@ -358,6 +358,13 @@ var BDOdatabase = {
             "symbol": "",
             "target": ".general-stats"
         },
+        "jhm": { //Separate jump height for costumes, crystals don't have the meter symbol
+            "title": "Jump Height",
+            "desc": "",
+            "total": 0,
+            "symbol": "m",
+            "target": ".general-stats"
+        },
         "bsr": {
             "title": "Black Spirit's Rage",
             "desc": "",
@@ -2188,7 +2195,7 @@ var BDOdatabase = {
                     "dr": 2,
                     "ssfr": 10
                 },
-                "name": "Kaidict's Crystal - Titan"
+                "name": "Kydict's Crystal - Giant"
             }
         },
         "helmet": {
@@ -2372,7 +2379,7 @@ var BDOdatabase = {
                     "hprc": 5,
                     "cbexp": 10
                 },
-                "name": "Kaidict's Crystal - Adventure"
+                "name": "Kydict's Crystal - Adventure"
             }
         },
         "secondary-weapon": {
@@ -51698,6 +51705,39 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Kutum Ornamental Knot"
+                },
+                "10744": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dim Magical Ornamental Knot"
+                },
+                "10745": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Ornamental Knot of Concentrated Magical Power"
+                },
+                "10746": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 18,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Ornamental Knot of Sealed Magical Power"
                 }
             },
             "ranger": {
@@ -54318,6 +54358,39 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Kutum Dagger"
+                },
+                "10344": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dim Magical Dagger"
+                },
+                "10345": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dagger of Concentrated Magical Power"
+                },
+                "10346": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 18,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dagger of Sealed Magical Power"
                 }
             },
             "sorceress": {
@@ -56903,6 +56976,39 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Kutum Talisman"
+                },
+                "10544": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dim Magical Talisman"
+                },
+                "10545": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Talisman of Concentrated Magical Power"
+                },
+                "10546": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 18,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Talisman of Sealed Magical Power"
                 }
             },
             "tamer": {
@@ -59474,6 +59580,39 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Kutum Trinket"
+                },
+                "13044": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dim Magical Trinket"
+                },
+                "13045": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Trinket of Concentrated Magical Power"
+                },
+                "13046": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 18,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Trinket of Sealed Magical Power"
                 }
             },
             "valkyrie": {
@@ -62191,6 +62330,39 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Kutum Shield"
+                },
+                "10144": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dim Magical Shield"
+                },
+                "10145": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Shield of Concentrated Magical Power"
+                },
+                "10146": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 18,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Shield of Sealed Magical Power"
                 }
             },
             "musa": {
@@ -64844,6 +65016,39 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Kutum Horn Bow"
+                },
+                "13144": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dim Magical Horn Bow"
+                },
+                "13145": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Horn Bow of Concentrated Magical Power"
+                },
+                "13146": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 18,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Horn Bow of Sealed Magical Power"
                 }
             },
             "ninja": {
@@ -67501,6 +67706,39 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Kutum Shuriken"
+                },
+                "14644": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dim Magical Shuriken"
+                },
+                "14645": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Shuriken of Concentrated Magical Power"
+                },
+                "14646": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 18,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Shuriken of Sealed Magical Power"
                 }
             },
             "kunoichi": {
@@ -70158,6 +70396,39 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Kutum Kunai"
+                },
+                "14544": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Dim Magical Kunai"
+                },
+                "14545": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 17,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Kunai of Concentrated Magical Power"
+                },
+                "14546": {
+                    "ap_min": 7,
+                    "ap_max": 9,
+                    "dp": 18,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {},
+                    "name": "Kunai of Sealed Magical Power"
                 }
             }
         },
@@ -75804,7 +76075,7 @@ var BDOdatabase = {
                     "vr": 10,
                     "dthpen": -10,
                     "am": 10,
-                    "jh": 0.5,
+                    "jhm": 0.5,
                     "cbexp": 10
                 },
                 "enhancement_text": "",

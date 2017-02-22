@@ -48843,7 +48843,383 @@ var BDOdatabase = {
                 }
             },
             "darkknight": {
-                "0": {
+                "11353": {
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "special": "5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 18
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 21
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 24
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 31
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 74
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 94
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 102
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        }
+                    },
+                    "name": "Elsh Kriegsmesser"
+                },
+                "11355": {
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 18,
+                            "ap_max": 22
+                        },
+                        "2": {
+                            "ap_min": 21,
+                            "ap_max": 25
+                        },
+                        "3": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "4": {
+                            "ap_min": 26,
+                            "ap_max": 30
+                        },
+                        "5": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "6": {
+                            "ap_min": 31,
+                            "ap_max": 35
+                        },
+                        "7": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "8": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "9": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "10": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "11": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "12": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "13": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "14": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "15": {
+                            "ap_min": 66,
+                            "ap_max": 70
+                        },
+                        "16": {
+                            "ap_min": 74,
+                            "ap_max": 78
+                        },
+                        "17": {
+                            "ap_min": 82,
+                            "ap_max": 86
+                        },
+                        "18": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "19": {
+                            "ap_min": 102,
+                            "ap_max": 106
+                        },
+                        "20": {
+                            "ap_min": 110,
+                            "ap_max": 114
+                        }
+                    },
+                    "name": "Azwell Kriegsmesser"
+                },
+                "11357": {
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 18
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 21
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 24
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 31
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 74
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 94
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 102
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        }
+                    },
+                    "name": "Seleth Kriegsmesser"
+                },
+                "11359": {
+                    "ap_min": 18,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 3
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "9": {
+                            "ap_min": 48,
+                            "ap_max": 52
+                        },
+                        "10": {
+                            "ap_min": 53,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "12": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 68,
+                            "ap_max": 72
+                        },
+                        "14": {
+                            "ap_min": 73,
+                            "ap_max": 77
+                        },
+                        "15": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "16": {
+                            "ap_min": 86,
+                            "ap_max": 90
+                        },
+                        "17": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "18": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        },
+                        "19": {
+                            "ap_min": 114,
+                            "ap_max": 118
+                        },
+                        "20": {
+                            "ap_min": 122,
+                            "ap_max": 126
+                        }
+                    },
+                    "name": "Liverto Kriegsmesser"
+                },
+                "11360": {
                     "ap_min": 18,
                     "ap_max": 22,
                     "rarity": "epic",
@@ -48934,7 +49310,3504 @@ var BDOdatabase = {
                             "ap_max": 126
                         }
                     },
-                    "name": "Spellsword Test"
+                    "name": "Kzarka Kriegsmesser"
+                },
+                "11362": {
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 17,
+                            "ap_max": 31
+                        },
+                        "2": {
+                            "ap_min": 20,
+                            "ap_max": 34
+                        },
+                        "3": {
+                            "ap_min": 23,
+                            "ap_max": 37
+                        },
+                        "4": {
+                            "ap_min": 25,
+                            "ap_max": 39
+                        },
+                        "5": {
+                            "ap_min": 27,
+                            "ap_max": 41
+                        },
+                        "6": {
+                            "ap_min": 30,
+                            "ap_max": 44
+                        },
+                        "7": {
+                            "ap_min": 33,
+                            "ap_max": 47
+                        },
+                        "8": {
+                            "ap_min": 37,
+                            "ap_max": 51
+                        },
+                        "9": {
+                            "ap_min": 41,
+                            "ap_max": 55
+                        },
+                        "10": {
+                            "ap_min": 45,
+                            "ap_max": 59
+                        },
+                        "11": {
+                            "ap_min": 49,
+                            "ap_max": 63
+                        },
+                        "12": {
+                            "ap_min": 53,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 57,
+                            "ap_max": 71
+                        },
+                        "14": {
+                            "ap_min": 61,
+                            "ap_max": 75
+                        },
+                        "15": {
+                            "ap_min": 65,
+                            "ap_max": 79
+                        },
+                        "16": {
+                            "ap_min": 73,
+                            "ap_max": 87
+                        },
+                        "17": {
+                            "ap_min": 81,
+                            "ap_max": 95
+                        },
+                        "18": {
+                            "ap_min": 93,
+                            "ap_max": 107
+                        },
+                        "19": {
+                            "ap_min": 101,
+                            "ap_max": 115
+                        },
+                        "20": {
+                            "ap_min": 109,
+                            "ap_max": 123
+                        }
+                    },
+                    "name": "Kalis Kriegsmesser"
+                },
+                "11363": {
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 15,
+                            "ap_max": 19
+                        },
+                        "2": {
+                            "ap_min": 18,
+                            "ap_max": 22
+                        },
+                        "3": {
+                            "ap_min": 21,
+                            "ap_max": 25
+                        },
+                        "4": {
+                            "ap_min": 23,
+                            "ap_max": 27
+                        },
+                        "5": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "6": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "7": {
+                            "ap_min": 31,
+                            "ap_max": 35
+                        },
+                        "8": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "9": {
+                            "ap_min": 39,
+                            "ap_max": 43
+                        },
+                        "10": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "11": {
+                            "ap_min": 47,
+                            "ap_max": 51
+                        },
+                        "12": {
+                            "ap_min": 51,
+                            "ap_max": 55
+                        },
+                        "13": {
+                            "ap_min": 55,
+                            "ap_max": 59
+                        },
+                        "14": {
+                            "ap_min": 59,
+                            "ap_max": 63
+                        },
+                        "15": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "16": {
+                            "ap_min": 71,
+                            "ap_max": 75
+                        },
+                        "17": {
+                            "ap_min": 79,
+                            "ap_max": 83
+                        },
+                        "18": {
+                            "ap_min": 91,
+                            "ap_max": 95
+                        },
+                        "19": {
+                            "ap_min": 99,
+                            "ap_max": 103
+                        },
+                        "20": {
+                            "ap_min": 107,
+                            "ap_max": 111
+                        }
+                    },
+                    "name": "Bares Kriegsmesser"
+                },
+                "11364": {
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "uncommon",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    },
+                    "name": "Yuria Kriegsmesser"
+                },
+                "11375": {
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "chr": 1,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 18,
+                            "ap_max": 22
+                        },
+                        "2": {
+                            "ap_min": 21,
+                            "ap_max": 25
+                        },
+                        "3": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "4": {
+                            "ap_min": 26,
+                            "ap_max": 30
+                        },
+                        "5": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "6": {
+                            "ap_min": 31,
+                            "ap_max": 35
+                        },
+                        "7": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "8": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "9": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "10": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "11": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "12": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "13": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "14": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "15": {
+                            "ap_min": 66,
+                            "ap_max": 70
+                        },
+                        "16": {
+                            "ap_min": 74,
+                            "ap_max": 78
+                        },
+                        "17": {
+                            "ap_min": 82,
+                            "ap_max": 86
+                        },
+                        "18": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "19": {
+                            "ap_min": 102,
+                            "ap_max": 106
+                        },
+                        "20": {
+                            "ap_min": 110,
+                            "ap_max": 114
+                        }
+                    },
+                    "name": "Azwell Kriegsmesser of Crimson Flame"
+                },
+                "11376": {
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "as": 1,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 18,
+                            "ap_max": 22
+                        },
+                        "2": {
+                            "ap_min": 21,
+                            "ap_max": 25
+                        },
+                        "3": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "4": {
+                            "ap_min": 26,
+                            "ap_max": 30
+                        },
+                        "5": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "6": {
+                            "ap_min": 31,
+                            "ap_max": 35
+                        },
+                        "7": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "8": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "9": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "10": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "11": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "12": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "13": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "14": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "15": {
+                            "ap_min": 66,
+                            "ap_max": 70
+                        },
+                        "16": {
+                            "ap_min": 74,
+                            "ap_max": 78
+                        },
+                        "17": {
+                            "ap_min": 82,
+                            "ap_max": 86
+                        },
+                        "18": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "19": {
+                            "ap_min": 102,
+                            "ap_max": 106
+                        },
+                        "20": {
+                            "ap_min": 110,
+                            "ap_max": 114
+                        }
+                    },
+                    "name": "Azwell Kriegsmesser of Destruction"
+                },
+                "11377": {
+                    "ap_min": 14,
+                    "ap_max": 18,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "chr": 1,
+                        "as": 1,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 18,
+                            "ap_max": 22
+                        },
+                        "2": {
+                            "ap_min": 21,
+                            "ap_max": 25
+                        },
+                        "3": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "4": {
+                            "ap_min": 26,
+                            "ap_max": 30
+                        },
+                        "5": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "6": {
+                            "ap_min": 31,
+                            "ap_max": 35
+                        },
+                        "7": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "8": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "9": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "10": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "11": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "12": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "13": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "14": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "15": {
+                            "ap_min": 66,
+                            "ap_max": 70
+                        },
+                        "16": {
+                            "ap_min": 74,
+                            "ap_max": 78
+                        },
+                        "17": {
+                            "ap_min": 82,
+                            "ap_max": 86
+                        },
+                        "18": {
+                            "ap_min": 94,
+                            "ap_max": 98
+                        },
+                        "19": {
+                            "ap_min": 102,
+                            "ap_max": 106
+                        },
+                        "20": {
+                            "ap_min": 110,
+                            "ap_max": 114
+                        }
+                    },
+                    "name": "Azwell Kriegsmesser of Temptation"
+                },
+                "11380": {
+                    "ap_min": 16,
+                    "ap_max": 24,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "acc": 5,
+                        "chr": 1,
+                        "as": 1,
+                        "special": "AP does not decrease in the rain."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 28
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 31
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 34
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 36
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 38
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 41
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 44
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 48
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 52
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 56
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 60
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 64
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 68
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 72
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 76
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 84
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 92
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 104
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 112
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 120
+                        }
+                    },
+                    "name": "Ultimate Azwell Kriegsmesser"
+                },
+                "11387": {
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10,
+                        "chr": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 18
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 21
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 24
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 31
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 74
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 94
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 102
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        }
+                    },
+                    "name": "Seleth Kriegsmesser of Crimson Flame"
+                },
+                "11388": {
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 18
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 21
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 24
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 31
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 74
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 94
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 102
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        }
+                    },
+                    "name": "Seleth Kriegsmesser of Destruction"
+                },
+                "11389": {
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10,
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 18
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 21
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 24
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 31
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 74
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 94
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 102
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        }
+                    },
+                    "name": "Seleth Kriegsmesser of Temptation"
+                },
+                "11392": {
+                    "ap_min": 10,
+                    "ap_max": 18,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 10,
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 22
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 25
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 28
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 30
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 32
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 35
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 38
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 42
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 46
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 50
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 54
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 58
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 62
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 66
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 70
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 78
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 86
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 98
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 106
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 114
+                        }
+                    },
+                    "name": "Ultimate Seleth Kriegsmesser"
+                },
+                "11393": {
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "chr": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 17,
+                            "ap_max": 31
+                        },
+                        "2": {
+                            "ap_min": 20,
+                            "ap_max": 34
+                        },
+                        "3": {
+                            "ap_min": 23,
+                            "ap_max": 37
+                        },
+                        "4": {
+                            "ap_min": 25,
+                            "ap_max": 39
+                        },
+                        "5": {
+                            "ap_min": 27,
+                            "ap_max": 41
+                        },
+                        "6": {
+                            "ap_min": 30,
+                            "ap_max": 44
+                        },
+                        "7": {
+                            "ap_min": 33,
+                            "ap_max": 47
+                        },
+                        "8": {
+                            "ap_min": 37,
+                            "ap_max": 51
+                        },
+                        "9": {
+                            "ap_min": 41,
+                            "ap_max": 55
+                        },
+                        "10": {
+                            "ap_min": 45,
+                            "ap_max": 59
+                        },
+                        "11": {
+                            "ap_min": 49,
+                            "ap_max": 63
+                        },
+                        "12": {
+                            "ap_min": 53,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 57,
+                            "ap_max": 71
+                        },
+                        "14": {
+                            "ap_min": 61,
+                            "ap_max": 75
+                        },
+                        "15": {
+                            "ap_min": 65,
+                            "ap_max": 79
+                        },
+                        "16": {
+                            "ap_min": 73,
+                            "ap_max": 87
+                        },
+                        "17": {
+                            "ap_min": 81,
+                            "ap_max": 95
+                        },
+                        "18": {
+                            "ap_min": 93,
+                            "ap_max": 107
+                        },
+                        "19": {
+                            "ap_min": 101,
+                            "ap_max": 115
+                        },
+                        "20": {
+                            "ap_min": 109,
+                            "ap_max": 123
+                        }
+                    },
+                    "name": "Kalis Kriegsmesser of Crimson Flame"
+                },
+                "11394": {
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 17,
+                            "ap_max": 31
+                        },
+                        "2": {
+                            "ap_min": 20,
+                            "ap_max": 34
+                        },
+                        "3": {
+                            "ap_min": 23,
+                            "ap_max": 37
+                        },
+                        "4": {
+                            "ap_min": 25,
+                            "ap_max": 39
+                        },
+                        "5": {
+                            "ap_min": 27,
+                            "ap_max": 41
+                        },
+                        "6": {
+                            "ap_min": 30,
+                            "ap_max": 44
+                        },
+                        "7": {
+                            "ap_min": 33,
+                            "ap_max": 47
+                        },
+                        "8": {
+                            "ap_min": 37,
+                            "ap_max": 51
+                        },
+                        "9": {
+                            "ap_min": 41,
+                            "ap_max": 55
+                        },
+                        "10": {
+                            "ap_min": 45,
+                            "ap_max": 59
+                        },
+                        "11": {
+                            "ap_min": 49,
+                            "ap_max": 63
+                        },
+                        "12": {
+                            "ap_min": 53,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 57,
+                            "ap_max": 71
+                        },
+                        "14": {
+                            "ap_min": 61,
+                            "ap_max": 75
+                        },
+                        "15": {
+                            "ap_min": 65,
+                            "ap_max": 79
+                        },
+                        "16": {
+                            "ap_min": 73,
+                            "ap_max": 87
+                        },
+                        "17": {
+                            "ap_min": 81,
+                            "ap_max": 95
+                        },
+                        "18": {
+                            "ap_min": 93,
+                            "ap_max": 107
+                        },
+                        "19": {
+                            "ap_min": 101,
+                            "ap_max": 115
+                        },
+                        "20": {
+                            "ap_min": 109,
+                            "ap_max": 123
+                        }
+                    },
+                    "name": "Kalis Kriegsmesser of Destruction"
+                },
+                "11395": {
+                    "ap_min": 13,
+                    "ap_max": 27,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 17,
+                            "ap_max": 31
+                        },
+                        "2": {
+                            "ap_min": 20,
+                            "ap_max": 34
+                        },
+                        "3": {
+                            "ap_min": 23,
+                            "ap_max": 37
+                        },
+                        "4": {
+                            "ap_min": 25,
+                            "ap_max": 39
+                        },
+                        "5": {
+                            "ap_min": 27,
+                            "ap_max": 41
+                        },
+                        "6": {
+                            "ap_min": 30,
+                            "ap_max": 44
+                        },
+                        "7": {
+                            "ap_min": 33,
+                            "ap_max": 47
+                        },
+                        "8": {
+                            "ap_min": 37,
+                            "ap_max": 51
+                        },
+                        "9": {
+                            "ap_min": 41,
+                            "ap_max": 55
+                        },
+                        "10": {
+                            "ap_min": 45,
+                            "ap_max": 59
+                        },
+                        "11": {
+                            "ap_min": 49,
+                            "ap_max": 63
+                        },
+                        "12": {
+                            "ap_min": 53,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 57,
+                            "ap_max": 71
+                        },
+                        "14": {
+                            "ap_min": 61,
+                            "ap_max": 75
+                        },
+                        "15": {
+                            "ap_min": 65,
+                            "ap_max": 79
+                        },
+                        "16": {
+                            "ap_min": 73,
+                            "ap_max": 87
+                        },
+                        "17": {
+                            "ap_min": 81,
+                            "ap_max": 95
+                        },
+                        "18": {
+                            "ap_min": 93,
+                            "ap_max": 107
+                        },
+                        "19": {
+                            "ap_min": 101,
+                            "ap_max": 115
+                        },
+                        "20": {
+                            "ap_min": 109,
+                            "ap_max": 123
+                        }
+                    },
+                    "name": "Kalis Kriegsmesser of Temptation"
+                },
+                "11398": {
+                    "ap_min": 13,
+                    "ap_max": 31,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 17,
+                            "ap_max": 35
+                        },
+                        "2": {
+                            "ap_min": 20,
+                            "ap_max": 38
+                        },
+                        "3": {
+                            "ap_min": 23,
+                            "ap_max": 41
+                        },
+                        "4": {
+                            "ap_min": 25,
+                            "ap_max": 43
+                        },
+                        "5": {
+                            "ap_min": 27,
+                            "ap_max": 45
+                        },
+                        "6": {
+                            "ap_min": 30,
+                            "ap_max": 48
+                        },
+                        "7": {
+                            "ap_min": 33,
+                            "ap_max": 51
+                        },
+                        "8": {
+                            "ap_min": 37,
+                            "ap_max": 55
+                        },
+                        "9": {
+                            "ap_min": 41,
+                            "ap_max": 59
+                        },
+                        "10": {
+                            "ap_min": 45,
+                            "ap_max": 63
+                        },
+                        "11": {
+                            "ap_min": 49,
+                            "ap_max": 67
+                        },
+                        "12": {
+                            "ap_min": 53,
+                            "ap_max": 71
+                        },
+                        "13": {
+                            "ap_min": 57,
+                            "ap_max": 75
+                        },
+                        "14": {
+                            "ap_min": 61,
+                            "ap_max": 79
+                        },
+                        "15": {
+                            "ap_min": 65,
+                            "ap_max": 83
+                        },
+                        "16": {
+                            "ap_min": 73,
+                            "ap_max": 91
+                        },
+                        "17": {
+                            "ap_min": 81,
+                            "ap_max": 99
+                        },
+                        "18": {
+                            "ap_min": 93,
+                            "ap_max": 111
+                        },
+                        "19": {
+                            "ap_min": 101,
+                            "ap_max": 119
+                        },
+                        "20": {
+                            "ap_min": 109,
+                            "ap_max": 127
+                        }
+                    },
+                    "name": "Ultimate Kalis Kriegsmesser"
+                },
+                "11399": {
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "chr": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 15,
+                            "ap_max": 19
+                        },
+                        "2": {
+                            "ap_min": 18,
+                            "ap_max": 22
+                        },
+                        "3": {
+                            "ap_min": 21,
+                            "ap_max": 25
+                        },
+                        "4": {
+                            "ap_min": 23,
+                            "ap_max": 27
+                        },
+                        "5": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "6": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "7": {
+                            "ap_min": 31,
+                            "ap_max": 35
+                        },
+                        "8": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "9": {
+                            "ap_min": 39,
+                            "ap_max": 43
+                        },
+                        "10": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "11": {
+                            "ap_min": 47,
+                            "ap_max": 51
+                        },
+                        "12": {
+                            "ap_min": 51,
+                            "ap_max": 55
+                        },
+                        "13": {
+                            "ap_min": 55,
+                            "ap_max": 59
+                        },
+                        "14": {
+                            "ap_min": 59,
+                            "ap_max": 63
+                        },
+                        "15": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "16": {
+                            "ap_min": 71,
+                            "ap_max": 75
+                        },
+                        "17": {
+                            "ap_min": 79,
+                            "ap_max": 83
+                        },
+                        "18": {
+                            "ap_min": 91,
+                            "ap_max": 95
+                        },
+                        "19": {
+                            "ap_min": 99,
+                            "ap_max": 103
+                        },
+                        "20": {
+                            "ap_min": 107,
+                            "ap_max": 111
+                        }
+                    },
+                    "name": "Bares Kriegsmesser of Crimson Flame"
+                },
+                "11400": {
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 15,
+                            "ap_max": 19
+                        },
+                        "2": {
+                            "ap_min": 18,
+                            "ap_max": 22
+                        },
+                        "3": {
+                            "ap_min": 21,
+                            "ap_max": 25
+                        },
+                        "4": {
+                            "ap_min": 23,
+                            "ap_max": 27
+                        },
+                        "5": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "6": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "7": {
+                            "ap_min": 31,
+                            "ap_max": 35
+                        },
+                        "8": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "9": {
+                            "ap_min": 39,
+                            "ap_max": 43
+                        },
+                        "10": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "11": {
+                            "ap_min": 47,
+                            "ap_max": 51
+                        },
+                        "12": {
+                            "ap_min": 51,
+                            "ap_max": 55
+                        },
+                        "13": {
+                            "ap_min": 55,
+                            "ap_max": 59
+                        },
+                        "14": {
+                            "ap_min": 59,
+                            "ap_max": 63
+                        },
+                        "15": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "16": {
+                            "ap_min": 71,
+                            "ap_max": 75
+                        },
+                        "17": {
+                            "ap_min": 79,
+                            "ap_max": 83
+                        },
+                        "18": {
+                            "ap_min": 91,
+                            "ap_max": 95
+                        },
+                        "19": {
+                            "ap_min": 99,
+                            "ap_max": 103
+                        },
+                        "20": {
+                            "ap_min": 107,
+                            "ap_max": 111
+                        }
+                    },
+                    "name": "Bares Kriegsmesser of Destruction"
+                },
+                "11401": {
+                    "ap_min": 11,
+                    "ap_max": 15,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 15,
+                            "ap_max": 19
+                        },
+                        "2": {
+                            "ap_min": 18,
+                            "ap_max": 22
+                        },
+                        "3": {
+                            "ap_min": 21,
+                            "ap_max": 25
+                        },
+                        "4": {
+                            "ap_min": 23,
+                            "ap_max": 27
+                        },
+                        "5": {
+                            "ap_min": 25,
+                            "ap_max": 29
+                        },
+                        "6": {
+                            "ap_min": 28,
+                            "ap_max": 32
+                        },
+                        "7": {
+                            "ap_min": 31,
+                            "ap_max": 35
+                        },
+                        "8": {
+                            "ap_min": 35,
+                            "ap_max": 39
+                        },
+                        "9": {
+                            "ap_min": 39,
+                            "ap_max": 43
+                        },
+                        "10": {
+                            "ap_min": 43,
+                            "ap_max": 47
+                        },
+                        "11": {
+                            "ap_min": 47,
+                            "ap_max": 51
+                        },
+                        "12": {
+                            "ap_min": 51,
+                            "ap_max": 55
+                        },
+                        "13": {
+                            "ap_min": 55,
+                            "ap_max": 59
+                        },
+                        "14": {
+                            "ap_min": 59,
+                            "ap_max": 63
+                        },
+                        "15": {
+                            "ap_min": 63,
+                            "ap_max": 67
+                        },
+                        "16": {
+                            "ap_min": 71,
+                            "ap_max": 75
+                        },
+                        "17": {
+                            "ap_min": 79,
+                            "ap_max": 83
+                        },
+                        "18": {
+                            "ap_min": 91,
+                            "ap_max": 95
+                        },
+                        "19": {
+                            "ap_min": 99,
+                            "ap_max": 103
+                        },
+                        "20": {
+                            "ap_min": 107,
+                            "ap_max": 111
+                        }
+                    },
+                    "name": "Bares Kriegsmesser of Temptation"
+                },
+                "11404": {
+                    "ap_min": 11,
+                    "ap_max": 19,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 15,
+                            "ap_max": 23
+                        },
+                        "2": {
+                            "ap_min": 18,
+                            "ap_max": 26
+                        },
+                        "3": {
+                            "ap_min": 21,
+                            "ap_max": 29
+                        },
+                        "4": {
+                            "ap_min": 23,
+                            "ap_max": 31
+                        },
+                        "5": {
+                            "ap_min": 25,
+                            "ap_max": 33
+                        },
+                        "6": {
+                            "ap_min": 28,
+                            "ap_max": 36
+                        },
+                        "7": {
+                            "ap_min": 31,
+                            "ap_max": 39
+                        },
+                        "8": {
+                            "ap_min": 35,
+                            "ap_max": 43
+                        },
+                        "9": {
+                            "ap_min": 39,
+                            "ap_max": 47
+                        },
+                        "10": {
+                            "ap_min": 43,
+                            "ap_max": 51
+                        },
+                        "11": {
+                            "ap_min": 47,
+                            "ap_max": 55
+                        },
+                        "12": {
+                            "ap_min": 51,
+                            "ap_max": 59
+                        },
+                        "13": {
+                            "ap_min": 55,
+                            "ap_max": 63
+                        },
+                        "14": {
+                            "ap_min": 59,
+                            "ap_max": 67
+                        },
+                        "15": {
+                            "ap_min": 63,
+                            "ap_max": 71
+                        },
+                        "16": {
+                            "ap_min": 71,
+                            "ap_max": 79
+                        },
+                        "17": {
+                            "ap_min": 79,
+                            "ap_max": 87
+                        },
+                        "18": {
+                            "ap_min": 91,
+                            "ap_max": 99
+                        },
+                        "19": {
+                            "ap_min": 99,
+                            "ap_max": 107
+                        },
+                        "20": {
+                            "ap_min": 107,
+                            "ap_max": 115
+                        }
+                    },
+                    "name": "Ultimate Bares Kriegsmesser"
+                },
+                "11405": {
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5,
+                        "chr": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    },
+                    "name": "Yuria Kriegsmesser of Crimson Flame"
+                },
+                "11406": {
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    },
+                    "name": "Yuria Kriegsmesser of Destruction"
+                },
+                "11407": {
+                    "ap_min": 16,
+                    "ap_max": 21,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5,
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 25
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 28
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 31
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 33
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 35
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 38
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 41
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 45
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 49
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 53
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 57
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 61
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 65
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 69
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 73
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 81
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 89
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 101
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 109
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 117
+                        }
+                    },
+                    "name": "Yuria Kriegsmesser of Temptation"
+                },
+                "11410": {
+                    "ap_min": 16,
+                    "ap_max": 25,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgth": 5,
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 29
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 32
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 35
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 37
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 39
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 42
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 45
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 49
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 53
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 61
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 65
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 69
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 73
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 77
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 85
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 93
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 105
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 113
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 121
+                        }
+                    },
+                    "name": "Ultimate Yuria Kriegsmesser"
+                },
+                "11370": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 29
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 31
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 33
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 36
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 39
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 43
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 47
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 51
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 55
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 59
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 63
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 67
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 71
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 79
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 87
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 99
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 107
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 115
+                        }
+                    },
+                    "name": "Krea Kriegsmesser"
+                },
+                "11371": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "uncommon",
+                    "gems": 2,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 46
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 50
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 54
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 58
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 62
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 66
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 70
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 74
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 82
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 90
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 102
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 110
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 118
+                        }
+                    },
+                    "name": "Rosar Kriegsmesser"
+                },
+                "11411": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 29
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 31
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 33
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 36
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 39
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 43
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 47
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 51
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 55
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 59
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 63
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 67
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 71
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 79
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 87
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 99
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 107
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 115
+                        }
+                    },
+                    "name": "Krea Kriegsmesser of Crimson Flame"
+                },
+                "11412": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 29
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 31
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 33
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 36
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 39
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 43
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 47
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 51
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 55
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 59
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 63
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 67
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 71
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 79
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 87
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 99
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 107
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 115
+                        }
+                    },
+                    "name": "Krea Kriegsmesser of Destruction"
+                },
+                "11413": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 19,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 23
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 26
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 29
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 31
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 33
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 36
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 39
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 43
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 47
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 51
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 55
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 59
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 63
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 67
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 71
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 79
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 87
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 99
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 107
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 115
+                        }
+                    },
+                    "name": "Krea Kriegsmesser of Temptation"
+                },
+                "11416": {
+                    "set": "Krea",
+                    "ap_min": 17,
+                    "ap_max": 23,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 27
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 30
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 33
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 35
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 37
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 40
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 43
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 47
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 51
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 55
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 59
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 63
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 67
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 71
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 75
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 83
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 91
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 103
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 111
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 119
+                        }
+                    },
+                    "name": "Ultimate Krea Kriegsmesser"
+                },
+                "11417": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 46
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 50
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 54
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 58
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 62
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 66
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 70
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 74
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 82
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 90
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 102
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 110
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 118
+                        }
+                    },
+                    "name": "Rosar Kriegsmesser of Crimson Flame"
+                },
+                "11418": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 46
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 50
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 54
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 58
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 62
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 66
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 70
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 74
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 82
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 90
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 102
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 110
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 118
+                        }
+                    },
+                    "name": "Rosar Kriegsmesser of Destruction"
+                },
+                "11419": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 22,
+                    "rarity": "rare",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 26
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 29
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 32
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 34
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 36
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 39
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 42
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 46
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 50
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 54
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 58
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 62
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 66
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 70
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 74
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 82
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 90
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 102
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 110
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 118
+                        }
+                    },
+                    "name": "Rosar Kriegsmesser of Temptation"
+                },
+                "11422": {
+                    "set": "Rosar",
+                    "ap_min": 17,
+                    "ap_max": 26,
+                    "rarity": "epic",
+                    "gems": 2,
+                    "item_effects": {
+                        "chr": 1,
+                        "as": 1
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 21,
+                            "ap_max": 30
+                        },
+                        "2": {
+                            "ap_min": 24,
+                            "ap_max": 33
+                        },
+                        "3": {
+                            "ap_min": 27,
+                            "ap_max": 36
+                        },
+                        "4": {
+                            "ap_min": 29,
+                            "ap_max": 38
+                        },
+                        "5": {
+                            "ap_min": 31,
+                            "ap_max": 40
+                        },
+                        "6": {
+                            "ap_min": 34,
+                            "ap_max": 43
+                        },
+                        "7": {
+                            "ap_min": 37,
+                            "ap_max": 46
+                        },
+                        "8": {
+                            "ap_min": 41,
+                            "ap_max": 50
+                        },
+                        "9": {
+                            "ap_min": 45,
+                            "ap_max": 54
+                        },
+                        "10": {
+                            "ap_min": 49,
+                            "ap_max": 58
+                        },
+                        "11": {
+                            "ap_min": 53,
+                            "ap_max": 62
+                        },
+                        "12": {
+                            "ap_min": 57,
+                            "ap_max": 66
+                        },
+                        "13": {
+                            "ap_min": 61,
+                            "ap_max": 70
+                        },
+                        "14": {
+                            "ap_min": 65,
+                            "ap_max": 74
+                        },
+                        "15": {
+                            "ap_min": 69,
+                            "ap_max": 78
+                        },
+                        "16": {
+                            "ap_min": 77,
+                            "ap_max": 86
+                        },
+                        "17": {
+                            "ap_min": 85,
+                            "ap_max": 94
+                        },
+                        "18": {
+                            "ap_min": 97,
+                            "ap_max": 106
+                        },
+                        "19": {
+                            "ap_min": 105,
+                            "ap_max": 114
+                        },
+                        "20": {
+                            "ap_min": 113,
+                            "ap_max": 122
+                        }
+                    },
+                    "name": "Ultimate Rosar Kriegsmesser"
+                },
+                "11424": {
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "chr": 1,
+                        "special": "5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 18
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 21
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 24
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 31
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 74
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 94
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 102
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        }
+                    },
+                    "name": "Elsh Kriegsmesser of Crimson Flame"
+                },
+                "11425": {
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "as": 1,
+                        "special": "5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 18
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 21
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 24
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 31
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 74
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 94
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 102
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        }
+                    },
+                    "name": "Elsh Kriegsmesser of Destruction"
+                },
+                "11426": {
+                    "ap_min": 10,
+                    "ap_max": 14,
+                    "rarity": "rare",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "chr": 1,
+                        "as": 1,
+                        "special": "5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 18
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 21
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 24
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 26
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 28
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 31
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 34
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 38
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 42
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 46
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 50
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 54
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 58
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 62
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 66
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 74
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 82
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 94
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 102
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 110
+                        }
+                    },
+                    "name": "Elsh Kriegsmesser of Temptation"
+                },
+                "11427": {
+                    "ap_min": 10,
+                    "ap_max": 18,
+                    "rarity": "epic",
+                    "gems": 1,
+                    "item_effects": {
+                        "dmgaes": 5,
+                        "acc": 3,
+                        "wgt": -25,
+                        "chr": 1,
+                        "as": 1,
+                        "special": "5% chance to heal 5 HP on attack."
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 14,
+                            "ap_max": 22
+                        },
+                        "2": {
+                            "ap_min": 17,
+                            "ap_max": 25
+                        },
+                        "3": {
+                            "ap_min": 20,
+                            "ap_max": 28
+                        },
+                        "4": {
+                            "ap_min": 22,
+                            "ap_max": 30
+                        },
+                        "5": {
+                            "ap_min": 24,
+                            "ap_max": 32
+                        },
+                        "6": {
+                            "ap_min": 27,
+                            "ap_max": 35
+                        },
+                        "7": {
+                            "ap_min": 30,
+                            "ap_max": 38
+                        },
+                        "8": {
+                            "ap_min": 34,
+                            "ap_max": 42
+                        },
+                        "9": {
+                            "ap_min": 38,
+                            "ap_max": 46
+                        },
+                        "10": {
+                            "ap_min": 42,
+                            "ap_max": 50
+                        },
+                        "11": {
+                            "ap_min": 46,
+                            "ap_max": 54
+                        },
+                        "12": {
+                            "ap_min": 50,
+                            "ap_max": 58
+                        },
+                        "13": {
+                            "ap_min": 54,
+                            "ap_max": 62
+                        },
+                        "14": {
+                            "ap_min": 58,
+                            "ap_max": 66
+                        },
+                        "15": {
+                            "ap_min": 62,
+                            "ap_max": 70
+                        },
+                        "16": {
+                            "ap_min": 70,
+                            "ap_max": 78
+                        },
+                        "17": {
+                            "ap_min": 78,
+                            "ap_max": 86
+                        },
+                        "18": {
+                            "ap_min": 90,
+                            "ap_max": 98
+                        },
+                        "19": {
+                            "ap_min": 98,
+                            "ap_max": 106
+                        },
+                        "20": {
+                            "ap_min": 106,
+                            "ap_max": 114
+                        }
+                    },
+                    "name": "Ultimate Elsh Kriegsmesser"
                 }
             }
         },
@@ -74895,6 +78768,378 @@ var BDOdatabase = {
                         }
                     },
                     "name": "Ultimate Lord Godr Sphera"
+                }
+            },
+            "darkknight": {
+                "14816": {
+                    "ap_min": 16,
+                    "ap_max": 25,
+                    "rarity": "rare",
+                    "gems": 0,
+                    "item_effects": {
+                        "dmgth": 7
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 20,
+                            "ap_max": 29
+                        },
+                        "2": {
+                            "ap_min": 23,
+                            "ap_max": 32
+                        },
+                        "3": {
+                            "ap_min": 26,
+                            "ap_max": 35
+                        },
+                        "4": {
+                            "ap_min": 28,
+                            "ap_max": 37
+                        },
+                        "5": {
+                            "ap_min": 30,
+                            "ap_max": 39
+                        },
+                        "6": {
+                            "ap_min": 33,
+                            "ap_max": 42
+                        },
+                        "7": {
+                            "ap_min": 36,
+                            "ap_max": 45
+                        },
+                        "8": {
+                            "ap_min": 40,
+                            "ap_max": 49
+                        },
+                        "9": {
+                            "ap_min": 44,
+                            "ap_max": 53
+                        },
+                        "10": {
+                            "ap_min": 48,
+                            "ap_max": 57
+                        },
+                        "11": {
+                            "ap_min": 52,
+                            "ap_max": 61
+                        },
+                        "12": {
+                            "ap_min": 56,
+                            "ap_max": 65
+                        },
+                        "13": {
+                            "ap_min": 60,
+                            "ap_max": 69
+                        },
+                        "14": {
+                            "ap_min": 64,
+                            "ap_max": 73
+                        },
+                        "15": {
+                            "ap_min": 68,
+                            "ap_max": 77
+                        },
+                        "16": {
+                            "ap_min": 76,
+                            "ap_max": 85
+                        },
+                        "17": {
+                            "ap_min": 84,
+                            "ap_max": 93
+                        },
+                        "18": {
+                            "ap_min": 96,
+                            "ap_max": 105
+                        },
+                        "19": {
+                            "ap_min": 104,
+                            "ap_max": 113
+                        },
+                        "20": {
+                            "ap_min": 112,
+                            "ap_max": 121
+                        }
+                    },
+                    "name": "Dana Awakening Weapon 1"
+                },
+                "14817": {
+                    "ap_min": 18,
+                    "ap_max": 27,
+                    "rarity": "epic",
+                    "gems": 0,
+                    "item_effects": {},
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 31
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 34
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 37
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 39
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 41
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 44
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 47
+                        },
+                        "8": {
+                            "ap_min": 43,
+                            "ap_max": 52
+                        },
+                        "9": {
+                            "ap_min": 48,
+                            "ap_max": 57
+                        },
+                        "10": {
+                            "ap_min": 53,
+                            "ap_max": 62
+                        },
+                        "11": {
+                            "ap_min": 58,
+                            "ap_max": 67
+                        },
+                        "12": {
+                            "ap_min": 63,
+                            "ap_max": 72
+                        },
+                        "13": {
+                            "ap_min": 68,
+                            "ap_max": 77
+                        },
+                        "14": {
+                            "ap_min": 73,
+                            "ap_max": 82
+                        },
+                        "15": {
+                            "ap_min": 78,
+                            "ap_max": 87
+                        },
+                        "16": {
+                            "ap_min": 86,
+                            "ap_max": 95
+                        },
+                        "17": {
+                            "ap_min": 94,
+                            "ap_max": 103
+                        },
+                        "18": {
+                            "ap_min": 106,
+                            "ap_max": 115
+                        },
+                        "19": {
+                            "ap_min": 114,
+                            "ap_max": 123
+                        },
+                        "20": {
+                            "ap_min": 122,
+                            "ap_max": 131
+                        }
+                    },
+                    "name": "Dandelion Dana Awakening Weapon"
+                },
+                "14818": {
+                    "ap_min": 11,
+                    "ap_max": 20,
+                    "rarity": "uncommon",
+                    "gems": 0,
+                    "item_effects": {
+                        "dmgaes": 5
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 15,
+                            "ap_max": 24
+                        },
+                        "2": {
+                            "ap_min": 18,
+                            "ap_max": 27
+                        },
+                        "3": {
+                            "ap_min": 21,
+                            "ap_max": 30
+                        },
+                        "4": {
+                            "ap_min": 23,
+                            "ap_max": 32
+                        },
+                        "5": {
+                            "ap_min": 25,
+                            "ap_max": 34
+                        },
+                        "6": {
+                            "ap_min": 28,
+                            "ap_max": 37
+                        },
+                        "7": {
+                            "ap_min": 31,
+                            "ap_max": 40
+                        },
+                        "8": {
+                            "ap_min": 35,
+                            "ap_max": 44
+                        },
+                        "9": {
+                            "ap_min": 39,
+                            "ap_max": 48
+                        },
+                        "10": {
+                            "ap_min": 43,
+                            "ap_max": 52
+                        },
+                        "11": {
+                            "ap_min": 47,
+                            "ap_max": 56
+                        },
+                        "12": {
+                            "ap_min": 51,
+                            "ap_max": 60
+                        },
+                        "13": {
+                            "ap_min": 55,
+                            "ap_max": 64
+                        },
+                        "14": {
+                            "ap_min": 59,
+                            "ap_max": 68
+                        },
+                        "15": {
+                            "ap_min": 63,
+                            "ap_max": 72
+                        },
+                        "16": {
+                            "ap_min": 71,
+                            "ap_max": 80
+                        },
+                        "17": {
+                            "ap_min": 79,
+                            "ap_max": 88
+                        },
+                        "18": {
+                            "ap_min": 91,
+                            "ap_max": 100
+                        },
+                        "19": {
+                            "ap_min": 99,
+                            "ap_max": 108
+                        },
+                        "20": {
+                            "ap_min": 107,
+                            "ap_max": 116
+                        }
+                    },
+                    "name": "Dana Awakening Weapon 3"
+                },
+                "14820": {
+                    "ap_min": 18,
+                    "ap_max": 27,
+                    "rarity": "epic",
+                    "gems": 0,
+                    "item_effects": {
+                        "dmgth": 7
+                    },
+                    "enhancement_text": "",
+                    "enhancement": {
+                        "1": {
+                            "ap_min": 22,
+                            "ap_max": 31
+                        },
+                        "2": {
+                            "ap_min": 25,
+                            "ap_max": 34
+                        },
+                        "3": {
+                            "ap_min": 28,
+                            "ap_max": 37
+                        },
+                        "4": {
+                            "ap_min": 30,
+                            "ap_max": 39
+                        },
+                        "5": {
+                            "ap_min": 32,
+                            "ap_max": 41
+                        },
+                        "6": {
+                            "ap_min": 35,
+                            "ap_max": 44
+                        },
+                        "7": {
+                            "ap_min": 38,
+                            "ap_max": 47
+                        },
+                        "8": {
+                            "ap_min": 42,
+                            "ap_max": 51
+                        },
+                        "9": {
+                            "ap_min": 46,
+                            "ap_max": 55
+                        },
+                        "10": {
+                            "ap_min": 50,
+                            "ap_max": 59
+                        },
+                        "11": {
+                            "ap_min": 54,
+                            "ap_max": 63
+                        },
+                        "12": {
+                            "ap_min": 58,
+                            "ap_max": 67
+                        },
+                        "13": {
+                            "ap_min": 62,
+                            "ap_max": 71
+                        },
+                        "14": {
+                            "ap_min": 66,
+                            "ap_max": 75
+                        },
+                        "15": {
+                            "ap_min": 70,
+                            "ap_max": 79
+                        },
+                        "16": {
+                            "ap_min": 78,
+                            "ap_max": 87
+                        },
+                        "17": {
+                            "ap_min": 86,
+                            "ap_max": 95
+                        },
+                        "18": {
+                            "ap_min": 98,
+                            "ap_max": 107
+                        },
+                        "19": {
+                            "ap_min": 106,
+                            "ap_max": 115
+                        },
+                        "20": {
+                            "ap_min": 114,
+                            "ap_max": 123
+                        }
+                    },
+                    "name": "Ultimate Dana Awakening Weapon 2"
                 }
             }
         },

@@ -126,7 +126,7 @@
                             <div class="icon"></div>
                             <div class="name">Kunoichi</div>
                         </li>
-                        <li class="class darkknight disabled" data-value="12">
+                        <li class="class darkknight" data-value="12">
                             <div class="main-background"></div>
                             <div class="icon"></div>
                             <div class="name">Dark Knight</div>

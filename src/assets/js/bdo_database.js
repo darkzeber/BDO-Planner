@@ -19074,19 +19074,24 @@ var BDOdatabase = {
                 "enhancement_text": "",
                 "enhancement": {
                     "1": {
-                        "ap": 6
+                        "ap": 6,
+                        "dp": 1
                     },
                     "2": {
-                        "ap": 7
+                        "ap": 7,
+                        "dp": 2
                     },
                     "3": {
-                        "ap": 8
+                        "ap": 8,
+                        "dp": 3
                     },
                     "4": {
-                        "ap": 9
+                        "ap": 9,
+                        "dp": 4
                     },
                     "5": {
-                        "ap": 10
+                        "ap": 10,
+                        "dp": 5
                     }
                 },
                 "name": "Ring of Sealed Magical Power"

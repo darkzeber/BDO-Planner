@@ -68980,24 +68980,29 @@ var BDOdatabase = {
                             "ap_max": 11
                         },
                         "16": {
-                            "ap_min": 4,
-                            "ap_max": 4
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
-                            "ap_min": 5,
-                            "ap_max": 5
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
-                            "ap_min": 9,
-                            "ap_max": 9
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
-                            "ap_min": 10,
-                            "ap_max": 10
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
-                            "ap_min": 11,
-                            "ap_max": 11
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Quitar Shuriken"
@@ -71670,24 +71675,29 @@ var BDOdatabase = {
                             "ap_max": 11
                         },
                         "16": {
-                            "ap_min": 4,
-                            "ap_max": 4
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
-                            "ap_min": 5,
-                            "ap_max": 5
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
-                            "ap_min": 9,
-                            "ap_max": 9
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
-                            "ap_min": 10,
-                            "ap_max": 10
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
-                            "ap_min": 11,
-                            "ap_max": 11
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Quitar Kunai"

@@ -68933,6 +68933,7 @@ var BDOdatabase = {
                 "14603": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {
@@ -71628,6 +71629,7 @@ var BDOdatabase = {
                 "14503": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {

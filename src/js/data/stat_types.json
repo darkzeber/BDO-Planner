@@ -350,6 +350,13 @@
         "target": ".general-stats",
         "total": 0
     },
+    "jhm": { //Separate jump height for costumes, crystals don't have the meter symbol
+        "title": "Jump Height",
+        "desc": "",
+        "total": 0,
+        "symbol": "m",
+        "target": ".general-stats"
+    },
     "bsr": {
         "title": "Black Spirit's Rage",
         "desc": "",

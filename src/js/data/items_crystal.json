@@ -589,7 +589,7 @@
             }
         }, {
             "id": 15852,
-            "name": "Kaidict's Crystal - Titan",
+            "name": "Kydict's Crystal - Giant",
             "rarity": 4,
             "shatter_chance": "high",
             "item_effects": {
@@ -755,7 +755,7 @@
             }
         }, {
             "id": 15851,
-            "name": "Kaidict's Crystal - Adventure",
+            "name": "Kydict's Crystal - Adventure",
             "rarity": 4,
             "shatter_chance": "high",
             "item_effects": {

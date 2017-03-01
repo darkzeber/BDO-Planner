@@ -2766,6 +2766,39 @@
                     "dp": 24
                 }
             }
+        }, {
+            "id": 10744,
+            "name": "Dim Magical Ornamental Knot",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 10745,
+            "name": "Ornamental Knot of Concentrated Magical Power",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 10746,
+            "name": "Ornamental Knot of Sealed Magical Power",
+            "rarity": 2,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 18,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
         }
     ],
     "dagger": [
@@ -5387,6 +5420,39 @@
                     "dp": 24
                 }
             }
+        }, {
+            "id": 10344,
+            "name": "Dim Magical Dagger",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 10345,
+            "name": "Dagger of Concentrated Magical Power",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 10346,
+            "name": "Dagger of Sealed Magical Power",
+            "rarity": 2,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 18,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
         }
     ],
     "talisman": [
@@ -7973,6 +8039,39 @@
                     "dp": 24
                 }
             }
+        }, {
+            "id": 10544,
+            "name": "Dim Magical Talisman",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 10545,
+            "name": "Talisman of Concentrated Magical Power",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 10546,
+            "name": "Talisman of Sealed Magical Power",
+            "rarity": 2,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 18,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
         }
     ],
     "trinket": [
@@ -10545,6 +10644,39 @@
                     "dp": 24
                 }
             }
+        }, {
+            "id": 13044,
+            "name": "Dim Magical Trinket",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 13045,
+            "name": "Trinket of Concentrated Magical Power",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 13046,
+            "name": "Trinket of Sealed Magical Power",
+            "rarity": 2,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 18,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
         }
     ],
     "shield": [
@@ -13263,6 +13395,39 @@
                     "dp": 24
                 }
             }
+        }, {
+            "id": 10144,
+            "name": "Dim Magical Shield",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 10145,
+            "name": "Shield of Concentrated Magical Power",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 10146,
+            "name": "Shield of Sealed Magical Power",
+            "rarity": 2,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 18,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
         }
     ],
     "bow": [
@@ -15917,6 +16082,39 @@
                     "dp": 24
                 }
             }
+        }, {
+            "id": 13144,
+            "name": "Dim Magical Horn Bow",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 13145,
+            "name": "Horn Bow of Concentrated Magical Power",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 13146,
+            "name": "Horn Bow of Sealed Magical Power",
+            "rarity": 2,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 18,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
         }
     ],
     "shuriken": [
@@ -15929,6 +16127,7 @@
             },
             "ap_max": 3,
             "ap_min": 3,
+            "dp": 0,
             "crystals": 1,
             "enhancement_text": "",
             "enhancement": {
@@ -15972,24 +16171,29 @@
                     "ap_max": 11
                 },
                 "16": {
-                    "ap_min": 4,
-                    "ap_max": 4
+                    "ap_min": 12,
+                    "ap_max": 12,
+                    "dp": 1
                 },
                 "17": {
-                    "ap_min": 5,
-                    "ap_max": 5
+                    "ap_min": 13,
+                    "ap_max": 13,
+                    "dp": 2
                 },
                 "18": {
-                    "ap_min": 9,
-                    "ap_max": 9
+                    "ap_min": 17,
+                    "ap_max": 17,
+                    "dp": 3
                 },
                 "19": {
-                    "ap_min": 10,
-                    "ap_max": 10
+                    "ap_min": 18,
+                    "ap_max": 18,
+                    "dp": 4
                 },
                 "20": {
-                    "ap_min": 11,
-                    "ap_max": 11
+                    "ap_min": 19,
+                    "ap_max": 19,
+                    "dp": 5
                 }
             }
         }, {
@@ -18575,8 +18779,40 @@
                     "dp": 24
                 }
             }
-        },
-        {
+        }, {
+            "id": 14644,
+            "name": "Dim Magical Shuriken",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 14645,
+            "name": "Shuriken of Concentrated Magical Power",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 14646,
+            "name": "Shuriken of Sealed Magical Power",
+            "rarity": 2,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 18,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
             "id": 14503,
             "name": "Quitar Kunai",
             "rarity": 1,
@@ -18585,6 +18821,7 @@
             },
             "ap_max": 3,
             "ap_min": 3,
+            "dp": 0,
             "crystals": 1,
             "enhancement_text": "",
             "enhancement": {
@@ -18628,24 +18865,29 @@
                     "ap_max": 11
                 },
                 "16": {
-                    "ap_min": 4,
-                    "ap_max": 4
+                    "ap_min": 12,
+                    "ap_max": 12,
+                    "dp": 1
                 },
                 "17": {
-                    "ap_min": 5,
-                    "ap_max": 5
+                    "ap_min": 13,
+                    "ap_max": 13,
+                    "dp": 2
                 },
                 "18": {
-                    "ap_min": 9,
-                    "ap_max": 9
+                    "ap_min": 17,
+                    "ap_max": 17,
+                    "dp": 3
                 },
                 "19": {
-                    "ap_min": 10,
-                    "ap_max": 10
+                    "ap_min": 18,
+                    "ap_max": 18,
+                    "dp": 4
                 },
                 "20": {
-                    "ap_min": 11,
-                    "ap_max": 11
+                    "ap_min": 19,
+                    "ap_max": 19,
+                    "dp": 5
                 }
             }
         }, {
@@ -21231,6 +21473,39 @@
                     "dp": 24
                 }
             }
+        }, {
+            "id": 14544,
+            "name": "Dim Magical Kunai",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 14545,
+            "name": "Kunai of Concentrated Magical Power",
+            "rarity": 1,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 17,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
+        }, {
+            "id": 14546,
+            "name": "Kunai of Sealed Magical Power",
+            "rarity": 2,
+            "item_effects": {},
+            "ap_min": 7,
+            "ap_max": 9,
+            "dp": 18,
+            "crystals": 2,
+            "enhancement_text": "",
+            "enhancement": {}
         }
     ]
 }

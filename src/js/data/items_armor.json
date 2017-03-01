@@ -3832,5 +3832,58 @@
                 "dp": 85
             }
         }
+    }, {
+        "id": 11518,
+        "name": "Dim Magical Armor",
+        "rarity": 1,
+        "item_effects": {},
+        "dp": 48,
+        "crystals": 2,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11519,
+        "name": "Armor of Concentrated Magical Power",
+        "rarity": 1,
+        "item_effects": {},
+        "dp": 50,
+        "crystals": 2,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11520,
+        "name": "Armor of Sealed Magical Power",
+        "rarity": 2,
+        "item_effects": {
+            "hp": 30
+        },
+        "dp": 52,
+        "crystals": 2,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11521,
+        "name": "Freed Magical Armor",
+        "rarity": 2,
+        "item_effects": {
+            "hp": 30,
+            "acc": 3
+        },
+        "dp": 54,
+        "crystals": 2,
+        "enhancement_text": "",
+        "enhancement": {}
+    }, {
+        "id": 11522,
+        "name": "Roaring Magical Armor",
+        "rarity": 2,
+        "item_effects": {
+            "hp": 50,
+            "acc": 5
+        },
+        "dp": 60,
+        "crystals": 2,
+        "enhancement_text": "",
+        "enhancement": {}
     }
 ]

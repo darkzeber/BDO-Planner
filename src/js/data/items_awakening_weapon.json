@@ -4474,5 +4474,378 @@
                 }
             }
         }
+    ],
+    "darkknight": [
+        {
+            "id": 14816,
+            "name": "Dana Awakening Weapon 1",
+            "rarity": 2,
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 25,
+            "ap_min": 16,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 20,
+                    "ap_max": 29
+                },
+                "2": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "3": {
+                    "ap_min": 26,
+                    "ap_max": 35
+                },
+                "4": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "5": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "6": {
+                    "ap_min": 33,
+                    "ap_max": 42
+                },
+                "7": {
+                    "ap_min": 36,
+                    "ap_max": 45
+                },
+                "8": {
+                    "ap_min": 40,
+                    "ap_max": 49
+                },
+                "9": {
+                    "ap_min": 44,
+                    "ap_max": 53
+                },
+                "10": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "11": {
+                    "ap_min": 52,
+                    "ap_max": 61
+                },
+                "12": {
+                    "ap_min": 56,
+                    "ap_max": 65
+                },
+                "13": {
+                    "ap_min": 60,
+                    "ap_max": 69
+                },
+                "14": {
+                    "ap_min": 64,
+                    "ap_max": 73
+                },
+                "15": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "16": {
+                    "ap_min": 76,
+                    "ap_max": 85
+                },
+                "17": {
+                    "ap_min": 84,
+                    "ap_max": 93
+                },
+                "18": {
+                    "ap_min": 96,
+                    "ap_max": 105
+                },
+                "19": {
+                    "ap_min": 104,
+                    "ap_max": 113
+                },
+                "20": {
+                    "ap_min": 112,
+                    "ap_max": 121
+                }
+            }
+        }, {
+            "id": 14817,
+            "name": "Dandelion Dana Awakening Weapon",
+            "rarity": 3,
+            "item_effects": {},
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "9": {
+                    "ap_min": 48,
+                    "ap_max": 57
+                },
+                "10": {
+                    "ap_min": 53,
+                    "ap_max": 62
+                },
+                "11": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "12": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "13": {
+                    "ap_min": 68,
+                    "ap_max": 77
+                },
+                "14": {
+                    "ap_min": 73,
+                    "ap_max": 82
+                },
+                "15": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "16": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "17": {
+                    "ap_min": 94,
+                    "ap_max": 103
+                },
+                "18": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "19": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                },
+                "20": {
+                    "ap_min": 122,
+                    "ap_max": 131
+                }
+            }
+        }, {
+            "id": 14818,
+            "name": "Dana Awakening Weapon 3",
+            "rarity": 1,
+            "item_effects": {
+                "dmgaes": 5
+            },
+            "ap_max": 20,
+            "ap_min": 11,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 15,
+                    "ap_max": 24
+                },
+                "2": {
+                    "ap_min": 18,
+                    "ap_max": 27
+                },
+                "3": {
+                    "ap_min": 21,
+                    "ap_max": 30
+                },
+                "4": {
+                    "ap_min": 23,
+                    "ap_max": 32
+                },
+                "5": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "6": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "7": {
+                    "ap_min": 31,
+                    "ap_max": 40
+                },
+                "8": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "9": {
+                    "ap_min": 39,
+                    "ap_max": 48
+                },
+                "10": {
+                    "ap_min": 43,
+                    "ap_max": 52
+                },
+                "11": {
+                    "ap_min": 47,
+                    "ap_max": 56
+                },
+                "12": {
+                    "ap_min": 51,
+                    "ap_max": 60
+                },
+                "13": {
+                    "ap_min": 55,
+                    "ap_max": 64
+                },
+                "14": {
+                    "ap_min": 59,
+                    "ap_max": 68
+                },
+                "15": {
+                    "ap_min": 63,
+                    "ap_max": 72
+                },
+                "16": {
+                    "ap_min": 71,
+                    "ap_max": 80
+                },
+                "17": {
+                    "ap_min": 79,
+                    "ap_max": 88
+                },
+                "18": {
+                    "ap_min": 91,
+                    "ap_max": 100
+                },
+                "19": {
+                    "ap_min": 99,
+                    "ap_max": 108
+                },
+                "20": {
+                    "ap_min": 107,
+                    "ap_max": 116
+                }
+            }
+        }, {
+            "id": 14820,
+            "name": "Ultimate Dana Awakening Weapon 2",
+            "rarity": 3,
+            "item_effects": {
+                "dmgth": 7
+            },
+            "ap_max": 27,
+            "ap_min": 18,
+            "crystals": 0,
+            "enhancement_text": "",
+            "enhancement": {
+                "1": {
+                    "ap_min": 22,
+                    "ap_max": 31
+                },
+                "2": {
+                    "ap_min": 25,
+                    "ap_max": 34
+                },
+                "3": {
+                    "ap_min": 28,
+                    "ap_max": 37
+                },
+                "4": {
+                    "ap_min": 30,
+                    "ap_max": 39
+                },
+                "5": {
+                    "ap_min": 32,
+                    "ap_max": 41
+                },
+                "6": {
+                    "ap_min": 35,
+                    "ap_max": 44
+                },
+                "7": {
+                    "ap_min": 38,
+                    "ap_max": 47
+                },
+                "8": {
+                    "ap_min": 42,
+                    "ap_max": 51
+                },
+                "9": {
+                    "ap_min": 46,
+                    "ap_max": 55
+                },
+                "10": {
+                    "ap_min": 50,
+                    "ap_max": 59
+                },
+                "11": {
+                    "ap_min": 54,
+                    "ap_max": 63
+                },
+                "12": {
+                    "ap_min": 58,
+                    "ap_max": 67
+                },
+                "13": {
+                    "ap_min": 62,
+                    "ap_max": 71
+                },
+                "14": {
+                    "ap_min": 66,
+                    "ap_max": 75
+                },
+                "15": {
+                    "ap_min": 70,
+                    "ap_max": 79
+                },
+                "16": {
+                    "ap_min": 78,
+                    "ap_max": 87
+                },
+                "17": {
+                    "ap_min": 86,
+                    "ap_max": 95
+                },
+                "18": {
+                    "ap_min": 98,
+                    "ap_max": 107
+                },
+                "19": {
+                    "ap_min": 106,
+                    "ap_max": 115
+                },
+                "20": {
+                    "ap_min": 114,
+                    "ap_max": 123
+                }
+            }
+        }
     ]
 }

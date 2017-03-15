@@ -1477,7 +1477,7 @@ var BDOdatabase = {
                 }
             ]
         },
-        "Giath-Bheg-Muskan-RedNose": {
+        "Boss": {
             "pieces": {
                 "3": {
                     "stam": 200
@@ -5322,7 +5322,7 @@ var BDOdatabase = {
                 "name": "Luck Helmet of Fortuna"
             },
             "11013": {
-                "set": "Giath-Bheg-Muskan-RedNose",
+                "set": "Boss",
                 "dp": 4,
                 "rarity": "epic",
                 "gems": 2,
@@ -9077,7 +9077,7 @@ var BDOdatabase = {
                 "name": "Luck Armor of Fortuna"
             },
             "11014": {
-                "set": "Giath-Bheg-Muskan-RedNose",
+                "set": "Boss",
                 "dp": 6,
                 "rarity": "epic",
                 "gems": 2,
@@ -9151,7 +9151,7 @@ var BDOdatabase = {
                 "name": "Red Nose's Armor"
             },
             "11017": {
-                "set": "Giath-Bheg-Muskan-RedNose",
+                "set": "Boss",
                 "dp": 6,
                 "rarity": "epic",
                 "gems": 2,
@@ -12947,7 +12947,7 @@ var BDOdatabase = {
                 "name": "Luck Shoes of Fortuna"
             },
             "11016": {
-                "set": "Giath-Bheg-Muskan-RedNose",
+                "set": "Boss",
                 "dp": 4,
                 "rarity": "epic",
                 "gems": 2,
@@ -16683,7 +16683,7 @@ var BDOdatabase = {
                 "name": "Luck Gloves of Fortuna"
             },
             "11015": {
-                "set": "Giath-Bheg-Muskan-RedNose",
+                "set": "Boss",
                 "dp": 2,
                 "rarity": "epic",
                 "gems": 2,
@@ -55622,6 +55622,7 @@ var BDOdatabase = {
                 "10303": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {
@@ -55669,24 +55670,29 @@ var BDOdatabase = {
                             "ap_max": 11
                         },
                         "16": {
-                            "ap_min": 4,
-                            "ap_max": 4
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
-                            "ap_min": 5,
-                            "ap_max": 5
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
-                            "ap_min": 9,
-                            "ap_max": 9
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
-                            "ap_min": 10,
-                            "ap_max": 10
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
-                            "ap_min": 11,
-                            "ap_max": 11
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Bronze Dagger"
@@ -55900,6 +55906,7 @@ var BDOdatabase = {
                 "10306": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {
@@ -55949,23 +55956,28 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 12,
-                            "ap_max": 12
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 13,
-                            "ap_max": 13
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 17,
-                            "ap_max": 17
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 18,
-                            "ap_max": 18
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 19,
-                            "ap_max": 19
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Bronze Dagger of Crimson Flame"
@@ -55973,6 +55985,7 @@ var BDOdatabase = {
                 "10307": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {
@@ -56022,23 +56035,28 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 12,
-                            "ap_max": 12
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 13,
-                            "ap_max": 13
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 17,
-                            "ap_max": 17
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 18,
-                            "ap_max": 18
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 19,
-                            "ap_max": 19
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Bronze Dagger of Destruction"
@@ -56046,6 +56064,7 @@ var BDOdatabase = {
                 "10308": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {
@@ -56095,23 +56114,28 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 12,
-                            "ap_max": 12
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 13,
-                            "ap_max": 13
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 17,
-                            "ap_max": 17
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 18,
-                            "ap_max": 18
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 19,
-                            "ap_max": 19
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Bronze Dagger of Temptation"
@@ -56119,6 +56143,7 @@ var BDOdatabase = {
                 "10309": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "epic",
                     "gems": 1,
                     "item_effects": {
@@ -56168,23 +56193,28 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 12,
-                            "ap_max": 12
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
                             "ap_min": 13,
-                            "ap_max": 13
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
                             "ap_min": 17,
-                            "ap_max": 17
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
                             "ap_min": 18,
-                            "ap_max": 18
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
                             "ap_min": 19,
-                            "ap_max": 19
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Ultimate Bronze Dagger"
@@ -58275,6 +58305,7 @@ var BDOdatabase = {
                 "10503": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {
@@ -58322,24 +58353,29 @@ var BDOdatabase = {
                             "ap_max": 11
                         },
                         "16": {
-                            "ap_min": 4,
-                            "ap_max": 4
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
-                            "ap_min": 5,
-                            "ap_max": 5
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
-                            "ap_min": 9,
-                            "ap_max": 9
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
-                            "ap_min": 10,
-                            "ap_max": 10
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
-                            "ap_min": 11,
-                            "ap_max": 11
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Helrick Talisman"
@@ -58529,6 +58565,7 @@ var BDOdatabase = {
                 "10506": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {
@@ -58607,6 +58644,7 @@ var BDOdatabase = {
                 "10507": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {
@@ -58685,6 +58723,7 @@ var BDOdatabase = {
                 "10508": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {
@@ -60940,24 +60979,24 @@ var BDOdatabase = {
                             "ap_max": 11
                         },
                         "16": {
-                            "ap_min": 4,
-                            "ap_max": 4
+                            "ap_min": 12,
+                            "ap_max": 12
                         },
                         "17": {
-                            "ap_min": 5,
-                            "ap_max": 5
+                            "ap_min": 13,
+                            "ap_max": 13
                         },
                         "18": {
-                            "ap_min": 9,
-                            "ap_max": 9
+                            "ap_min": 17,
+                            "ap_max": 17
                         },
                         "19": {
-                            "ap_min": 10,
-                            "ap_max": 10
+                            "ap_min": 18,
+                            "ap_max": 18
                         },
                         "20": {
-                            "ap_min": 11,
-                            "ap_max": 11
+                            "ap_min": 19,
+                            "ap_max": 19
                         }
                     },
                     "name": "Incense Trinket"
@@ -61190,28 +61229,23 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 12,
-                            "ap_max": 12,
-                            "dp": 1
+                            "ap_max": 12
                         },
                         "17": {
                             "ap_min": 13,
-                            "ap_max": 13,
-                            "dp": 2
+                            "ap_max": 13
                         },
                         "18": {
                             "ap_min": 17,
-                            "ap_max": 17,
-                            "dp": 3
+                            "ap_max": 17
                         },
                         "19": {
                             "ap_min": 18,
-                            "ap_max": 18,
-                            "dp": 4
+                            "ap_max": 18
                         },
                         "20": {
                             "ap_min": 19,
-                            "ap_max": 19,
-                            "dp": 5
+                            "ap_max": 19
                         }
                     },
                     "name": "Incense Trinket of Crimson Flame"
@@ -61268,28 +61302,23 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 12,
-                            "ap_max": 12,
-                            "dp": 1
+                            "ap_max": 12
                         },
                         "17": {
                             "ap_min": 13,
-                            "ap_max": 13,
-                            "dp": 2
+                            "ap_max": 13
                         },
                         "18": {
                             "ap_min": 17,
-                            "ap_max": 17,
-                            "dp": 3
+                            "ap_max": 17
                         },
                         "19": {
                             "ap_min": 18,
-                            "ap_max": 18,
-                            "dp": 4
+                            "ap_max": 18
                         },
                         "20": {
                             "ap_min": 19,
-                            "ap_max": 19,
-                            "dp": 5
+                            "ap_max": 19
                         }
                     },
                     "name": "Incense Trinket of Destruction"
@@ -61346,28 +61375,23 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 12,
-                            "ap_max": 12,
-                            "dp": 1
+                            "ap_max": 12
                         },
                         "17": {
                             "ap_min": 13,
-                            "ap_max": 13,
-                            "dp": 2
+                            "ap_max": 13
                         },
                         "18": {
                             "ap_min": 17,
-                            "ap_max": 17,
-                            "dp": 3
+                            "ap_max": 17
                         },
                         "19": {
                             "ap_min": 18,
-                            "ap_max": 18,
-                            "dp": 4
+                            "ap_max": 18
                         },
                         "20": {
                             "ap_min": 19,
-                            "ap_max": 19,
-                            "dp": 5
+                            "ap_max": 19
                         }
                     },
                     "name": "Incense Trinket of Temptation"
@@ -61425,28 +61449,23 @@ var BDOdatabase = {
                         },
                         "16": {
                             "ap_min": 12,
-                            "ap_max": 12,
-                            "dp": 1
+                            "ap_max": 12
                         },
                         "17": {
                             "ap_min": 13,
-                            "ap_max": 13,
-                            "dp": 2
+                            "ap_max": 13
                         },
                         "18": {
                             "ap_min": 17,
-                            "ap_max": 17,
-                            "dp": 3
+                            "ap_max": 17
                         },
                         "19": {
                             "ap_min": 18,
-                            "ap_max": 18,
-                            "dp": 4
+                            "ap_max": 18
                         },
                         "20": {
                             "ap_min": 19,
-                            "ap_max": 19,
-                            "dp": 5
+                            "ap_max": 19
                         }
                     },
                     "name": "Ultimate Incense Trinket"
@@ -66247,6 +66266,7 @@ var BDOdatabase = {
                 "13103": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "uncommon",
                     "gems": 1,
                     "item_effects": {
@@ -66294,24 +66314,29 @@ var BDOdatabase = {
                             "ap_max": 11
                         },
                         "16": {
-                            "ap_min": 4,
-                            "ap_max": 4
+                            "ap_min": 12,
+                            "ap_max": 12,
+                            "dp": 1
                         },
                         "17": {
-                            "ap_min": 5,
-                            "ap_max": 5
+                            "ap_min": 13,
+                            "ap_max": 13,
+                            "dp": 2
                         },
                         "18": {
-                            "ap_min": 9,
-                            "ap_max": 9
+                            "ap_min": 17,
+                            "ap_max": 17,
+                            "dp": 3
                         },
                         "19": {
-                            "ap_min": 10,
-                            "ap_max": 10
+                            "ap_min": 18,
+                            "ap_max": 18,
+                            "dp": 4
                         },
                         "20": {
-                            "ap_min": 11,
-                            "ap_max": 11
+                            "ap_min": 19,
+                            "ap_max": 19,
+                            "dp": 5
                         }
                     },
                     "name": "Black Horn Warrior Bow"
@@ -66525,6 +66550,7 @@ var BDOdatabase = {
                 "13106": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {
@@ -66603,6 +66629,7 @@ var BDOdatabase = {
                 "13107": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {
@@ -66681,6 +66708,7 @@ var BDOdatabase = {
                 "13108": {
                     "ap_min": 3,
                     "ap_max": 3,
+                    "dp": 0,
                     "rarity": "rare",
                     "gems": 1,
                     "item_effects": {

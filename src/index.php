@@ -183,7 +183,7 @@
                                     </select>
                                 </div>
                             </div>
-                            <div id="equipment-item-selected-stats hide">
+                            <div id="equipment-item-selected-stats" class="hide">
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="gear-name">
@@ -201,6 +201,15 @@
                                         </div>
                                         <div class="gear-stats gear-dp hide">
                                             DP: <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row gear-crystals">
+                                    <div class="col-12">
+                                        <div class="gear-heading">
+                                            Crystals
+                                        </div>
+                                        <div>
                                         </div>
                                     </div>
                                 </div>

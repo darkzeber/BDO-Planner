@@ -253,13 +253,6 @@ var BDOdatabase = {
             "symbol": "%",
             "target": ".resist-stats"
         },
-        "rta": {
-            "title": "Resistance to All Status Abnormalities",
-            "desc": "",
-            "total": 0,
-            "symbol": "%",
-            "target": ".resist-stats"
-        },
         "as": {
             "title": "Attack Speed",
             "desc": "",
@@ -20243,29 +20236,47 @@ var BDOdatabase = {
                 "rarity": "epic",
                 "gems": 0,
                 "item_effects": {
-                    "rta": 10
+                    "kb": 10,
+                    "kd": 10,
+                    "ssfr": 10,
+                    "gr": 10
                 },
                 "enhancement_text": "",
                 "enhancement": {
                     "1": {
                         "ap": 9,
-                        "rta": 10
+                        "kb": 11,
+                        "kd": 11,
+                        "ssfr": 11,
+                        "gr": 11
                     },
                     "2": {
                         "ap": 12,
-                        "rta": 12
+                        "kb": 12,
+                        "kd": 12,
+                        "ssfr": 12,
+                        "gr": 12
                     },
                     "3": {
                         "ap": 15,
-                        "rta": 13
+                        "kb": 13,
+                        "kd": 13,
+                        "ssfr": 13,
+                        "gr": 13
                     },
                     "4": {
                         "ap": 18,
-                        "rta": 14
+                        "kb": 14,
+                        "kd": 14,
+                        "ssfr": 14,
+                        "gr": 14
                     },
                     "5": {
                         "ap": 21,
-                        "rta": 15
+                        "kb": 15,
+                        "kd": 15,
+                        "ssfr": 15,
+                        "gr": 15
                     }
                 },
                 "name": "Manos Diamond Necklace"
